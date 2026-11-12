@@ -40,7 +40,7 @@ def build():
     # A página continua navegável sem servidor e sem qualquer biblioteca remota.
     target = ROOT / "Saber_Brasil_Offline.html"
     preserve(target)
-    target.write_text(document, encoding="utf-8")
+    target.write_bytes(document.encode("utf-8"))
     info = {"file": target.name, "bytes": target.stat().st_size,
             "sha256": hashlib.sha256(target.read_bytes()).hexdigest(),
             "sourceFiles": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest() for name in (
