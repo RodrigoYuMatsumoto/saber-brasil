@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Manifesto versionado de fontes asiáticas",
+    "subject": "URLs oficiais e hashes dos documentos; PDFs não são necessários ao build editorial"
+  },
+  "sources": [
+    {
+      "id": "jp_primary_codes",
+      "url": "https://www.mext.go.jp/content/20230901-mxt_syoto01-000013115_73.csv",
+      "path": "evidence/sources_east_asia/jp_primary_codes.csv",
+      "bytes": 525205,
+      "sha256": "6d9a6dadf1593e15bad7c4e480eeea8dd91866600be2a94965582c8c774d3d7f",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "jp_secondary_codes",
+      "url": "https://www.mext.go.jp/content/20230901-mxt_syoto01-000013115_37.csv",
+      "path": "evidence/sources_east_asia/jp_secondary_codes.csv",
+      "bytes": 443375,
+      "sha256": "b8b5ad6cb52e5cfe5e390312b732b1325fffc5044b20a25e666075c74a569311",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "jp_primary",
+      "url": "https://www.mext.go.jp/content/20230120-mxt_kyoiku02-100002604_01.pdf",
+      "path": "evidence/sources_east_asia/jp_primary.pdf",
+      "bytes": 5838238,
+      "sha256": "6af90f134b243e44f9767c37ee3079fac092883fd6359b836a5733dd25b43902",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "jp_secondary",
+      "url": "https://www.mext.go.jp/content/20230120-mxt_kyoiku02-100002604_02.pdf",
+      "path": "evidence/sources_east_asia/jp_secondary.pdf",
+      "bytes": 4693611,
+      "sha256": "42f967302945fd435a383db15e52e0459885b17285bce801feebbed95935debb",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_plan",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582343217634.pdf",
+      "path": "evidence/sources_east_asia/cn_plan.pdf",
+      "bytes": 3974530,
+      "sha256": "976efdf360bf6a28156f5b232aec48566104726ae2617c379cf4cdb4b60aef73",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_moral",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582343475848.pdf",
+      "path": "evidence/sources_east_asia/cn_moral.pdf",
+      "bytes": 13357294,
+      "sha256": "16c0a291b522ce5b0afe3b1a28e696d8cca0d4d63cc01ff552a1d6ce06506cf0",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_chinese",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582344386456.pdf",
+      "path": "evidence/sources_east_asia/cn_chinese.pdf",
+      "bytes": 20618661,
+      "sha256": "3ef0ec8a30b5a950211202658df07d99f5427f750f8ba0c3cfda12736b7bd71a",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_history",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582345700037.pdf",
+      "path": "evidence/sources_east_asia/cn_history.pdf",
+      "bytes": 20053607,
+      "sha256": "c807b9162d7f7a652c9acedc187c39b28d29b73edfa9e6964045f9a8672a90ef",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_geography",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582354066450.pdf",
+      "path": "evidence/sources_east_asia/cn_geography.pdf",
+      "bytes": 14346735,
+      "sha256": "5aade5cb5cfa103c48277c8ff663783df69cafb0fec2411f4aad1924d75c67b8",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_chemistry",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020230605524875861384.pdf",
+      "path": "evidence/sources_east_asia/cn_chemistry.pdf",
+      "bytes": 19780532,
+      "sha256": "8e04592efba9a6baf41ebf6970d868f2461fbd8e43328fb2ddb57165aa0c2b5c",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_biology",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582359998122.pdf",
+      "path": "evidence/sources_east_asia/cn_biology.pdf",
+      "bytes": 17078346,
+      "sha256": "95993bea87c30104631fa10f2f20f11b98d0718d69c4aeeac46c53a387f43c00",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_information",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582361024968.pdf",
+      "path": "evidence/sources_east_asia/cn_information.pdf",
+      "bytes": 15793942,
+      "sha256": "065f9df22d35da8813508c23782c7853dab3c54e34f552a627f8dd1698fa1e01",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_labour",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582367012450.pdf",
+      "path": "evidence/sources_east_asia/cn_labour.pdf",
+      "bytes": 15665310,
+      "sha256": "d5f080fee80df073ef67f6b0dbe303250913777aee32f98bea4f22df1c6247d8",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired"
+    },
+    {
+      "id": "cn_mathematics",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+      "path": "evidence/sources_east_asia/cn_mathematics.pdf",
+      "status": "acquired",
+      "bytes": 40123943,
+      "sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+      "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "cn_english",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+      "path": "evidence/sources_east_asia/cn_english.pdf",
+      "status": "acquired",
+      "bytes": 31502213,
+      "sha256": "59ec3971e0dbd6ca487c4e4972cbc80effaf2fd62418d07e5f62c6698fa222fb",
+      "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "cn_science",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582355009892.pdf",
+      "path": "evidence/sources_east_asia/cn_science.pdf",
+      "status": "acquired",
+      "bytes": 37807196,
+      "sha256": "630b2fb082aed2f0b6aaff1cd30cdea530c41459ee0ffd5847e3e07b7324546f",
+      "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "cn_physics",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582357585169.pdf",
+      "path": "evidence/sources_east_asia/cn_physics.pdf",
+      "status": "acquired",
+      "bytes": 16259415,
+      "sha256": "884069da6c924acb27b966ea20b9c7a4d8f0d6dfc828c80cd252aa72bf990340",
+      "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "cn_pe",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582362336303.pdf",
+      "path": "evidence/sources_east_asia/cn_pe.pdf",
+      "status": "acquired",
+      "bytes": 28034825,
+      "sha256": "bc53754f8fb55e32f1ac49abfbbd120ee587d0385ed5dfbea620baa16624e03d",
+      "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "cn_arts",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582364678888.pdf",
+      "path": "evidence/sources_east_asia/cn_arts.pdf",
+      "status": "acquired",
+      "bytes": 29395030,
+      "sha256": "7c5c688f5e1b9d8e5c2a0ef908055322df67bb36d5b85ca1c540f1c35807230d",
+      "retrievedAt": "2026-11-12"
+    }
+  ]
+}

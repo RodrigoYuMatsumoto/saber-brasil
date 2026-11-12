@@ -1,0 +1,4 @@
+# Preserve os bytes usados nos hashes, inclusive nas fontes CSV oficiais.
+* -text
+*.pdf binary
+*.png binary

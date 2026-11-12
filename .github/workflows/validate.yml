@@ -1,0 +1,44 @@
+name: Validar a taxonomia e a aplicação
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Preparar o leitor de PDF
+        run: python -m pip install -r requirements_build.txt
+      - name: Preparar as dependências de desenvolvimento
+        run: npm ci
+      - name: Conferir o JavaScript
+        run: npm run check
+      - name: Executar os testes de conciliação
+        run: npm test
+      - name: Validar dados e fontes incorporadas
+        run: npm run validate
+      - name: Conferir os cinco sistemas e os quatro idiomas
+        run: npm run validate:systems
+      - name: Construir o HTML portátil
+        run: npm run build
+      - name: Preparar o navegador de teste
+        run: npx playwright install --with-deps chromium
+      - name: Verificar câmera, séries, idiomas e exportações no navegador
+        run: npm run test:browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: saber-brasil-portatil
+          path: |
+            Saber_Brasil_Offline.html
+            test-results/
+            playwright-report/

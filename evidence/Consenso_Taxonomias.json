@@ -1,0 +1,1364 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Consenso verificável das três taxonomias",
+    "subject": "Diferenças de contagem, omissões corrigidas, traduções e séries de origem"
+  },
+  "sourceIdentities": [
+    {
+      "path": "Code/dados/topicos.json",
+      "sha256": "9f8c005da025305da5c1fea7e3d88b6772cc78addf45c35618a11252a0421c91",
+      "bytes": 3883804
+    },
+    {
+      "path": "Code/dados/bncc-habilidades.json",
+      "sha256": "b57d13d132087cef2ed87948037b02b680d7350a05ee54a2069a5c97ed8b25e7",
+      "bytes": 957435
+    },
+    {
+      "path": "Code/dados/dependencias.json",
+      "sha256": "aab9ee5387650b97d74705925c3543ec30c7e4e55eb92ee726df86d42fc17c82",
+      "bytes": 1173448
+    },
+    {
+      "path": "Code/dados/alinhamentos-bncc.json",
+      "sha256": "c0ecb64af17d04e17c6eb78312d9339f0a04033b24695fb7dba6ab42f8fd9c56",
+      "bytes": 448306
+    },
+    {
+      "path": "Grok/data/microtopicos.json",
+      "sha256": "c25792ad125625c41d642071ba8666192cb236e2702f8e71ba9f6f38021b550e",
+      "bytes": 5873910
+    },
+    {
+      "path": "Grok/data/prerequisitos.json",
+      "sha256": "fd4a66040ed3027c2a6f0c24528d28addd6c8f43fe3835c68cc098e9ceba703f",
+      "bytes": 1646996
+    },
+    {
+      "path": "Grok/data/equivalencias.json",
+      "sha256": "789710252d17592035639ebab59fca69939d23b3060746f80b96b821a6654abd",
+      "bytes": 79984
+    },
+    {
+      "path": "Grok/data/cache/traducoes-marble-pt.json",
+      "sha256": "bde4bc976082330295dfd75cb28e9e6568266e31605c1c830b53ab712829c5bd",
+      "bytes": 1699385
+    },
+    {
+      "path": "Codex/data/brazil_topics.json",
+      "sha256": "ae76b91fc94712378aa6348878e9e63a7e7886f7821951f3af1e07c887df5475",
+      "bytes": 3823968
+    },
+    {
+      "path": "Codex/data/international.json",
+      "sha256": "e27b0f3f1f94a2d1fe4d95ac87f02e14c2e67a16337f261622533991d439d0df",
+      "bytes": 13301796
+    },
+    {
+      "path": "os-taxonomy-main/data/topics.json",
+      "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff",
+      "bytes": 2807806
+    },
+    {
+      "path": "os-taxonomy-main/data/dependencies.json",
+      "sha256": "64f6946d1422098e4d68493bf4c0926af843e4d7cf0625905f35ff0a6e732132",
+      "bytes": 880722
+    }
+  ],
+  "sourceSummaries": {
+    "Marble": {
+      "internationalConcepts": 1907,
+      "prerequisiteEdges": 4003
+    },
+    "Codex": {
+      "graphNodes": 4056,
+      "officialSkills": 1406,
+      "editorialMicrotopics": 743,
+      "internationalConcepts": 1907,
+      "graphEdges": 4843
+    },
+    "Code": {
+      "graphNodes": 2993,
+      "officialSkillsInCatalogue": 1407,
+      "officialSkillNodes": 1086,
+      "internationalConcepts": 1907,
+      "graphEdges": 6450,
+      "edgeTypes": {
+        "marble": 4003,
+        "bncc-componente": 921,
+        "bncc-progressao": 1379,
+        "bncc-sequencia": 147
+      }
+    },
+    "Grok": {
+      "graphNodes": 3315,
+      "officialSkills": 1408,
+      "internationalConcepts": 1907,
+      "graphEdges": 6500,
+      "edgeTypes": {
+        "bncc-inferida": 1868,
+        "marble": 4003,
+        "ponte-bncc-marble": 594,
+        "projetada-marble": 35
+      }
+    }
+  },
+  "internationalIdentity": {
+    "allThreeIdenticalIds": true,
+    "uniqueIds": 1907,
+    "naiveTripleCount": 5721
+  },
+  "codeDifferences": {
+    "CodeMinusCodex": [
+      "EF67LP33"
+    ],
+    "GrokMinusCodex": [
+      "EF05CO11",
+      "EF67LP33"
+    ],
+    "CodexMinusCode": [],
+    "CodexMinusGrok": []
+  },
+  "verifiedCorrections": [
+    {
+      "code": "EF05CO11",
+      "sourceCodeLiteral": "EF05CO011",
+      "pdfPage": 36,
+      "sourceSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "codeAndFullDescriptionMatch": true
+    },
+    {
+      "code": "EF67LP33",
+      "sourceCodeLiteral": "EF67LP33",
+      "pdfPage": 173,
+      "sourceSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "codeAndFullDescriptionMatch": true
+    }
+  ],
+  "canonical": {
+    "brazilianOfficialSkills": 1408,
+    "brazilianEditorialMicrotopics": 743,
+    "internationalConcepts": 1907,
+    "allConceptsBeforeAsia": 4058,
+    "allRelationsBeforeAsia": 4843,
+    "brazilianSkillsDecomposed": 341,
+    "brazilianSkillsUndecomposed": 1067,
+    "translationsImported": 1907
+  },
+  "candidates": {
+    "alignmentRecords": 3261,
+    "uniqueAlignmentPairs": 3042,
+    "relationRecords": 4944,
+    "promotedHeuristicRelations": 0,
+    "promotedOfficialEquivalences": 0,
+    "ledger": "data/reconciliation_inputs.json"
+  },
+  "translationAudit": {
+    "cacheEntries": 5774,
+    "heuristicallyFlagged": 107,
+    "flagged": [
+      {
+        "sourceTextSha256": "e7d4e1fcd6ef50c348d22d096d2cb05c0a2df89bf0191d8c9d15745ca1c8423a",
+        "translationSha256": "caedc4272e5914017322227177730b42ffde7329bc196ed3e384f3afa1ff030a",
+        "sourceChars": 159,
+        "translatedChars": 6,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Before starting a business, making a simple plan: what will I make or do, who will buy it, what do I need, how much will it cost, and what p"
+      },
+      {
+        "sourceTextSha256": "5de73c094b3649e22d4fefcbf5d27ed92f53f36964738e3dbbb6e4e6af6e6ff4",
+        "translationSha256": "93ade3e74c456ef6cb75fc6f5fffa2cb625011afac622c05d4f8974b5e657eb6",
+        "sourceChars": 133,
+        "translatedChars": 766,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Construct and interpret food chains identifying producers, predators, and prey, and understand energy transfer between trophic levels"
+      },
+      {
+        "sourceTextSha256": "a56bc2cd3c09ada5c6484b5c559cc03e8c34758d2f1c3254fca9cb71ebfa95d7",
+        "translationSha256": "06a985850fa5799b1bf09323da511ae41d4e9e241afb6a36c0db071619f0f740",
+        "sourceChars": 165,
+        "translatedChars": 347,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Divide a fraction by a fraction using the 'keep-change-flip' method and visual models; interpret and solve word problems involving division "
+      },
+      {
+        "sourceTextSha256": "6c61a79824ed53b15766ba559aa2b83edaaca51f0e6265b93a68449d27e24ab0",
+        "translationSha256": "0c3ea050e52a32e0d2547fbd105ea69813226ba63f4cb2a0f084754ee74116a8",
+        "sourceChars": 96,
+        "translatedChars": 10,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Interpret products of whole numbers (e.g. 5 × 7 as the total number of objects in 5 groups of 7)"
+      },
+      {
+        "sourceTextSha256": "e5f88126fb06eedd082a16715f35fd449233223c51792b05701e51a279bc47fb",
+        "translationSha256": "86c139eeb1250c1572284e9daf5b4feba9e52508581d2e7a6c1816f8ca21a0ed",
+        "sourceChars": 156,
+        "translatedChars": 10,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When your child reads a story aloud, do they vary their voice to match the mood - pausing at punctuation, slowing for sad parts, speeding up"
+      },
+      {
+        "sourceTextSha256": "673e75cbe371414620146ab8476b5bb24c4c27cb29138466921feb07bf622a0d",
+        "translationSha256": "4b83e4742fd7774567615e7e3bd2de704a4394bdf3063d21a3f401e850f40532",
+        "sourceChars": 145,
+        "translatedChars": 3,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Notice when your first reading of a social situation might be wrong - your assumptions about why someone acted a certain way are not always "
+      },
+      {
+        "sourceTextSha256": "28c0ef68a43852c18c350e30da81c6cd9e998e4994b40207040c49f1a2d6705f",
+        "translationSha256": "c1592034373047340621aea7956e3a3939a6ec3cd1d22fb934fd79f10e70c637",
+        "sourceChars": 149,
+        "translatedChars": 50,
+        "reasons": [
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Using business skills to help others or solve social and environmental problems; making money AND making a difference; examples of social en"
+      },
+      {
+        "sourceTextSha256": "237fc90be9034e8196b47dbd77e563ec088b95a28c7b871fb6e7de6f9b6c1ba3",
+        "translationSha256": "ccde43e486b27ea7354b1b91c57bcc30553e9887119e0338ea58e70b32609a4e",
+        "sourceChars": 107,
+        "translatedChars": 4,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Partition a rectangle into rows and columns of same-size squares and count to find the total number of them"
+      },
+      {
+        "sourceTextSha256": "ada260887802d5efdcf8d0e04527100a57bbd5ee876d9859e40d25305772264d",
+        "translationSha256": "a49a16af9cff740330159b7fff5002ba3ce469df9877216429d523bc5dbd3cce",
+        "sourceChars": 192,
+        "translatedChars": 7,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When your child is given a writing project that involves finding out about something - like an animal or a place - can they look up informat"
+      },
+      {
+        "sourceTextSha256": "e91a3cf24dbff7416b26a145938a6ef1126ce8e53014b5d91f4560148231e2d2",
+        "translationSha256": "96cb906f5da413901d088eb7ec94c6d5dca6115fd64c9f96d047e8c7ce8090c9",
+        "sourceChars": 35,
+        "translatedChars": 1015,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Evaluating Arguments in Non-Fiction"
+      },
+      {
+        "sourceTextSha256": "02a4ada256eb1068842c3582d3744cc2083d1386596760e9378be818106dbdc3",
+        "translationSha256": "be0512f6ab4729ff83643e9d7c5aaa295b27cbef7c63fd1fc47694f3e36090ea",
+        "sourceChars": 129,
+        "translatedChars": 9,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child test materials and sort them by whether they dissolve in water, conduct electricity, or are attracted to a magnet?"
+      },
+      {
+        "sourceTextSha256": "7585cc13253a345fd501a176df97aa80c7eb8b6879216ac75cb92839560603da",
+        "translationSha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "sourceChars": 135,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child come up with different ideas for keeping people safe from earthquakes or floods, and compare which ones would work best?"
+      },
+      {
+        "sourceTextSha256": "b2e942a69b055b98048ade935d0f1292b89c27213c78691fabcf8b75060839f3",
+        "translationSha256": "47119418065dcf49c2fad3305453fc5200447193bb55d9c97a0c45137ae831be",
+        "sourceChars": 23,
+        "translatedChars": 592,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "Structures for Survival"
+      },
+      {
+        "sourceTextSha256": "572e61d7aed51f7d3e0179cad3346db7c3b9e50f0cb734812c5820e3477c89a4",
+        "translationSha256": "b7524be4d5d39fcf8903cf7293a81c4208e3440871d1f1d9284f7e1a71e830fb",
+        "sourceChars": 362,
+        "translatedChars": 439,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Know the main approaches to rainforest conservation - protected areas and national parks, reforestation and rewilding programmes, sustainabl"
+      },
+      {
+        "sourceTextSha256": "d64454eb4aca1824fdf30492b6b8253202106da3743cda890eac99c309aaf22f",
+        "translationSha256": "31781ff291bb1f53b0456c9841511c5ed10f0dc6f4bc32bbb31b4648a84f9ad6",
+        "sourceChars": 22,
+        "translatedChars": 485,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Dissolving & Solutions"
+      },
+      {
+        "sourceTextSha256": "587ea7220fcb5a09e2b998e199814faf4dd62afa462e4ab8fe2a71c7848ca2d3",
+        "translationSha256": "6b0bafdd1b9157d42c1f9af8392dbed27bd2d7ef8c537c7c9087a510d2d698e3",
+        "sourceChars": 186,
+        "translatedChars": 9,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Locate positions on a two-dimensional representation (simple map or plan) of a familiar space such as the classroom or playground, and move "
+      },
+      {
+        "sourceTextSha256": "e3c77525c2d7dcab8a760153f960b7404492113e50f94f6c75b2834b06a42c89",
+        "translationSha256": "ad6276b240df42d4f7c150750243073ad8490c462e933a22f673e976637ab741",
+        "sourceChars": 262,
+        "translatedChars": 4,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Understand the water cycle: the Sun heats water in oceans and lakes causing it to evaporate into water vapour, the vapour rises and cools to"
+      },
+      {
+        "sourceTextSha256": "66689b14d6123b53b63dd7d0bc3c86e390531825e45c6385845ea09a31063d74",
+        "translationSha256": "807548266d660a70e6d570a46c58b25dd0a72c7e12f2c08bf11ce3f2341bd43b",
+        "sourceChars": 27,
+        "translatedChars": 488,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Predator Hunting Strategies"
+      },
+      {
+        "sourceTextSha256": "55ae21471b127aba5a3f08022c03bcb21a069093b4b3bef7f0626c0465cfdfe0",
+        "translationSha256": "e1e3ec55f5f4296c0d39c88441ae71601ea38567c1d4387113acec222585954f",
+        "sourceChars": 148,
+        "translatedChars": 1320,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Describe how nutrients and water are transported within animals, including the role of the circulatory system in delivering nutrients from d"
+      },
+      {
+        "sourceTextSha256": "cd8ff0d89f8438b30a20ed215df6c388ee791cce4f5e75efbdb6c70e2d8c8ff4",
+        "translationSha256": "d7396ff1ea764d65ed90081272c419e5e0cf83e27843f85497c2fc8c4226fc89",
+        "sourceChars": 152,
+        "translatedChars": 4,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Solve problems involving percentage increase, percentage decrease, finding the original value after a percentage change, and calculating sim"
+      },
+      {
+        "sourceTextSha256": "7280edc445eb325c53a3943ba02f274aff87cac045128f1047089755612e2178",
+        "translationSha256": "acd8ce9987b157fb134da5a6465b41a31e15af6142a44b4591523f8639744828",
+        "sourceChars": 13,
+        "translatedChars": 287,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Greek theatre"
+      },
+      {
+        "sourceTextSha256": "28297f170a4d4918a382fe880fa8850e2137238225ebbcc1d15694155355bab8",
+        "translationSha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+        "sourceChars": 142,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Use tools and materials to design and build a structure that will reduce the warming effect of sunlight on an area, such as a shade or shelt"
+      },
+      {
+        "sourceTextSha256": "d74ea94ee0dd5181eee1eea57044c6ccf6c73bcf85ad1642c2507f790f5ca77f",
+        "translationSha256": "cf542ada135ee3edcbbe7b31003192c75295c7eff0efe7593a0a0b0f792d5256",
+        "sourceChars": 99,
+        "translatedChars": 3,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Use determiners (articles a/an/the and demonstratives this/that/these/those) correctly before nouns"
+      },
+      {
+        "sourceTextSha256": "502c5fd5d3b6ca0fcad4ce237c8db54511f713f44e1b14494ec5c3af41bcc5c8",
+        "translationSha256": "8f67a11172abf91f2f8cb238363fd6115586e2b62253bc434d65c888f7ba8e1a",
+        "sourceChars": 172,
+        "translatedChars": 3,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When your child writes a story, do they use time words like “after”, “while”, or “soon” to show the order things happened - rather than star"
+      },
+      {
+        "sourceTextSha256": "91925b68d502ebd267cbc3ebdee4ac9260bd745db8ca7826067b186c46d5f546",
+        "translationSha256": "e9069031c52c74c770bdcd68faeb666d89faa2f1a497181634774d96b27fa1d7",
+        "sourceChars": 97,
+        "translatedChars": 514,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Find unknown angles in triangles, quadrilaterals, and regular polygons using angle sum properties"
+      },
+      {
+        "sourceTextSha256": "62b2650081230ac6c3b677fe12cfa82a2bcb032a7e88380ae332b4bb28d79099",
+        "translationSha256": "f67c2abcbe5bc0ac96902a6a97e5b59eaa89e0be1b449ad882c25494942d1c06",
+        "sourceChars": 134,
+        "translatedChars": 10,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If you say 'I had some sweets, ate 5, and now have 9 left - how many did I start with?', can your child figure out the missing number?"
+      },
+      {
+        "sourceTextSha256": "0039bf4732c6ee921028654ba501d14fe729fccb07af2aa18713d8c8da788915",
+        "translationSha256": "87a89d7cb7d107c7d252eb8a6110e29ad74d08f817f489472e99df757e23e693",
+        "sourceChars": 219,
+        "translatedChars": 14,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Explain the principle of conservation of energy (energy cannot be created or destroyed, only transferred between stores), and describe how e"
+      },
+      {
+        "sourceTextSha256": "bb45e9fe76dc45c44e4d84e053c76bd6112e49bc1e049b9670a1614023bbce6f",
+        "translationSha256": "e50109574f7db3d75dfcd85b5ac3d0e7614907e127f032ca9a4fcd47738b3f0d",
+        "sourceChars": 251,
+        "translatedChars": 763,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "Know about extreme weather events - hurricanes (spinning storms over warm ocean), tornadoes (violent rotating columns of air), floods, droug"
+      },
+      {
+        "sourceTextSha256": "ac67713e5691d63c848c3ea29460fa00ccb61d35d6f40c26dcafdd5c40c458ad",
+        "translationSha256": "b73823a14897b9ad5da32205e68818dd058ad2e0447ae1d5eff1060db4537382",
+        "sourceChars": 144,
+        "translatedChars": 540,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Participate in shared research and writing projects; recall information from experiences or gather information from sources to answer a ques"
+      },
+      {
+        "sourceTextSha256": "e5637543df9dfe672d8fd836368a29a426dd6d7883ecb6919f130783610966c6",
+        "translationSha256": "e91440fa49dd0198c8158b25b9e2d52ec3b93528f7630841abdce104c9370f65",
+        "sourceChars": 232,
+        "translatedChars": 1274,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Can your child describe an animal that can survive being frozen solid, completely dried out, or exposed to the vacuum of space - and explain"
+      },
+      {
+        "sourceTextSha256": "108ffb5173a5497e4ff5733e706602be86e87997521e7ae6ad046fc46bf69161",
+        "translationSha256": "7d93fc9833e9bcc17787d35d0402552f2d662c4034284696e8b9e1ab7a8e0ba8",
+        "sourceChars": 79,
+        "translatedChars": 509,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Compare numbers with the same number of decimal places up to two decimal places"
+      },
+      {
+        "sourceTextSha256": "89023cbb45006a6a79034f1c36834b390ecfbd0fd2ba9e11ac579e131be1dfac",
+        "translationSha256": "ace49ae87de9d74da68b71b7c90cff736d9e5332878dba560853a295eadcea98",
+        "sourceChars": 218,
+        "translatedChars": 3,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Apply suffix spelling rules that require changes to the root word: dropping final -e before vowel suffixes, changing -y to -i, doubling fina"
+      },
+      {
+        "sourceTextSha256": "f0e138a89f540ed92703ad2ed5404aed9682a0f2c8e9aa6a7c09e7eee915053f",
+        "translationSha256": "0b026be64dd32c5f9cbbc3d64c22e839fb04e57bec7b82eb2d108ab1bc9215e0",
+        "sourceChars": 170,
+        "translatedChars": 2,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Identify and describe different types of weather - sunny, rainy, windy, snowy, cloudy, foggy, stormy - and describe what the weather is like"
+      },
+      {
+        "sourceTextSha256": "11f31578bfccf8a1a64f986dabac6e7574236e0f8437c21a0ee27c72777f054f",
+        "translationSha256": "97f99e4548c6f9289953dbe1aea5d384e5f2519339ee433b424c99101d89a18f",
+        "sourceChars": 101,
+        "translatedChars": 892,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Use evidence to construct an explanation relating the speed of an object to the energy of that object"
+      },
+      {
+        "sourceTextSha256": "b46ea2bb02896fea0cd72cb549f0622afd22eae5f7207989bda0f8bc89ac6862",
+        "translationSha256": "30d108b4340e6926fcdc6a9254ebcfdac49107c3d0e2b55517d441eb7e62564d",
+        "sourceChars": 33,
+        "translatedChars": 1018,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Justifying mathematical reasoning"
+      },
+      {
+        "sourceTextSha256": "ade5f121de84465af06f9b61633ade4eba24af4defcd800358a2ab88563974af",
+        "translationSha256": "651a584c7c9bb52cca3481c88ac1b908cbb89e4f735133abde95bbcf31f3cb38",
+        "sourceChars": 23,
+        "translatedChars": 363,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Vikings vs Anglo-Saxons"
+      },
+      {
+        "sourceTextSha256": "abf8b5b43ada473a5d9c4dd1fdcdd402bf24410e9abe980fdacbc01f33cdcc17",
+        "translationSha256": "10a675db179b6bbcd00998aec38ade87fdf4bd61c88b8f30a827194fe1e545d7",
+        "sourceChars": 156,
+        "translatedChars": 14,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Compare two objects directly by length or height and describe the difference using language such as long, short, tall, longer, shorter, tall"
+      },
+      {
+        "sourceTextSha256": "0b3bd6ea82fc5f9dc397c7b0c213f00d936a27f234bb7e2f8fd7cfb5111c7997",
+        "translationSha256": "f0273041cc89721d57d31311e8fff804b2116b0e96fb6a3bb3addfa72aeb3f7e",
+        "sourceChars": 29,
+        "translatedChars": 514,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Giving and Receiving Feedback"
+      },
+      {
+        "sourceTextSha256": "faf96f152d3304f648119402de75dbf3f313fb549d24d2097f7e07ae1b1a9a56",
+        "translationSha256": "9d8d51bac36f88469121578265fc4b049b3f01ba3bfb59e3a8da0a66b12ebf77",
+        "sourceChars": 167,
+        "translatedChars": 830,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "If you draw two lines starting from the same point on paper, can your child tell you that the space between them is an angle - and point to "
+      },
+      {
+        "sourceTextSha256": "2110ae268ae7c7520a32dde8d178d8ddc0a14fe849d9d00862615609afbe8710",
+        "translationSha256": "9a516a63ccc6dcdd83662261f35c68288aea05de63d02033f32cf97b0d90b7e3",
+        "sourceChars": 181,
+        "translatedChars": 14,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child is writing a persuasive letter compared to a story, can they explain the difference in 'tone' and 'register' - and why they'd "
+      },
+      {
+        "sourceTextSha256": "0c282baa95cf8b1ce374f60692cab79614bbc9daf298064d1a7ea45b3d68b844",
+        "translationSha256": "9b6a5833af5a9decc5e1daf4d7bfd8a27d4a8ba46306058d3639afa686060ad9",
+        "sourceChars": 183,
+        "translatedChars": 8,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If you ask your child where different animals live, can they describe several animal homes - like a bird's nest, a rabbit's burrow, or a bee"
+      },
+      {
+        "sourceTextSha256": "3fad6d4f7b4a89e0a1d844f9f0a7fb8e1fa2b367a64f43a8d345bc248f4a86eb",
+        "translationSha256": "e9b7ab570879d6e820db5296a5e2fcb7ddb845ca78592852c5f531b26c6d5fa2",
+        "sourceChars": 197,
+        "translatedChars": 239,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Communicate design ideas and iterations using technical graphical conventions - orthogonal (front, side, top) views, exploded views and digi"
+      },
+      {
+        "sourceTextSha256": "2a36d930d61ff06c67fe0be713612cb3e53cba31f06be5284e7a2700936396a2",
+        "translationSha256": "473d6e204189c3bd53d89e7ac966c59b61e0e57b5088319f7728395abd79b15c",
+        "sourceChars": 144,
+        "translatedChars": 8,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child has 6 strawberries and eats half of them, can they write that as “1/2 of 6 = 3” - and explain why 2/4 and 1/2 are the same amo"
+      },
+      {
+        "sourceTextSha256": "a9853373f2f4c2e3f2884d4df49e333ab1d1bb7c13f17427b3d1235005ebc04f",
+        "translationSha256": "42b611e9cd93365ae31b490f3c254d087402677f099d3eea034f75da65deeb5b",
+        "sourceChars": 108,
+        "translatedChars": 767,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Generate and compare multiple solutions that use patterns to transfer information, such as codes and signals"
+      },
+      {
+        "sourceTextSha256": "89738cdb02cfdf993caa569371f54365d0f433d7826fcf3d4af203c04853e7aa",
+        "translationSha256": "2f717070690e450e164f7bd4f1d0ed49bbc3d0b87b9015821483e48c03e5d1f9",
+        "sourceChars": 145,
+        "translatedChars": 513,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "Know that Earth has layers - a thin outer crust, a thick hot mantle, and a core at the centre - and that the inside of the Earth is extremel"
+      },
+      {
+        "sourceTextSha256": "3c6f0e7b8ce6a01410b9e21a76cf058792dda1c02a37156fcc1016669f6d0132",
+        "translationSha256": "578a4c06c38c56ad3142b1343f36374421b1a35d1e33995dbed8ad12973cb90a",
+        "sourceChars": 123,
+        "translatedChars": 11,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Find the area of a rectangle by tiling it with unit squares and show that the result equals the product of the side lengths"
+      },
+      {
+        "sourceTextSha256": "9d75f7d806a8450ab6a1263578ac39014d85e01ab7b3b1f6a91828c760897e5d",
+        "translationSha256": "62edc7722a1f6117e52963676d1ab01e46beb410f316fc55615457b76e713331",
+        "sourceChars": 83,
+        "translatedChars": 5,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Compare two written numerals between 1 and 10 to determine which is greater or less"
+      },
+      {
+        "sourceTextSha256": "bca5453fa439384dfbc01d6127ebee26dd67399fd338eaae990dc781593001b7",
+        "translationSha256": "0500440bf313c960e8e45bd4e48f4cbd81892129b33526a2b560277fdc337483",
+        "sourceChars": 179,
+        "translatedChars": 500,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "If you ask your child to describe a triangle using proper geometry notation - naming its angles and sides with letters - can they do it clea"
+      },
+      {
+        "sourceTextSha256": "d058efceff6c86a01e27be241544a4113c7eef7349d23d86d93b84ec4bc23c9b",
+        "translationSha256": "ceba87178d609d8d5f406f2382254f9a9efd545d0b10bcfb96f237ec445665f0",
+        "sourceChars": 173,
+        "translatedChars": 1025,
+        "reasons": [
+          "comprimento desproporcional"
+        ],
+        "sourceExcerpt": "If someone asks your child “is a square also a rectangle?”, can they explain why the answer is yes - because a square has all the properties"
+      },
+      {
+        "sourceTextSha256": "a6b002e8bc86e6b4a7b8dc2381c0efba0b9ed55745297ad8f9bb5382b70b1028",
+        "translationSha256": "14c9ac5e98d904a213957e44148f77ac354013eee9bcc4b9e862a136fbd00a93",
+        "sourceChars": 21,
+        "translatedChars": 514,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "Grammar & Punctuation"
+      },
+      {
+        "sourceTextSha256": "2a321d348a36e4e98590353947bf2aa534f5628930fda41ff5b53df4726d8df0",
+        "translationSha256": "67ac5661dfbce09690ab86a1a9ad28cf8e5c777999ec145f1015a50cda3c29c6",
+        "sourceChars": 98,
+        "translatedChars": 511,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Add and subtract a two-digit number and ones mentally and using concrete/pictorial representations"
+      },
+      {
+        "sourceTextSha256": "a598259e488e0b5534217c4449ca173c31dbbe6b883260fa5cea39371c30f34e",
+        "translationSha256": "ad6276b240df42d4f7c150750243073ad8490c462e933a22f673e976637ab741",
+        "sourceChars": 121,
+        "translatedChars": 4,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child spot a repeating pattern made of shapes or objects and continue it, or create their own repeating pattern?"
+      },
+      {
+        "sourceTextSha256": "e0d9f900dab7d8cd6b3d3088fdd0402a318abbccddd12cd53a9b2c7e7ac858ab",
+        "translationSha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+        "sourceChars": 91,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Expand noun phrases with modifying adjectives, nouns, and preposition phrases to add detail"
+      },
+      {
+        "sourceTextSha256": "b2fadf961dfcdd2baa6616f53ccbb108fccac67d4cfce39c8ed66b85b759f0ec",
+        "translationSha256": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1",
+        "sourceChars": 140,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Does your child wash their hands properly with soap after the toilet and before eating, and brush their teeth twice a day without reminders?"
+      },
+      {
+        "sourceTextSha256": "1451b7fc0de1cbebed17427d291f37a0a0b5b7e40029735202b5dc6367ea5bee",
+        "translationSha256": "53526c6aa0f4e576684f3a6fb1df77b7b940042ecf6133325a5a26f86b0ee5df",
+        "sourceChars": 177,
+        "translatedChars": 45,
+        "reasons": [
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Recognise and use combinations of translations, reflections and rotations to create tessellations and other geometric patterns, using dynami"
+      },
+      {
+        "sourceTextSha256": "e5ea3b4473645c228270b85fdbdd7c1099d3e966bb65d4642de6f89bafd1643a",
+        "translationSha256": "88817aeef21a59a6d5b615027978607058cc9219b75ea9b623f6be760561be8e",
+        "sourceChars": 163,
+        "translatedChars": 9,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Recognise and name all uppercase and lowercase letters of the alphabet; name the letters in order and use letter names to distinguish betwee"
+      },
+      {
+        "sourceTextSha256": "b903677de359881bb93b0d68a081ac1f01a88f930517e81bc1bb7cd5c0437a69",
+        "translationSha256": "3dd8f7e831ebe02689bbb91ef4211bf08e09489a52dac51dba10e9e99ae8a48c",
+        "sourceChars": 110,
+        "translatedChars": 14,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Partition shapes into parts with equal areas and express the area of each part as a unit fraction of the whole"
+      },
+      {
+        "sourceTextSha256": "330116916e70b5131888c13fa467cc04296e045eb2fe4fe2028d4fc87fcb4058",
+        "translationSha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+        "sourceChars": 227,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Compare and classify geometric shapes based on their properties and sizes; understand that attributes belonging to a category also belong to"
+      },
+      {
+        "sourceTextSha256": "0afaef84b25e4f57e7b93b576cf08c9845974fd35249b6b6bad1fdebac74bfc9",
+        "translationSha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+        "sourceChars": 184,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If you told your child about a volcano that last erupted 500 years ago, could they explain whether it's active, dormant, or extinct, and why"
+      },
+      {
+        "sourceTextSha256": "312279f1a2bdeaaa04f7fee7d012085a65521056d12d5467c07365840c16899e",
+        "translationSha256": "d09f0ad06d6e59b908037317d6c044f7ababd3466cb46d5b901cf6f0855baf04",
+        "sourceChars": 175,
+        "translatedChars": 8,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When a sky app or chart says Venus is visible, can your child find the bright 'evening star' with you - and notice over a few weeks that pla"
+      },
+      {
+        "sourceTextSha256": "002b3eae1bbc4fa77aea2ba862c684f987507bd97d751eea3bb3d127f7d30714",
+        "translationSha256": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1",
+        "sourceChars": 226,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child asked 20 classmates how many books they read last month, could they draw a dot plot with one dot per person stacked above the "
+      },
+      {
+        "sourceTextSha256": "4ad399211678fb553d9b8020bfd33db55cf41a0b2ebd057baca427098244e2f2",
+        "translationSha256": "e7d9d09831f959925aece476c34f4ecb07152a7a6a6120167373f9c55c73cc3d",
+        "sourceChars": 18,
+        "translatedChars": 977,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Minibeast Habitats"
+      },
+      {
+        "sourceTextSha256": "88d4c7e34beec77b5a579fb03056e390ec97eb4d3fb095b6bb09c302fe9062dd",
+        "translationSha256": "d64fbb27a20d852c501b37f2b790d12c47bda4fe8c23bd8263fdce3fc3dba177",
+        "sourceChars": 395,
+        "translatedChars": 42,
+        "reasons": [
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Compare the Arctic and Antarctic in detail - the Arctic is an ocean covered by floating sea ice with surrounding land masses (Canada, Russia"
+      },
+      {
+        "sourceTextSha256": "7437fcec4f82ee4bd42da6d0cca8ecbd72417242b30b44b06b9fcde66276059e",
+        "translationSha256": "adc548c49cbc7c3a38860d21d62dcabda10c531538455398135e054c6f3a943d",
+        "sourceChars": 166,
+        "translatedChars": 11,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Explain the motor effect as the force on a current-carrying conductor in a magnetic field, and describe how this principle is used in electr"
+      },
+      {
+        "sourceTextSha256": "5751b0d6f70036ca2c88b56fb929f0cc30e2b86d74c7a5e1ceaa397a83332c92",
+        "translationSha256": "5f87ac65b374eda5366b27a7fbdcf9a5b1f7c6a855c53b52e24d87f862aa9b33",
+        "sourceChars": 142,
+        "translatedChars": 1017,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Obtain and combine information to describe that energy and fuels are derived from natural resources and that their uses affect the environme"
+      },
+      {
+        "sourceTextSha256": "7c8e2d9fe3e79878affcbbbe5e14267fce37805073191adf329726bbaf6069a7",
+        "translationSha256": "6dd61beab4018b20edda997b06ea61a37d0cdd87a44bb7aabdcfe5102403a34f",
+        "sourceChars": 191,
+        "translatedChars": 9,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child is given a complicated word problem involving large numbers or decimals - like calculating the total cost of several items - c"
+      },
+      {
+        "sourceTextSha256": "a1ece385ca3485625ff0c3134d121451f8501f8ca2d577f381b7b7d2809292f4",
+        "translationSha256": "b8f4d418faf5e5c31e415f3bac1b144644e4b08d79e2a56bb0b6cc1a89abec8f",
+        "sourceChars": 209,
+        "translatedChars": 512,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Substitute numerical values into formulae and expressions including scientific formulae; evaluate expressions by replacing variables with gi"
+      },
+      {
+        "sourceTextSha256": "3e6230edfd532cf3cd13ae5d9e2cece0c6c78433a95bd395d5b21caf54e51625",
+        "translationSha256": "246f088ed21d3de42409fa96df3eeed44db51a994d8d796807072644be92932c",
+        "sourceChars": 396,
+        "translatedChars": 7,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Analyse who was included and excluded from Athenian democracy - only free adult male citizens (roughly 30% of adults) could participate, whi"
+      },
+      {
+        "sourceTextSha256": "1386dede6adb263d13f9fbb92f644e36d1ea92dca0941ff790e2bf0dfcf5efce",
+        "translationSha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+        "sourceChars": 218,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Understand and use active and passive voice deliberately, and recognise verb moods (indicative, imperative, subjunctive, conditional) and th"
+      },
+      {
+        "sourceTextSha256": "ddd1dd510b307cab4e1cc1a3897b6932b1297c36e114b39f6aa64b4dbbe487e4",
+        "translationSha256": "1ec3928f3849bdd23bcf8fb7772abec3fc6deb3cbded8edb4d0e30455f779407",
+        "sourceChars": 136,
+        "translatedChars": 511,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "Round numbers and measures to an appropriate degree of accuracy including to a specified number of decimal places or significant figures"
+      },
+      {
+        "sourceTextSha256": "b49308f1487ea2220de0aced640b6081951235206b1cd4e9bee0b7ea71e952b4",
+        "translationSha256": "2cb046f1b50df26954a1dfd05dc8ffbb84010c3388c25b2edda393a464bf3393",
+        "sourceChars": 18,
+        "translatedChars": 106,
+        "reasons": [
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Comparing Decimals"
+      },
+      {
+        "sourceTextSha256": "a23c86fe569743a496b16781754b287d6716f91f083e3fa1c675428f8f6959a9",
+        "translationSha256": "21f00a8c8a2dce45d2e2d8dfbef3833f150de469c33fd55fb5e8375b080eeff1",
+        "sourceChars": 143,
+        "translatedChars": 14,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Could your child explain why the invention of the printing press was one of the most important moments in history and how it changed the wor"
+      },
+      {
+        "sourceTextSha256": "08523bf714b2867782476dacb4f5b49c706dec2a33f5d6fb46e5e10abb675aae",
+        "translationSha256": "db692143c30e204a5c8d3a985c4d039fc0626296ce1c8fe6f3c32c10192beddd",
+        "sourceChars": 194,
+        "translatedChars": 4,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When your child writes a formal letter or a persuasive essay, can they use phrases like “If I were in charge…” or “The school suggests that "
+      },
+      {
+        "sourceTextSha256": "feb046ceaa0e0b758512784bf4984638c9309558495e8064ebe8a834f444bfe4",
+        "translationSha256": "90da6c26124044c6e078b95ff6734b87c2fa5e4ea5c01c5ce5d1ca435f3c3a35",
+        "sourceChars": 181,
+        "translatedChars": 6,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Draw a scaled picture graph and a scaled bar graph to represent a data set; solve one- and two-step comparison, sum, and difference problems"
+      },
+      {
+        "sourceTextSha256": "0edcf6c36195516cc8fef88024dd522b5ee133a5c2cb1bd8aef8f7b92942c607",
+        "translationSha256": "34f231ece36ba90e87fc89ba0ad621519d8ba1310d6f343da922b7e31817b3bd",
+        "sourceChars": 238,
+        "translatedChars": 5,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Describe the full electromagnetic spectrum from radio waves to gamma rays, in order of increasing frequency and energy; explain that all EM "
+      },
+      {
+        "sourceTextSha256": "77925a3bad3cbb04d82106c0144ad6becdfb85304e2c57ddcf1cb2671279c3a8",
+        "translationSha256": "d03502c43d74a30b936740a9517dc4ea2b2ad7168caa0a774cefe793ce0b33e7",
+        "sourceChars": 101,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child explain how a shell or bone from an ancient creature ended up preserved inside a rock?"
+      },
+      {
+        "sourceTextSha256": "94f05e435946985d783b68f5257720f82f5ce8b445239093ca85300ba8acc104",
+        "translationSha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+        "sourceChars": 175,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If two angles sit next to each other on a straight line and one is 65°, can your child work out the other angle - knowing that angles on a s"
+      },
+      {
+        "sourceTextSha256": "200f4ff1d5e5d14b2ea72475fe48ff2c5a322d58fee61dca144f3186300f50d2",
+        "translationSha256": "e8aab1a3fe60d19195e43cdbc98fb4e56b75ee5d77d4098de06ecf7eed4044d5",
+        "sourceChars": 30,
+        "translatedChars": 511,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Adding money and giving change"
+      },
+      {
+        "sourceTextSha256": "a45401826997006308ac281eb3fdc4261534c1e400d96f9a3edb5a6d035d1aac",
+        "translationSha256": "f8e5add2792c8a0f08523d83fc8b70ce5602056b9953615f737cb0ce62897dc4",
+        "sourceChars": 195,
+        "translatedChars": 674,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "After a real disappointment - like not getting a part in the school play or failing a test they studied for - can your child feel upset but "
+      },
+      {
+        "sourceTextSha256": "cf4dae35c618f51072584e57fa148b8a798563441a9d76c916868913116d547c",
+        "translationSha256": "42b611e9cd93365ae31b490f3c254d087402677f099d3eea034f75da65deeb5b",
+        "sourceChars": 89,
+        "translatedChars": 767,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Identify acute and obtuse angles; compare and order angles up to two right angles by size"
+      },
+      {
+        "sourceTextSha256": "4491dced5ae14a269177d733978814b7ee37faa732b0bc20fab99eb25ef58d62",
+        "translationSha256": "aff8928dc168d5b6a83197e4a1eb0c5a466ed74953649c86bf700700b07ec68e",
+        "sourceChars": 149,
+        "translatedChars": 5,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child use the short division ('bus stop') method to work out something like '2,457 ÷ 6', and decide what to do with any remainder l"
+      },
+      {
+        "sourceTextSha256": "4906c3170e760d34296ac3a0697a353bfef4f96e189b772af5111dc3bcaa14ca",
+        "translationSha256": "e270aeb347f2165574c3a5c5bf11d038bcd3acd5abfdb5ae8a1b52d91cb842f0",
+        "sourceChars": 174,
+        "translatedChars": 2,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child sees a cut-away diagram of the Earth, can they point to and name the different layers - and if shown stacked rock layers, can "
+      },
+      {
+        "sourceTextSha256": "217586f617dea05f89b9eff5436307d1809750ce0a94328ce90c625024f0a11d",
+        "translationSha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+        "sourceChars": 173,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child was pushing a heavy box along the floor but it wasn't moving, could they explain all the forces acting on it and why it stays "
+      },
+      {
+        "sourceTextSha256": "b9bdafa9e17a55109814e2bd467b3e7b0ee0b1326132d34635f98aefaee87d47",
+        "translationSha256": "84a47f61dd341ce731390149a904abcd58a6044263071abf44a475cf91563029",
+        "sourceChars": 121,
+        "translatedChars": 2,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Describe the life process of reproduction in some plants and animals, including sexual and asexual reproduction in plants"
+      },
+      {
+        "sourceTextSha256": "7a7dae44805133a69a0402dd7c2154c65a1a7b8591d7cac6d207ac4dd5e82b56",
+        "translationSha256": "5ae304cff9929549ec8c4e3720aa2e2cc353533c000c6b9c7c727925c033dcd0",
+        "sourceChars": 159,
+        "translatedChars": 6,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Reflect on your own growth over time - the things that challenge you now are not fixed, and noticing how you have already changed builds gen"
+      },
+      {
+        "sourceTextSha256": "9436d6eac71e87a658fc7cde4ae3b0310046e4572a316d3550f7bea755c58e00",
+        "translationSha256": "3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112",
+        "sourceChars": 134,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If the clock shows quarter to four, can your child tell you the time - and draw hands on a blank clock face to show twenty past three?"
+      },
+      {
+        "sourceTextSha256": "a739a43e4cd16e6c2210be0a911fef2e8992882311fab8c35b28435b04f9bc45",
+        "translationSha256": "6d57b023941a8b72c132defc7f62e043e4c44431c1bd5ea6facc4d98b8f2013f",
+        "sourceChars": 207,
+        "translatedChars": 4,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child explain the surprising fact that rainforest soil is actually poor and thin - that the nutrients aren't in the ground but lock"
+      },
+      {
+        "sourceTextSha256": "2e78cf86d9a5236ecf20d0e93a1d5b5c2e5a92109c084e5b1986e00b566b7639",
+        "translationSha256": "ca2f7468cf2a9675872e58e742fbcc1b6abea938fab529a71338bac645cf0bc5",
+        "sourceChars": 142,
+        "translatedChars": 9,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child sees the number 47, can they tell you there are 4 tens (forty) and 7 ones - rather than just reading the digits as 'four seven"
+      },
+      {
+        "sourceTextSha256": "ef268d5da93f5c0d603ca911c0353e3c3f32892da9a51a896f0e4b73365400c6",
+        "translationSha256": "7783c75e0c3d1e93356d4dc94cae0c586d6351e0900e52d8b30a2ea3606febfc",
+        "sourceChars": 168,
+        "translatedChars": 12,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Does your child know that the /j/ sound can be spelled different ways - like in 'jump', 'cage', and 'bridge' - and can they read words with "
+      },
+      {
+        "sourceTextSha256": "c32aa587c4e21471042e1cb81f1f58748f15bcdb5be13110a7c9aaeda974d990",
+        "translationSha256": "034e43319844b63ba3aadeb575da6cd433fffa2f4180164cd986da101d1e92e1",
+        "sourceChars": 33,
+        "translatedChars": 813,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Comparing results from two groups"
+      },
+      {
+        "sourceTextSha256": "e53419b82cb09dd9953d7e3b246012fc757c99892f10586b40f8f310f770e480",
+        "translationSha256": "ad0961600ed3c5762ee0bad47000e0b6ffcc2b1cedaecfa9d328409c83a43197",
+        "sourceChars": 137,
+        "translatedChars": 2,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child rolls a ball down ramps of different heights, can they spot the pattern and predict how far it will roll from a new height?"
+      },
+      {
+        "sourceTextSha256": "feb744412e44d1d39f337224dbcd117aa649178b6de42697e720ad2481fbc0cf",
+        "translationSha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "sourceChars": 140,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child received some birthday money, could they explain why it might be smart to save some of it rather than spending it all at once?"
+      },
+      {
+        "sourceTextSha256": "115132a24894dfd46d7dd83a51b799c88a18910205a1f35946988718be460f10",
+        "translationSha256": "bcc8b11b66dce140c3492f9a386d9ea9750891982116985384f479467bbdcaaa",
+        "sourceChars": 29,
+        "translatedChars": 34,
+        "reasons": [
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Dividing by two-digit numbers"
+      },
+      {
+        "sourceTextSha256": "1fcaa30dd268e8244bf39ae62d737a57f0628f3caedb12976f26b04023037e14",
+        "translationSha256": "0d601f3bde4f8221d2009819be8e1623b7980b54fbc62db9f9d8c012ca22c61a",
+        "sourceChars": 164,
+        "translatedChars": 7,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Could your child tell you about the lives of enslaved people or women in ancient Greece and Rome, and explain why we know less about them th"
+      },
+      {
+        "sourceTextSha256": "7e36f65ae219cfa1c9dd33e15fb8755ed43e09c0baa7a882b6ba6d3c79cedcb7",
+        "translationSha256": "f8737c029dc729e5155f688b79cc862a2b27a6a3e30c11adc2ad83f75ce0889a",
+        "sourceChars": 211,
+        "translatedChars": 9,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Understand that emotional responses are shaped by personal experiences, culture, and context - the same situation triggers different emotion"
+      },
+      {
+        "sourceTextSha256": "2c1ec9fe342beda20ea399f8c6e260fdf4a7723fe4f126a124f5007f9330034e",
+        "translationSha256": "06b2260b95cfc8ea21c8dad1ba0e4f3cc3a55afbd6a2da9bcfde2411d1e6cfca",
+        "sourceChars": 166,
+        "translatedChars": 11,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child describe what happens in each season - like leaves falling in autumn, snow in winter - and notice that days are shorter in wi"
+      },
+      {
+        "sourceTextSha256": "3f8478f910a0996b03683f480f731f714ac8aba47bbe0c0102d095e59d807147",
+        "translationSha256": "acac86c0e609ca906f632b0e2dacccb2b77d22b0621f20ebece1a4835b93f6f0",
+        "sourceChars": 168,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When your child glues parts of a model together, do they pick a glue that suits the materials, hold the pieces until it sets, and use a glue"
+      },
+      {
+        "sourceTextSha256": "1c015dcaf3f2f11e67545e3750218a298513f5e9108eae4e580b81c442f13a46",
+        "translationSha256": "15a0688fb4182dabe8733403c2a885fbb53eea3fdc3b157db55f58d0a4ce9b01",
+        "sourceChars": 24,
+        "translatedChars": 766,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Cold-Weather Adaptations"
+      },
+      {
+        "sourceTextSha256": "934f254cbbe20af4b91ddb02eee92a00dc07babadc1e9071675fe0d9e975a68f",
+        "translationSha256": "cc22b377723fc57886251cf88b19d0bb740f048bb6416ece8baf190437efb8b2",
+        "sourceChars": 122,
+        "translatedChars": 1024,
+        "reasons": [
+          "comprimento desproporcional",
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Develop a model to describe the movement of matter among plants, animals, decomposers, and the environment in an ecosystem"
+      },
+      {
+        "sourceTextSha256": "3e9ff5df9a849c6e96fdcbddb7e89f2f414b7cbf774c5eb4e2f61ff9d03159f3",
+        "translationSha256": "53e4c1613ccf0b785a25684b1a9a207ba9a9ba6f337f90f8775a4b9ed74bcc3b",
+        "sourceChars": 230,
+        "translatedChars": 6,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "When your child chooses how to tackle a maths problem, do they pick the most efficient approach - using algebra for a complex generalisation"
+      },
+      {
+        "sourceTextSha256": "4f1840a67e89f815344c99b3adb33792983db706c8d1d4d3e5f7d8b5879eaa7e",
+        "translationSha256": "013ef5f35a2d385193f7412f74800cf3f14595946934bcc207082088a94915b8",
+        "sourceChars": 315,
+        "translatedChars": 419,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "A newcomer, a child and an adult citizen discuss a public decision in Canada. Can your child explain their protections for equal treatment u"
+      },
+      {
+        "sourceTextSha256": "4a2e4e65a06f3aa1cd7dbeeac85c8884558c04006258de20edac5d724671ae00",
+        "translationSha256": "8ad2fbf7355fd942d4ae72989924f587c5efff395230c95b56b21a3d806390d3",
+        "sourceChars": 125,
+        "translatedChars": 778,
+        "reasons": [
+          "repetição dominante",
+          "sequência repetitiva"
+        ],
+        "sourceExcerpt": "Could your child tell you about a real person who started a business as a kid and explain what qualities helped them succeed?"
+      },
+      {
+        "sourceTextSha256": "dfe3331dc6f45133524e04ed0d31fb3e0c56db81d17b7673cb5d0f3c1c661098",
+        "translationSha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8",
+        "sourceChars": 164,
+        "translatedChars": 1,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child explain why most volcanoes and earthquakes happen at the edges of tectonic plates - where plates push together, pull apart, o"
+      },
+      {
+        "sourceTextSha256": "faedcaaaebaac4a8bace90874276defdf4bc52b4a532332d9d128caa45f815ae",
+        "translationSha256": "ed01f5abc0232e118e751873f9c8bb3e2f3f8bdcd4f0f471556b22a48356a657",
+        "sourceChars": 155,
+        "translatedChars": 12,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "If your child has a group of 14 objects, can they tell you whether that number is odd or even - for example by pairing them up to see if any"
+      },
+      {
+        "sourceTextSha256": "2ef949f63f1c3f9943b1e55bac4b332320f3190850308714169736d7fb25ace8",
+        "translationSha256": "895361ffbf88d5a8c40d47f8dd3d03df2042ca9360d08738bcbb4faa39495404",
+        "sourceChars": 147,
+        "translatedChars": 6,
+        "reasons": [
+          "tradução excessivamente curta"
+        ],
+        "sourceExcerpt": "Can your child explain the difference between weather and climate, and describe why the Arctic is always cold while tropical areas are alway"
+      },
+      {
+        "sourceTextSha256": "a68e10cae8a6ab79fdd888c2a3ff2caf4332fdf66a73074510bc068852f1dd27",
+        "translationSha256": "766ae15bd41d993354acb29f5537d189d15661772d65af4e5bb624af221bf54c",
+        "sourceChars": 135,
+        "translatedChars": 110,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "If your child picks up a water bottle and a book, can they tell you which is heavier and which is taller - without any measuring tools?"
+      },
+      {
+        "sourceTextSha256": "b4de6c97e445738ddb06db13ea7ece4290a8624ef2d2c87f58cc7822a1ab02ed",
+        "translationSha256": "3675282e713408ad3767875a48d05ee5c5f0e59f2a38dc3bd84db3575c81237c",
+        "sourceChars": 136,
+        "translatedChars": 157,
+        "reasons": [
+          "repetição dominante"
+        ],
+        "sourceExcerpt": "Understand and use the most frequently occurring prepositions of location and direction (e.g. to, from, in, out, on, off, for, by, with)"
+      }
+    ],
+    "decision": "Não promover o cache Grok. Usar a tradução editorial Code, mantendo o original e revisão pendente. A heurística não valida semanticamente os demais itens."
+  },
+  "schoolPlacements": {
+    "metadata": {
+      "lang": "pt-BR",
+      "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+      "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+      "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+      "title": "Séries curriculares de origem",
+      "subject": "Séries e blocos explícitos, sem converter idade em série oficial"
+    },
+    "systems": [
+      {
+        "id": "BR",
+        "name": "Brasil",
+        "years": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "topicsWithPlacement": 2151
+      },
+      {
+        "id": "US",
+        "name": "Estados Unidos",
+        "years": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "topicsWithPlacement": 670
+      },
+      {
+        "id": "GB-ENG",
+        "name": "Inglaterra (Reino Unido)",
+        "years": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "topicsWithPlacement": 715
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4/the-national-curriculum-in-england-framework-for-key-stages-1-to-4",
+        "purpose": "Key stages da Inglaterra e seus anos; não representa todos os países do Reino Unido."
+      },
+      {
+        "url": "https://www.cde.ca.gov/ci/pl/ngssstandards.asp",
+        "purpose": "Banda middle school dos padrões NGSS, anos 6 a 8; a banda não escolhe um único ano."
+      }
+    ],
+    "policy": "Filtros por série usam apenas source-explicit ou source-band. Um padrão em bloco pode aparecer em qualquer ano pertencente ao bloco, sem afirmar que seja ensinado em todos eles. Registros apenas por idade ficam sem série oficial."
+  },
+  "decisions": [
+    "Contar identidades de conceitos uma vez, preservando o ID Marble nas traduções.",
+    "Conservar todas as habilidades brasileiras, mesmo quando uma IA sugere cobertura total por um tópico estrangeiro.",
+    "Separar habilidades, microtópicos editoriais, padrões, traduções, equivalências propostas, decomposição e pré-requisitos.",
+    "Não promover similaridade textual ou semântica a pré-requisito obrigatório ou equivalência oficial.",
+    "Importar a camada pt-BR da entrega Code como proposta editorial, preservando o original inglês e a proveniência.",
+    "Registrar as duas omissões anteriores e a normalização editorial EF05CO011 para EF05CO11 de forma explícita."
+  ],
+  "limitations": [
+    "A conciliação não é concordância independente de três famílias; compara artefatos e confere pontos específicos na fonte oficial.",
+    "Tradução e alinhamentos exigem revisão pedagógica e linguística.",
+    "A decomposição permanece parcial; conservar a habilidade integral evita fingir cobertura por um único microtópico.",
+    "Os números deste relatório antecedem o acréscimo de Japão e China; o manifesto geral deve somar o conjunto asiático separadamente."
+  ]
+}

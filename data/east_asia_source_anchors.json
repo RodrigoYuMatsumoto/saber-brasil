@@ -1,0 +1,1830 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Âncoras versionadas dos recortes chineses",
+    "subject": "Resultado limitado de busca em OCR; o build padrão não executa OCR nem depende de PDFs"
+  },
+  "anchors": {
+    "CN:matematica:Contagem e comparação de quantidades": {
+      "sourceId": "cn_mathematics",
+      "keyword": "数的认识",
+      "page": 25,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Números naturais e representação": {
+      "sourceId": "cn_mathematics",
+      "keyword": "数的认识",
+      "page": 25,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Valor posicional decimal": {
+      "sourceId": "cn_mathematics",
+      "keyword": "十进制",
+      "page": 27,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Adição e subtração iniciais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "加法",
+      "page": 25,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Multiplicação como agrupamento": {
+      "sourceId": "cn_mathematics",
+      "keyword": "乘法",
+      "page": 25,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Divisão e partilha": {
+      "sourceId": "cn_mathematics",
+      "keyword": "除法",
+      "page": 25,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Cálculo mental simples": {
+      "sourceId": "cn_mathematics",
+      "keyword": "口算",
+      "page": 26,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Situações de cálculo no cotidiano": {
+      "sourceId": "cn_mathematics",
+      "keyword": "运算",
+      "page": 19,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Padrões de repetição": {
+      "sourceId": "cn_mathematics",
+      "keyword": "规律",
+      "page": 18,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Direções e posições": {
+      "sourceId": "cn_mathematics",
+      "keyword": "位置",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Formas planas e sólidas": {
+      "sourceId": "cn_mathematics",
+      "keyword": "图形",
+      "page": 19,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Comprimento e medição": {
+      "sourceId": "cn_mathematics",
+      "keyword": "长度",
+      "page": 19,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Horas e calendário": {
+      "sourceId": "cn_mathematics",
+      "keyword": "时间",
+      "page": 18,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Classificação de dados": {
+      "sourceId": "cn_mathematics",
+      "keyword": "分类",
+      "page": 19,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Números grandes": {
+      "sourceId": "cn_mathematics",
+      "keyword": "万以上",
+      "page": 27,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Operações com números naturais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "四则运算",
+      "page": 19,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Propriedades das operações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "运算律",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Introdução aos decimais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "小数",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Significado das frações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "分数",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Adição e subtração de frações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "同分母",
+      "page": 28,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Multiplicação e divisão escritas": {
+      "sourceId": "cn_mathematics",
+      "keyword": "笔算",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Perímetro de figuras": {
+      "sourceId": "cn_mathematics",
+      "keyword": "周长",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Área do quadrado e retângulo": {
+      "sourceId": "cn_mathematics",
+      "keyword": "面积",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Ângulos e suas medidas": {
+      "sourceId": "cn_mathematics",
+      "keyword": "角",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Translação e simetria": {
+      "sourceId": "cn_mathematics",
+      "keyword": "平移",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Medição de massa": {
+      "sourceId": "cn_mathematics",
+      "keyword": "质量",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Gráficos de barras": {
+      "sourceId": "cn_mathematics",
+      "keyword": "条形统计图",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Média aritmética": {
+      "sourceId": "cn_mathematics",
+      "keyword": "平均数",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Fatores e múltiplos": {
+      "sourceId": "cn_mathematics",
+      "keyword": "因数",
+      "page": 30,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Divisibilidade e números primos": {
+      "sourceId": "cn_mathematics",
+      "keyword": "质数",
+      "page": 30,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Decimais nas quatro operações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "小数四则",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Frações nas quatro operações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "分数四则",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Razão e percentagem": {
+      "sourceId": "cn_mathematics",
+      "keyword": "百分数",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Relações proporcionais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "比例",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Expressões simples com letras": {
+      "sourceId": "cn_mathematics",
+      "keyword": "字母",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Equações simples": {
+      "sourceId": "cn_mathematics",
+      "keyword": "方程",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Área de triângulos e paralelogramos": {
+      "sourceId": "cn_mathematics",
+      "keyword": "三角形",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Área e perímetro do círculo": {
+      "sourceId": "cn_mathematics",
+      "keyword": "圆",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Volume de prismas e cilindros": {
+      "sourceId": "cn_mathematics",
+      "keyword": "体积",
+      "page": 20,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Gráficos de setores": {
+      "sourceId": "cn_mathematics",
+      "keyword": "扇形统计图",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Possibilidade e incerteza": {
+      "sourceId": "cn_mathematics",
+      "keyword": "可能性",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Planejamento de investigações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "调查",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Números racionais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "有理数",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Números reais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "实数",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Radicais e potências": {
+      "sourceId": "cn_mathematics",
+      "keyword": "平方根",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Polinômios": {
+      "sourceId": "cn_mathematics",
+      "keyword": "整式",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Fatoração algébrica": {
+      "sourceId": "cn_mathematics",
+      "keyword": "因式分解",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Expressões racionais": {
+      "sourceId": "cn_mathematics",
+      "keyword": "分式",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Equações lineares": {
+      "sourceId": "cn_mathematics",
+      "keyword": "一元一次方程",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Sistemas de equações": {
+      "sourceId": "cn_mathematics",
+      "keyword": "二元一次方程组",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Inequações lineares": {
+      "sourceId": "cn_mathematics",
+      "keyword": "一元一次不等式",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Equações quadráticas": {
+      "sourceId": "cn_mathematics",
+      "keyword": "一元二次方程",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Funções afins": {
+      "sourceId": "cn_mathematics",
+      "keyword": "一次函数",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Funções quadráticas": {
+      "sourceId": "cn_mathematics",
+      "keyword": "二次函数",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Função de proporcionalidade inversa": {
+      "sourceId": "cn_mathematics",
+      "keyword": "反比例函数",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Triângulos congruentes": {
+      "sourceId": "cn_mathematics",
+      "keyword": "全等",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Semelhança geométrica": {
+      "sourceId": "cn_mathematics",
+      "keyword": "相似",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Teorema de Pitágoras": {
+      "sourceId": "cn_mathematics",
+      "keyword": "勾股定理",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Propriedades dos círculos": {
+      "sourceId": "cn_mathematics",
+      "keyword": "圆",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Trigonometria no triângulo retângulo": {
+      "sourceId": "cn_mathematics",
+      "keyword": "三角函数",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:matematica:Estatística descritiva": {
+      "sourceId": "cn_mathematics",
+      "keyword": "统计",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:matematica:Probabilidade de eventos": {
+      "sourceId": "cn_mathematics",
+      "keyword": "概率",
+      "page": 21,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Sons do mandarim e pinyin": {
+      "sourceId": "cn_chinese",
+      "keyword": "汉语拼音",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Traços e escrita de caracteres": {
+      "sourceId": "cn_chinese",
+      "keyword": "笔画",
+      "page": 14,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Radicais dos caracteres": {
+      "sourceId": "cn_chinese",
+      "keyword": "偏旁",
+      "page": 14,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Reconhecimento de caracteres": {
+      "sourceId": "cn_chinese",
+      "keyword": "识字",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Escrita regular de caracteres": {
+      "sourceId": "cn_chinese",
+      "keyword": "写字",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Leitura oral de textos": {
+      "sourceId": "cn_chinese",
+      "keyword": "朗读",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Escuta e comunicação oral": {
+      "sourceId": "cn_chinese",
+      "keyword": "口语交际",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Leitura prazerosa": {
+      "sourceId": "cn_chinese",
+      "keyword": "阅读",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Uso do dicionário chinês": {
+      "sourceId": "cn_chinese",
+      "keyword": "字典",
+      "page": 14,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Vocabulário em contexto": {
+      "sourceId": "cn_chinese",
+      "keyword": "词语",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Leitura fluente": {
+      "sourceId": "cn_chinese",
+      "keyword": "朗读",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Ideia principal e parágrafos": {
+      "sourceId": "cn_chinese",
+      "keyword": "主要内容",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Relato de acontecimentos": {
+      "sourceId": "cn_chinese",
+      "keyword": "叙述",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Escrita de observações": {
+      "sourceId": "cn_chinese",
+      "keyword": "观察",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Comunicação com clareza": {
+      "sourceId": "cn_chinese",
+      "keyword": "表达",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Leitura de poesia": {
+      "sourceId": "cn_chinese",
+      "keyword": "诗文",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Comparação de textos": {
+      "sourceId": "cn_chinese",
+      "keyword": "阅读",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Inferência e compreensão": {
+      "sourceId": "cn_chinese",
+      "keyword": "理解",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Fatos, opiníons e evidências": {
+      "sourceId": "cn_chinese",
+      "keyword": "表达",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Planejamento de composições": {
+      "sourceId": "cn_chinese",
+      "keyword": "习作",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Revisão da própria escrita": {
+      "sourceId": "cn_chinese",
+      "keyword": "修改",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Pesquisa e síntese": {
+      "sourceId": "cn_chinese",
+      "keyword": "资料",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Herança literária chinesa": {
+      "sourceId": "cn_chinese",
+      "keyword": "传统文化",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Apresentação oral organizada": {
+      "sourceId": "cn_chinese",
+      "keyword": "口语交际",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Leitura crítica e argumentação": {
+      "sourceId": "cn_chinese",
+      "keyword": "思辨",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Estrutura de textos argumentativos": {
+      "sourceId": "cn_chinese",
+      "keyword": "议论",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Narrador e construção literária": {
+      "sourceId": "cn_chinese",
+      "keyword": "文学",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Recursos expressivos e linguagem": {
+      "sourceId": "cn_chinese",
+      "keyword": "语言",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Chinês clássico introdutório": {
+      "sourceId": "cn_chinese",
+      "keyword": "文言",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:chines:Poesia e tradição cultural": {
+      "sourceId": "cn_chinese",
+      "keyword": "诗歌",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Pesquisa temática com fontes": {
+      "sourceId": "cn_chinese",
+      "keyword": "专题",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:chines:Revisão e apresentação de textos": {
+      "sourceId": "cn_chinese",
+      "keyword": "写作",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Sentidos e observação": {
+      "sourceId": "cn_science",
+      "keyword": "观察",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Propriedades observáveis dos materiais": {
+      "sourceId": "cn_science",
+      "keyword": "物体",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Classificação de objetos": {
+      "sourceId": "cn_science",
+      "keyword": "分类",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Partes externas das plantas": {
+      "sourceId": "cn_science",
+      "keyword": "植物",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Animais e suas necessidades": {
+      "sourceId": "cn_science",
+      "keyword": "动物",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Água no cotidiano": {
+      "sourceId": "cn_science",
+      "keyword": "水",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Ar e movimento": {
+      "sourceId": "cn_science",
+      "keyword": "空气",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Sol e sombras": {
+      "sourceId": "cn_science",
+      "keyword": "太阳",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Registo do tempo atmosférico": {
+      "sourceId": "cn_science",
+      "keyword": "天气",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Construção e teste de modelos": {
+      "sourceId": "cn_science",
+      "keyword": "模型",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Estados físicos e materiais": {
+      "sourceId": "cn_science",
+      "keyword": "物质",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Dissolução e misturas": {
+      "sourceId": "cn_science",
+      "keyword": "溶解",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Forças e movimento": {
+      "sourceId": "cn_science",
+      "keyword": "力",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Som e vibração": {
+      "sourceId": "cn_science",
+      "keyword": "声音",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Luz e propagação": {
+      "sourceId": "cn_science",
+      "keyword": "光",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Eletricidade e circuitos": {
+      "sourceId": "cn_science",
+      "keyword": "电",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Ímãs e magnetismo": {
+      "sourceId": "cn_science",
+      "keyword": "磁",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Desenvolvimento dos seres vivos": {
+      "sourceId": "cn_science",
+      "keyword": "生长",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Rochas e solo": {
+      "sourceId": "cn_science",
+      "keyword": "岩石",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Ciclo da água": {
+      "sourceId": "cn_science",
+      "keyword": "水循环",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Conservação da matéria": {
+      "sourceId": "cn_science",
+      "keyword": "物质",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Calor e temperatura": {
+      "sourceId": "cn_science",
+      "keyword": "热",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Transformação de energia": {
+      "sourceId": "cn_science",
+      "keyword": "能量",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Movimento e mecanismos": {
+      "sourceId": "cn_science",
+      "keyword": "机械",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Estruturas e estabilidade": {
+      "sourceId": "cn_science",
+      "keyword": "结构",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Corpo humano e saúde": {
+      "sourceId": "cn_science",
+      "keyword": "人体",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Relações ecológicas": {
+      "sourceId": "cn_science",
+      "keyword": "环境",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Hereditariedade introdutória": {
+      "sourceId": "cn_science",
+      "keyword": "遗传",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Terra e Sistema Solar": {
+      "sourceId": "cn_science",
+      "keyword": "地球",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Evidências e investigação científica": {
+      "sourceId": "cn_science",
+      "keyword": "证据",
+      "page": 17,
+      "status": "keyword-confirmed"
+    },
+    "CN:historia:Primeiras sociedades humanas": {
+      "sourceId": "cn_history",
+      "keyword": "人类",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:historia:Origens da civilização chinesa": {
+      "sourceId": "cn_history",
+      "keyword": "文明",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:historia:China antiga e dinastias": {
+      "sourceId": "cn_history",
+      "keyword": "夏商周",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Unificação Qin e governo Han": {
+      "sourceId": "cn_history",
+      "keyword": "秦汉",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Contatos pelas rotas da seda": {
+      "sourceId": "cn_history",
+      "keyword": "丝绸之路",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Sociedade Tang e Song": {
+      "sourceId": "cn_history",
+      "keyword": "隋唐",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:China Yuan, Ming e Qing": {
+      "sourceId": "cn_history",
+      "keyword": "明清",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Intercâmbios culturais e tecnológicos": {
+      "sourceId": "cn_history",
+      "keyword": "交流",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:China no século XIX": {
+      "sourceId": "cn_history",
+      "keyword": "鸦片战争",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Revoluções e transformação social": {
+      "sourceId": "cn_history",
+      "keyword": "革命",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:historia:Guerras mundiais e século XX": {
+      "sourceId": "cn_history",
+      "keyword": "世界大战",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Fundação da República Popular da China": {
+      "sourceId": "cn_history",
+      "keyword": "中华人民共和国",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Reforma e abertura na China": {
+      "sourceId": "cn_history",
+      "keyword": "改革开放",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Civilizações do mundo antigo": {
+      "sourceId": "cn_history",
+      "keyword": "古代文明",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Renascimento e expansão marítima": {
+      "sourceId": "cn_history",
+      "keyword": "文艺复兴",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Revolução Industrial": {
+      "sourceId": "cn_history",
+      "keyword": "工业革命",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:historia:Fontes e cronologia histórica": {
+      "sourceId": "cn_history",
+      "keyword": "史料",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:geografia:Globo e coordenadas geográficas": {
+      "sourceId": "cn_geography",
+      "keyword": "地球仪",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Mapas e escala": {
+      "sourceId": "cn_geography",
+      "keyword": "地图",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Continentes e oceanos": {
+      "sourceId": "cn_geography",
+      "keyword": "海洋",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Relevo e processos terrestres": {
+      "sourceId": "cn_geography",
+      "keyword": "地形",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Tempo e clima": {
+      "sourceId": "cn_geography",
+      "keyword": "气候",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:População e assentamentos": {
+      "sourceId": "cn_geography",
+      "keyword": "人口",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:geografia:Diversidade cultural mundial": {
+      "sourceId": "cn_geography",
+      "keyword": "文化",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Recursos naturais e sustentabilidade": {
+      "sourceId": "cn_geography",
+      "keyword": "资源",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:geografia:Território e população da China": {
+      "sourceId": "cn_geography",
+      "keyword": "中国",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:geografia:Grandes rios chineses": {
+      "sourceId": "cn_geography",
+      "keyword": "河流",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Regíons naturais da China": {
+      "sourceId": "cn_geography",
+      "keyword": "区域",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:geografia:Agricultura e indústria chinesas": {
+      "sourceId": "cn_geography",
+      "keyword": "产业",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:geografia:Interdependência mundial": {
+      "sourceId": "cn_geography",
+      "keyword": "全球",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:geografia:Investigação com dados geográficos": {
+      "sourceId": "cn_geography",
+      "keyword": "地理信息",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:computacao:Informação e sentidos": {
+      "sourceId": "cn_information",
+      "keyword": "信息",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Dispositivos digitais cotidianos": {
+      "sourceId": "cn_information",
+      "keyword": "数字设备",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Identidade e proteção de dados": {
+      "sourceId": "cn_information",
+      "keyword": "保护",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Regras de utilização dos dispositivos": {
+      "sourceId": "cn_information",
+      "keyword": "规则",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:computacao:Descrição de sequências": {
+      "sourceId": "cn_information",
+      "keyword": "步骤",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:computacao:Representações de informação": {
+      "sourceId": "cn_information",
+      "keyword": "表达",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Codificação de informação": {
+      "sourceId": "cn_information",
+      "keyword": "编码",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Organização e armazenamento de dados": {
+      "sourceId": "cn_information",
+      "keyword": "存储",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:computacao:Pesquisa de informação digital": {
+      "sourceId": "cn_information",
+      "keyword": "检索",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Algoritmos do cotidiano": {
+      "sourceId": "cn_information",
+      "keyword": "算法",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Divisão de problemas em passos": {
+      "sourceId": "cn_information",
+      "keyword": "分解",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Comunicação e colaboração digital": {
+      "sourceId": "cn_information",
+      "keyword": "交流",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Organização de redes": {
+      "sourceId": "cn_information",
+      "keyword": "网络",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Publicação e partilha responsável": {
+      "sourceId": "cn_information",
+      "keyword": "共享",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Dados e resolução de problemas": {
+      "sourceId": "cn_information",
+      "keyword": "数据",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Estruturas de controle de programas": {
+      "sourceId": "cn_information",
+      "keyword": "控制",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Processos e controle de sistemas": {
+      "sourceId": "cn_information",
+      "keyword": "过程",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Avaliação crítica de informação": {
+      "sourceId": "cn_information",
+      "keyword": "评价",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Internet e aplicações": {
+      "sourceId": "cn_information",
+      "keyword": "互联网",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Sistemas físicos e digitais": {
+      "sourceId": "cn_information",
+      "keyword": "物联网",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:computacao:Inteligência artificial introdutória": {
+      "sourceId": "cn_information",
+      "keyword": "人工智能",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Segurança e riscos digitais": {
+      "sourceId": "cn_information",
+      "keyword": "安全",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Modelação com dados": {
+      "sourceId": "cn_information",
+      "keyword": "数据",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:computacao:Projeto e programação de soluções": {
+      "sourceId": "cn_information",
+      "keyword": "程序",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-moral:Conhecimento de si": {
+      "sourceId": "cn_moral",
+      "keyword": "自我",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Relações com a família": {
+      "sourceId": "cn_moral",
+      "keyword": "家庭",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Cooperação e vida escolar": {
+      "sourceId": "cn_moral",
+      "keyword": "学校",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Cuidado com outras pessoas": {
+      "sourceId": "cn_moral",
+      "keyword": "关心",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-moral:Regras na convivência": {
+      "sourceId": "cn_moral",
+      "keyword": "规则",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Responsabilidades na comunidade": {
+      "sourceId": "cn_moral",
+      "keyword": "责任",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Honestidade nas relações": {
+      "sourceId": "cn_moral",
+      "keyword": "诚信",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Respeito pela diversidade": {
+      "sourceId": "cn_moral",
+      "keyword": "尊重",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Patrimônio e identidade cultural": {
+      "sourceId": "cn_moral",
+      "keyword": "文化",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Proteção de crianças": {
+      "sourceId": "cn_moral",
+      "keyword": "保护",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Consumo e vida coletiva": {
+      "sourceId": "cn_moral",
+      "keyword": "生活",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Consciência ambiental": {
+      "sourceId": "cn_moral",
+      "keyword": "环境",
+      "page": 13,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Introdução às leis": {
+      "sourceId": "cn_moral",
+      "keyword": "法律",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Direitos e deveres": {
+      "sourceId": "cn_moral",
+      "keyword": "权利",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-moral:Constituição chinesa e instituições": {
+      "sourceId": "cn_moral",
+      "keyword": "宪法",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-moral:Participação e responsabilidade social": {
+      "sourceId": "cn_moral",
+      "keyword": "社会",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Regras jurídicas e vida cotidiana": {
+      "sourceId": "cn_moral",
+      "keyword": "法治",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:educacao-moral:Identidade cultural e relações internacionais": {
+      "sourceId": "cn_moral",
+      "keyword": "国家",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Organização de objetos pessoais": {
+      "sourceId": "cn_labour",
+      "keyword": "整理",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Limpeza de espaços cotidianos": {
+      "sourceId": "cn_labour",
+      "keyword": "清洁",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Cuidados simples com roupas": {
+      "sourceId": "cn_labour",
+      "keyword": "衣物",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Preparação simples de alimentos": {
+      "sourceId": "cn_labour",
+      "keyword": "烹饪",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Cultivo e cuidado de plantas": {
+      "sourceId": "cn_labour",
+      "keyword": "种植",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Uso seguro de ferramentas": {
+      "sourceId": "cn_labour",
+      "keyword": "工具",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Trabalhos manuais": {
+      "sourceId": "cn_labour",
+      "keyword": "手工",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Conservação de materiais": {
+      "sourceId": "cn_labour",
+      "keyword": "材料",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Cooperação em tarefas domésticas": {
+      "sourceId": "cn_labour",
+      "keyword": "家务",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Cultivo e cuidados com animais": {
+      "sourceId": "cn_labour",
+      "keyword": "养殖",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Planejamento de tarefas": {
+      "sourceId": "cn_labour",
+      "keyword": "计划",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Alimentação e conservação de alimentos": {
+      "sourceId": "cn_labour",
+      "keyword": "食品",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Manutenção de utensílios": {
+      "sourceId": "cn_labour",
+      "keyword": "维护",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Experiências de produção agrícola": {
+      "sourceId": "cn_labour",
+      "keyword": "农业",
+      "page": 10,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Serviço à comunidade": {
+      "sourceId": "cn_labour",
+      "keyword": "服务",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Projeto e produção de objetos": {
+      "sourceId": "cn_labour",
+      "keyword": "制作",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Organização de processos produtivos": {
+      "sourceId": "cn_labour",
+      "keyword": "生产",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Tecnologias de produção": {
+      "sourceId": "cn_labour",
+      "keyword": "技术",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:trabalho-pratico:Trabalho e ambiente": {
+      "sourceId": "cn_labour",
+      "keyword": "环境",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:trabalho-pratico:Ética e valorização do trabalho": {
+      "sourceId": "cn_labour",
+      "keyword": "劳动",
+      "page": 9,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Movimento e medição": {
+      "sourceId": "cn_physics",
+      "keyword": "运动",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Forças e interação": {
+      "sourceId": "cn_physics",
+      "keyword": "相互作用",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Pressão e flutuação": {
+      "sourceId": "cn_physics",
+      "keyword": "压强",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Trabalho e energia": {
+      "sourceId": "cn_physics",
+      "keyword": "功",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Temperatura e calor": {
+      "sourceId": "cn_physics",
+      "keyword": "温度",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Som e fenómenos acústicos": {
+      "sourceId": "cn_physics",
+      "keyword": "声",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Luz e formação de imagens": {
+      "sourceId": "cn_physics",
+      "keyword": "光",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Corrente e tensão": {
+      "sourceId": "cn_physics",
+      "keyword": "电流",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Circuitos e resistência": {
+      "sourceId": "cn_physics",
+      "keyword": "电路",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Magnetismo e indução": {
+      "sourceId": "cn_physics",
+      "keyword": "磁",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Materiais e substâncias": {
+      "sourceId": "cn_chemistry",
+      "keyword": "物质",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Átomos e moléculas": {
+      "sourceId": "cn_chemistry",
+      "keyword": "分子",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Elementos e compostos": {
+      "sourceId": "cn_chemistry",
+      "keyword": "元素",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Tabela periódica introdutória": {
+      "sourceId": "cn_chemistry",
+      "keyword": "周期表",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Reações químicas": {
+      "sourceId": "cn_chemistry",
+      "keyword": "化学反应",
+      "page": 12,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Conservação da massa": {
+      "sourceId": "cn_chemistry",
+      "keyword": "质量守恒",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Oxigênio e combustão": {
+      "sourceId": "cn_chemistry",
+      "keyword": "氧气",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Água e soluções": {
+      "sourceId": "cn_chemistry",
+      "keyword": "溶液",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Ácidos, bases e sais": {
+      "sourceId": "cn_chemistry",
+      "keyword": "酸",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Química e sustentabilidade": {
+      "sourceId": "cn_chemistry",
+      "keyword": "资源",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Célula e organização dos seres vivos": {
+      "sourceId": "cn_biology",
+      "keyword": "细胞",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Tecidos e órgãos": {
+      "sourceId": "cn_biology",
+      "keyword": "组织",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Nutrição dos organismos": {
+      "sourceId": "cn_biology",
+      "keyword": "营养",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Fotossíntese e respiração": {
+      "sourceId": "cn_biology",
+      "keyword": "光合作用",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Reprodução de plantas e animais": {
+      "sourceId": "cn_biology",
+      "keyword": "生殖",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Hereditariedade e variação": {
+      "sourceId": "cn_biology",
+      "keyword": "遗传",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Classificação e diversidade biológica": {
+      "sourceId": "cn_biology",
+      "keyword": "多样性",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Ecossistemas e fluxos de energia": {
+      "sourceId": "cn_biology",
+      "keyword": "生态系统",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ciencias:Equilíbrio e conservação": {
+      "sourceId": "cn_biology",
+      "keyword": "保护",
+      "page": 8,
+      "status": "keyword-confirmed"
+    },
+    "CN:ciencias:Evolução biológica introdutória": {
+      "sourceId": "cn_biology",
+      "keyword": "进化",
+      "page": 11,
+      "status": "keyword-confirmed"
+    },
+    "CN:arte:Ritmo e canto": {
+      "sourceId": "cn_arts",
+      "keyword": "唱游",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Escuta e apreciação sonora": {
+      "sourceId": "cn_arts",
+      "keyword": "音乐",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Desenho e cores": {
+      "sourceId": "cn_arts",
+      "keyword": "造型",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Movimento e dança": {
+      "sourceId": "cn_arts",
+      "keyword": "舞蹈",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Imaginação e expressão": {
+      "sourceId": "cn_arts",
+      "keyword": "表现",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Melodia e criação musical": {
+      "sourceId": "cn_arts",
+      "keyword": "音乐",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Instrumentos e timbres": {
+      "sourceId": "cn_arts",
+      "keyword": "器乐",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Criação visual com materiais": {
+      "sourceId": "cn_arts",
+      "keyword": "美术",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Narrativas cênicas": {
+      "sourceId": "cn_arts",
+      "keyword": "戏剧",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Artes e patrimônio cultural": {
+      "sourceId": "cn_arts",
+      "keyword": "文化",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Imagem e meios digitais": {
+      "sourceId": "cn_arts",
+      "keyword": "媒体",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Análise de obras artísticas": {
+      "sourceId": "cn_arts",
+      "keyword": "鉴赏",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Projeto artístico autoral": {
+      "sourceId": "cn_arts",
+      "keyword": "创作",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Música, sociedade e cultura": {
+      "sourceId": "cn_arts",
+      "keyword": "音乐",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Teatro, cinema e representação": {
+      "sourceId": "cn_arts",
+      "keyword": "影视",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:arte:Integração de linguagens artísticas": {
+      "sourceId": "cn_arts",
+      "keyword": "综合",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Movimentos locomotores": {
+      "sourceId": "cn_pe",
+      "keyword": "移动",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Equilíbrio e coordenação": {
+      "sourceId": "cn_pe",
+      "keyword": "平衡",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Jogos motores cooperativos": {
+      "sourceId": "cn_pe",
+      "keyword": "游戏",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Manipulação de objetos": {
+      "sourceId": "cn_pe",
+      "keyword": "操控",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Segurança e hábitos de higiene": {
+      "sourceId": "cn_pe",
+      "keyword": "卫生",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Corridas e saltos": {
+      "sourceId": "cn_pe",
+      "keyword": "田径",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Jogos e esportes com bola": {
+      "sourceId": "cn_pe",
+      "keyword": "球类",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Ginástica e controle corporal": {
+      "sourceId": "cn_pe",
+      "keyword": "体操",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Atividades aquáticas": {
+      "sourceId": "cn_pe",
+      "keyword": "水上",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Condição física e exercício": {
+      "sourceId": "cn_pe",
+      "keyword": "体能",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Nutrição e atividade física": {
+      "sourceId": "cn_pe",
+      "keyword": "营养",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Planejamento de atividade física": {
+      "sourceId": "cn_pe",
+      "keyword": "锻炼",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Técnicas e táticas esportivas": {
+      "sourceId": "cn_pe",
+      "keyword": "战术",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Práticas tradicionais chinesas": {
+      "sourceId": "cn_pe",
+      "keyword": "中华传统",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Cooperação e regras esportivas": {
+      "sourceId": "cn_pe",
+      "keyword": "规则",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:educacao-fisica:Prevenção de lesões no esporte": {
+      "sourceId": "cn_pe",
+      "keyword": "损伤",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Sons e palavras familiares": {
+      "sourceId": "cn_english",
+      "keyword": "语音",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Cumprimentos e apresentação pessoal": {
+      "sourceId": "cn_english",
+      "keyword": "交流",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Vocabulário sobre pessoas e objetos": {
+      "sourceId": "cn_english",
+      "keyword": "词汇",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Escuta de informações simples": {
+      "sourceId": "cn_english",
+      "keyword": "听",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Perguntas e respostas breves": {
+      "sourceId": "cn_english",
+      "keyword": "表达",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Leitura de palavras e frases simples": {
+      "sourceId": "cn_english",
+      "keyword": "阅读",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Escrita de palavras conhecidas": {
+      "sourceId": "cn_english",
+      "keyword": "书写",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Canções e histórias em inglês": {
+      "sourceId": "cn_english",
+      "keyword": "故事",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Compreensão de diálogos cotidianos": {
+      "sourceId": "cn_english",
+      "keyword": "理解",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Relato de experiências pessoais": {
+      "sourceId": "cn_english",
+      "keyword": "表达",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Vocabulário temático em contexto": {
+      "sourceId": "cn_english",
+      "keyword": "词汇",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Estruturas gramaticais básicas": {
+      "sourceId": "cn_english",
+      "keyword": "语法",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Leitura de textos curtos": {
+      "sourceId": "cn_english",
+      "keyword": "语篇",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Produção de mensagens breves": {
+      "sourceId": "cn_english",
+      "keyword": "写",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Estratégias de aprendizagem de línguas": {
+      "sourceId": "cn_english",
+      "keyword": "策略",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Semelhanças e diferenças culturais": {
+      "sourceId": "cn_english",
+      "keyword": "文化",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Compreensão global de textos": {
+      "sourceId": "cn_english",
+      "keyword": "理解",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Inferência com pistas linguísticas": {
+      "sourceId": "cn_english",
+      "keyword": "语言",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Interação oral sustentada": {
+      "sourceId": "cn_english",
+      "keyword": "交流",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Exposição de opiníons e argumentos": {
+      "sourceId": "cn_english",
+      "keyword": "观点",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Escrita de narrativas e relatos": {
+      "sourceId": "cn_english",
+      "keyword": "语篇",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Revisão da produção em inglês": {
+      "sourceId": "cn_english",
+      "keyword": "评价",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Consciência intercultural": {
+      "sourceId": "cn_english",
+      "keyword": "文化意识",
+      "page": null,
+      "status": "document-only"
+    },
+    "CN:ingles:Pesquisa e aprendizagem autônoma": {
+      "sourceId": "cn_english",
+      "keyword": "学习能力",
+      "page": null,
+      "status": "document-only"
+    }
+  }
+}

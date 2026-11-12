@@ -1,0 +1,1086 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Validação mecânica da taxonomia de habilidades",
+    "subject": "Integridade, referências, cobertura, proveniência e limites da validação",
+    "checkedAt": "2026-11-12T12:25:48.867464+00:00",
+    "verificationFamily": "OpenAI",
+    "independentB9": false
+  },
+  "status": "pass",
+  "datasetFiles": {
+    "brazil_topics.json": {
+      "sha256": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082",
+      "bytes": 4987532
+    },
+    "international.json": {
+      "sha256": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a",
+      "bytes": 14745824
+    },
+    "east_asia.json": {
+      "sha256": "be3fbd108f72bd24bde4262a0e13db51c3a4302159eb9e020d08387dc6138a92",
+      "bytes": 2195891
+    }
+  },
+  "datasets": {
+    "brazil": {
+      "topics": 2151,
+      "uniqueIds": 2151,
+      "uniqueStandardCodes": 1408,
+      "kinds": {
+        "habilidade": 1408,
+        "microtopico": 743
+      },
+      "subjects": {
+        "ciencias": 170,
+        "computacao": 132,
+        "ensino-religioso": 97,
+        "geografia": 211,
+        "historia": 293,
+        "portugues": 507,
+        "matematica": 435,
+        "ingles": 98,
+        "educacao-fisica": 105,
+        "arte": 103
+      },
+      "relations": {
+        "parte-da-habilidade": 743,
+        "pre-requisito-pedagogico-proposto": 97
+      },
+      "gradesBySubject": {
+        "ciencias": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "computacao": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ensino-religioso": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "geografia": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "historia": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "portugues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "matematica": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ingles": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "educacao-fisica": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "arte": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "graph": {
+        "acyclic": true,
+        "nodes": 2151,
+        "edges": 840,
+        "topologicalNodes": 2151
+      },
+      "metadata": {
+        "present": true,
+        "fields": [
+          "alignmentNote",
+          "author",
+          "databaseLicense",
+          "editorialContentLicense",
+          "generatedAt",
+          "keywords",
+          "lang",
+          "manager",
+          "reconciliationNote",
+          "scope",
+          "subject",
+          "title",
+          "version"
+        ]
+      },
+      "coverage": {
+        "requiredSubjects": 10,
+        "missingSubjects": [],
+        "requiredGrades": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "missingGrades": [],
+        "subjectGradeGaps": {},
+        "officialSkillsWithDecomposition": 341,
+        "officialSkillsWithDecompositionPercent": 24.22,
+        "editorialMicrotopics": 743,
+        "microtopicGradesBySubject": {
+          "ciencias": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "computacao": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "ensino-religioso": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "geografia": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "historia": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "portugues": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "matematica": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "ingles": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "educacao-fisica": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "arte": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "microtopicSubjectGradeGaps": {},
+        "duplicateEditorialClaimsWithinSkill": 0,
+        "editorialPrerequisiteLinks": 97,
+        "editorialDecompositionLinks": 743,
+        "officialSkillsWithoutDecomposition": 1067
+      },
+      "sourceTrace": {
+        "checked": true,
+        "sources": [
+          {
+            "id": "bncc-mec-2018",
+            "sha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+            "matches": true
+          },
+          {
+            "id": "bncc-computacao-2022",
+            "sha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+            "matches": true
+          }
+        ],
+        "uniqueSourceCodePages": 1408,
+        "codePageMatches": 1408,
+        "pdfTraceAvailable": true,
+        "descriptionSample": {
+          "selected": 22,
+          "checked": 22,
+          "fullDescriptionMatches": 22,
+          "selection": "Primeira e última habilidade de cada matéria, mais EF04GE05 e EF09LP05; inglês a partir do 6º ano e componentes por blocos preservados.",
+          "records": [
+            {
+              "topicId": "br_ef01ci01",
+              "subject": "ciencias",
+              "standardCode": "EF01CI01",
+              "pdfPage": 335,
+              "description": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef01co01",
+              "subject": "computacao",
+              "standardCode": "EF01CO01",
+              "pdfPage": 16,
+              "description": "Organizar objetos físicos ou digitais considerando diferentes características para esta organização, explicitando semelhanças (padrões) e diferenças.",
+              "sourceUrl": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=16",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef01er01",
+              "subject": "ensino-religioso",
+              "standardCode": "EF01ER01",
+              "pdfPage": 445,
+              "description": "Identificar e acolher as semelhanças e diferenças entre o eu, o outro e o nós.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=445",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef01ge01",
+              "subject": "geografia",
+              "standardCode": "EF01GE01",
+              "pdfPage": 373,
+              "description": "Descrever características observadas de seus lugares de vivência (moradia, escola etc.) e identificar semelhanças e diferenças entre esses lugares.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef01hi01",
+              "subject": "historia",
+              "standardCode": "EF01HI01",
+              "pdfPage": 409,
+              "description": "Identificar aspectos do seu crescimento por meio do registro das lembranças particulares ou de lembranças dos membros de sua família e/ou de sua comunidade.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=409",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef01lp01",
+              "subject": "portugues",
+              "standardCode": "EF01LP01",
+              "pdfPage": 101,
+              "description": "Reconhecer que textos são lidos e escritos da esquerda para a direita e de cima para baixo da página.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef01ma01",
+              "subject": "matematica",
+              "standardCode": "EF01MA01",
+              "pdfPage": 281,
+              "description": "Utilizar números naturais como indicador de quantidade ou de ordem em diferentes situações cotidianas e reconhecer situações em que os números não indicam contagem nem ordem, mas sim código de identificação.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef04ge05",
+              "subject": "geografia",
+              "standardCode": "EF04GE05",
+              "pdfPage": 379,
+              "description": "Distinguir unidades político-administrativas oficiais nacionais (Distrito, Município, Unidade da Federação e grande região), suas fronteiras e sua hierarquia, localizando seus lugares de vivência.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=379",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef06li01",
+              "subject": "ingles",
+              "standardCode": "EF06LI01",
+              "pdfPage": 251,
+              "description": "Interagir em situações de intercâmbio oral, demonstrando iniciativa para utilizar a língua inglesa.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=251",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09ci17",
+              "subject": "ciencias",
+              "standardCode": "EF09CI17",
+              "pdfPage": 353,
+              "description": "Analisar o ciclo evolutivo do Sol (nascimento, vida e morte) baseado no conhecimento das etapas de evolução de estrelas de diferentes dimensões e os efeitos desse processo no nosso planeta.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09co10",
+              "subject": "computacao",
+              "standardCode": "EF09CO10",
+              "pdfPage": 58,
+              "description": "Avaliar a veracidade, credibilidade e relevância da informação em seus diferentes formatos, sendo capaz de identificar o propósito pelo qual foi disseminada.",
+              "sourceUrl": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=58",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09er08",
+              "subject": "ensino-religioso",
+              "standardCode": "EF09ER08",
+              "pdfPage": 461,
+              "description": "Construir projetos de vida assentados em princípios e valores éticos.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=461",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09ge18",
+              "subject": "geografia",
+              "standardCode": "EF09GE18",
+              "pdfPage": 397,
+              "description": "Identificar e analisar as cadeias industriais e de inovação e as consequências dos usos de recursos naturais e das diferentes fontes de energia (tais como termoelétrica, hidrelétrica, eólica e nuclear) em diferentes países.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=397",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09hi36",
+              "subject": "historia",
+              "standardCode": "EF09HI36",
+              "pdfPage": 435,
+              "description": "Identificar e discutir as diversidades identitárias e seus significados históricos no início do século XXI, combatendo qualquer forma de preconceito e violência.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=435",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09li19",
+              "subject": "ingles",
+              "standardCode": "EF09LI19",
+              "pdfPage": 265,
+              "description": "Discutir a comunicação intercultural por meio da língua inglesa como mecanismo de valorização pessoal e de construção de identidades no mundo globalizado.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=265",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09lp05",
+              "subject": "portugues",
+              "standardCode": "EF09LP05",
+              "pdfPage": 191,
+              "description": "Identificar, em textos lidos e em produções próprias, orações com a estrutura sujeito-verbo de ligação-predicativo.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09lp12",
+              "subject": "portugues",
+              "standardCode": "EF09LP12",
+              "pdfPage": 193,
+              "description": "Identificar estrangeirismos, caracterizando-os segundo a conservação, ou não, de sua forma gráfica de origem, avaliando a pertinência, ou não, de seu uso.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef09ma23",
+              "subject": "matematica",
+              "standardCode": "EF09MA23",
+              "pdfPage": 321,
+              "description": "Planejar e executar pesquisa amostral envolvendo tema da realidade social e comunicar os resultados por meio de relatório contendo avaliação de medidas de tendência central e da amplitude, tabelas e gráficos adequados, construídos com o apoio de planilhas eletrônicas.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=321",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef12ef01",
+              "subject": "educacao-fisica",
+              "standardCode": "EF12EF01",
+              "pdfPage": 229,
+              "description": "Experimentar, fruir e recriar diferentes brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional, reconhecendo e respeitando as diferenças individuais de desempenho dos colegas.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=229",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef15ar01",
+              "subject": "arte",
+              "standardCode": "EF15AR01",
+              "pdfPage": 203,
+              "description": "Identificar e apreciar formas distintas das artes visuais tradicionais e contemporâneas, cultivando a percepção, o imaginário, a capacidade de simbolizar e o repertório imagético.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=203",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef69ar35",
+              "subject": "arte",
+              "standardCode": "EF69AR35",
+              "pdfPage": 213,
+              "description": "Identificar e manipular diferentes tecnologias e recursos digitais para acessar, apreciar, produzir, registrar e compartilhar práticas e repertórios artísticos, de modo reflexivo, ético e responsável.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=213",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            },
+            {
+              "topicId": "br_ef89ef21",
+              "subject": "educacao-fisica",
+              "standardCode": "EF89EF21",
+              "pdfPage": 241,
+              "description": "Identificar as características (equipamentos de segurança, instrumentos, indumentária, organização) das práticas corporais de aventura na natureza, bem como suas transformações históricas.",
+              "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=241",
+              "fullDescriptionPresentInPage": true,
+              "codeAndDescriptionInSameBlock": true,
+              "flags": []
+            }
+          ],
+          "limitation": "Cotejo textual amostral e heurísticas não equivalem a auditoria semântica integral nem B.9."
+        },
+        "descriptionContaminationScan": {
+          "officialSkillsChecked": 1408,
+          "candidateCount": 0,
+          "candidates": [],
+          "reviewedBenignEndings": [
+            {
+              "codes": [
+                "EF01ER03",
+                "EF01ER05"
+              ],
+              "pdfPage": 445,
+              "finding": "A expressão final cada um é íntegra e consta assim no PDF; não representa conector truncado."
+            }
+          ]
+        },
+        "scope": "Hashes dos PDFs, código na página citada e correspondência estrutural de textos; não valida semântica de decomposição ou pré-requisitos."
+      }
+    },
+    "international": {
+      "topics": 1907,
+      "uniqueIds": 1907,
+      "uniqueStandardCodes": 5446,
+      "kinds": {
+        "upstream": 1907
+      },
+      "subjects": {
+        "computacao": 52,
+        "ingles": 339,
+        "geografia": 33,
+        "historia": 118,
+        "aprender-a-aprender": 20,
+        "habilidades-para-vida": 49,
+        "matematica": 582,
+        "desenvolvimento-pessoal-social": 123,
+        "ciencias": 579,
+        "arte": 8,
+        "frances": 4
+      },
+      "relations": {
+        "upstream": 4003
+      },
+      "gradesBySubject": {
+        "computacao": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ingles": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "geografia": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "historia": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "aprender-a-aprender": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "habilidades-para-vida": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "matematica": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "desenvolvimento-pessoal-social": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ciencias": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "arte": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "frances": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "graph": {
+        "acyclic": true,
+        "nodes": 1907,
+        "edges": 4003,
+        "topologicalNodes": 1907
+      },
+      "metadata": {
+        "present": true,
+        "fields": [
+          "attribution",
+          "author",
+          "contentLicense",
+          "databaseLicense",
+          "keywords",
+          "lang",
+          "manager",
+          "notice",
+          "observedOn",
+          "source",
+          "sourceVersion",
+          "subject",
+          "title",
+          "verification"
+        ]
+      }
+    },
+    "eastAsia": {
+      "topics": 610,
+      "uniqueIds": 610,
+      "uniqueStandardCodes": 288,
+      "kinds": {
+        "microtopico": 610
+      },
+      "subjects": {
+        "matematica": 160,
+        "ciencias": 120,
+        "japones": 24,
+        "estudos-sociais": 19,
+        "geografia": 22,
+        "historia": 25,
+        "educacao-moral": 32,
+        "economia-domestica": 14,
+        "tecnologia": 8,
+        "arte": 31,
+        "educacao-fisica": 31,
+        "ingles": 40,
+        "chines": 32,
+        "computacao": 24,
+        "trabalho-pratico": 20,
+        "vida-cotidiana": 8
+      },
+      "relations": {
+        "pre-requisito-pedagogico-proposto": 43
+      },
+      "gradesBySubject": {
+        "matematica": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ciencias": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "japones": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "estudos-sociais": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "geografia": [
+          7,
+          8,
+          9
+        ],
+        "historia": [
+          7,
+          8,
+          9
+        ],
+        "educacao-moral": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "economia-domestica": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "tecnologia": [
+          7,
+          8,
+          9
+        ],
+        "arte": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "educacao-fisica": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ingles": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "chines": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "computacao": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "trabalho-pratico": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "vida-cotidiana": [
+          1,
+          2
+        ]
+      },
+      "graph": {
+        "acyclic": true,
+        "nodes": 610,
+        "edges": 43,
+        "topologicalNodes": 610
+      },
+      "metadata": {
+        "present": true,
+        "fields": [
+          "author",
+          "editorialContentLicense",
+          "generatedAt",
+          "keywords",
+          "lang",
+          "manager",
+          "nativeTextsLicense",
+          "notice",
+          "subject",
+          "title",
+          "version"
+        ]
+      }
+    }
+  },
+  "combinedGraph": {
+    "acyclic": true,
+    "nodes": 4668,
+    "edges": 4886,
+    "topologicalNodes": 4668
+  },
+  "upstreamIntegrity": {
+    "checked": 8,
+    "matches": true,
+    "files": [
+      {
+        "file": "archived-teaching-research.json",
+        "sha256": "28cc37220a78bdbfb37bd5693e8b729571e87c5d0ba471692707a07a7ef6c73f",
+        "matches": true
+      },
+      {
+        "file": "clusters.json",
+        "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3",
+        "matches": true
+      },
+      {
+        "file": "curriculum-alignments.json",
+        "sha256": "2b18f8f2e100dd2b7faf89f1477426b3873ac6f3a7d3ca455c03c401bc91b399",
+        "matches": true
+      },
+      {
+        "file": "curriculum-standards.json",
+        "sha256": "d8365e19b4233234dbf03151950dae693b8e7e10f60f82f12f985deb5c7bfcdd",
+        "matches": true
+      },
+      {
+        "file": "dependencies.json",
+        "sha256": "64f6946d1422098e4d68493bf4c0926af843e4d7cf0625905f35ff0a6e732132",
+        "matches": true
+      },
+      {
+        "file": "manifest.json",
+        "sha256": "3c95375dda8283aa302f3387525842c3faf676c67742e8103080510a58cc7d8d",
+        "matches": true
+      },
+      {
+        "file": "teaching-research.json",
+        "sha256": "a14d9c3c7487033ae65f1eaf7ccc81321195e64194a7cc43e170739cfa10b361",
+        "matches": true
+      },
+      {
+        "file": "topics.json",
+        "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff",
+        "matches": true
+      }
+    ]
+  },
+  "characterChecks": {
+    "filesChecked": 41,
+    "files": [
+      "AGENTS.md",
+      "app.js",
+      "index.html",
+      "package.json",
+      "README.md",
+      "styles.css",
+      "assets/locales.json",
+      "data/brazil_topics.json",
+      "data/curriculum_grades.json",
+      "data/east_asia.json",
+      "data/east_asia_curated.json",
+      "data/east_asia_source_anchors.json",
+      "data/east_asia_source_manifest.json",
+      "data/international.json",
+      "data/reconciliation_inputs.json",
+      "data/translations.json",
+      "docs/Consenso_Taxonomias.md",
+      "docs/Prompts_Convergencia.md",
+      "scripts/acquire_east_asia.py",
+      "scripts/brazil_curated.py",
+      "scripts/browser_scenarios.py",
+      "scripts/build_brazil.py",
+      "scripts/build_east_asia.py",
+      "scripts/build_portable.py",
+      "scripts/create_manifest.py",
+      "scripts/east_asia_curated.py",
+      "scripts/east_asia_japanese_names.py",
+      "scripts/import_marble.py",
+      "scripts/ocr_east_asia.py",
+      "scripts/reconcile_sources.py",
+      "scripts/serve.py",
+      "scripts/validate_multisystem.py",
+      "scripts/validate_project.py",
+      "scripts/verify_browser_evidence.py",
+      "tests/test_multisystem_data.py",
+      "tests/test_reconciliation.py",
+      "evidence/sources_east_asia/cn_index.html",
+      "evidence/sources_east_asia/jp_codes.html",
+      "evidence/sources_east_asia/jp_english_primary.html",
+      "evidence/sources_east_asia/jp_english_secondary.html",
+      "evidence/sources_east_asia/jp_index.html"
+    ],
+    "excludedLegacyAndEvidence": [
+      ".git",
+      "backups",
+      "licenses",
+      "node_modules",
+      "original",
+      "sources_brazil",
+      "upstream"
+    ],
+    "scope": "Pontuação literal nos arquivos novos; aspas em prosa Markdown e texto HTML visível. Código, chaves JSON e arquivos de fonte são dados de máquina."
+  },
+  "errorCount": 0,
+  "warningCount": 0,
+  "errors": [],
+  "warnings": [],
+  "pendingFiles": [],
+  "limitations": [
+    "A validação de código e URL não comprova o alinhamento pedagógico.",
+    "A ausência de ciclos não comprova que um pré-requisito é pedagogicamente necessário.",
+    "Não há nova conferência remota das publicações oficiais nesta validação.",
+    "Revisão executada pela mesma família arquitetural; não equivale a B.9."
+  ]
+}

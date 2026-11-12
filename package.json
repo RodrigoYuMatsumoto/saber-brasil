@@ -1,0 +1,20 @@
+{
+  "name": "saber-brasil",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Mapa aberto de microtópicos do ensino fundamental brasileiro e internacional.",
+  "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+  "license": "MIT",
+  "scripts": {
+    "start": "python scripts/serve.py",
+    "build": "python scripts/build_portable.py",
+    "validate": "python scripts/validate_project.py",
+    "test": "python -m unittest discover -s tests -p test_*.py && node --test tests/camera_math.test.cjs",
+    "check": "node --check app.js",
+    "validate:systems": "python scripts/validate_multisystem.py",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}

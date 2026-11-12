@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Validação multissistema do Saber Brasil",
+    "subject": "Identidades, séries de origem, fontes, idiomas e estados explícitos de tradução"
+  },
+  "status": "pass",
+  "checkedAt": "2026-11-12T13:06:05.710678+00:00",
+  "files": [
+    {
+      "path": "data/brazil_topics.json",
+      "bytes": 4987532,
+      "sha256": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082"
+    },
+    {
+      "path": "data/international.json",
+      "bytes": 14745824,
+      "sha256": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a"
+    },
+    {
+      "path": "data/east_asia.json",
+      "bytes": 2206501,
+      "sha256": "0d0247ca32204e2d2844946d0bd6892f4a85e01df42c86b65397406feac74c28"
+    },
+    {
+      "path": "assets/locales.json",
+      "bytes": 36274,
+      "sha256": "d0adf51c98e47472fbc23c6e3a314c16c042cdd8cd2b2548175e05fc74b963d7"
+    },
+    {
+      "path": "data/translations.json",
+      "bytes": 2951930,
+      "sha256": "564b0876abac92b47f381a7d3fc94d536caff3669f0a3122247970909c5460e6"
+    }
+  ],
+  "datasets": {
+    "brazil": 2151,
+    "international": 1907,
+    "eastAsia": 610
+  },
+  "uniqueConcepts": 4668,
+  "relations": 4886,
+  "placementTopics": {
+    "BR": 2151,
+    "GB-ENG": 715,
+    "US": 670,
+    "JP": 307,
+    "CN": 303
+  },
+  "interfaceKeys": {
+    "pt-BR": 147,
+    "en": 147,
+    "ja": 147,
+    "zh-Hant": 147
+  },
+  "contentDescriptionCoverage": {
+    "en": 2517,
+    "ja": 610,
+    "zh-Hant": 610,
+    "pt-BR": 4668
+  },
+  "contentNameCoverage": {
+    "en": 2517,
+    "ja": 610,
+    "zh-Hant": 610,
+    "pt-BR": 4668
+  },
+  "translatedDescriptionCoverage": {
+    "en": 2517,
+    "ja": 610,
+    "zh-Hant": 610,
+    "pt-BR": 4668
+  },
+  "checks": [
+    {
+      "id": "TOPICS_ARRAY",
+      "passed": true,
+      "detail": "brazil"
+    },
+    {
+      "id": "TOPICS_ARRAY",
+      "passed": true,
+      "detail": "international"
+    },
+    {
+      "id": "TOPICS_ARRAY",
+      "passed": true,
+      "detail": "eastAsia"
+    },
+    {
+      "id": "CROSS_DATASET_UNIQUE_IDS",
+      "passed": true,
+      "detail": {
+        "total": 4668,
+        "unique": 4668,
+        "duplicates": []
+      }
+    },
+    {
+      "id": "CROSS_DATASET_REFERENCES",
+      "passed": true,
+      "detail": {
+        "relations": 4886,
+        "invalid": []
+      }
+    },
+    {
+      "id": "CROSS_DATASET_ACYCLIC",
+      "passed": true,
+      "detail": {
+        "nodes": 4668,
+        "visited": 4668
+      }
+    },
+    {
+      "id": "PLACEMENT_SHAPE_AND_BANDS",
+      "passed": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "id": "PLACEMENT_PRIMARY_AUTHORITY",
+      "passed": true,
+      "detail": {
+        "invalid": []
+      }
+    },
+    {
+      "id": "REQUIRED_CURRICULUM_SYSTEMS",
+      "passed": true,
+      "detail": {
+        "expected": [
+          "BR",
+          "CN",
+          "GB-ENG",
+          "JP",
+          "US"
+        ],
+        "observed": [
+          "BR",
+          "CN",
+          "GB-ENG",
+          "JP",
+          "US"
+        ],
+        "topicsWithPlacement": {
+          "BR": 2151,
+          "GB-ENG": 715,
+          "US": 670,
+          "JP": 307,
+          "CN": 303
+        }
+      }
+    },
+    {
+      "id": "ENGLAND_FRAMEWORK_SCOPED",
+      "passed": true,
+      "detail": "A seleção Inglaterra se refere ao currículo inglês, sem estender o resultado a Escócia, País de Gales ou Irlanda do Norte."
+    },
+    {
+      "id": "INTERFACE_LOCALES",
+      "passed": true,
+      "detail": {
+        "expected": [
+          "en",
+          "ja",
+          "pt-BR",
+          "zh-Hant"
+        ],
+        "observed": [
+          "en",
+          "ja",
+          "pt-BR",
+          "zh-Hant"
+        ]
+      }
+    },
+    {
+      "id": "INTERFACE_KEY_COVERAGE",
+      "passed": true,
+      "detail": {
+        "pt-BR": 147,
+        "en": 147,
+        "ja": 147,
+        "zh-Hant": 147
+      }
+    },
+    {
+      "id": "INTERFACE_NO_BLANK_LABELS",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "id": "INTERFACE_PLACEHOLDERS",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "id": "INTERFACE_FALLBACK_LABELS",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "id": "TRANSLATIONS_REFER_TO_IDENTITIES",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "id": "MARBLE_PT_AND_ORIGINAL_EN",
+      "passed": true,
+      "detail": {
+        "topics": 1907,
+        "invalid": []
+      }
+    },
+    {
+      "id": "EF67LP33_PRESENT_AND_LITERAL",
+      "passed": true,
+      "detail": "br_ef67lp33"
+    },
+    {
+      "id": "EF05CO11_NORMALIZATION_EXPLICIT",
+      "passed": true,
+      "detail": "O PDF imprime EF05CO011. EF05CO11 é identificador normalizado editorialmente, sem alterar o objetivo oficial; a diferença permanece explícita."
+    },
+    {
+      "id": "EAST_ASIA_BOTH_ORIGINS",
+      "passed": true,
+      "detail": [
+        "CN",
+        "JP"
+      ]
+    },
+    {
+      "id": "EAST_ASIA_TRACE_AND_REVIEW_STATE",
+      "passed": true,
+      "detail": {
+        "topics": 610,
+        "invalid": []
+      }
+    },
+    {
+      "id": "EAST_ASIA_FOUR_LANGUAGE_RECORDS",
+      "passed": true,
+      "detail": {
+        "topics": 610,
+        "missing": []
+      }
+    },
+    {
+      "id": "APPLICATION_SINGLE_LOADER",
+      "passed": true,
+      "detail": "Uma única implementação de carregamento; análise estática de estrutura, sem atestar execução."
+    }
+  ],
+  "errorCount": 0,
+  "warningCount": 0,
+  "errors": [],
+  "warnings": [],
+  "limitations": [
+    "A presença de um domínio oficial não comprova que toda interpretação pedagógica ou tradução esteja correta.",
+    "A banda de anos não foi convertida em uma série única, nem a idade em série oficial.",
+    "Quatro catálogos completos de interface não significam quatro traduções completas de cada conceito. A cobertura de descrições é informada separadamente.",
+    "Testes estruturais da mesma família arquitetural; não equivalem a B.9, revisão linguística ou pedagógica independente."
+  ]
+}

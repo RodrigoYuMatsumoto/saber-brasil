@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Explore os conceitos",
+    "subject": "CONHECIMENTO, CONCEITO A CONCEITO",
+    "databaseLicense": "ODbL-1.0",
+    "contentLicense": "CC-BY-SA-4.0",
+    "attribution": "Marble Skill Taxonomy (v1) · Generative Spark, Inc. (Marble) · https://withmarble.com",
+    "filters": {
+      "search": "EF01CI01",
+      "system": "all",
+      "grade": "all",
+      "origin": "all",
+      "subjects": [
+        "portugues",
+        "matematica",
+        "ciencias",
+        "historia",
+        "geografia",
+        "arte",
+        "educacao-fisica",
+        "ingles",
+        "ensino-religioso",
+        "computacao",
+        "japones",
+        "chines",
+        "aprender-a-aprender",
+        "desenvolvimento-pessoal-social",
+        "economia-domestica",
+        "educacao-moral",
+        "estudos-sociais",
+        "frances",
+        "habilidades-para-vida",
+        "tecnologia",
+        "trabalho-pratico",
+        "vida-cotidiana"
+      ]
+    },
+    "relationNote": "relation:parte-da-habilidade represents composition, not a prerequisite.",
+    "exportedAt": "2026-11-12T12:43:32.130Z"
+  },
+  "topics": [
+    {
+      "id": "br_ef01ci01",
+      "name": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua…",
+      "description": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente.",
+      "subject": "ciencias",
+      "gradeMin": 1,
+      "gradeMax": 1,
+      "domain": "Matéria e energia",
+      "origin": [
+        "BR"
+      ],
+      "standards": [
+        {
+          "code": "EF01CI01",
+          "framework": "BNCC",
+          "description": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente.",
+          "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+          "verified": true,
+          "verificationMethod": "extração determinística do bloco textual do PDF oficial",
+          "sourceId": "bncc-mec-2018",
+          "pdfPage": 335,
+          "sourceSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b"
+        }
+      ],
+      "prerequisites": [
+        {
+          "id": "br_ef01ci01_m01",
+          "reason": "Este recorte explicita uma ação contida na habilidade; a ligação é uma proposta de decomposição editorial, não uma dependência estabelecida pelo MEC.",
+          "status": "editorial",
+          "relation": "parte-da-habilidade"
+        },
+        {
+          "id": "br_ef01ci01_m02",
+          "reason": "Este recorte explicita uma ação contida na habilidade; a ligação é uma proposta de decomposição editorial, não uma dependência estabelecida pelo MEC.",
+          "status": "editorial",
+          "relation": "parte-da-habilidade"
+        }
+      ],
+      "alignmentStatus": "verified",
+      "language": "pt-BR",
+      "kind": "habilidade",
+      "titleStatus": "resumo editorial; consultar o texto integral da habilidade",
+      "sourceType": "habilidade oficial extraída de PDF",
+      "schoolPlacements": [
+        {
+          "system": "BR",
+          "years": [
+            1
+          ],
+          "label": "1º ano",
+          "framework": "BNCC",
+          "certainty": "source-explicit",
+          "sourceCode": "EF01CI01",
+          "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+          "scopeNote": "Bloco de anos publicado para a habilidade; não há equivalência automática com outro país."
+        }
+      ],
+      "localized": {
+        "language": "pt-BR",
+        "name": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua…",
+        "description": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente.",
+        "domain": "Matéria e energia"
+      }
+    },
+    {
+      "subject": "ciencias",
+      "gradeMin": 1,
+      "gradeMax": 1,
+      "domain": "Matéria e energia",
+      "origin": [
+        "BR"
+      ],
+      "standards": [
+        {
+          "code": "EF01CI01",
+          "framework": "BNCC",
+          "description": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente.",
+          "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+          "verified": true,
+          "verificationMethod": "extração determinística do bloco textual do PDF oficial",
+          "sourceId": "bncc-mec-2018",
+          "pdfPage": 335,
+          "sourceSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b"
+        }
+      ],
+      "language": "pt-BR",
+      "id": "br_ef01ci01_m01",
+      "name": "Características dos materiais",
+      "description": "Comparar materiais presentes em objetos do cotidiano. Recorte editorial da habilidade EF01CI01; o texto oficial integral permanece na referência curricular.",
+      "objective": "Comparar materiais presentes em objetos do cotidiano.",
+      "decompositionMethod": "curadoria editorial explícita de objetivo específico",
+      "parentId": "br_ef01ci01",
+      "prerequisites": [],
+      "alignmentStatus": "proposed",
+      "kind": "microtopico",
+      "titleStatus": "microtópico editorial rastreável à habilidade oficial",
+      "sourceType": "microtópico editorial rastreável à habilidade oficial",
+      "schoolPlacements": [
+        {
+          "system": "BR",
+          "years": [
+            1
+          ],
+          "label": "1º ano",
+          "framework": "BNCC",
+          "certainty": "source-explicit",
+          "sourceCode": "EF01CI01",
+          "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+          "scopeNote": "O recorte editorial herda o bloco de anos de sua habilidade de origem; não recebeu uma série própria oficial."
+        }
+      ],
+      "localized": {
+        "language": "pt-BR",
+        "name": "Características dos materiais",
+        "description": "Comparar materiais presentes em objetos do cotidiano. Recorte editorial da habilidade EF01CI01; o texto oficial integral permanece na referência curricular.",
+        "domain": "Matéria e energia"
+      }
+    },
+    {
+      "subject": "ciencias",
+      "gradeMin": 1,
+      "gradeMax": 1,
+      "domain": "Matéria e energia",
+      "origin": [
+        "BR"
+      ],
+      "standards": [
+        {
+          "code": "EF01CI01",
+          "framework": "BNCC",
+          "description": "Comparar características de diferentes materiais presentes em objetos de uso cotidiano, discutindo sua origem, os modos como são descartados e como podem ser usados de forma mais consciente.",
+          "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+          "verified": true,
+          "verificationMethod": "extração determinística do bloco textual do PDF oficial",
+          "sourceId": "bncc-mec-2018",
+          "pdfPage": 335,
+          "sourceSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b"
+        }
+      ],
+      "language": "pt-BR",
+      "id": "br_ef01ci01_m02",
+      "name": "Uso e descarte de materiais",
+      "description": "Discutir a origem e o destino de materiais usados no cotidiano. Recorte editorial da habilidade EF01CI01; o texto oficial integral permanece na referência curricular.",
+      "objective": "Discutir a origem e o destino de materiais usados no cotidiano.",
+      "decompositionMethod": "curadoria editorial explícita de objetivo específico",
+      "parentId": "br_ef01ci01",
+      "prerequisites": [],
+      "alignmentStatus": "proposed",
+      "kind": "microtopico",
+      "titleStatus": "microtópico editorial rastreável à habilidade oficial",
+      "sourceType": "microtópico editorial rastreável à habilidade oficial",
+      "schoolPlacements": [
+        {
+          "system": "BR",
+          "years": [
+            1
+          ],
+          "label": "1º ano",
+          "framework": "BNCC",
+          "certainty": "source-explicit",
+          "sourceCode": "EF01CI01",
+          "sourceUrl": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+          "scopeNote": "O recorte editorial herda o bloco de anos de sua habilidade de origem; não recebeu uma série própria oficial."
+        }
+      ],
+      "localized": {
+        "language": "pt-BR",
+        "name": "Uso e descarte de materiais",
+        "description": "Discutir a origem e o destino de materiais usados no cotidiano. Recorte editorial da habilidade EF01CI01; o texto oficial integral permanece na referência curricular.",
+        "domain": "Matéria e energia"
+      }
+    }
+  ]
+}

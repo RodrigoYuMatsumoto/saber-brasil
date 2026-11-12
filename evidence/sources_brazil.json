@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Fontes brasileiras após reconciliação",
+    "subject": "Dois PDFs oficiais e as duas omissões corrigidas com código literal preservado",
+    "version": "1.0.0",
+    "generatedAt": "2026-11-12T04:10:48.835525+00:00",
+    "databaseLicense": "ODbL-1.0 para a base derivada; referências oficiais mantêm a proveniência de origem",
+    "editorialContentLicense": "CC-BY-SA-4.0",
+    "scope": "Ensino Fundamental brasileiro, 1º ao 9º ano; inglês oficial a partir do 6º ano; Arte e Educação Física preservam os blocos de anos da BNCC",
+    "alignmentNote": "Verificação significa que código e descrição foram extraídos do PDF oficial indicado. A decomposição, o resumo do título, os domínios e os pré-requisitos são editoriais; não há certificação do MEC ou validação pedagógica individual."
+  },
+  "sources": [
+    {
+      "id": "bncc-mec-2018",
+      "path": "evidence/sources_brazil/BNCC_Oficial.pdf",
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "title": "Base Nacional Comum Curricular: versão completa de 2018",
+      "framework": "BNCC",
+      "pageRange": [
+        89,
+        462
+      ],
+      "sha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "bytes": 3058960,
+      "pages": 600,
+      "skillCount": 1304,
+      "retrievedAt": "2026-11-12",
+      "publisher": "Ministério da Educação"
+    },
+    {
+      "id": "bncc-computacao-2022",
+      "path": "evidence/sources_brazil/BNCC_Computacao_Oficial.pdf",
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf",
+      "canonicalUrl": "https://www.gov.br/mec/pt-br/escolas-conectadas/BNCCComputaoCompletodiagramado.pdf",
+      "title": "Computação na Educação Básica: complemento à BNCC",
+      "framework": "BNCC Computação",
+      "pageRange": [
+        1,
+        75
+      ],
+      "sha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "bytes": 1426590,
+      "pages": 75,
+      "skillCount": 104,
+      "retrievedAt": "2026-11-12",
+      "publisher": "Ministério da Educação; cópia pública da Secretaria de Estado de Educação de Minas Gerais"
+    }
+  ],
+  "coverage": {
+    "officialSkills": 1408,
+    "editorialMicrotopics": 743,
+    "topics": 2151,
+    "officialSkillsBySubject": {
+      "ciencias": 111,
+      "computacao": 104,
+      "ensino-religioso": 63,
+      "geografia": 123,
+      "historia": 151,
+      "portugues": 391,
+      "matematica": 247,
+      "ingles": 88,
+      "educacao-fisica": 69,
+      "arte": 61
+    },
+    "editorialMicrotopicsBySubject": {
+      "ciencias": 59,
+      "computacao": 28,
+      "ensino-religioso": 34,
+      "geografia": 88,
+      "historia": 142,
+      "portugues": 116,
+      "matematica": 188,
+      "ingles": 10,
+      "educacao-fisica": 36,
+      "arte": 42
+    },
+    "officialSkillsByGradeAndSubject": {
+      "1": {
+        "arte": 26,
+        "ciencias": 6,
+        "computacao": 16,
+        "educacao-fisica": 12,
+        "ensino-religioso": 6,
+        "geografia": 11,
+        "historia": 8,
+        "ingles": 0,
+        "matematica": 22,
+        "portugues": 64
+      },
+      "2": {
+        "arte": 26,
+        "ciencias": 8,
+        "computacao": 15,
+        "educacao-fisica": 12,
+        "ensino-religioso": 7,
+        "geografia": 11,
+        "historia": 11,
+        "ingles": 0,
+        "matematica": 23,
+        "portugues": 67
+      },
+      "3": {
+        "arte": 26,
+        "ciencias": 10,
+        "computacao": 18,
+        "educacao-fisica": 15,
+        "ensino-religioso": 6,
+        "geografia": 11,
+        "historia": 12,
+        "ingles": 0,
+        "matematica": 28,
+        "portugues": 77
+      },
+      "4": {
+        "arte": 26,
+        "ciencias": 11,
+        "computacao": 17,
+        "educacao-fisica": 15,
+        "ensino-religioso": 7,
+        "geografia": 11,
+        "historia": 11,
+        "ingles": 0,
+        "matematica": 28,
+        "portugues": 77
+      },
+      "5": {
+        "arte": 26,
+        "ciencias": 13,
+        "computacao": 20,
+        "educacao-fisica": 15,
+        "ensino-religioso": 7,
+        "geografia": 12,
+        "historia": 10,
+        "ingles": 0,
+        "matematica": 25,
+        "portugues": 78
+      },
+      "6": {
+        "arte": 35,
+        "ciencias": 14,
+        "computacao": 22,
+        "educacao-fisica": 21,
+        "ensino-religioso": 7,
+        "geografia": 13,
+        "historia": 19,
+        "ingles": 26,
+        "matematica": 34,
+        "portugues": 106
+      },
+      "7": {
+        "arte": 35,
+        "ciencias": 16,
+        "computacao": 23,
+        "educacao-fisica": 21,
+        "ensino-religioso": 8,
+        "geografia": 12,
+        "historia": 17,
+        "ingles": 23,
+        "matematica": 37,
+        "portugues": 108
+      },
+      "8": {
+        "arte": 35,
+        "ciencias": 16,
+        "computacao": 23,
+        "educacao-fisica": 21,
+        "ensino-religioso": 7,
+        "geografia": 24,
+        "historia": 27,
+        "ingles": 20,
+        "matematica": 27,
+        "portugues": 109
+      },
+      "9": {
+        "arte": 35,
+        "ciencias": 17,
+        "computacao": 22,
+        "educacao-fisica": 21,
+        "ensino-religioso": 8,
+        "geografia": 18,
+        "historia": 36,
+        "ingles": 19,
+        "matematica": 23,
+        "portugues": 105
+      }
+    },
+    "pedagogicalPrerequisites": 97,
+    "decompositionLinks": 743,
+    "omittedUnresolvedLinkPairs": [],
+    "officialSkillsWithDecomposition": 341,
+    "officialSkillsWithoutDecomposition": 1067
+  },
+  "limitations": [
+    "A extração de blocos de PDF é determinística, mas não substitui o cotejo humano integral de cada célula.",
+    "A descrição integral da habilidade permanece vinculada ao código e à página do PDF; os títulos são resumos editoriais.",
+    "Microtópicos resultam de recortes de orações, expansão controlada de ações coordenadas ou curadoria de objetivos específicos. Não representam uma atomização pedagógica exaustiva de todas as habilidades.",
+    "As relações de decomposição e os pré-requisitos propostos são distinguidos no campo relation.",
+    "Não inclui currículos estaduais, municipais, o Ensino Médio ou todos os temas locais possíveis.",
+    "Os anos agrupados da BNCC não foram artificialmente distribuídos em séries individuais."
+  ],
+  "unusableAcquisitionAttempts": [
+    {
+      "url": "https://www.gov.br/mec/pt-br/escola-em-tempo-integral/BNCC_EI_EF_110518_versaofinal.pdf",
+      "result": "resposta de desafio automático em PDF de uma página; não utilizada como fonte curricular"
+    },
+    {
+      "url": "https://www.gov.br/mec/pt-br/escolas-conectadas/BNCCComputaoCompletodiagramado.pdf",
+      "result": "resposta de desafio automático em PDF de uma página; utilizada cópia oficial da Secretaria de Educação de Minas Gerais"
+    }
+  ],
+  "resolvedExtractionWarnings": [
+    {
+      "code": "EF67LP33",
+      "page": 173,
+      "reason": "trecho curto ou referência sem descrição"
+    }
+  ],
+  "reconciliationCorrections": [
+    {
+      "code": "EF05CO11",
+      "sourceCodeLiteral": "EF05CO011",
+      "pdfPage": 36,
+      "sourceSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "codeAndFullDescriptionMatch": true
+    },
+    {
+      "code": "EF67LP33",
+      "sourceCodeLiteral": "EF67LP33",
+      "pdfPage": 173,
+      "sourceSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "codeAndFullDescriptionMatch": true
+    }
+  ]
+}

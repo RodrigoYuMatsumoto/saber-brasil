@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Séries curriculares de origem",
+    "subject": "Séries e blocos explícitos, sem converter idade em série oficial"
+  },
+  "systems": [
+    {
+      "id": "BR",
+      "name": "Brasil",
+      "years": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topicsWithPlacement": 2151
+    },
+    {
+      "id": "US",
+      "name": "Estados Unidos",
+      "years": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topicsWithPlacement": 670
+    },
+    {
+      "id": "GB-ENG",
+      "name": "Inglaterra (Reino Unido)",
+      "years": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topicsWithPlacement": 715
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-framework-for-key-stages-1-to-4/the-national-curriculum-in-england-framework-for-key-stages-1-to-4",
+      "purpose": "Key stages da Inglaterra e seus anos; não representa todos os países do Reino Unido."
+    },
+    {
+      "url": "https://www.cde.ca.gov/ci/pl/ngssstandards.asp",
+      "purpose": "Banda middle school dos padrões NGSS, anos 6 a 8; a banda não escolhe um único ano."
+    }
+  ],
+  "policy": "Filtros por série usam apenas source-explicit ou source-band. Um padrão em bloco pode aparecer em qualquer ano pertencente ao bloco, sem afirmar que seja ensinado em todos eles. Registros apenas por idade ficam sem série oficial."
+}

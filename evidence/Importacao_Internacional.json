@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Taxonomia internacional aberta de habilidades",
+    "subject": "Importação íntegra da base Marble e projeção para o mapa brasileiro",
+    "source": "https://github.com/withmarbleapp/os-taxonomy",
+    "sourceVersion": "v1",
+    "observedOn": "2026-11-12",
+    "databaseLicense": "ODbL-1.0",
+    "contentLicense": "CC-BY-SA-4.0",
+    "attribution": "Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · https://withmarble.com · licensed under ODbL 1.0 (database) and CC BY-SA 4.0 (content).",
+    "notice": "Padrões curriculares de terceiros mantêm suas próprias condições, descritas em licenses/marble/PROVENANCE.md.",
+    "verification": "Importação e integridade locais verificadas; sem nova auditoria pedagógica ou conferência dos padrões externos nesta etapa."
+  },
+  "stats": {
+    "topics": 1907,
+    "dependencies": 4003,
+    "curricula": 19,
+    "standards": 8313,
+    "alignmentContexts": 5067,
+    "topicsBySubject": {
+      "computacao": 52,
+      "ingles": 339,
+      "geografia": 33,
+      "historia": 118,
+      "aprender-a-aprender": 20,
+      "habilidades-para-vida": 49,
+      "matematica": 582,
+      "desenvolvimento-pessoal-social": 123,
+      "ciencias": 579,
+      "arte": 8,
+      "frances": 4
+    },
+    "topicsByOrigin": {
+      "AU": 871,
+      "CA": 923,
+      "INT": 363,
+      "IN": 246,
+      "GB-ENG": 715,
+      "US": 670
+    },
+    "topicsWithoutVerifiedBrazilAlignment": 1907,
+    "translationsReviewed": 0
+  },
+  "files": {
+    "archived-teaching-research.json": {
+      "sha256": "28cc37220a78bdbfb37bd5693e8b729571e87c5d0ba471692707a07a7ef6c73f",
+      "bytes": 121411
+    },
+    "clusters.json": {
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3",
+      "bytes": 59129
+    },
+    "curriculum-alignments.json": {
+      "sha256": "2b18f8f2e100dd2b7faf89f1477426b3873ac6f3a7d3ca455c03c401bc91b399",
+      "bytes": 1733994
+    },
+    "curriculum-standards.json": {
+      "sha256": "d8365e19b4233234dbf03151950dae693b8e7e10f60f82f12f985deb5c7bfcdd",
+      "bytes": 2795125
+    },
+    "dependencies.json": {
+      "sha256": "64f6946d1422098e4d68493bf4c0926af843e4d7cf0625905f35ff0a6e732132",
+      "bytes": 880722
+    },
+    "manifest.json": {
+      "sha256": "3c95375dda8283aa302f3387525842c3faf676c67742e8103080510a58cc7d8d",
+      "bytes": 24669
+    },
+    "teaching-research.json": {
+      "sha256": "a14d9c3c7487033ae65f1eaf7ccc81321195e64194a7cc43e170739cfa10b361",
+      "bytes": 23985503
+    },
+    "topics.json": {
+      "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff",
+      "bytes": 2807806
+    }
+  },
+  "checks": {
+    "uniqueTopicIds": true,
+    "dependencyReferencesExist": true,
+    "sourceReadOnly": true,
+    "originalFilesPreserved": true
+  }
+}
