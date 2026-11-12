@@ -70,6 +70,12 @@ O build padrão usa os JSON e os CSV versionados. PDFs grandes, modelos e imagen
 
 Os testes incluem conciliação de contagens, duas regressões diretamente nos PDFs oficiais, séries de cinco sistemas, paridade dos quatro catálogos e matemática da câmera. Os relatórios de estrutura estão em `evidence/Validacao_Dados.json` e `evidence/Validacao_Multissistema.json`. Testes de navegador reproduzíveis estão em `tests/browser/site.spec.cjs`, integrados ao fluxo de validação do GitHub.
 
+A [execução automática 43228501439](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/runs/43228501439), sobre o commit `a2f1266bef6dad41be930766463d402a2f2e39d0`, foi concluída com sucesso em uma cópia limpa no Ubuntu 24.04. Passaram 19 testes Python, quatro testes matemáticos da câmera, seis testes reais de navegador e as 23 verificações multissistema. A cópia limpa validou e empacotou o site sem as pastas históricas irmãs.
+
+Os testes de navegador conferiram arraste real, mudança de distância do zoom, foco individual, séries dos cinco sistemas, quatro idiomas da interface, exportações efetivamente baixadas, ausência de transbordamento horizontal no celular e carregamento do HTML portátil com uma única solicitação de documento. Não se confundem com teste físico de todos os gestos multitoque.
+
+O arquivo de artefato da execução teve SHA-256 `4da1a1943c92ccfb6a9651d5d27b675f68aa3f77e7fbde0dbdaa7a4c9adb73f3`. O HTML extraído coincide byte a byte com o HTML local: SHA-256 `19162bce9ce268dcdc9f83dacef805e40b4642324a2aa72ef2a3a92ccfae8b4d`. A saída usa UTF-8 e quebras de linha determinísticas nas duas plataformas. O relatório e as capturas estão registrados em `evidence/Validacao_CI.json` e `evidence/Saber_Brasil_V2_*.png`.
+
 O HTML portátil tem dados, programa, estilo, ícone e catálogos incorporados. Seu manifesto informa o hash de saída e os hashes dos oito arquivos de entrada. A abertura direta por protocolo de arquivo não foi exercitada pelo navegador de teste; a verificação usa HTTP restrito a este computador.
 
 As capturas REA suplementares iniciadas neste ciclo no Windows não concluíram em uma janela limitada e foram interrompidas com seus processos temporários. Isso não foi apresentado como evidência de uma execução concluída. A conferência interativa efetiva e os testes reproduzíveis são distinguidos desses ensaios.

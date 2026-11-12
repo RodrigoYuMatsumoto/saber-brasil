@@ -13,6 +13,8 @@ evidence/scenario_*.json
 evidence/Pacific_Scenario_*.json
 evidence/*Native*.json
 evidence/exports/
+evidence/CI_Artefatos/
+evidence/Saber_Brasil_Validacao_CI.zip
 evidence/*_local.json
 evidence/sources_east_asia/*.pdf
 evidence/sources_east_asia/**/*.pdf

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Validação automática em cópia limpa do Saber Brasil",
+    "subject": "Testes de câmera, séries, idiomas, exportações e integridade do HTML portátil",
+    "checkedAt": "2026-11-12T13:43:28.515507+00:00"
+  },
+  "repository": "https://github.com/RodrigoYuMatsumoto/saber-brasil",
+  "runId": 43228501439,
+  "runUrl": "https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/runs/43228501439",
+  "testedCommit": "a2f1266bef6dad41be930766463d402a2f2e39d0",
+  "conclusion": "success",
+  "platform": "Ubuntu 24.04",
+  "pythonTests": 19,
+  "cameraTests": 4,
+  "browserTests": 6,
+  "systemChecks": 23,
+  "artifactId": 13949810211,
+  "artifactSha256": "4da1a1943c92ccfb6a9651d5d27b675f68aa3f77e7fbde0dbdaa7a4c9adb73f3",
+  "portableSha256": "19162bce9ce268dcdc9f83dacef805e40b4642324a2aa72ef2a3a92ccfae8b4d",
+  "portableMatchesLocal": true,
+  "sourceFiles": {
+    "index.html": "3b4d8b39d304127505c5c89662b6fafa793e854119bc2f977930e595bb838ffe",
+    "app.js": "5027da646e2ca239cfc7c2bc90f3650b5d142743f767bd3cd8248f7798c90d8b",
+    "styles.css": "4139447517e09a68ff2ed219fbfa41b9e0b31dcc62f1adb93e33db16ef9f0303",
+    "assets/locales.json": "d0adf51c98e47472fbc23c6e3a314c16c042cdd8cd2b2548175e05fc74b963d7",
+    "data/brazil_topics.json": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082",
+    "data/international.json": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a",
+    "data/east_asia.json": "0d0247ca32204e2d2844946d0bd6892f4a85e01df42c86b65397406feac74c28",
+    "data/translations.json": "564b0876abac92b47f381a7d3fc94d536caff3669f0a3122247970909c5460e6"
+  },
+  "screenshots": {
+    "Saber_Brasil_V2_Desktop.png": "7629e3c5ae5772aaea184cd2fc48c4f61e8e3a949f522531e6a0603c5e234236",
+    "Saber_Brasil_V2_Mobile.png": "e89d43f32e0222043bb103ff7f8cf8cf4eb785e8ca6afbcf9fae01ce02d5a070",
+    "Saber_Brasil_V2_Portatil.png": "8237816b4fe6326cb495df18ef2e9a15b3d917455758b190dfc1d77e23a0df5a"
+  },
+  "limitations": [
+    "Testes técnicos não são revisão pedagógica ou linguística.",
+    "Abertura por protocolo de arquivo e gestos em dispositivo físico não foram exercitados.",
+    "Tradução nativa depende do navegador e não foi tratada como tradução editorial integral.",
+    "B.9 por família arquitetural distinta permanece pendente."
+  ]
+}

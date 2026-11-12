@@ -9,6 +9,10 @@ subject: Taxonomia curricular independente, séries de origem e exploração tri
 
 # Saber Brasil
 
+[![Validação automática](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/workflows/validate.yml/badge.svg)](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/workflows/validate.yml)
+
+![Mapa consolidado do Saber Brasil](evidence/Saber_Brasil_V2_Portatil.png)
+
 Um mapa aberto da aprendizagem que reúne habilidades brasileiras, microtópicos editoriais e referências internacionais. A experiência visual foi inspirada no [currículo Marble](https://withmarble.com/curriculum/), com código próprio, identidade brasileira e atribuição aos dados de origem.
 
 Este é um repositório independente: a aplicação usa arquivos versionados aqui, sem depender de consultas ao repositório Marble em tempo de execução. A consolidação preserva a proveniência das três versões anteriores e distingue habilidades, microtópicos, traduções, alinhamentos e relações.
@@ -45,6 +49,8 @@ Os sistemas são Brasil, Estados Unidos, Inglaterra (Reino Unido), Japão e Chin
 ## Conciliação e qualidade
 
 Consulte [o consenso de contagens](docs/Consenso_Taxonomias.md), [os prompts para revisão por Code e Grok](docs/Prompts_Convergencia.md), [as fontes do Japão e da China](docs/Curriculos_Japao_China.md) e [o relatório de entrega](docs/Entrega_Verificada.md).
+
+Os [prompts finais de revisão](docs/Prompts_Revisao_Final.md) abrangem a base completa consolidada, os cinco sistemas e a cobertura real de idiomas. A [validação em cópia limpa](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/runs/43228501439) aprovou 19 testes Python, quatro testes matemáticos da câmera e seis testes de navegador.
 
 A base brasileira corrigida contém 1.408 habilidades oficiais e 743 microtópicos editoriais. O literal `EF05CO011`, impresso no documento de Computação, é preservado junto ao identificador normalizado `EF05CO11`. Traduções não criam novos nós. Os 1.907 tópicos Marble têm os mesmos IDs nas três versões anteriores.
 

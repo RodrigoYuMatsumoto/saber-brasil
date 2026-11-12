@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Manifesto de integridade da entrega Saber Brasil",
+    "subject": "SHA-256 dos arquivos entregues, incluindo dados, fontes e evidências"
+  },
+  "version": "2.0.0",
+  "createdAt": "2026-11-12T13:43:34.671043+00:00",
+  "deliveryStatus": "Aplicação funcional; decomposição curricular parcial e revisão pedagógica pendentes",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 108,
+      "sha256": "fbcc34749dbe48f531dfb792a67acd3e6df0dd5ebf7216e06321c3b76311fd8f"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 1376,
+      "sha256": "0e9be3eb0bdd20a620e5d2c4bf5da2cf633166512f40aba394f490658d75796c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 610,
+      "sha256": "63544d2e42e67da6e64dc50a389b7e99580ba37159b4c3e28fb9394afdf6aec8"
+    },
+    {
+      "path": "Abrir_Saber_Brasil.cmd",
+      "bytes": 52,
+      "sha256": "a433e8146d73a463f7a9e0582bd83421991cc807287a991c111ff7b7237825d7"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2930,
+      "sha256": "20706f53f1213c34f6f853441fdfef43c30866df191cd3bd7551f7f97ccaf393"
+    },
+    {
+      "path": "app.js",
+      "bytes": 45954,
+      "sha256": "5027da646e2ca239cfc7c2bc90f3650b5d142743f767bd3cd8248f7798c90d8b"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 291,
+      "sha256": "2fffb24a3355132ae6969bdfdf3305ac1e9f4866d7073a949d8f1f006d0cd3d0"
+    },
+    {
+      "path": "assets/locales.json",
+      "bytes": 36274,
+      "sha256": "d0adf51c98e47472fbc23c6e3a314c16c042cdd8cd2b2548175e05fc74b963d7"
+    },
+    {
+      "path": "data/brazil_topics.json",
+      "bytes": 4987532,
+      "sha256": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082"
+    },
+    {
+      "path": "data/curriculum_grades.json",
+      "bytes": 1917,
+      "sha256": "547bb5113066a98c731fcc963bdafcab3451ea190ec54397591b9f8191bb3496"
+    },
+    {
+      "path": "data/east_asia.json",
+      "bytes": 2206501,
+      "sha256": "0d0247ca32204e2d2844946d0bd6892f4a85e01df42c86b65397406feac74c28"
+    },
+    {
+      "path": "data/east_asia_curated.json",
+      "bytes": 223286,
+      "sha256": "a1c37ea7f38c2d28dd4bb6c0351c92b908c2afb8a9d3a89fb328ede1948aab6c"
+    },
+    {
+      "path": "data/east_asia_source_anchors.json",
+      "bytes": 53926,
+      "sha256": "15d709691270edb34228590cfadbacf7f1fcc07b8930dc99feac9c95b08020bf"
+    },
+    {
+      "path": "data/east_asia_source_manifest.json",
+      "bytes": 7422,
+      "sha256": "fe97545d40599ef409ede9038113e66fa0b2fab380fba400837f76a3111eecc0"
+    },
+    {
+      "path": "data/international.json",
+      "bytes": 14745824,
+      "sha256": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a"
+    },
+    {
+      "path": "data/reconciliation_inputs.json",
+      "bytes": 3151898,
+      "sha256": "41a244719090dc03bf22bcf3f838b257176e8d2ca785958d5ac0f775b407e224"
+    },
+    {
+      "path": "data/source_tables/jp_primary_codes.csv",
+      "bytes": 525205,
+      "sha256": "6d9a6dadf1593e15bad7c4e480eeea8dd91866600be2a94965582c8c774d3d7f"
+    },
+    {
+      "path": "data/source_tables/jp_secondary_codes.csv",
+      "bytes": 443375,
+      "sha256": "b8b5ad6cb52e5cfe5e390312b732b1325fffc5044b20a25e666075c74a569311"
+    },
+    {
+      "path": "data/translations.json",
+      "bytes": 2951930,
+      "sha256": "564b0876abac92b47f381a7d3fc94d536caff3669f0a3122247970909c5460e6"
+    },
+    {
+      "path": "data/upstream/archived-teaching-research.json",
+      "bytes": 121411,
+      "sha256": "28cc37220a78bdbfb37bd5693e8b729571e87c5d0ba471692707a07a7ef6c73f"
+    },
+    {
+      "path": "data/upstream/clusters.json",
+      "bytes": 59129,
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3"
+    },
+    {
+      "path": "data/upstream/curriculum-alignments.json",
+      "bytes": 1733994,
+      "sha256": "2b18f8f2e100dd2b7faf89f1477426b3873ac6f3a7d3ca455c03c401bc91b399"
+    },
+    {
+      "path": "data/upstream/curriculum-standards.json",
+      "bytes": 2795125,
+      "sha256": "d8365e19b4233234dbf03151950dae693b8e7e10f60f82f12f985deb5c7bfcdd"
+    },
+    {
+      "path": "data/upstream/dependencies.json",
+      "bytes": 880722,
+      "sha256": "64f6946d1422098e4d68493bf4c0926af843e4d7cf0625905f35ff0a6e732132"
+    },
+    {
+      "path": "data/upstream/manifest.json",
+      "bytes": 24669,
+      "sha256": "3c95375dda8283aa302f3387525842c3faf676c67742e8103080510a58cc7d8d"
+    },
+    {
+      "path": "data/upstream/teaching-research.json",
+      "bytes": 23985503,
+      "sha256": "a14d9c3c7487033ae65f1eaf7ccc81321195e64194a7cc43e170739cfa10b361"
+    },
+    {
+      "path": "data/upstream/topics.json",
+      "bytes": 2807806,
+      "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff"
+    },
+    {
+      "path": "docs/Consenso_Taxonomias.md",
+      "bytes": 5990,
+      "sha256": "925948905b5e2fef1ded38a931357efb14e2d4a44732f1639337be6ebbc5fb25"
+    },
+    {
+      "path": "docs/Curriculos_Japao_China.md",
+      "bytes": 8608,
+      "sha256": "7d9bb9e4839c9d7fa7b0f0263b6b0716bf5b91ce151f8851e033b8e1ffeefba0"
+    },
+    {
+      "path": "docs/Entrega_Verificada.md",
+      "bytes": 9963,
+      "sha256": "c0f9938ad4f054901cf9a3a4caaa0302d60967f3d5981cd8f7f1779be200a860"
+    },
+    {
+      "path": "docs/Prompts_Convergencia.md",
+      "bytes": 5099,
+      "sha256": "178b62d55972ab6706199e747352bb87ad9cbaa9558da1dcfde4f362f004db9c"
+    },
+    {
+      "path": "docs/Prompts_Revisao_Final.md",
+      "bytes": 5599,
+      "sha256": "66cf9cd4baffa7f701c4fc54995bfbb6f9bb3593aa7f5a6ccb2766202e03f4b3"
+    },
+    {
+      "path": "evidence/Build_Portatil.json",
+      "bytes": 1299,
+      "sha256": "63a74ab090c9acf3338b8b48da6287c83e0a5b1fa445b15906af53d99bf192e9"
+    },
+    {
+      "path": "evidence/Consenso_Taxonomias.json",
+      "bytes": 63016,
+      "sha256": "7190ed55f5f369fd741a87320f63ce5c1dcc1aec3b07dd8257d76d425b6fa304"
+    },
+    {
+      "path": "evidence/Exportacao_CSV_Verificada.csv",
+      "bytes": 1540,
+      "sha256": "a81d095a487951838a6591ca5cd44afff242fbaaa3bbb5f9802ae7983103e7f3"
+    },
+    {
+      "path": "evidence/Exportacao_JSON_Verificada.json",
+      "bytes": 9422,
+      "sha256": "8fe6d5df31b55ea7d16cd9231f1fec742eea8d0879edd45949d79e7f29bfeda4"
+    },
+    {
+      "path": "evidence/Importacao_Internacional.json",
+      "bytes": 3018,
+      "sha256": "7aae4ccdf8a3839436ea2bbda8887795599c09a80f525a8372525432b352d40f"
+    },
+    {
+      "path": "evidence/Saber_Brasil_V2_Desktop.png",
+      "bytes": 432312,
+      "sha256": "7629e3c5ae5772aaea184cd2fc48c4f61e8e3a949f522531e6a0603c5e234236"
+    },
+    {
+      "path": "evidence/Saber_Brasil_V2_Mobile.png",
+      "bytes": 183812,
+      "sha256": "e89d43f32e0222043bb103ff7f8cf8cf4eb785e8ca6afbcf9fae01ce02d5a070"
+    },
+    {
+      "path": "evidence/Saber_Brasil_V2_Portatil.png",
+      "bytes": 446510,
+      "sha256": "8237816b4fe6326cb495df18ef2e9a15b3d917455758b190dfc1d77e23a0df5a"
+    },
+    {
+      "path": "evidence/sources_brazil/BNCC_Computacao_Oficial.pdf",
+      "bytes": 1426590,
+      "sha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d"
+    },
+    {
+      "path": "evidence/sources_brazil/BNCC_Oficial.pdf",
+      "bytes": 3058960,
+      "sha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b"
+    },
+    {
+      "path": "evidence/sources_brazil.json",
+      "bytes": 8086,
+      "sha256": "8cdcdaceb1b0e2167de13018a9840fb66a8ded43bab6038cb9c4a4206f09b9fa"
+    },
+    {
+      "path": "evidence/sources_east_asia.json",
+      "bytes": 13131,
+      "sha256": "417248c475258b15ecf2b1b9e0f7cc7aafb6810acf465706169eb490be509b8e"
+    },
+    {
+      "path": "evidence/Validacao_CI.json",
+      "bytes": 2570,
+      "sha256": "b8cd6873e9bfc9a4b64c3b658115946594b23a2b95adf04f0194ac5c780cf092"
+    },
+    {
+      "path": "evidence/Validacao_Dados.json",
+      "bytes": 32521,
+      "sha256": "a8d421e2d7540f8b9d752b58a84f4215936d2556ec81aed4e7648cb637b71ad6"
+    },
+    {
+      "path": "evidence/Validacao_Multissistema.json",
+      "bytes": 6518,
+      "sha256": "cbd65d744a2ca10f9e4ecb813feb7617bb862f54b7c4b29002691066fb1e9490"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10563,
+      "sha256": "3b4d8b39d304127505c5c89662b6fafa793e854119bc2f977930e595bb838ffe"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1579,
+      "sha256": "e6ef9cab5ebf2739ec2bca7a795cae5cf1c2e34cc89df8706c762629b279fd5e"
+    },
+    {
+      "path": "licenses/Licenca_do_Codigo.md",
+      "bytes": 1686,
+      "sha256": "66b543b410d90ba774a04f28a8d4aed25d7ee916f3e647314302a9156c6c5b03"
+    },
+    {
+      "path": "licenses/marble/CITATION.cff",
+      "bytes": 701,
+      "sha256": "26d5acde6fff688ee774fc849e33213c30236df4b423dcdd445f5ee21473d11b"
+    },
+    {
+      "path": "licenses/marble/LICENSE",
+      "bytes": 25289,
+      "sha256": "77d2692c3d64efdd4db18dce2407699baf62930e2b50d6e5ed90b48acf16b7c1"
+    },
+    {
+      "path": "licenses/marble/LICENSE-CONTENT",
+      "bytes": 18375,
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966"
+    },
+    {
+      "path": "licenses/marble/PROVENANCE.md",
+      "bytes": 25496,
+      "sha256": "582cfc341ae2d057f28f0e3a8bf33b9d7f899f8ce80bc2f670aa72cc16955080"
+    },
+    {
+      "path": "licenses/marble/README.md",
+      "bytes": 24372,
+      "sha256": "8097468ca141f7563dca519338497fed1b5a61bd8afbbeb779d04bf8bc17018d"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 2256,
+      "sha256": "48fbb02c105da272efff457deb118be031e2b250284f7f7ee1c9c18b089ec882"
+    },
+    {
+      "path": "package.json",
+      "bytes": 716,
+      "sha256": "85b9f7986ca37785810f829c9ca7025f2c83d57d6e2b586cd9c58fb7e5d10ad1"
+    },
+    {
+      "path": "playwright.config.cjs",
+      "bytes": 603,
+      "sha256": "1d1936c921e041ec368db5b84a3b69d4123741bf93db9d0c1866f8930ea26280"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7018,
+      "sha256": "176a8da952c4dd692b54599bb2b03ed4a8dd6ed72fe4bd6ee0d4d5121e42a29b"
+    },
+    {
+      "path": "requirements_build.txt",
+      "bytes": 17,
+      "sha256": "c9ceaace65b5eb1fb0bbeda418c8fe428f52a2c732e6aefba09d572d09dedb6b"
+    },
+    {
+      "path": "scripts/acquire_east_asia.py",
+      "bytes": 5228,
+      "sha256": "1f19cb2bcb0aae181d25ad203962db823c25d69f183df305b10286ec11876d32"
+    },
+    {
+      "path": "scripts/brazil_curated.py",
+      "bytes": 23453,
+      "sha256": "044e174677b076456eb54211a3f5ed72095b42031f9b020ebb5b14954d3a65f4"
+    },
+    {
+      "path": "scripts/browser_scenarios_v2.py",
+      "bytes": 4779,
+      "sha256": "a06f69aeb57490a58cf03abd8f8dfbdfcd53d2e209ba01bfb03572c999a761dc"
+    },
+    {
+      "path": "scripts/build_brazil.py",
+      "bytes": 35873,
+      "sha256": "482914e85f4105aa1d2543896755ecb57a5fc08b3f44d56c7adebdf24869d54a"
+    },
+    {
+      "path": "scripts/build_east_asia.py",
+      "bytes": 30417,
+      "sha256": "356823d836539b2c355eccfe11c87d44039e74e88e2024cc9e8a363491ce5a82"
+    },
+    {
+      "path": "scripts/build_portable.py",
+      "bytes": 3563,
+      "sha256": "996e034cf5f8938538038a4779c9da3326d750da3fcdb90f496651b47c27a7a3"
+    },
+    {
+      "path": "scripts/create_manifest.py",
+      "bytes": 2559,
+      "sha256": "bf6e47dd97d37c73edca632cd4341ed54abb4953af3e5bc07f94d72ca815579e"
+    },
+    {
+      "path": "scripts/east_asia_curated.py",
+      "bytes": 53541,
+      "sha256": "6070781b406d651fa01533d2dd667e70a55a2f23ea9cae1fffd689d902590617"
+    },
+    {
+      "path": "scripts/east_asia_japanese_names.py",
+      "bytes": 8385,
+      "sha256": "e9200deefa94f3d46050e7e3a83468630c77c2911ec15a6683439a9ba5b2dcff"
+    },
+    {
+      "path": "scripts/import_marble.py",
+      "bytes": 9969,
+      "sha256": "317ddde6b9b3cf2efc9cbed8ae26ed34746994e11d5c0b437f62900a233afa6b"
+    },
+    {
+      "path": "scripts/ocr_east_asia.py",
+      "bytes": 2214,
+      "sha256": "5c70fbc85834649ee679ae775746d4b5fc12157c379b699161efb863c8c7474a"
+    },
+    {
+      "path": "scripts/reconcile_sources.py",
+      "bytes": 31300,
+      "sha256": "e73246550af5b5ee276cb57f76dbcb6190975286e7f02b8afa9f9fdfd4571df6"
+    },
+    {
+      "path": "scripts/serve.py",
+      "bytes": 1755,
+      "sha256": "4d0b270ea06a3c3beed4893e118acd47f4379e6afdf705943c921b72d710bddf"
+    },
+    {
+      "path": "scripts/validate_multisystem.py",
+      "bytes": 14992,
+      "sha256": "412254b704c3eafe6f29d4406f910f10233481a6d760f6ff82fcfa17d41336b7"
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "bytes": 32328,
+      "sha256": "8e8d09d1a811a994332e0b07d4a91aa1b037d6a115f59a9e44b459c2f6cd48a4"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 23135,
+      "sha256": "4139447517e09a68ff2ed219fbfa41b9e0b31dcc62f1adb93e33db16ef9f0303"
+    },
+    {
+      "path": "tests/browser/site.spec.cjs",
+      "bytes": 7201,
+      "sha256": "780a45e874d56192800816b3fdd37e1d3ae6b2b1e15f642a7c0f78a3bb3aa432"
+    },
+    {
+      "path": "tests/camera_math.test.cjs",
+      "bytes": 1969,
+      "sha256": "d3f3473b22da785d9cefba43c75f94d9300e3f14e9bd32103cf1d8503f615f98"
+    },
+    {
+      "path": "tests/test_brazil_extractor.py",
+      "bytes": 2787,
+      "sha256": "9f453494a8b77e7531db19ef7918aa660f627b9fdf0c79363385bda17d908384"
+    },
+    {
+      "path": "tests/test_multisystem_data.py",
+      "bytes": 2934,
+      "sha256": "21f70174fc72da33e252deaca6b3a9b5b98f6ad68e949e9e197a1e9d6889402c"
+    },
+    {
+      "path": "tests/test_reconciliation.py",
+      "bytes": 3591,
+      "sha256": "18d1e84b4ab5d393db81bdb67fdbcd9c8b874df2c585000b20b37344c0e0b5af"
+    }
+  ],
+  "totalBytes": 67939978,
+  "omitted": [
+    "Arquivos não versionados",
+    "backups",
+    "build_backups",
+    "__pycache__",
+    "Os próprios manifestos"
+  ]
+}
