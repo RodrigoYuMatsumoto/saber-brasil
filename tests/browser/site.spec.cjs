@@ -164,7 +164,7 @@ test('A08 Órbita ultrapassa os polos, roll e deslocamento real por arraste', as
   await ready(page); const start = await camera(page);
   await page.mouse.move(950, 390); await page.mouse.down();
   await page.mouse.move(1080, 510, { steps: 10 }); await page.mouse.up();
-  expect((await camera(page)).quaternion).not.toEqual(start.quaternion);
+  await expect.poll(async () => (await camera(page)).quaternion).not.toEqual(start.quaternion);
   await page.locator('#reset-camera').click(); let crossedPole = false;
   for (let i = 0; i < 90; i++) {
     await page.locator('#graph').press('ArrowUp');
@@ -172,14 +172,15 @@ test('A08 Órbita ultrapassa os polos, roll e deslocamento real por arraste', as
   }
   expect(crossedPole).toBe(true);
   const beforeRoll = await camera(page);
-  await page.locator('#roll-right').click(); expect((await camera(page)).quaternion).not.toEqual(beforeRoll.quaternion);
+  await page.locator('#roll-right').click();
+  await expect.poll(async () => (await camera(page)).quaternion).not.toEqual(beforeRoll.quaternion);
   const beforePan = (await camera(page)).pan;
   await page.mouse.move(1000, 380); await page.mouse.down({ button: 'right' });
   await page.mouse.move(1060, 410, { steps: 5 }); await page.mouse.up({ button: 'right' });
-  expect((await camera(page)).pan[0]).toBeGreaterThan(beforePan[0]);
+  await expect.poll(async () => (await camera(page)).pan[0]).toBeGreaterThan(beforePan[0]);
   await page.keyboard.down('Shift'); await page.mouse.move(1010, 400); await page.mouse.down();
   await page.mouse.move(1080, 430, { steps: 4 }); await page.mouse.up(); await page.keyboard.up('Shift');
-  expect((await camera(page)).pan[0]).toBeGreaterThan(beforePan[0] + 60);
+  await expect.poll(async () => (await camera(page)).pan[0]).toBeGreaterThan(beforePan[0] + 60);
 });
 
 test('A09 Foco individual usa o nó como pivô ao girar', async ({ page }, info) => {
@@ -188,7 +189,7 @@ test('A09 Foco individual usa o nó como pivô ao girar', async ({ page }, info)
   before.target.forEach((value, i) => expect(value).toBeCloseTo(selected.world[i], 3)); expect(before.focused).toBe('br_ef03ma01');
   await page.locator('#graph').press('ArrowRight'); await page.locator('#graph').press('ArrowUp');
   const after = await point(page, 'br_ef03ma01');
-  expect((await camera(page)).quaternion).not.toEqual(before.quaternion);
+  await expect.poll(async () => (await camera(page)).quaternion).not.toEqual(before.quaternion);
   expect(Math.hypot(after.x - selected.x, after.y - selected.y)).toBeLessThan(0.01);
   await screenshot(page, info, 'Consenso_V3_Foco.png');
 });

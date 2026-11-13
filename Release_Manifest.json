@@ -8,7 +8,7 @@
     "subject": "SHA-256 dos arquivos entregues, incluindo dados, fontes e evidências"
   },
   "version": "3.0.0",
-  "createdAt": "2026-11-13T01:08:36.941121+00:00",
+  "createdAt": "2026-11-13T01:14:22.533809+00:00",
   "deliveryStatus": "Base de consenso conferida; camadas opcionais distintas; cobertura literal chinesa parcial",
   "counts": {
     "baseBrazil": 1408,
@@ -1028,8 +1028,8 @@
     },
     {
       "path": "tests/browser/site.spec.cjs",
-      "bytes": 20862,
-      "sha256": "451b54a9272d407f454a29a03f7b508ae61f310a0f2db6045aba7140cdc595c4"
+      "bytes": 20979,
+      "sha256": "d77a52c9c114e6d2a6eb17e3cc4507a86415a9216b9164864b7fef88bc229861"
     },
     {
       "path": "tests/camera_math.test.cjs",
@@ -1072,7 +1072,7 @@
       "sha256": "fe3cfcd2dd3de83455dfdd517bc1016a7478fe850e948b7c178f9c270d954dfb"
     }
   ],
-  "totalBytes": 115919084,
+  "totalBytes": 115919201,
   "omitted": [
     "Arquivos não versionados",
     "backups",
