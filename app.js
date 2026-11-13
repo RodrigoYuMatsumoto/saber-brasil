@@ -6,7 +6,8 @@
   const qMultiply = (a,b) => [a[3]*b[0]+a[0]*b[3]+a[1]*b[2]-a[2]*b[1],a[3]*b[1]-a[0]*b[2]+a[1]*b[3]+a[2]*b[0],a[3]*b[2]+a[0]*b[1]-a[1]*b[0]+a[2]*b[3],a[3]*b[3]-a[0]*b[0]-a[1]*b[1]-a[2]*b[2]];
   const qAxis = (axis,angle) => { const s=Math.sin(angle/2); return [axis[0]*s,axis[1]*s,axis[2]*s,Math.cos(angle/2)]; };
   const qRotate = (q,v) => { const p=qMultiply(qMultiply(q,[v[0],v[1],v[2],0]),[-q[0],-q[1],-q[2],q[3]]); return p.slice(0,3); };
-  const zoomDistance = (distance,factor) => clamp(distance*factor,18,40000);
+  const ZOOM_MIN = 0.25, ZOOM_MAX = 24;
+  const zoomDistance = (distance,factor,base) => base ? clamp(distance*factor,base/ZOOM_MAX,base/ZOOM_MIN) : clamp(distance*factor,18,40000);
   const fittedDistance = (points,q,target,focal,halfWidth,halfHeight) => {
     let needed=120;
     for (const p of points) {
@@ -15,7 +16,7 @@
     }
     return clamp(needed,120,40000);
   };
-  const math=Object.freeze({qNormalize,qMultiply,qAxis,qRotate,zoomDistance,fittedDistance});
+  const math=Object.freeze({qNormalize,qMultiply,qAxis,qRotate,zoomDistance,fittedDistance,ZOOM_MIN,ZOOM_MAX});
   if (typeof module === "object" && module.exports) { module.exports=math; return; }
   root.SaberCameraMath=math;
   const $=id=>document.getElementById(id);
@@ -24,7 +25,7 @@
   const safeUrl=v=>{try{const u=new URL(v);return ["https:","http:"].includes(u.protocol)?u.href:null;}catch{return null;}};
   const initialQ=()=>qNormalize(qMultiply(qAxis([0,1,0],.6),qAxis([1,0,0],-.28)));
   const state={topics:[],byId:new Map(),edges:[],next:new Map(),subjects:[],subjectLabels:{},active:new Set(),filtered:[],rendered:[],visibleIds:new Set(),selected:null,lineage:new Set(),nextIds:new Set(),query:"",grade:"all",system:"all",origin:"all",view:"graph",listLimit:60,lang:"pt-BR",locales:{},translations:{},autoTranslations:new Map(),autoReasons:new Map(),translators:new Map(),history:[],hover:null,loaded:false,missing:[],paused:matchMedia("(prefers-reduced-motion: reduce)").matches,camera:{q:initialQ(),distance:1400,baseDistance:1400,target:[0,0,0],pan:[0,0],focused:null},pointers:new Map(),gesture:null,lastFrame:0};
-  const colors={portugues:"#f5d352",matematica:"#4b94eb",ciencias:"#68cda4",historia:"#e7c976",geografia:"#96dab3",arte:"#c5bf7e","educacao-fisica":"#1eab78",ingles:"#b0cef5","ensino-religioso":"#e6e4c7",computacao:"#677fe0","desenvolvimento-pessoal-social":"#86bda9","habilidades-para-vida":"#a9c89a","aprender-a-aprender":"#d8cc88",frances:"#91a8d1",japones:"#e9c889",chines:"#8fc5bd","estudos-sociais":"#7abdb4","educacao-moral":"#d2d58a","economia-domestica":"#a3bca7",tecnologia:"#709be0","trabalho-pratico":"#b9c384","estudos-integrados":"#97b3d4"};
+  const colors={"educacao-infantil":"#f0a6b7",portugues:"#f5d352",matematica:"#4b94eb",ciencias:"#68cda4",historia:"#e7c976",geografia:"#96dab3",arte:"#c5bf7e","educacao-fisica":"#1eab78",ingles:"#b0cef5","ensino-religioso":"#e6e4c7",computacao:"#677fe0","desenvolvimento-pessoal-social":"#86bda9","habilidades-para-vida":"#a9c89a","aprender-a-aprender":"#d8cc88",frances:"#91a8d1",japones:"#e9c889",chines:"#8fc5bd","estudos-sociais":"#7abdb4","educacao-moral":"#d2d58a","economia-domestica":"#a3bca7",tecnologia:"#709be0","trabalho-pratico":"#b9c384","estudos-integrados":"#97b3d4"};
   const canvas=$("graph"),ctx=canvas.getContext("2d",{alpha:false});
   let width=0,height=0,dpr=1,projected=[],renderOrder=[],raf=0;
   const t=(key,args={})=>{
@@ -65,6 +66,7 @@
   }
   const languageCode=code=>code==="pt-BR"?"pt":code==="zh-Hans"?"zh":code||"en";
   function yearLabel(system,year){
+    if(system==="BR"&&year===0)return t("eiShort");
     if(system==="US")return year===0?(state.lang==="ja"?"幼稚園 K":state.lang==="zh-Hant"?"幼稚園 K":"Kindergarten (K)"):(state.lang==="pt-BR"?"Grade "+year:state.lang==="ja"?year+"年生":state.lang==="zh-Hant"?year+" 年級":"Grade "+year);
     if(system==="GB-ENG")return state.lang==="pt-BR"?"Year "+year:state.lang==="ja"?"Year "+year:state.lang==="zh-Hant"?"Year "+year:"Year "+year;
     if(system==="JP")return state.lang==="ja"?(year<=6?"小学"+year+"年":"中学"+(year-6)+"年"):state.lang==="zh-Hant"?(year<=6?"小學 "+year+" 年級":"中學 "+(year-6)+" 年級"):state.lang==="en"?(year<=6?"Elementary "+year:"Lower secondary "+(year-6)):(year<=6?year+"º ano primário":(year-6)+"º ano secundário");
@@ -117,15 +119,16 @@
   }
   async function loadData(){
     try{
-      let {brazil,international,eastAsia,translations,locales}=window.SABER_DATA||{};
+      let {brazil,international,eastAsia,translations,locales,officialUnits,machine}=window.SABER_DATA||{};
       if(!brazil||!international){
-        [brazil,international,eastAsia,translations,locales]=await Promise.all([loadJson("data/brazil_topics.json",true),loadJson("data/international.json",true),loadJson("data/east_asia.json",false),loadJson("data/translations.json",false),loadJson("assets/locales.json",true)]);
+        [brazil,international,eastAsia,translations,locales,officialUnits,machine]=await Promise.all([loadJson("data/brazil_topics.json",true),loadJson("data/international.json",true),loadJson("data/east_asia.json",false),loadJson("data/translations.json",false),loadJson("assets/locales.json",true),loadJson("data/official_units.json",false),loadJson("data/translations_machine.json",false)]);
       }
       state.locales=locales?.locales||locales||{};
       state.translations=translations?.topics||{};
+      for(const [id,langs] of Object.entries(machine?.topics||{})){const own=state.translations[id]||(state.translations[id]={});for(const [lang,rec] of Object.entries(langs))if(!own[lang])own[lang]={...rec,_automatic:true};}
       const desired=new URLSearchParams(location.search).get("lang");
       state.lang=state.locales[desired]?desired:"pt-BR";
-      const datasets=[brazil,international,eastAsia].filter(Boolean);
+      const datasets=[brazil,international,eastAsia,officialUnits].filter(d=>d&&Array.isArray(d.topics));
       state.topics=datasets.flatMap(d=>d.topics||[]).map((raw,index)=>{
         const topic={...raw,id:String(raw.id),name:String(raw.name||raw.id),description:String(raw.description||""),domain:String(raw.domain||""),subject:String(raw.subject),origin:Array.isArray(raw.origin)?raw.origin:[],standards:Array.isArray(raw.standards)?raw.standards:[],prerequisites:Array.isArray(raw.prerequisites)?raw.prerequisites:[],index};
         const allNames=Object.values(state.translations[topic.id]||{}).flatMap(r=>typeof r==="object"?[r.name,r.description,r.domain]:[r]);
@@ -135,7 +138,7 @@
       });
       state.byId=new Map(state.topics.map(topic=>[topic.id,topic]));
       for(const d of datasets)for(const s of d.subjects||[])if(s.id)state.subjectLabels[s.id]=s;
-      const priority=["portugues","matematica","ciencias","historia","geografia","arte","educacao-fisica","ingles","ensino-religioso","computacao","japones","chines"];
+      const priority=["portugues","matematica","ciencias","historia","geografia","arte","educacao-fisica","ingles","ensino-religioso","computacao","educacao-infantil","japones","chines"];
       state.subjects=[...new Set(state.topics.map(topic=>topic.subject))].sort((a,b)=>(priority.indexOf(a)<0?99:priority.indexOf(a))-(priority.indexOf(b)<0?99:priority.indexOf(b))||a.localeCompare(b));
       state.active=new Set(state.subjects);
       for(const topic of state.topics)for(const pre of topic.prerequisites){
@@ -175,7 +178,8 @@
     $("subjects").innerHTML=state.subjects.map(id=>'<button class="subject-chip" data-subject="'+esc(id)+'" aria-pressed="'+state.active.has(id)+'" title="'+esc(subjectName(id))+'" style="--subject-color:'+(colors[id]||"#a7c6be")+'"><span class="dot" aria-hidden="true"></span><span class="subject-label">'+esc(subjectName(id))+'</span><span class="subject-count">'+number(counts.get(id))+"</span></button>").join("");
   }
   function updateGradeOptions(){
-    const years=[...new Set(state.topics.flatMap(topic=>placements(topic).filter(p=>p.system===state.system).flatMap(p=>p.years||[])))].sort((a,b)=>a-b);
+    const fixed={BR:[0,1,2,3,4,5,6,7,8,9],US:[0,1,2,3,4,5,6,7,8],"GB-ENG":[1,2,3,4,5,6,7,8,9],JP:[1,2,3,4,5,6,7,8,9],CN:[1,2,3,4,5,6,7,8,9]};
+    const years=fixed[state.system]||[];
     $("grade").innerHTML='<option value="all">'+esc(t("allGrades"))+"</option>"+years.map(year=>'<option value="'+year+'">'+esc(yearLabel(state.system,year))+"</option>").join("");
     if(state.grade!=="all"&&!years.includes(Number(state.grade)))state.grade="all";
     $("grade").value=state.grade;$("grade").disabled=state.system==="all";$("grade").title=state.system==="all"?t("chooseSystem"):t("systemNote");
@@ -203,7 +207,7 @@
     if(state.selected)for(const id of [state.selected.id,...state.lineage,...state.nextIds]){
       if(state.visibleIds.has(id))continue;const topic=state.byId.get(id);if(topic){state.rendered.push(topic);state.visibleIds.add(id);}
     }
-    $("visible-count").textContent=t("visible",{n:number(state.filtered.length)})+(state.rendered.length>state.filtered.length?t("context",{n:number(state.rendered.length-state.filtered.length)}):"");
+    $("visible-count").textContent=t("showing",{n:number(state.filtered.length),m:number(state.topics.length)})+(state.rendered.length>state.filtered.length?t("context",{n:number(state.rendered.length-state.filtered.length)}):"");
     $("empty").hidden=state.rendered.length>0;
     $("focus-topic").disabled=!state.selected;$("show-details").hidden=!state.selected;
     scheduleFrame();
@@ -233,8 +237,13 @@
     while(pending.length){const current=pending.pop();for(const pre of current.prerequisites){if(found.has(pre.id)||pre.id===topic.id)continue;const p=state.byId.get(pre.id);if(p){found.add(pre.id);pending.push(p);}}}
     return found;
   }
+  function pivotOn(topic){
+    if(!topic||!Number.isFinite(topic.x))return;
+    const v=viewport(),c=state.camera,r=qRotate(c.q,[topic.x-c.target[0],topic.y-c.target[1],topic.z-c.target[2]]),den=c.distance-r[2];if(den<=8)return;
+    const scale=v.focal/den;c.pan=[c.pan[0]+r[0]*scale,c.pan[1]+r[1]*scale];c.distance=den;c.target=[topic.x,topic.y,topic.z];c.pivot=topic.id;
+  }
   function selectTopic(id,remember=true){
-    const topic=state.byId.get(id);if(!topic)return;
+    const topic=state.byId.get(id);if(!topic)return;pivotOn(topic);
     if(remember&&state.selected&&state.selected.id!==id)state.history.push(state.selected.id);
     state.selected=topic;state.lineage=getAncestors(topic);state.nextIds=new Set((state.next.get(id)||[]).map(x=>x.topic.id));
     updateVisibleContext();state.hover=null;$("tooltip").hidden=true;$("search-results").hidden=true;renderDetail();$("detail").hidden=false;
@@ -257,12 +266,12 @@
     const parent=state.byId.get(topic.parentId),record=translationRecord(topic);
     if(parent&&!related.some(p=>p.topic.id===parent.id))related.push({topic:parent,relation:"parte-da-habilidade",reason:""});
     const name=topicText(topic,"name"),desc=topicText(topic,"description"),domain=topicText(topic,"domain");
-    const kind=t(topic.kind==="habilidade"?"curricularSkill":topic.kind==="microtopico"?"microtopic":"taxonomyConcept");
+    const kind=t(topic.kind==="habilidade"?"curricularSkill":topic.kind==="microtopico"?"microtopic":topic.kind==="unidade-oficial"?"officialUnit":topic.kind==="objetivo-ei"?"eiObjective":"taxonomyConcept");
     const status=topic.origin.includes("BR")?(topic.alignmentStatus==="verified"?t("referenceVerified"):t("referenceProposed")):t("noBncc");
     const translationMissing=!hasTranslation(topic);
-    const languageNote=record?'<p class="translation-note">'+esc(t(record._automatic?"automaticTranslation":"editorialTranslation"))+"</p>":"";
+    const languageNote=record?'<p class="translation-note">'+esc(t(record._provenance?"machineTranslationGated":record._automatic?"automaticTranslation":"editorialTranslation"))+"</p>":"";
     const missingNote=translationMissing?'<p class="translation-note">'+esc(t("translationPending"))+" "+esc(t("sourceText",{language:nativeLanguage(topic.language||"en")}))+'</p><button id="translate-native" class="small-button">'+esc(t("translateConcept"))+'</button><p id="translate-status" class="muted" role="status"></p>':"";
-    const sourceNotes=[topic.sourceFormattingNote,...topic.standards.flatMap(s=>[s.normalizationNote,s.sourceCodeLiteral&&s.sourceCodeLiteral!==s.code?s.sourceCodeLiteral+" → "+s.code:""])].filter(Boolean);
+    const sourceNotes=[topic.textStatus==="trecho-ocr"?t("ocrExcerpt"):"",topic.textStatus==="literal-oficial"?t("literalOfficial"):"",topic.sourceFormattingNote,...topic.standards.flatMap(s=>[s.normalizationNote,s.sourceCodeLiteral&&s.sourceCodeLiteral!==s.code?s.sourceCodeLiteral+" → "+s.code:""])].filter(Boolean);
     const notes=sourceNotes.length?'<p class="source-note">'+sourceNotes.map(esc).join("<br>")+"</p>":"";
     const sourceHtml=topic.standards.length?topic.standards.map(s=>{
       const url=safeUrl(s.url);const code=s.sourceCodeLiteral||s.code||s.sourceSection||s.framework||"";
@@ -290,7 +299,7 @@
     const controls=document.querySelector(".explore-controls");$("app").style.setProperty("--controls-bottom",controls.offsetTop+controls.offsetHeight+18+"px");
     scheduleFrame();
   }
-  function cameraSnapshot(){return {quaternion:state.camera.q.map(n=>Number(n.toFixed(6))),distance:Number(state.camera.distance.toFixed(3)),target:state.camera.target.map(n=>Number(n.toFixed(3))),pan:state.camera.pan.map(n=>Number(n.toFixed(3))),focused:state.camera.focused};}
+  function cameraSnapshot(){return {pivot:state.camera.pivot||null,zoomLimits:[ZOOM_MIN,ZOOM_MAX],quaternion:state.camera.q.map(n=>Number(n.toFixed(6))),distance:Number(state.camera.distance.toFixed(3)),target:state.camera.target.map(n=>Number(n.toFixed(3))),pan:state.camera.pan.map(n=>Number(n.toFixed(3))),focused:state.camera.focused};}
   function updateCameraUI(){
     const zoom=Math.round(state.camera.baseDistance/state.camera.distance*100);$("zoom-level").textContent=zoom+"%";canvas.dataset.zoom=String(zoom);canvas.dataset.camera=JSON.stringify(cameraSnapshot());
   }
@@ -305,16 +314,16 @@
       state.camera.target=bounds.map(([min,max])=>(min+max)/2);
       const v=viewport();state.camera.distance=fittedDistance(pts,state.camera.q,state.camera.target,v.focal,v.halfW,v.halfH);
     }
-    state.camera.baseDistance=state.camera.distance;state.camera.pan=[0,0];state.camera.focused=null;updateCameraUI();scheduleFrame();if(speak)announce(t("fitted"));
+    state.camera.baseDistance=state.camera.distance;state.camera.pan=[0,0];state.camera.focused=null;state.camera.pivot=null;updateCameraUI();scheduleFrame();if(speak)announce(t("fitted"));
   }
   function focusTopic(){
     if(!state.selected)return;
-    state.camera.target=[state.selected.x,state.selected.y,state.selected.z];state.camera.pan=[0,0];state.camera.distance=180;state.camera.focused=state.selected.id;
+    state.camera.target=[state.selected.x,state.selected.y,state.selected.z];state.camera.pan=[0,0];state.camera.distance=clamp(180,state.camera.baseDistance/ZOOM_MAX,state.camera.baseDistance/ZOOM_MIN);state.camera.focused=state.selected.id;
     state.paused=true;updateRotate();setView("graph");$("detail").hidden=true;updateCameraUI();scheduleFrame();canvas.focus({preventScroll:true});announce(t("focused"));
   }
   function setZoom(factor,focusIfSelected=false){
     if(focusIfSelected&&state.selected&&state.camera.focused!==state.selected.id)focusTopic();
-    state.camera.distance=zoomDistance(state.camera.distance,factor);updateCameraUI();scheduleFrame();
+    state.camera.distance=zoomDistance(state.camera.distance,factor,state.camera.baseDistance);updateCameraUI();scheduleFrame();
   }
   function resetCamera(){state.camera.q=initialQ();fitGraph();}
   function project(){
@@ -378,7 +387,7 @@
       const dx=p.x-previous.x,dy=p.y-previous.y;previous.x=p.x;previous.y=p.y;previous.moved=previous.moved||Math.hypot(p.x-previous.startX,p.y-previous.startY)>4;
       if(state.pointers.size>=2){
         const next=gestureSnapshot(),old=state.gesture;
-        if(old&&next){state.camera.pan[0]+=next.x-old.x;state.camera.pan[1]+=next.y-old.y;if(next.distance>5&&old.distance>5)state.camera.distance=zoomDistance(state.camera.distance,old.distance/next.distance);let roll=next.angle-old.angle;if(roll>Math.PI)roll-=Math.PI*2;if(roll<-Math.PI)roll+=Math.PI*2;rotate(0,0,roll);}
+        if(old&&next){state.camera.pan[0]+=next.x-old.x;state.camera.pan[1]+=next.y-old.y;if(next.distance>5&&old.distance>5)state.camera.distance=zoomDistance(state.camera.distance,old.distance/next.distance,state.camera.baseDistance);let roll=next.angle-old.angle;if(roll>Math.PI)roll-=Math.PI*2;if(roll<-Math.PI)roll+=Math.PI*2;rotate(0,0,roll);}
         state.gesture=next;
       }else if(previous.pan||e.shiftKey){state.camera.pan[0]+=dx;state.camera.pan[1]+=dy;}
       else if(previous.roll||e.altKey)rotate(0,0,dx*.006);
@@ -396,6 +405,7 @@
   }
   canvas.addEventListener("pointerup",pointerEnd);canvas.addEventListener("pointercancel",pointerEnd);canvas.addEventListener("lostpointercapture",e=>{state.pointers.delete(e.pointerId);state.gesture=gestureSnapshot();});
   canvas.addEventListener("pointerleave",()=>{if(!state.pointers.size){state.hover=null;$("tooltip").hidden=true;scheduleFrame();}});
+  canvas.addEventListener("dblclick",e=>{e.preventDefault();const p=pointerPosition(e),topic=pick(p.x,p.y);if(topic&&state.selected?.id!==topic.id)selectTopic(topic.id);setZoom(e.shiftKey?2:.5);});
   canvas.addEventListener("wheel",e=>{e.preventDefault();const unit=e.deltaMode===1?16:e.deltaMode===2?height:1;setZoom(Math.exp(clamp(e.deltaY*unit,-500,500)*.0015));},{passive:false});
   canvas.addEventListener("keydown",e=>{
     const keys=["ArrowLeft","ArrowRight","ArrowUp","ArrowDown","+","=","-","_","Home","q","Q","e","E"];

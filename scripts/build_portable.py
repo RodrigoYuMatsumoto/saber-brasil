@@ -27,6 +27,10 @@ def build():
             "eastAsia": json.loads((ROOT / "data/east_asia.json").read_text(encoding="utf-8")),
             "translations": json.loads((ROOT / "data/translations.json").read_text(encoding="utf-8")),
             "locales": json.loads((ROOT / "assets/locales.json").read_text(encoding="utf-8"))}
+    # Camadas opcionais (Grok, 2026-11-12): unidades oficiais e traduções automáticas rotuladas.
+    for key, name in (("officialUnits", "data/official_units.json"), ("machine", "data/translations_machine.json")):
+        if (ROOT / name).exists():
+            data[key] = json.loads((ROOT / name).read_text(encoding="utf-8"))
     packed = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     document, css_count = re.subn(r'<link\b[^>]*href=[\x22\x27](?:\./)?styles\.css[\x22\x27][^>]*>',
                                 lambda _: "<style>\n" + css + "\n</style>", document)
@@ -45,8 +49,10 @@ def build():
             "sha256": hashlib.sha256(target.read_bytes()).hexdigest(),
             "sourceFiles": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest() for name in (
                 "index.html", "app.js", "styles.css", "assets/locales.json", "data/brazil_topics.json",
-                "data/international.json", "data/east_asia.json", "data/translations.json")},
+                "data/international.json", "data/east_asia.json", "data/translations.json") + tuple(
+                n for n in ("data/official_units.json", "data/translations_machine.json") if (ROOT / n).exists())},
             "topics": sum(len(data[key]["topics"]) for key in ("brazil", "international", "eastAsia")),
+            "officialUnitsLayer": len(data.get("officialUnits", {}).get("topics", [])),
             "standalone": True, "lang": "pt-BR",
             "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
             "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",

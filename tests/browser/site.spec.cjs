@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const root = path.resolve(__dirname, '../..');
-const datasets = ['brazil_topics', 'international', 'east_asia'].map(name => require(path.join(root, 'data', `${name}.json`)));
+const datasets = ['brazil_topics', 'international', 'east_asia', 'official_units'].map(name => require(path.join(root, 'data', `${name}.json`)));
 const topics = datasets.flatMap(data => data.topics);
 
 async function ready(page, address = '/') {

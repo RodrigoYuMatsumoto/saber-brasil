@@ -8,12 +8,12 @@
     "subject": "Identidades, séries de origem, fontes, idiomas e estados explícitos de tradução"
   },
   "status": "pass",
-  "checkedAt": "2026-11-12T13:06:05.710678+00:00",
+  "checkedAt": "2026-11-13T00:36:56.450069+00:00",
   "files": [
     {
       "path": "data/brazil_topics.json",
-      "bytes": 4987532,
-      "sha256": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082"
+      "bytes": 5006812,
+      "sha256": "c877894993df7efe6e7c0dc6532c20e3881038cbefd81a95c60874a79a1b3a24"
     },
     {
       "path": "data/international.json",
@@ -22,13 +22,13 @@
     },
     {
       "path": "data/east_asia.json",
-      "bytes": 2206501,
-      "sha256": "0d0247ca32204e2d2844946d0bd6892f4a85e01df42c86b65397406feac74c28"
+      "bytes": 2206813,
+      "sha256": "8426b7482c86379a9e7f8b8bd2c594c71c633dff4843635d8560e886f349a7c2"
     },
     {
       "path": "assets/locales.json",
-      "bytes": 36274,
-      "sha256": "d0adf51c98e47472fbc23c6e3a314c16c042cdd8cd2b2548175e05fc74b963d7"
+      "bytes": 38690,
+      "sha256": "f7d7a625d47e2ebe0b0600ac911fdd713264bd89af15fd48acb73059ba64e17f"
     },
     {
       "path": "data/translations.json",
@@ -51,28 +51,28 @@
     "CN": 303
   },
   "interfaceKeys": {
-    "pt-BR": 147,
-    "en": 147,
-    "ja": 147,
-    "zh-Hant": 147
+    "pt-BR": 155,
+    "en": 155,
+    "ja": 155,
+    "zh-Hant": 155
   },
   "contentDescriptionCoverage": {
-    "en": 2517,
-    "ja": 610,
+    "pt-BR": 4668,
     "zh-Hant": 610,
-    "pt-BR": 4668
+    "ja": 610,
+    "en": 2517
   },
   "contentNameCoverage": {
-    "en": 2517,
-    "ja": 610,
+    "pt-BR": 4668,
     "zh-Hant": 610,
-    "pt-BR": 4668
+    "ja": 610,
+    "en": 2517
   },
   "translatedDescriptionCoverage": {
-    "en": 2517,
-    "ja": 610,
+    "pt-BR": 4668,
     "zh-Hant": 610,
-    "pt-BR": 4668
+    "ja": 610,
+    "en": 2517
   },
   "checks": [
     {
@@ -183,10 +183,10 @@
       "id": "INTERFACE_KEY_COVERAGE",
       "passed": true,
       "detail": {
-        "pt-BR": 147,
-        "en": 147,
-        "ja": 147,
-        "zh-Hant": 147
+        "pt-BR": 155,
+        "en": 155,
+        "ja": 155,
+        "zh-Hant": 155
       }
     },
     {
