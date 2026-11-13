@@ -8,29 +8,31 @@
     "subject": "SHA-256 dos arquivos entregues, incluindo dados, fontes e evidências"
   },
   "version": "3.0.0",
-  "createdAt": "2026-11-13T00:45:33.497790+00:00",
+  "createdAt": "2026-11-13T01:08:36.941121+00:00",
   "deliveryStatus": "Base de consenso conferida; camadas opcionais distintas; cobertura literal chinesa parcial",
   "counts": {
     "baseBrazil": 1408,
     "baseMarble": 1907,
     "baseConsensus": 3315,
     "editorialBrazil": 743,
-    "allRecords": 6411,
+    "earlyChildhoodSource": 104,
+    "allRecords": 6515,
     "layers": {
       "base-br": 1408,
       "editorial-ia": 743,
+      "ei-source": 104,
       "base-marble": 1907,
       "jp-editorial": 307,
       "cn-editorial": 303,
       "jp-source": 1695,
       "cn-source": 48
     },
-    "allEdges": 4886,
+    "allEdges": 4885,
     "edgesByType": {
       "decomposicao": 743,
       "pedagogica-br": 97,
       "marble": 4003,
-      "pedagogica-asia": 43
+      "pedagogica-asia": 42
     }
   },
   "defaultView": {
@@ -43,17 +45,17 @@
     "inferredEdgesEnabled": false
   },
   "graph": {
-    "nodes": 6411,
-    "edges": 4886,
+    "nodes": 6515,
+    "edges": 4885,
     "edgesByType": {
       "decomposicao": 743,
       "pedagogica-br": 97,
       "marble": 4003,
-      "pedagogica-asia": 43
+      "pedagogica-asia": 42
     },
     "acyclic": true,
-    "topologicalNodes": 6411,
-    "topologicalOrderSha256": "206872dbce3f0d5e75b181b676020460f792ab847fecb7973aba96f983b556db",
+    "topologicalNodes": 6515,
+    "topologicalOrderSha256": "d3f6aae124bd4fa2603857137be2e9455261ed2f53ceffdd10b9a1bb9674ff18",
     "unresolvedReferences": [],
     "inferredEdgesWithoutReasonOrStrength": [],
     "strengthNote": "Força é peso editorial de apresentação, não probabilidade de correção nem relação oficial do currículo."
@@ -66,8 +68,8 @@
     },
     {
       "path": ".github/workflows/validate.yml",
-      "bytes": 1577,
-      "sha256": "e4a08ee2d3d7dce63d1d362f9dd99c47ed34eb5f64259ceec91d785c6952eef2"
+      "bytes": 1715,
+      "sha256": "729b2db35d08a9030ee95eb9098365b225cc8e29f6b6a53efb4c0c904f9da200"
     },
     {
       "path": ".gitignore",
@@ -81,13 +83,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 4438,
-      "sha256": "4a7f04022ca688eb602cf2ccfaf4bcce36fc52ba20408266924df3a8ba5abe78"
+      "bytes": 4736,
+      "sha256": "9311d9b4723725c3b9f25576390c0b9b3c915ef73c191c3d4b19c679c6a47486"
     },
     {
       "path": "app.js",
-      "bytes": 57489,
-      "sha256": "0e890b6d5a2517f0bd3e57f5f4fcbadb0181a49fcaad9b113d8fd8d42d70c54e"
+      "bytes": 58782,
+      "sha256": "a87b33d34377dedec371e3d23d5b2833e2b2f2ecb50e7a4553c83ca4e3bcb079"
     },
     {
       "path": "assets/favicon.svg",
@@ -96,8 +98,8 @@
     },
     {
       "path": "assets/locales.json",
-      "bytes": 46621,
-      "sha256": "48d3939134d4da19f71cc50206de6fa4f8f6f39ef62ecf156ecdec0965f5298e"
+      "bytes": 50631,
+      "sha256": "1b93e4c9fbc8e224da98c028526e9148970631fd49aa0f5d5af50263d6df469a"
     },
     {
       "path": "contribuicoes/grok-2026-11-12/extraido/auditoria/audit_cn_anchors.json",
@@ -286,8 +288,8 @@
     },
     {
       "path": "data/brazil_topics.json",
-      "bytes": 6603828,
-      "sha256": "50bcc4aeaebfe388c0bb7828ac1b3320b15b95825be434168e5d4cbcdda48710"
+      "bytes": 7058688,
+      "sha256": "22ab88893b86eeebfd5d33875721345e9e2ebb2b10f12077d54abee573bd3a09"
     },
     {
       "path": "data/curriculum_grades.json",
@@ -296,8 +298,8 @@
     },
     {
       "path": "data/east_asia.json",
-      "bytes": 8169872,
-      "sha256": "bac0892cfe7879de8487667b1916ed89b73f9fb6d03598e61d2663430c3bbb62"
+      "bytes": 8169389,
+      "sha256": "fc28769a4a5cf907ecd701b1fd93a4d2e0fed27c4daf7d3b92df865651291ec8"
     },
     {
       "path": "data/east_asia_candidates.json",
@@ -308,6 +310,11 @@
       "path": "data/east_asia_curated.json",
       "bytes": 223286,
       "sha256": "a1c37ea7f38c2d28dd4bb6c0351c92b908c2afb8a9d3a89fb328ede1948aab6c"
+    },
+    {
+      "path": "data/east_asia_relation_candidates.json",
+      "bytes": 2375,
+      "sha256": "86db69d9b0dc331797fa795304a371010a26f26415de9f50e859039f1b821d06"
     },
     {
       "path": "data/east_asia_source_anchors.json",
@@ -345,6 +352,11 @@
       "sha256": "20f2fcd959844b3cebf132bea11fcc6498f88548f4bb13ee30fbda7cf5091f4a"
     },
     {
+      "path": "data/reference_bncc/educacao_infantil.json",
+      "bytes": 80300,
+      "sha256": "80d35189eaec4053db95a2b550aceb3de747715eb0afcfe9f3ef9a27a86373a1"
+    },
+    {
       "path": "data/reference_bncc/ensino_fundamental.json",
       "bytes": 1850333,
       "sha256": "bdc84d6bb6f4b38ca1331b0319cb04ea8f9240d076d3097928124c0b9ba38c0b"
@@ -356,8 +368,8 @@
     },
     {
       "path": "data/reference_bncc/Proveniencia.json",
-      "bytes": 2208,
-      "sha256": "bef7c34cdbe07756992e6c49736ed22d247a79290b7e0e2269f7f0b9a7929d39"
+      "bytes": 2562,
+      "sha256": "628d281840d0cf8108d26ad95b78eacf8a1696c4ccd8af6da9e11d3be5d6fbe8"
     },
     {
       "path": "data/source_tables/jp_code_assignment.xlsx",
@@ -420,9 +432,14 @@
       "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff"
     },
     {
+      "path": "docs/Aporte_Grok_e667.md",
+      "bytes": 3016,
+      "sha256": "6807a321937c1aeeae9cd68ac261ebf4a1c1849c7bc02aa51bc593f2bf777435"
+    },
+    {
       "path": "docs/Consenso_Adotado_V3.md",
-      "bytes": 6870,
-      "sha256": "3509ea71926a3a4b9d58fc1a3ab6042d9b045e34769f7964241594cc7a381a9b"
+      "bytes": 7789,
+      "sha256": "8130f198df3617179f966d1c053f6d8b8439b2bbf42ca53d6363914b6ae3c703"
     },
     {
       "path": "docs/Consenso_Taxonomias.md",
@@ -431,8 +448,8 @@
     },
     {
       "path": "docs/Curriculos_Japao_China.md",
-      "bytes": 7717,
-      "sha256": "248c0d14ab66dbfe80d59481e800cb505dce06adb93fdbf8c249650fada6f496"
+      "bytes": 8434,
+      "sha256": "6c015b543bdd8b74e9137a9ab50309549056f6a6a7c46c18d34f6c856fe7e43c"
     },
     {
       "path": "docs/Entrega_Verificada.md",
@@ -441,8 +458,8 @@
     },
     {
       "path": "docs/Entrega_Verificada_V3.md",
-      "bytes": 6442,
-      "sha256": "1a503fb130c23719a6c113bcbb32df252fafb93d87d8907ce2620b9bbaaba86a"
+      "bytes": 7416,
+      "sha256": "c5d516240d801d6ab6d2c01e8c3fbf4839e50ea873a1adcc6202266407238491"
     },
     {
       "path": "docs/Prompts_Convergencia.md",
@@ -456,13 +473,13 @@
     },
     {
       "path": "docs/Protocolo_Compartilhado_IA.md",
-      "bytes": 4526,
-      "sha256": "21653e959b406a96020d51a77394018b014f9a411e348570f0841ce1b44df1f7"
+      "bytes": 4731,
+      "sha256": "5f378f06baf0bc12de7eb33b9b8f57545332c984aa736724d32e7fb201ba511c"
     },
     {
       "path": "docs/Series_e_Idades.md",
-      "bytes": 3315,
-      "sha256": "ddcf8eba707ebe00ea33240d5e9aaed6174c37729eb8c197c74078315b7e326e"
+      "bytes": 3285,
+      "sha256": "4d2d6c670134140c2000ce1a86eb448a98a55a779e78b2d2866356441ac43e0a"
     },
     {
       "path": "evidence/Asia_Literal_V3/cn_arts_Pagina_23.png",
@@ -667,12 +684,12 @@
     {
       "path": "evidence/Build_Portatil.json",
       "bytes": 1299,
-      "sha256": "2b73b7086e71890f25a2c32980079a606a6a6477ffda337b82c8c17e8cb49d45"
+      "sha256": "b7ccbb924d199728650c4b9658fb3b9bda2cf46174c4b0bbc11d0baece56ec31"
     },
     {
       "path": "evidence/Consenso_Camadas_V3.json",
-      "bytes": 414241,
-      "sha256": "484280f82398f4c1d50abe0e00ad66197a1e5c70107e568b71bec51cdcd8b2a1"
+      "bytes": 414655,
+      "sha256": "5d96854d7efbdf454a6a5b42522b31cca3993b0b6115adb2739f571d9145ce40"
     },
     {
       "path": "evidence/Consenso_Taxonomias.json",
@@ -681,53 +698,63 @@
     },
     {
       "path": "evidence/Consenso_V3_China_Literal.png",
-      "bytes": 398709,
-      "sha256": "a0490610c0063a3e6345318f0eee9b11a446241fe1395de58e1b64ab4a3a4f31"
+      "bytes": 401618,
+      "sha256": "498e095fbf36a95320eea58c07abc4f7adf7ec0f39e85fa12d69defb159847c1"
     },
     {
       "path": "evidence/Consenso_V3_Desktop.png",
-      "bytes": 407612,
-      "sha256": "9baf6b8aa49336eca15784fee8bcaea38c5ec06d4d95d37ab569f61fbaaee1c8"
+      "bytes": 405725,
+      "sha256": "38b3a3f0b484e2d2365b3455d95fea97f3f58151f2d9b6d4b98bedbbecdc6a77"
     },
     {
       "path": "evidence/Consenso_V3_Editorial.png",
-      "bytes": 393290,
-      "sha256": "af55beaa594f5fa94be13edba68d35021e534c19250db6bae0150dd08b4b8d34"
+      "bytes": 387940,
+      "sha256": "f71f596e12dfabd00c8e7f55887de7ad78596d889f5717eb00555252ec4a0d13"
+    },
+    {
+      "path": "evidence/Consenso_V3_Educacao_Infantil.png",
+      "bytes": 411957,
+      "sha256": "37dcbb66ea3f11e40a95e1a68ec49710041ea9c7f8deae50c6fe7b46971faad3"
     },
     {
       "path": "evidence/Consenso_V3_Filtros.png",
-      "bytes": 407623,
-      "sha256": "c7a699290d29273d4a64df6b2a80254f36784ebfff35f1c02ee7740769490d20"
+      "bytes": 405732,
+      "sha256": "92c9f0f28a318fe85f3faa684e3cf1944e44581976cf647c5f525d028f96e434"
     },
     {
       "path": "evidence/Consenso_V3_Foco.png",
-      "bytes": 933483,
-      "sha256": "cc60fb89710d43a2c819c918d4600ca22be08465a2a03005cbbaae3fa97d60bb"
+      "bytes": 927417,
+      "sha256": "811d73c398aae25ba518e61dc016f16e0d6779c230804147a11342b0553ba3e9"
     },
     {
       "path": "evidence/Consenso_V3_Japao_Literal.png",
-      "bytes": 417105,
-      "sha256": "50bf8cd5a5e04069744dced0601e1e476c840d0034d4f321ffff5f2493e4fd74"
+      "bytes": 419887,
+      "sha256": "69622a420202fa458aabc89c2e34c630e8d12528f27b7f54a2dc173cd987b4a6"
     },
     {
       "path": "evidence/Consenso_V3_Mobile.png",
-      "bytes": 213506,
-      "sha256": "85b5d9202d56fdf5b3a68ea240f24e0f2a04778229e3fdc9275816fb83a1143f"
+      "bytes": 216507,
+      "sha256": "9f02265c49bdc1ec23ab54571d10fd7e164e82f71a427ce426686b8c5b4b4f01"
     },
     {
       "path": "evidence/Consenso_V3_Portatil.png",
-      "bytes": 407623,
-      "sha256": "c7a699290d29273d4a64df6b2a80254f36784ebfff35f1c02ee7740769490d20"
+      "bytes": 405732,
+      "sha256": "92c9f0f28a318fe85f3faa684e3cf1944e44581976cf647c5f525d028f96e434"
     },
     {
       "path": "evidence/Consenso_V3_Toque_Emulado.png",
-      "bytes": 222919,
-      "sha256": "bec66ea5793924061b6ad4f735e5beed51dea2910e0b2b5c2aa4f020f988e405"
+      "bytes": 226254,
+      "sha256": "1ab442c053b22941d5384c552551de8899a5f12ee488b0edb5513e48513d95cb"
     },
     {
       "path": "evidence/Consenso_V3_Traducao.png",
-      "bytes": 378356,
-      "sha256": "a1767aaa36171db70506bb401e228afa2d8065990ad4828357516ca4d3295cdf"
+      "bytes": 379659,
+      "sha256": "41594b7c816701cd2d3fd5043ed0830ae9ad1a56534d5f7d4bd72d44eb06b3da"
+    },
+    {
+      "path": "evidence/Educacao_Infantil_Verificada_V3.json",
+      "bytes": 98411,
+      "sha256": "154305b6cb1d13fe33c57c0ec9d738ff749a0984530611cd42516e499250b4bb"
     },
     {
       "path": "evidence/Exportacao_CSV_Verificada.csv",
@@ -741,8 +768,8 @@
     },
     {
       "path": "evidence/Fontes_Asia_Literal_V3.json",
-      "bytes": 66080,
-      "sha256": "82269e46b60104c7a0ae9517088eefdb5d1256e19a242263daa4e3bee6dc259f"
+      "bytes": 68287,
+      "sha256": "c39e1ba62e897530f027205fdac54cdcde44d4a52ee88a19c63d9ae02a33556a"
     },
     {
       "path": "evidence/Importacao_Internacional.json",
@@ -756,8 +783,8 @@
     },
     {
       "path": "evidence/Pastas_Referencia_Verificadas_V3.json",
-      "bytes": 629,
-      "sha256": "d93fc557675f57b035b6cb242a9722ac0d9e2fbf1132966499fa516fe6466e11"
+      "bytes": 1140,
+      "sha256": "55b34e137eedd3163cfd7167aa63c60faa93f8378b858e264ba02089dc3f1572"
     },
     {
       "path": "evidence/Saber_Brasil_V2_Desktop.png",
@@ -795,9 +822,14 @@
       "sha256": "3905a3ec77401d3c853209839ae33233ee51b878f341c9e7aa2a9be2c8476169"
     },
     {
+      "path": "evidence/Testes_Captura_Mobile_V3.json",
+      "bytes": 2211,
+      "sha256": "94524c54cd7fcc6841499b1699325feefafe9e3b82aed9ef0e07deabf33b6a85"
+    },
+    {
       "path": "evidence/Testes_Navegador_Consenso_V3.json",
-      "bytes": 8016,
-      "sha256": "f754b8a00641d43e5d0dc86dd4fa0895b90402b116980363b113d6ddde78b7d6"
+      "bytes": 6311,
+      "sha256": "f11efc6fabca4b72ab4a39c3abbda9cae2207001175f39748f9544dd3c53be19"
     },
     {
       "path": "evidence/Traducoes_Consenso_V3.json",
@@ -811,13 +843,13 @@
     },
     {
       "path": "evidence/Validacao_Dados.json",
-      "bytes": 33492,
-      "sha256": "0fa6d7f79949b14e28dd3c34cf68c4abb0d1bdd8cd3ca5dcd9dce254ed19a2c2"
+      "bytes": 34288,
+      "sha256": "74046673d7d423c9161aca049d428e7fad5d7f5e670871fa182e9539e6ea03a8"
     },
     {
       "path": "evidence/Validacao_Multissistema.json",
       "bytes": 6893,
-      "sha256": "10f4f0f28026793da0b39b1ca8c0272f57200fc802134ffee1cf89235b56fb96"
+      "sha256": "d61cb0970a08d708ee6d18b542431d05fa7c3b50356b84d8b1f16a695c4c7ff7"
     },
     {
       "path": "index.html",
@@ -876,8 +908,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8549,
-      "sha256": "79545863d02e7495ab7529c72f1841c5291ce5aef7902d3af4b528eda2153ac6"
+      "bytes": 9249,
+      "sha256": "07740e7307e5fdd22664b9f1217b3d919588758ab2885c911ef6655b87a27ec6"
     },
     {
       "path": "requirements_build.txt",
@@ -901,18 +933,18 @@
     },
     {
       "path": "scripts/build_brazil.py",
-      "bytes": 35963,
-      "sha256": "037a8e5f141750251fc059d6ea5ed2a26e38560a98de5bc8acd17a834684571f"
+      "bytes": 36174,
+      "sha256": "1f9b4ab1957523322241fed7c23d2645657f905cfc6d76319002ef4dcd0daad5"
     },
     {
       "path": "scripts/build_east_asia.py",
-      "bytes": 30756,
-      "sha256": "91817dfd12bcac04d5063b6667ed55fc9897be847c8d49ca60f0f1527009ba17"
+      "bytes": 30808,
+      "sha256": "870730d7aeee26618be6ca6d9cad1371718523f3efc5601dc153af2650802914"
     },
     {
       "path": "scripts/build_east_asia_sources.py",
-      "bytes": 15534,
-      "sha256": "80ad1f1abb8caeaafa8c2e40ff8e9c5247a7a3207952b6f82a8d19b290e11796"
+      "bytes": 16430,
+      "sha256": "76dd08966878763978b0f9bd762dff8d8fc2d2fac95022abd06b2b620412c775"
     },
     {
       "path": "scripts/build_portable.py",
@@ -921,13 +953,13 @@
     },
     {
       "path": "scripts/consensus_layers.py",
-      "bytes": 18948,
-      "sha256": "ee1a64db4b3db3b05f3108fc93ec9fd4eaaefc5cfa598cd08006c4066c47fe62"
+      "bytes": 20478,
+      "sha256": "5a6187112d2822fd65aa30cf39b22d6c61aac820b4b22f55248e7bec93952f2c"
     },
     {
       "path": "scripts/create_manifest.py",
-      "bytes": 4074,
-      "sha256": "d0e5c0933b7122e0b981ed18f52cd66b93d0a703a3b3798ee2da09180d6f571f"
+      "bytes": 4144,
+      "sha256": "ab4078c447b9c69c8bbaf1f3e9447ad10872029ef09a1d882b6d916d50d3ca7d"
     },
     {
       "path": "scripts/east_asia_curated.py",
@@ -943,6 +975,11 @@
       "path": "scripts/import_content_translations.py",
       "bytes": 8734,
       "sha256": "27c209520673909739128c101f239443fd93dc944c177ab53b73ce048f46bd9c"
+    },
+    {
+      "path": "scripts/import_early_childhood.py",
+      "bytes": 12496,
+      "sha256": "321c468fe86b4768faa661ab5dc02db2a45ebb96d3f4b784412a57e80e2fa64c"
     },
     {
       "path": "scripts/import_marble.py",
@@ -971,13 +1008,13 @@
     },
     {
       "path": "scripts/validate_multisystem.py",
-      "bytes": 16107,
-      "sha256": "421f40133457f0f77bbf59051bbfd36814026001b4f9ad02c30a9cb57c7310e9"
+      "bytes": 16336,
+      "sha256": "6d4b4b331c47407f19f5e2bb10abeacd257526672b5eb108f3ea215ce4af6ab4"
     },
     {
       "path": "scripts/validate_project.py",
-      "bytes": 33523,
-      "sha256": "f0bfdf997611bb4da56e59a9ff4f93fe7fd6b8a06f0de701006771765768e9c0"
+      "bytes": 34925,
+      "sha256": "1a531ada00ea42ccb4671ca4b83c08a138dd53a1c5d781bc129ed4b1d263299b"
     },
     {
       "path": "styles.css",
@@ -986,13 +1023,13 @@
     },
     {
       "path": "tests/browser/consensus_reporter.cjs",
-      "bytes": 2732,
-      "sha256": "038524651299bdbedd3fb99e659e2d365f5167b451959748ce7a3af347803652"
+      "bytes": 2899,
+      "sha256": "90d522f68938eaface65bdd522f1216058fa4df1eef0177a24eac2a2c94ff674"
     },
     {
       "path": "tests/browser/site.spec.cjs",
-      "bytes": 20184,
-      "sha256": "c27851f3fa9ea603b5d0b0440687ee85620d19204adfe33a1a082c58f5bdf9bb"
+      "bytes": 20862,
+      "sha256": "451b54a9272d407f454a29a03f7b508ae61f310a0f2db6045aba7140cdc595c4"
     },
     {
       "path": "tests/camera_math.test.cjs",
@@ -1015,9 +1052,14 @@
       "sha256": "cb3a352fe8a0d216513823e1d4f81d5b37c438534d7ace75a6b8508126e90a6a"
     },
     {
+      "path": "tests/test_early_childhood.py",
+      "bytes": 5534,
+      "sha256": "553f16fd2bc976337b3e3c26ab0d681130e70efb991593de1dd30f67fae43515"
+    },
+    {
       "path": "tests/test_east_asia_sources.py",
-      "bytes": 6490,
-      "sha256": "7ca340ce0d6cf71c1be493e1454b3767b0dc1d12a57136afb946759406c7f6e9"
+      "bytes": 8098,
+      "sha256": "fb098ab424d775aeda037738ed67ef1b347ce866b4f77244bad80d6f92178fd9"
     },
     {
       "path": "tests/test_multisystem_data.py",
@@ -1026,11 +1068,11 @@
     },
     {
       "path": "tests/test_reconciliation.py",
-      "bytes": 3591,
-      "sha256": "18d1e84b4ab5d393db81bdb67fdbcd9c8b874df2c585000b20b37344c0e0b5af"
+      "bytes": 4117,
+      "sha256": "fe3cfcd2dd3de83455dfdd517bc1016a7478fe850e948b7c178f9c270d954dfb"
     }
   ],
-  "totalBytes": 114832992,
+  "totalBytes": 115919084,
   "omitted": [
     "Arquivos não versionados",
     "backups",

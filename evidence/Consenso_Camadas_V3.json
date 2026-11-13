@@ -6,7 +6,7 @@
     "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
     "title": "Conciliação por camada e conferência de códigos brasileiros",
     "subject": "Base de consenso, camada editorial opcional, confronto integral de códigos e prova de aciclicidade",
-    "generatedAt": "2026-11-13T00:26:43.212182+00:00"
+    "generatedAt": "2026-11-13T00:59:53.394040+00:00"
   },
   "reference": {
     "repository": "https://github.com/bncc-dev/bncc-dados",
@@ -25,6 +25,11 @@
         "bytes": 19718
       },
       {
+        "path": "data/reference_bncc/educacao_infantil.json",
+        "sha256": "80d35189eaec4053db95a2b550aceb3de747715eb0afcfe9f3ef9a27a86373a1",
+        "bytes": 80300
+      },
+      {
         "path": "data/reference_bncc/ensino_fundamental.json",
         "sha256": "bdc84d6bb6f4b38ca1331b0319cb04ea8f9240d076d3097928124c0b9ba38c0b",
         "bytes": 1850333
@@ -36,8 +41,8 @@
       },
       {
         "path": "data/reference_bncc/Proveniencia.json",
-        "sha256": "bef7c34cdbe07756992e6c49736ed22d247a79290b7e0e2269f7f0b9a7929d39",
-        "bytes": 2208
+        "sha256": "628d281840d0cf8108d26ad95b78eacf8a1696c4ccd8af6da9e11d3be5d6fbe8",
+        "bytes": 2562
       }
     ]
   },
@@ -50,7 +55,8 @@
     "editorialBrazil": 743,
     "extensionsJapan": 2002,
     "extensionsChina": 351,
-    "allRecords": 6411
+    "allRecords": 6515,
+    "earlyChildhood": 104
   },
   "codes": {
     "referenceUnique": 1408,
@@ -14164,17 +14170,17 @@
     "note": "O código BNCC fica no vínculo parentCode e na referência parentStandards, nunca como código próprio do microtópico editorial."
   },
   "graph": {
-    "nodes": 6411,
-    "edges": 4886,
+    "nodes": 6515,
+    "edges": 4885,
     "edgesByType": {
       "decomposicao": 743,
       "pedagogica-br": 97,
       "marble": 4003,
-      "pedagogica-asia": 43
+      "pedagogica-asia": 42
     },
     "acyclic": true,
-    "topologicalNodes": 6411,
-    "topologicalOrderSha256": "206872dbce3f0d5e75b181b676020460f792ab847fecb7973aba96f983b556db",
+    "topologicalNodes": 6515,
+    "topologicalOrderSha256": "d3f6aae124bd4fa2603857137be2e9455261ed2f53ceffdd10b9a1bb9674ff18",
     "unresolvedReferences": [],
     "inferredEdgesWithoutReasonOrStrength": [],
     "strengthNote": "Força é peso editorial de apresentação, não probabilidade de correção nem relação oficial do currículo."
@@ -14204,5 +14210,12 @@
     "A contagem da base de consenso exclui editoriais brasileiros e extensões asiáticas; as traduções não acrescentam nós.",
     "Revisão B.9 por família arquitetural distinta não foi realizada por este script."
   ],
+  "earlyChildhood": {
+    "optional": true,
+    "includedInConsensusBase": false,
+    "count": 104,
+    "invalidRecords": [],
+    "sourceReport": "evidence/Educacao_Infantil_Verificada_V3.json"
+  },
   "status": "pass"
 }

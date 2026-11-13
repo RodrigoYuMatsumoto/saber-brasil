@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Testes headless do consenso v3",
+    "subject": "Resultado PASS ou FAIL por item em computador e celular emulado"
+  },
+  "checkedAt": "2026-11-13T01:07:54.801Z",
+  "status": "PASS",
+  "reportMode": "focused-capture-rerun",
+  "browser": {
+    "channel": "chrome",
+    "version": null,
+    "headless": true,
+    "serverPort": 55560,
+    "isolation": "fresh-loopback-server"
+  },
+  "total": 1,
+  "passed": 1,
+  "failed": 0,
+  "items": [
+    {
+      "item": "A13 Layout móvel, filtros e idiomas sem transbordamento",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3853,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Mobile.png"
+      ]
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "app.js",
+      "sha256": "a87b33d34377dedec371e3d23d5b2833e2b2f2ecb50e7a4553c83ca4e3bcb079"
+    },
+    {
+      "path": "index.html",
+      "sha256": "4dd8c38b54a7480a49f50b83303de61a443380c61ec1b0859d52d4e4d46ce0ea"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "507e6455ed54b4129af6d2abef92e1d6372df136cc9826911f11345a2085f8cf"
+    },
+    {
+      "path": "assets/locales.json",
+      "sha256": "1b93e4c9fbc8e224da98c028526e9148970631fd49aa0f5d5af50263d6df469a"
+    },
+    {
+      "path": "data/brazil_topics.json",
+      "sha256": "22ab88893b86eeebfd5d33875721345e9e2ebb2b10f12077d54abee573bd3a09"
+    },
+    {
+      "path": "data/international.json",
+      "sha256": "c74c0fc48758f1b832cd95b63c0ce33c54f237f99dea84ed350f82145141a8d5"
+    },
+    {
+      "path": "data/east_asia.json",
+      "sha256": "fc28769a4a5cf907ecd701b1fd93a4d2e0fed27c4daf7d3b92df865651291ec8"
+    },
+    {
+      "path": "data/translations.json",
+      "sha256": "daadceed090ea495e1ca898448671d330fcac9e231914665b6acadafe8d36809"
+    }
+  ],
+  "notVerified": [
+    "Gestos em aparelho físico.",
+    "Revisão docente ou linguística.",
+    "Validação B.9 por família arquitetural distinta.",
+    "Abertura do HTML pelo protocolo de arquivo."
+  ]
+}

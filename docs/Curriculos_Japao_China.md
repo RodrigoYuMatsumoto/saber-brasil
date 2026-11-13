@@ -49,7 +49,11 @@ Quando o documento da matéria apresenta o bloco de anos, esse bloco é preserva
 
 Os JSON, CSV, planilha de códigos e seleção versionados bastam para reconstruir o conjunto sem consultar as pastas históricas. Use `python scripts/build_east_asia.py` para reconstruir curadoria e fontes, ou `python scripts/build_east_asia_sources.py` para atualizar apenas as camadas fonte a partir da seleção preservada. Os construtores guardam backups locais antes de substituir arquivos.
 
-Os testes de `tests/test_east_asia_sources.py` conferem igualdade literal das células japonesas, séries contra a planilha oficial, unicidade, natureza local dos códigos chineses, existência da evidência visual, hashes, exclusão dos candidatos OCR e separação das 43 arestas editoriais. Essas arestas têm motivo, força proposta e explicação de que não representam pré-requisitos publicados pelos ministérios. As novas unidades de fonte não acrescentam arestas inferidas.
+Os testes de `tests/test_east_asia_sources.py` conferem igualdade literal das células japonesas, séries contra a planilha oficial, unicidade, natureza local dos códigos chineses, existência da evidência visual, hashes, exclusão dos candidatos OCR e separação das 42 arestas editoriais publicadas. Essas arestas têm motivo, força proposta e explicação de que não representam pré-requisitos publicados pelos ministérios. As novas unidades de fonte não acrescentam arestas inferidas.
+
+A hipótese que ligava o recorte japonês de expressões algébricas, ancorado no código 8350223112200000 e ano 8, ao de equações de primeiro grau, ancorado em 8350213131200000 e ano 7, foi retirada do grafo. A proposta fica no ledger `data/east_asia_relation_candidates.json`, com conflito cronológico e revisão docente pendente, sem inversão automática. O alerta veio de contribuição Grok baseada no commit e66772d, e foi conferido nos códigos atuais. Esse insumo não constitui B.9 da versão V3.
+
+Os PDFs chineses mantêm suas identidades e hashes declarados. Não se presume equivalência literal entre outras edições ou exemplares usados por revisores, inclusive Matemática e Química.
 
 O [MEXT permite reutilização com atribuição e identificação das alterações](https://www.mext.go.jp/b_menu/1351168.htm), com ressalvas para direitos de terceiros. Fontes chinesas conservam suas próprias condições. Não se atribui automaticamente aos textos oficiais de terceiros a licença do código da aplicação. Os PDFs grandes e modelos de OCR ficam em evidência local e não são dependências do uso normal do site.
 

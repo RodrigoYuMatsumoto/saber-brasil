@@ -15,7 +15,7 @@ class ConsensusReporter {
         /^Consenso_V3_[A-Za-z0-9_]+\.png$/.test(row.name) ? 'evidence/' + row.name : path.relative(root, row.path).split(path.sep).join('/')) });
   }
   onEnd(result) {
-    const output = path.join(root, 'evidence/Testes_Navegador_Consenso_V3.json');
+    const output = path.join(root, 'evidence', process.env.SABER_CAPTURE_ONLY ? 'Testes_Captura_Mobile_V3.json' : 'Testes_Navegador_Consenso_V3.json');
     if (fs.existsSync(output)) {
       const folder = path.join(root, 'backups', 'browser_report_' + new Date().toISOString().replace(/[:.]/g, '_'));
       fs.mkdirSync(folder, { recursive: true }); fs.copyFileSync(output, path.join(folder, path.basename(output)));
@@ -24,6 +24,7 @@ class ConsensusReporter {
     const report = { metadata: { lang: 'pt-BR', author, keywords: author, manager: author,
       title: 'Testes headless do consenso v3', subject: 'Resultado PASS ou FAIL por item em computador e celular emulado' },
       checkedAt: new Date().toISOString(), status: result.status === 'passed' ? 'PASS' : 'FAIL',
+      reportMode: process.env.SABER_CAPTURE_ONLY ? 'focused-capture-rerun' : 'integrated-suite',
       browser: { channel: process.env.SABER_BROWSER_CHANNEL || 'chromium', version: this.browser, headless: true,
                  serverPort: Number(process.env.SABER_TEST_PORT), isolation: 'fresh-loopback-server' },
       total: this.rows.length, passed: this.rows.filter(row => row.status === 'PASS').length,

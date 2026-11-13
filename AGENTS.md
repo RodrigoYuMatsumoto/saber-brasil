@@ -15,6 +15,7 @@ A pasta oficial compartilhada por Claude Code, ChatGPT Codex e Grok Bot é `D:/M
 
 - A base de consenso é 3.315 nós: 1.408 habilidades BR e 1.907 tópicos Marble, com 4.003 dependências Marble. Decomposições e extensões ficam desativadas por padrão, com controles e contagens próprios. Relações propostas possuem um controle separado.
 - A camada editorial BR usa IDs `ED-<codigo>-nn`, `camada: editorial-ia`, `parentCode` e `parentStandards`. Nunca atribua o código BNCC como código próprio do recorte. Preserve aliases dos identificadores antigos.
+- Educação Infantil é a camada opcional `ei-source`, com 104 objetivos fora da base EF: 93 BNCC e 11 Computação. Use `schoolPlacements` com `stage: EI`, `years: []` e `certainty: source-stage`; grupos EI01/EI02/EI03 não são anos escolares. O zero legado de layout nunca aparece como série.
 - Unidade curricular literal, tradução por IA e recorte editorial são tipos distintos. Texto japonês é conferido contra a célula do CSV MEXT; texto chinês literal exige localizador e conferência do PDF. OCR truncado e associação por idade permanecem candidatos fora do grafo.
 - Antes de editar, confira `git status` e a responsabilidade de cada colaborador. Faça backup local datado e não reverta trabalho alheio. Não atribua consenso entre modelos apenas à presença de três nomes no histórico.
 

@@ -22,6 +22,8 @@ async function camera(page) { return JSON.parse(await page.locator('#graph').get
 async function summary(page) { return page.evaluate(() => window.__SABER_TEST__.getSummary()); }
 async function point(page, id) { return page.evaluate(id => window.__SABER_TEST__.getProjectedTopic(id), id); }
 async function screenshot(page, info, name) {
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
   const target = path.join(root, 'evidence', name);
   try {
     await fs.access(target);
@@ -70,7 +72,8 @@ test('A02 Camada editorial opcional, ID próprio e selo de revisão', async ({ p
 });
 
 test('A03 Links por código oficial e aliases anteriores resolvem o mesmo nó', async ({ page }) => {
-  for (const [hash, id] of [['EF67LP33', 'br_ef67lp33'], ['EF05CO11', 'br_ef05co11'], ['EF01MA01', 'br_ef01ma01'], ['br_ef01ci01_m01', 'ED-EF01CI01-01']]) {
+  const ei = topics.find(topic => topic.layer === 'ei-source');
+  for (const [hash, id] of [['EF67LP33', 'br_ef67lp33'], ['EF05CO11', 'br_ef05co11'], ['EF01MA01', 'br_ef01ma01'], ['br_ef01ci01_m01', 'ED-EF01CI01-01'], [ei.code, ei.id]]) {
     await ready(page, '/#' + hash);
     await expect.poll(async () => (await summary(page)).selected).toBe(id);
     await expect(page.locator('#detail')).toBeVisible();
@@ -107,6 +110,11 @@ test('A04 Séries dos cinco sistemas e atalhos por blocos publicados', async ({ 
   await page.locator('#school-system').selectOption('BR'); await page.locator('#grade').selectOption('EI');
   await expect.poll(async () => (await summary(page)).filteredCount).toBe(0);
   await expect(page.locator('#placement-note')).toContainText(/infantil/i);
+  await enableLayer(page, 'ei-source'); await closeLayers(page);
+  await expect.poll(async () => (await summary(page)).filteredCount).toBe(104);
+  const ei = datasets[0].topics.filter(topic => topic.layer === 'ei-source');
+  expect(ei).toHaveLength(104);
+  expect(await page.evaluate(() => window.__SABER_TEST__.getFilteredIds().sort())).toEqual(ei.map(topic => topic.id).sort());
   await page.locator('#clear-filters').click(); await screenshot(page, info, 'Consenso_V3_Filtros.png');
 });
 
@@ -269,16 +277,17 @@ test('A15 HTML portátil conserva a base e usa uma solicitação de documento', 
   await screenshot(page, info, 'Consenso_V3_Portatil.png');
 });
 
-test('A16 Unidades asiáticas literais têm camada própria e identificador de origem', async ({ page }, info) => {
-  for (const layer of ['jp-source', 'cn-source']) {
-    const topic = datasets[2].topics.find(row => row.layer === layer);
+test('A16 Unidades literais da EI e Ásia têm camada própria e identificador de origem', async ({ page }, info) => {
+  for (const layer of ['jp-source', 'cn-source', 'ei-source']) {
+    const topic = topics.find(row => row.layer === layer);
     expect(topic).toBeTruthy();
     await ready(page, '/#' + topic.id);
     expect((await summary(page)).enabledLayers).toContain(layer);
     await expect(page.locator('#detail .original-text')).toBeVisible();
     await expect(page.locator('#detail .original-text')).toContainText(topic.sourceLiteral.text);
     if (layer === 'cn-source') await expect(page.locator('#detail .original-text')).toContainText(/local/i);
-    await screenshot(page, info, layer === 'jp-source' ? 'Consenso_V3_Japao_Literal.png' : 'Consenso_V3_China_Literal.png');
+    const image = { 'jp-source': 'Consenso_V3_Japao_Literal.png', 'cn-source': 'Consenso_V3_China_Literal.png', 'ei-source': 'Consenso_V3_Educacao_Infantil.png' }[layer];
+    await screenshot(page, info, image);
   }
 });
 
@@ -289,7 +298,7 @@ test('A17 Relações propostas e composição têm controles e contagens separad
   expect((await summary(page)).activeEdgeCount).toBe(4100);
   await enableLayer(page, 'editorial-ia'); expect((await summary(page)).activeEdgeCount).toBe(4843);
   await enableLayer(page, 'jp-editorial'); await enableLayer(page, 'cn-editorial');
-  expect((await summary(page)).activeEdgeCount).toBe(4886);
+  expect((await summary(page)).activeEdgeCount).toBe(4885);
   await page.locator('#inferred-relations').uncheck();
   expect((await summary(page)).activeEdgeCount).toBe(4746);
 });

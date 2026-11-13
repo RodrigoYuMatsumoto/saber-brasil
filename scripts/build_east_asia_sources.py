@@ -145,11 +145,14 @@ def source_units(sources):
 def extend_document(document, sources):
     # O build antigo reconstrói apenas os 610 recortes. Remover unidades fonte evita duplicação no rebuild.
     editorials = [t for t in document["topics"] if t.get("recordType") != "curriculum-source-unit"]
+    quarantined = read_json("data/east_asia_relation_candidates.json")["candidates"]
+    excluded_pairs = {(row["from"], row["to"]) for row in quarantined if row["status"] == "quarantined"}
     for topic in editorials:
         country = topic["origin"][0]
         topic["layer"] = "jp-editorial" if country == "JP" else "cn-editorial"
         topic["camada"] = "editorial-ia-asia"
         topic["editorialNotice"] = "Editorial, requer revisão. Não é texto oficial."
+        topic["prerequisites"] = [edge for edge in topic["prerequisites"] if (edge["id"], topic["id"]) not in excluded_pairs]
         if country == "CN" and (topic["domain"] in {"Física do secundário inferior", "Química do secundário inferior", "Biologia do secundário inferior"} or topic["subject"] == "geografia"):
             topic["gradeMin"], topic["gradeMax"] = 7, 9
             topic["schoolPlacements"][0].update({"years": [7, 8, 9], "certainty": "source-band",
@@ -171,6 +174,8 @@ def extend_document(document, sources):
     document["coverage"]["byCountryAndSubject"] = {country: dict(Counter(t["subject"] for t in all_topics if country in t["origin"])) for country in ["JP", "CN"]}
     document["coverage"]["sourceAnchorsConfirmed"] = sum(t["sourceAnchorStatus"] == "confirmed" for t in all_topics)
     document["coverage"]["sourceAnchorsPending"] = sum(t["sourceAnchorStatus"] == "pending" for t in all_topics)
+    document["coverage"]["editorialPrerequisites"] = sum(len(t["prerequisites"]) for t in editorials)
+    document["coverage"]["quarantinedEditorialPrerequisites"] = len(excluded_pairs)
     document["metadata"]["title"] = "Currículos asiáticos: unidades literais e recortes editoriais separados"
     document["metadata"]["version"] = "3.0.0"
     document["metadata"]["notice"] = "Unidades de fonte e recortes editoriais são camadas distintas. Seleção parcial MEXT2017 e amostra literal MOE2022 em várias matérias. Não há códigos oficiais por item chinês nesta seleção."
@@ -183,6 +188,9 @@ def extend_document(document, sources):
                 "japanGradeCorrections": sum(d["yearsCandidate"] != d["yearsOfficialCode"] for d in differences),
                 "japanTextCorrections": sum(not d["candidateTextMatchesAfterWhitespaceNormalization"] for d in differences),
                 "chinaOcrCandidatesNotPromoted": len(read_json("data/east_asia_candidates.json")["china"]),
+                "editorialPrerequisitesPublished": document["coverage"]["editorialPrerequisites"],
+                "editorialRelationsQuarantined": quarantined,
+                "editionComparabilityNote": "Os PDFs chineses conservam os hashes e URLs declarados. Não se afirma equivalência literal entre outras edições ou exemplares usados por revisores, inclusive Matemática e Química.",
                 "sourceFiles": [{"path": "data/source_tables/" + name, "sha256": sha(ROOT / "data/source_tables" / name)} for name in ["jp_primary_codes.csv", "jp_secondary_codes.csv", "jp_code_assignment.xlsx"]],
                 "pending": ["Cobertura literal chinesa das demais matérias e objetivos", "Revisão humana independente das transcrições e traduções chinesas", "Revisão pedagógica dos recortes editoriais e dos candidatos OCR", "Revisões curriculares posteriores às edições identificadas"],
                 "confidence": {"japanLiteralAndCodes": "alta, igualdade mecânica com o CSV oficial", "japanGrade": "alta, sexto dígito conforme tabela oficial", "chinaLiteralSample": "média, conferência visual por IA sem revisão profissional", "chinaOcrCandidates": "baixa, não promovidos"}}

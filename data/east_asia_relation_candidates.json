@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Quarentena de relações editoriais asiáticas",
+    "subject": "Hipóteses não publicadas por conflito entre ancoragem curricular e cronologia da relação"
+  },
+  "status": "excluded-from-published-graph",
+  "candidates": [
+    {
+      "id": "ASIA-REL-Q001",
+      "from": "jp_matematica_expressoes_algebricas",
+      "to": "jp_matematica_equacoes_de_primeiro_grau",
+      "relation": "pre-requisito-pedagogico-proposto",
+      "status": "quarantined",
+      "reasonKind": "source-chronology-conflict",
+      "reason": "O recorte das expressões algébricas aponta para código japonês do segundo ano do secundário inferior; o de equações de primeiro grau aponta para o primeiro ano. A hipótese pedagógica exige outra ancoragem ou revisão docente e não deve impor uma dependência publicada de ano 8 para ano 7.",
+      "originalReason": "Representar relações por letras prepara a resolução de uma igualdade com incógnita. Proposta editorial sujeita à revisão docente.",
+      "strength": "unreviewed-candidate",
+      "requiredReview": "teacher-review-required",
+      "automaticReversal": false,
+      "sourceChronology": {
+        "from": {
+          "code": "8350223112200000",
+          "years": [
+            8
+          ],
+          "sourceId": "jp_secondary_codes",
+          "sourceCsvLine": 731,
+          "sourceSha256": "b8b5ad6cb52e5cfe5e390312b732b1325fffc5044b20a25e666075c74a569311"
+        },
+        "to": {
+          "code": "8350213131200000",
+          "years": [
+            7
+          ],
+          "sourceId": "jp_secondary_codes",
+          "sourceCsvLine": 635,
+          "sourceSha256": "b8b5ad6cb52e5cfe5e390312b732b1325fffc5044b20a25e666075c74a569311"
+        }
+      },
+      "reviewInput": {
+        "provider": "Grok, contribuição encaminhada pelo operador e conferida no estado atual pelo Codex",
+        "baselineCommit": "e66772d167238acbd796da657d03df8e6e86e02f",
+        "scope": "insumo de revisão, não constitui B.9 da versão V3",
+        "currentFinding": "conflito confirmado nos códigos e nas séries atuais"
+      }
+    }
+  ]
+}

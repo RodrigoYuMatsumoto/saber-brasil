@@ -48,8 +48,11 @@ class ReconciliationTests(unittest.TestCase):
     def test_no_age_estimate_promoted(self):
         placements = [p for d in [self.brazil, self.international] for t in d["topics"] for p in t["schoolPlacements"]]
         self.assertTrue(placements)
-        self.assertTrue(all(p["certainty"] in {"source-explicit", "source-band"} for p in placements))
+        self.assertTrue(all(p["certainty"] in {"source-explicit", "source-band"} or (p["certainty"] == "source-stage" and p["system"] == "BR" and p["stage"] == "EI" and p["years"] == []) for p in placements))
         self.assertTrue(all(p["sourceCode"] and p["sourceUrl"] for p in placements))
+        ei_codes = {row["codigo"] for row in json.loads((ROOT / "data/reference_bncc/educacao_infantil.json").read_text(encoding="utf-8"))["objetivos"]}
+        ei_codes.update(row["codigo"] for row in json.loads((ROOT / "data/reference_bncc/computacao.json").read_text(encoding="utf-8"))["objetivos_ei"])
+        self.assertTrue(all(p["sourceCode"] in ei_codes for p in placements if p["certainty"] == "source-stage"))
 
     def test_heuristics_not_promoted(self):
         self.assertEqual(self.report["candidates"]["promotedHeuristicRelations"], 0)

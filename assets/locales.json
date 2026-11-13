@@ -192,7 +192,19 @@
       "strength_hard": "necessária segundo a taxonomia de origem",
       "strength_soft": "apoio proposto",
       "strength_proposed": "proposta, requer revisão",
-      "inferredRelations": "Relações pedagógicas propostas"
+      "inferredRelations": "Relações pedagógicas propostas",
+      "layerEarlyEducation": "Educação infantil · objetivos da fonte oficial",
+      "earlyObjective": "Objetivo da educação infantil",
+      "earlyEducationNote": "Educação infantil é uma etapa, organizada em grupos etários. Os grupos de cada objetivo seguem a fonte e não representam séries numeradas.",
+      "enableEarlyEducation": "Educação infantil selecionada. Ative sua camada em Camadas do mapa para explorar os objetivos oficiais desta etapa.",
+      "EI01": "Bebês (zero a 1 ano e 6 meses)",
+      "EI02": "Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses)",
+      "EI03": "Crianças pequenas (4 anos a 5 anos e 11 meses)",
+      "ei-eu-outro-nos": "O eu, o outro e o nós",
+      "ei-corpo-gestos-movimentos": "Corpo, gestos e movimentos",
+      "ei-tracos-sons-cores-formas": "Traços, sons, cores e formas",
+      "ei-escuta-fala-pensamento": "Escuta, fala, pensamento e imaginação",
+      "ei-espacos-tempos-relacoes": "Espaços, tempos, quantidades, relações e transformações"
     },
     "en": {
       "pageTitle": "Saber Brasil · The open learning map",
@@ -378,7 +390,19 @@
       "strength_hard": "required by the source taxonomy",
       "strength_soft": "suggested support",
       "strength_proposed": "proposed, review required",
-      "inferredRelations": "Proposed pedagogical relations"
+      "inferredRelations": "Proposed pedagogical relations",
+      "layerEarlyEducation": "Early childhood · official source objectives",
+      "earlyObjective": "Early childhood objective",
+      "earlyEducationNote": "Early childhood is a stage organized by age groups. Each objective follows its source group, not a numbered school year.",
+      "enableEarlyEducation": "Early childhood selected. Enable its layer under Map layers to explore the official objectives for this stage.",
+      "EI01": "Babies (birth to 1 year and 6 months)",
+      "EI02": "Very young children (1 year and 7 months to 3 years and 11 months)",
+      "EI03": "Young children (4 years to 5 years and 11 months)",
+      "ei-eu-outro-nos": "Self, others and us",
+      "ei-corpo-gestos-movimentos": "Body, gestures and movements",
+      "ei-tracos-sons-cores-formas": "Marks, sounds, colors and shapes",
+      "ei-escuta-fala-pensamento": "Listening, speaking, thinking and imagination",
+      "ei-espacos-tempos-relacoes": "Spaces, time, quantities, relationships and transformations"
     },
     "ja": {
       "pageTitle": "Saber Brasil · 学びのオープンマップ",
@@ -564,7 +588,19 @@
       "strength_hard": "元の分類で必須",
       "strength_soft": "推奨の支援",
       "strength_proposed": "提案、要確認",
-      "inferredRelations": "提案された学習関係"
+      "inferredRelations": "提案された学習関係",
+      "layerEarlyEducation": "幼児教育 · 公式資料の目標",
+      "earlyObjective": "幼児教育の目標",
+      "earlyEducationNote": "幼児教育は年齢群で構成される段階です。各目標の年齢群は資料に従い、番号付きの学年ではありません。",
+      "enableEarlyEducation": "幼児教育を選択しました。地図のレイヤーで対応するレイヤーを有効にすると、公式の目標を表示できます。",
+      "EI01": "乳児（出生から1歳6か月まで）",
+      "EI02": "低年齢の幼児（1歳7か月から3歳11か月まで）",
+      "EI03": "幼児（4歳から5歳11か月まで）",
+      "ei-eu-outro-nos": "自分、他者、私たち",
+      "ei-corpo-gestos-movimentos": "身体、身振り、動き",
+      "ei-tracos-sons-cores-formas": "線、音、色、形",
+      "ei-escuta-fala-pensamento": "聞くこと、話すこと、思考、想像",
+      "ei-espacos-tempos-relacoes": "空間、時間、数量、関係、変化"
     },
     "zh-Hant": {
       "pageTitle": "Saber Brasil · 開放學習地圖",
@@ -750,7 +786,19 @@
       "strength_hard": "來源分類標示為必要",
       "strength_soft": "建議輔助",
       "strength_proposed": "提案，需要審查",
-      "inferredRelations": "提案的教學關聯"
+      "inferredRelations": "提案的教學關聯",
+      "layerEarlyEducation": "幼兒教育 · 官方來源目標",
+      "earlyObjective": "幼兒教育目標",
+      "earlyEducationNote": "幼兒教育是一個依年齡群組編排的階段。各目標的群組依來源標示，並非編號年級。",
+      "enableEarlyEducation": "已選擇幼兒教育。請在地圖圖層中啟用該階段的圖層，以探索官方目標。",
+      "EI01": "嬰兒（出生至 1 歲 6 個月）",
+      "EI02": "幼童（1 歲 7 個月至 3 歲 11 個月）",
+      "EI03": "學齡前幼兒（4 歲至 5 歲 11 個月）",
+      "ei-eu-outro-nos": "自我、他人與我們",
+      "ei-corpo-gestos-movimentos": "身體、姿勢與動作",
+      "ei-tracos-sons-cores-formas": "線條、聲音、色彩與形狀",
+      "ei-escuta-fala-pensamento": "聆聽、說話、思考與想像",
+      "ei-espacos-tempos-relacoes": "空間、時間、數量、關係與變化"
     }
   }
 }

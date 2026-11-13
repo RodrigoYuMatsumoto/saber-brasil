@@ -28,6 +28,8 @@ KNOWN_ORIGINS = {"BR", "US", "GB-ENG", "AU", "CA", "IN", "INT", "JP", "CN"}
 ALIGNMENT_STATES = {"verified", "proposed", "upstream", "source-verified"}
 PREREQUISITE_STATES = {"editorial", "upstream", "proposed", "verified"}
 BNCC_CODE = re.compile(r"^EF[0-9]{2}(LP|MA|CI|HI|GE|AR|EF|LI|ER|CO)[0-9]{2,3}$")
+EI_CODE = re.compile(r"^EI(?:01|02|03)(?:EO|CG|TS|EF|ET|CO)[0-9]{2}$")
+EI_SUBJECT = {"EO": "ei-eu-outro-nos", "CG": "ei-corpo-gestos-movimentos", "TS": "ei-tracos-sons-cores-formas", "EF": "ei-escuta-fala-pensamento", "ET": "ei-espacos-tempos-relacoes", "CO": "computacao"}
 BNCC_SUBJECT = {"LP": "portugues", "MA": "matematica", "CI": "ciencias", "HI": "historia",
                 "GE": "geografia", "AR": "arte", "EF": "educacao-fisica", "LI": "ingles",
                 "ER": "ensino-religioso", "CO": "computacao"}
@@ -127,7 +129,7 @@ def validate_topics(data, label, all_ids):
                       dataset=label, topicId=identifier, field=field)
         grade_min, grade_max = topic.get("gradeMin"), topic.get("gradeMax")
         upper_limit = 9 if label == "brazil" else 15
-        lower_limit = 1 if label == "brazil" else 0
+        lower_limit = 1 if label == "brazil" and topic.get("kind") != "objetivo-ei" else 0
         if not (isinstance(grade_min, int) and not isinstance(grade_min, bool)
                 and isinstance(grade_max, int) and not isinstance(grade_max, bool)
                 and lower_limit <= grade_min <= grade_max <= upper_limit):
@@ -142,7 +144,8 @@ def validate_topics(data, label, all_ids):
                   dataset=label, topicId=identifier, origins=origins)
         if label == "brazil" and "BR" not in origins:
             issue(ERRORS, "BRAZIL_ORIGIN", "Tópico brasileiro sem origem BR.", topicId=identifier)
-        literal_source = topic.get("alignmentStatus") == "source-text-verified" and label == "eastAsia" and topic.get("recordType") == "curriculum-source-unit" and topic.get("sourceLiteral", {}).get("text") == topic.get("originalText") and bool(topic.get("sourceLiteral", {}).get("sha256"))
+        literal_scope = label == "eastAsia" or (label == "brazil" and topic.get("kind") == "objetivo-ei")
+        literal_source = topic.get("alignmentStatus") == "source-text-verified" and literal_scope and topic.get("recordType") == "curriculum-source-unit" and topic.get("sourceLiteral", {}).get("text") == topic.get("originalText") and bool(topic.get("sourceLiteral", {}).get("sha256"))
         if topic.get("alignmentStatus") not in ALIGNMENT_STATES and not literal_source:
             issue(ERRORS, "ALIGNMENT_STATE", "Estado de alinhamento não reconhecido.",
                   dataset=label, topicId=identifier, state=topic.get("alignmentStatus"))
@@ -172,11 +175,13 @@ def validate_topics(data, label, all_ids):
                 issue(ERRORS, "STANDARD_VERIFICATION_TYPE", "Verificação do padrão deve ser booleana.",
                       dataset=label, topicId=identifier, code=code)
             if label == "brazil" and standard.get("verified"):
-                if not BNCC_CODE.fullmatch(code):
+                code_pattern = EI_CODE if topic.get("kind") == "objetivo-ei" else BNCC_CODE
+                subject_pattern = EI_SUBJECT if topic.get("kind") == "objetivo-ei" else BNCC_SUBJECT
+                if not code_pattern.fullmatch(code):
                     issue(ERRORS, "BNCC_CODE_PATTERN", "Código declarado BNCC não possui estrutura plausível.",
                           topicId=identifier, standardCode=code)
                 else:
-                    if topic.get("subject") != BNCC_SUBJECT[code[4:6]]:
+                    if topic.get("subject") != subject_pattern[code[4:6]]:
                         issue(ERRORS, "BNCC_SUBJECT_CODE", "Componente curricular diverge da sigla no código.",
                               topicId=identifier, standardCode=code)
                     if topic.get("kind") == "habilidade":
@@ -198,9 +203,13 @@ def validate_topics(data, label, all_ids):
                       topicId=identifier, standardCode=code)
         if label == "brazil":
             kind = topic.get("kind")
-            if kind not in {"habilidade", "microtopico"}:
+            if kind not in {"habilidade", "microtopico", "objetivo-ei"}:
                 issue(ERRORS, "BRAZIL_KIND", "Registro brasileiro sem distinção entre habilidade e microtópico.",
                       topicId=identifier, kind=kind)
+            if kind == "objetivo-ei":
+                placements = topic.get("schoolPlacements", [])
+                if topic.get("layer") != "ei-source" or topic.get("camada") != "fonte-educacao-infantil" or (grade_min, grade_max) != (0, 0) or not any(p.get("stage") == "EI" and p.get("system") == "BR" and p.get("years") == [] and p.get("certainty") == "source-stage" for p in placements):
+                    issue(ERRORS, "EI_STAGE_SOURCE", "Objetivo EI sem etapa explícita ou com atribuição indevida de ano escolar.", topicId=identifier)
             if kind == "microtopico":
                 if topic.get("camada") != "editorial-ia" or topic.get("layer") != "editorial-ia" or not re.fullmatch(r"ED-EF[0-9]{2}[A-Z]{2}[0-9]{2}-[0-9]{2}", identifier):
                     issue(ERRORS, "EDITORIAL_LAYER_ID", "Microtópico editorial sem camada ou identificador próprio.", topicId=identifier)
@@ -448,7 +457,9 @@ class VisibleTextParser(HTMLParser):
 
 def check_characters():
     checked = []
-    excludes = {"upstream", "licenses", "backups", "original", "sources_brazil", "reference_bncc", "CI_Artefatos", "playwright-report", "test-results", "node_modules", ".git"}
+    # Contribuições são fontes externas legadas preservadas integralmente, não texto de produto recém-gerado.
+    # A exclusão afeta somente tipografia; datasets ativos continuam sob os demais validadores.
+    excludes = {"upstream", "licenses", "backups", "original", "sources_brazil", "reference_bncc", "contribuicoes", "CI_Artefatos", "playwright-report", "test-results", "node_modules", ".git"}
     for path in ROOT.rglob("*"):
         if not path.is_file() or set(path.relative_to(ROOT).parts) & excludes:
             continue

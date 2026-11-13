@@ -255,7 +255,8 @@ def add_editorial_links(topics):
         ("JP", "Área do retângulo", "Área do círculo", "Compor áreas em unidades quadradas prepara o raciocínio sobre outras regiões planas."),
         ("JP", "Prismas e cilindros", "Volume de prismas e cilindros", "Reconhecer bases e altura prepara a investigação do volume dos sólidos."),
         ("JP", "Números positivos e negativos", "Operações com inteiros", "A extensão da reta numérica sustenta a interpretação de operações com sinais."),
-        ("JP", "Expressões algébricas", "Equações de primeiro grau", "Representar relações por letras prepara a resolução de uma igualdade com incógnita."),
+        # ASIA-REL-Q001: hipótese retirada; a ancoragem atual criava dependência do ano 8 para o ano 7.
+        # A proposta e as fontes ficam no ledger east_asia_relation_candidates.json, sem inversão automática.
         ("JP", "Equações de primeiro grau", "Sistemas de equações", "Resolver uma igualdade linear prepara a procura de valores que satisfaçam duas igualdades."),
         ("JP", "Raízes quadradas", "Equações quadráticas", "A operação inversa de elevar ao quadrado integra estratégias para equações de segundo grau."),
         ("JP", "Semelhança de figuras", "Teorema de Pitágoras", "Comparar relações entre lados e formas apoia a exploração de propriedades métricas de triângulos."),

@@ -45,4 +45,7 @@ jobs:
             test-results/
             playwright-report/
             evidence/Testes_Navegador_Consenso_V3.json
+            evidence/Validacao_Dados.json
+            evidence/Validacao_Multissistema.json
+            evidence/Consenso_Camadas_V3.json
             evidence/Consenso_V3_*.png

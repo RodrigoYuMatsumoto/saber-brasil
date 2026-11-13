@@ -6,37 +6,38 @@
     "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
     "title": "Validação mecânica da taxonomia de habilidades",
     "subject": "Integridade, referências, cobertura, proveniência e limites da validação",
-    "checkedAt": "2026-11-13T00:28:35.227911+00:00",
+    "checkedAt": "2026-11-13T00:59:42.151133+00:00",
     "verificationFamily": "OpenAI",
     "independentB9": false
   },
   "status": "pass",
   "datasetFiles": {
     "brazil_topics.json": {
-      "sha256": "50bcc4aeaebfe388c0bb7828ac1b3320b15b95825be434168e5d4cbcdda48710",
-      "bytes": 6603828
+      "sha256": "22ab88893b86eeebfd5d33875721345e9e2ebb2b10f12077d54abee573bd3a09",
+      "bytes": 7058688
     },
     "international.json": {
       "sha256": "c74c0fc48758f1b832cd95b63c0ce33c54f237f99dea84ed350f82145141a8d5",
       "bytes": 14916001
     },
     "east_asia.json": {
-      "sha256": "bac0892cfe7879de8487667b1916ed89b73f9fb6d03598e61d2663430c3bbb62",
-      "bytes": 8169872
+      "sha256": "fc28769a4a5cf907ecd701b1fd93a4d2e0fed27c4daf7d3b92df865651291ec8",
+      "bytes": 8169389
     }
   },
   "datasets": {
     "brazil": {
-      "topics": 2151,
-      "uniqueIds": 2151,
-      "uniqueStandardCodes": 1408,
+      "topics": 2255,
+      "uniqueIds": 2255,
+      "uniqueStandardCodes": 1512,
       "kinds": {
         "habilidade": 1408,
-        "microtopico": 743
+        "microtopico": 743,
+        "objetivo-ei": 104
       },
       "subjects": {
         "ciencias": 170,
-        "computacao": 132,
+        "computacao": 143,
         "ensino-religioso": 97,
         "geografia": 211,
         "historia": 293,
@@ -44,7 +45,12 @@
         "matematica": 435,
         "ingles": 98,
         "educacao-fisica": 105,
-        "arte": 103
+        "arte": 103,
+        "ei-corpo-gestos-movimentos": 15,
+        "ei-escuta-fala-pensamento": 27,
+        "ei-eu-outro-nos": 20,
+        "ei-espacos-tempos-relacoes": 22,
+        "ei-tracos-sons-cores-formas": 9
       },
       "relations": {
         "parte-da-habilidade": 743,
@@ -63,6 +69,7 @@
           9
         ],
         "computacao": [
+          0,
           1,
           2,
           3,
@@ -155,13 +162,28 @@
           7,
           8,
           9
+        ],
+        "ei-corpo-gestos-movimentos": [
+          0
+        ],
+        "ei-escuta-fala-pensamento": [
+          0
+        ],
+        "ei-eu-outro-nos": [
+          0
+        ],
+        "ei-espacos-tempos-relacoes": [
+          0
+        ],
+        "ei-tracos-sons-cores-formas": [
+          0
         ]
       },
       "graph": {
         "acyclic": true,
-        "nodes": 2151,
+        "nodes": 2255,
         "edges": 840,
-        "topologicalNodes": 2151
+        "topologicalNodes": 2255
       },
       "metadata": {
         "present": true,
@@ -169,6 +191,7 @@
           "alignmentNote",
           "author",
           "databaseLicense",
+          "earlyChildhoodNote",
           "editorialContentLicense",
           "generatedAt",
           "keywords",
@@ -328,8 +351,8 @@
             "matches": true
           }
         ],
-        "uniqueSourceCodePages": 1408,
-        "codePageMatches": 1408,
+        "uniqueSourceCodePages": 1512,
+        "codePageMatches": 1512,
         "pdfTraceAvailable": true,
         "descriptionSample": {
           "selected": 22,
@@ -801,7 +824,7 @@
         "vida-cotidiana": 17
       },
       "relations": {
-        "pre-requisito-pedagogico-proposto": 43
+        "pre-requisito-pedagogico-proposto": 42
       },
       "gradesBySubject": {
         "matematica": [
@@ -951,7 +974,7 @@
       "graph": {
         "acyclic": true,
         "nodes": 2353,
-        "edges": 43,
+        "edges": 42,
         "topologicalNodes": 2353
       },
       "metadata": {
@@ -974,9 +997,9 @@
   },
   "combinedGraph": {
     "acyclic": true,
-    "nodes": 6411,
-    "edges": 4886,
-    "topologicalNodes": 6411
+    "nodes": 6515,
+    "edges": 4885,
+    "topologicalNodes": 6515
   },
   "upstreamIntegrity": {
     "checked": 8,
@@ -1025,7 +1048,7 @@
     ]
   },
   "characterChecks": {
-    "filesChecked": 59,
+    "filesChecked": 63,
     "files": [
       "AGENTS.md",
       "app.js",
@@ -1043,6 +1066,7 @@
       "data/east_asia.json",
       "data/east_asia_candidates.json",
       "data/east_asia_curated.json",
+      "data/east_asia_relation_candidates.json",
       "data/east_asia_source_anchors.json",
       "data/east_asia_source_manifest.json",
       "data/east_asia_source_selection.json",
@@ -1053,6 +1077,7 @@
       "docs/Consenso_Taxonomias.md",
       "docs/Curriculos_Japao_China.md",
       "docs/Entrega_Verificada.md",
+      "docs/Entrega_Verificada_V3.md",
       "docs/Prompts_Convergencia.md",
       "docs/Prompts_Revisao_Final.md",
       "docs/Protocolo_Compartilhado_IA.md",
@@ -1069,6 +1094,7 @@
       "scripts/east_asia_curated.py",
       "scripts/east_asia_japanese_names.py",
       "scripts/import_content_translations.py",
+      "scripts/import_early_childhood.py",
       "scripts/import_marble.py",
       "scripts/ocr_east_asia.py",
       "scripts/reconcile_sources.py",
@@ -1078,6 +1104,7 @@
       "tests/test_brazil_extractor.py",
       "tests/test_consensus_layers.py",
       "tests/test_content_translations.py",
+      "tests/test_early_childhood.py",
       "tests/test_east_asia_sources.py",
       "tests/test_multisystem_data.py",
       "tests/test_reconciliation.py",
@@ -1091,6 +1118,7 @@
       ".git",
       "CI_Artefatos",
       "backups",
+      "contribuicoes",
       "licenses",
       "node_modules",
       "original",

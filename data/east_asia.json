@@ -5671,17 +5671,7 @@
           "verificationMethod": "código, texto e localização extraídos diretamente do CSV oficial"
         }
       ],
-      "prerequisites": [
-        {
-          "id": "jp_matematica_expressoes_algebricas",
-          "reason": "Representar relações por letras prepara a resolução de uma igualdade com incógnita. Proposta editorial sujeita à revisão docente.",
-          "status": "editorial",
-          "relation": "pre-requisito-pedagogico-proposto",
-          "sourceStatus": "not-an-official-prerequisite",
-          "strength": "proposed",
-          "strengthBasis": "hipótese pedagógica editorial, sem força curricular oficial"
-        }
-      ],
+      "prerequisites": [],
       "alignmentStatus": "proposed",
       "kind": "microtopico",
       "language": "pt-BR",
@@ -159836,7 +159826,7 @@
       }
     ],
     "recordsWithExactNameCandidates": 21,
-    "editorialPrerequisites": 43,
+    "editorialPrerequisites": 42,
     "omittedPrerequisiteCandidates": [
       {
         "country": "JP",
@@ -159898,6 +159888,7 @@
       "cn-editorial": 303,
       "jp-source": 1695,
       "cn-source": 48
-    }
+    },
+    "quarantinedEditorialPrerequisites": 1
   }
 }

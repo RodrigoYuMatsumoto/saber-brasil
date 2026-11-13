@@ -483,6 +483,9 @@ def main() -> None:
         "topics": topics,
     }
     result = apply_brazil_layers(result)
+    if (ROOT / "data/reference_bncc/educacao_infantil.json").exists():
+        from import_early_childhood import append_ei_layer, verify_ei_sources
+        result = append_ei_layer(result, verify_ei_sources())
     write_generated("data/brazil_topics.json", result)
     evidence = {
         "metadata": result["metadata"], "sources": SOURCES,

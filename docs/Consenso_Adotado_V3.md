@@ -19,14 +19,15 @@ O modelo de contagem de Grok/CONSENSO_TAXONOMIA.md foi adotado: a base contém u
 | Computação Ensino Fundamental 2022 | 104 |
 | Marble, IDs originais | 1.907 |
 | **Base de consenso** | **3.315** |
+| Objetivos da Educação Infantil, fora da base EF | 104 |
 | Editorial BR por IA | 743 |
 | MEXT, texto literal da fonte | 1.695 |
 | MOE, amostra literal conferida | 48 |
 | Editorial Japão | 307 |
 | Editorial China | 303 |
-| **Todas as camadas** | **6.411** |
+| **Todas as camadas** | **6.515** |
 
-O padrão da interface é 3.315 nós e 4.003 arestas Marble. As demais camadas ficam desativadas, e as relações propostas têm controle próprio. Ativar os 743 editoriais acrescenta suas 743 relações de composição. As 97 relações brasileiras propostas e as 43 asiáticas propostas não são relações oficiais. Total disponível: 4.886.
+O padrão da interface é 3.315 nós e 4.003 arestas Marble. As demais camadas ficam desativadas, e as relações propostas têm controle próprio. Ativar os 743 editoriais acrescenta suas 743 relações de composição. As 97 relações brasileiras propostas e as 42 asiáticas propostas não são relações oficiais. Total disponível: 4.885.
 
 ## Conferência brasileira
 
@@ -39,6 +40,8 @@ Os 1.408 códigos foram confrontados individualmente com os dois PDFs preservado
 Espaços e sinais perdidos na extração foram restaurados com nota de normalização e cópia da fonte preservada. Títulos resumidos são editoriais; o texto integral e sua referência ficam separados.
 
 Cada recorte BR tem ID ED, parentCode, parentStandards e aliases legados, sem código BNCC próprio. O cartão avisa que a decomposição editorial requer revisão e não é texto oficial. Há 341 habilidades decompostas e 1.067 ainda integrais.
+
+A contribuição recebida do Grok incluiu uma proposta de 104 objetivos EI. O cotejo encontrou quatro números de rodapé indevidamente anexados ao texto e uma translineação a normalizar. A camada EI publicada usa os textos conferidos diretamente contra os PDFs e a compilação, por etapa e grupo etário, mantendo o aporte original intacto. Ela acrescenta 104 nós opcionais, sem alterar os 1.408 códigos EF ou os 3.315 nós de consenso.
 
 ## Traduções e originais
 
@@ -54,6 +57,8 @@ A camada chinesa literal contém 48 unidades em 14 matérias, com página e conf
 
 Os 1.340 candidatos chineses do Grok possuem OCR truncado e seriação heurística. Permanecem fora do grafo em ledger. Os 307 recortes japoneses e 303 chineses anteriores continuam editoriais. Encontrar palavra ou código na fonte não comprova alinhamento pedagógico do recorte.
 
+Uma hipótese de pré-requisito entre expressões algébricas do ano 8 e equações do ano 7 foi retirada do grafo. O ledger ASIA-REL-Q001 preserva a hipótese para revisão docente, sem inverter a relação automaticamente. Os textos literais permaneceram idênticos.
+
 ## Verificação reproduzível
 
 | Evidência | Conteúdo |
@@ -65,20 +70,19 @@ Os 1.340 candidatos chineses do Grok possuem OCR truncado e seriação heurísti
 | evidence/Consenso_V3_*.png | Capturas de computador e celular emulado |
 | Release_Manifest.json | Contagens por camada e hashes dos arquivos entregues |
 
-A ordenação topológica percorre todos os 6.411 nós. Toda aresta inferida tem motivo, força e explicação da força. Aciclicidade não comprova necessidade pedagógica. O teste móvel é emulado, sem validar todos os aparelhos físicos. O portátil é testado em HTTP local, com dados incorporados.
+A ordenação topológica percorre todos os 6.515 nós. Toda aresta inferida tem motivo, força e explicação da força. Aciclicidade não comprova necessidade pedagógica. O teste móvel é emulado, sem validar todos os aparelhos físicos. O portátil é testado em HTTP local, com dados incorporados.
 
 Os relatórios v2 preservados nesta pasta são históricos. A identidade da implementação testada é a dos hashes do relatório de navegador v3, não uma conclusão anterior ou a simples contagem.
 
 ## Não verificado integralmente
 
 - Cobertura literal chinesa além das 48 unidades, 173 âncoras dos recortes editoriais e revisões posteriores à edição de 2022.
-- Conteúdo de Educação Infantil, mostrado como opção explicitamente vazia.
 - Decomposição das 1.067 habilidades BR restantes, alinhamentos candidatos e identidade semântica entre países.
 - Revisão docente e linguística integral das traduções, transcrições e propostas.
 - Multitoque em aparelho físico e abertura direta do HTML por protocolo de arquivo.
 - Revisão independente B.9 por outra família e hospedagem pública do site.
 
-O [protocolo compartilhado](Protocolo_Compartilhado_IA.md) contém o prompt para as outras IAs revisarem a mesma versão. O modelo de dados foi ajustado; concordância independente entre os três relatórios depende do retorno das outras famílias.
+O [protocolo compartilhado](Protocolo_Compartilhado_IA.md) contém o prompt para as outras IAs revisarem a mesma versão. O aporte Grok recebido declara auditoria sobre e66772d, anterior a esta versão; foi usado como fonte de achados a conferir. Ele não encerra B.9 sobre os hashes atuais. Concordância independente entre os três relatórios atuais continua dependente de retorno.
 
 Confiança: alta na identidade dos códigos e na igualdade das células japonesas; média na transcrição visual chinesa e na curadoria; limitada nos alinhamentos editoriais sem âncora específica.
 

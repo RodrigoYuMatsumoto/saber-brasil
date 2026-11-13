@@ -8,12 +8,12 @@
     "subject": "Identidades, séries de origem, fontes, idiomas e estados explícitos de tradução"
   },
   "status": "pass",
-  "checkedAt": "2026-11-13T00:28:46.634732+00:00",
+  "checkedAt": "2026-11-13T00:59:46.786485+00:00",
   "files": [
     {
       "path": "data/brazil_topics.json",
-      "bytes": 6603828,
-      "sha256": "50bcc4aeaebfe388c0bb7828ac1b3320b15b95825be434168e5d4cbcdda48710"
+      "bytes": 7058688,
+      "sha256": "22ab88893b86eeebfd5d33875721345e9e2ebb2b10f12077d54abee573bd3a09"
     },
     {
       "path": "data/international.json",
@@ -22,13 +22,13 @@
     },
     {
       "path": "data/east_asia.json",
-      "bytes": 8169872,
-      "sha256": "bac0892cfe7879de8487667b1916ed89b73f9fb6d03598e61d2663430c3bbb62"
+      "bytes": 8169389,
+      "sha256": "fc28769a4a5cf907ecd701b1fd93a4d2e0fed27c4daf7d3b92df865651291ec8"
     },
     {
       "path": "assets/locales.json",
-      "bytes": 46621,
-      "sha256": "48d3939134d4da19f71cc50206de6fa4f8f6f39ef62ecf156ecdec0965f5298e"
+      "bytes": 50631,
+      "sha256": "1b93e4c9fbc8e224da98c028526e9148970631fd49aa0f5d5af50263d6df469a"
     },
     {
       "path": "data/translations.json",
@@ -37,42 +37,42 @@
     }
   ],
   "datasets": {
-    "brazil": 2151,
+    "brazil": 2255,
     "international": 1907,
     "eastAsia": 2353
   },
-  "uniqueConcepts": 6411,
-  "relations": 4886,
+  "uniqueConcepts": 6515,
+  "relations": 4885,
   "placementTopics": {
-    "BR": 2151,
+    "BR": 2255,
     "US": 670,
     "GB-ENG": 715,
     "JP": 2002,
     "CN": 351
   },
   "interfaceKeys": {
-    "pt-BR": 184,
-    "en": 184,
-    "ja": 184,
-    "zh-Hant": 184
+    "pt-BR": 196,
+    "en": 196,
+    "ja": 196,
+    "zh-Hant": 196
   },
   "contentDescriptionCoverage": {
-    "pt-BR": 4716,
     "ja": 5619,
+    "zh-Hant": 3924,
     "en": 3924,
-    "zh-Hant": 3924
+    "pt-BR": 4820
   },
   "contentNameCoverage": {
-    "pt-BR": 4716,
     "ja": 5619,
+    "zh-Hant": 3924,
     "en": 3924,
-    "zh-Hant": 3924
+    "pt-BR": 4820
   },
   "translatedDescriptionCoverage": {
-    "pt-BR": 4668,
     "ja": 3924,
+    "zh-Hant": 3924,
     "en": 3924,
-    "zh-Hant": 3924
+    "pt-BR": 4668
   },
   "checks": [
     {
@@ -94,8 +94,8 @@
       "id": "CROSS_DATASET_UNIQUE_IDS",
       "passed": true,
       "detail": {
-        "total": 6411,
-        "unique": 6411,
+        "total": 6515,
+        "unique": 6515,
         "duplicates": []
       }
     },
@@ -103,7 +103,7 @@
       "id": "CROSS_DATASET_REFERENCES",
       "passed": true,
       "detail": {
-        "relations": 4886,
+        "relations": 4885,
         "invalid": []
       }
     },
@@ -111,8 +111,8 @@
       "id": "CROSS_DATASET_ACYCLIC",
       "passed": true,
       "detail": {
-        "nodes": 6411,
-        "visited": 6411
+        "nodes": 6515,
+        "visited": 6515
       }
     },
     {
@@ -148,7 +148,7 @@
           "US"
         ],
         "topicsWithPlacement": {
-          "BR": 2151,
+          "BR": 2255,
           "US": 670,
           "GB-ENG": 715,
           "JP": 2002,
@@ -183,10 +183,10 @@
       "id": "INTERFACE_KEY_COVERAGE",
       "passed": true,
       "detail": {
-        "pt-BR": 184,
-        "en": 184,
-        "ja": 184,
-        "zh-Hant": 184
+        "pt-BR": 196,
+        "en": 196,
+        "ja": 196,
+        "zh-Hant": 196
       }
     },
     {

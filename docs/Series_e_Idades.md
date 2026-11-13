@@ -13,7 +13,7 @@ O filtro consulta `schoolPlacements` do sistema escolhido. Uma habilidade perten
 
 | Sistema | Opções no site | Atalhos |
 |---|---|---|
-| Brasil | EI e 1º ao 9º ano | EI permanece vazio e sinalizado: a base de consenso contém Ensino Fundamental, sem inventar objetivos da Educação Infantil |
+| Brasil | EI e 1º ao 9º ano | EI reúne 104 objetivos em camada própria, por etapa e grupo etário; não equivale a ano zero |
 | EUA | Kindergarten e Grades 1 a 8 | Os dados mais avançados da Marble continuam preservados; o seletor desta experiência tem escopo K-8 |
 | Inglaterra | Years 1 a 9 | KS1: 1-2; KS2: 3-6; KS3: 7-9 |
 | Japão | 小1 a 小6, 中1 a 中3 | O código da fonte informa ano ou bloco; as unidades oficiais estão em camada própria |

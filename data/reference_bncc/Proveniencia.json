@@ -5,7 +5,7 @@
     "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
     "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
     "title": "Proveniência da compilação BNCC de referência",
-    "subject": "Cópias íntegras de dados e decisões para o cotejo de 1.408 habilidades brasileiras"
+    "subject": "Cópias íntegras de dados e decisões para o cotejo de 1.408 habilidades EF e 104 objetivos EI"
   },
   "repository": "https://github.com/bncc-dev/bncc-dados",
   "revision": "9c268978efa2aa250834c6a9edb6074432752838",
@@ -44,6 +44,13 @@
       "sha256": "e162f8f4b4618650d77579bafa3db25e3ce3fbbb4cdf5ef0d6328159d883e106",
       "bytes": 1092,
       "license": "MIT"
+    },
+    {
+      "path": "educacao_infantil.json",
+      "sourceUrl": "https://raw.githubusercontent.com/bncc-dev/bncc-dados/9c268978efa2aa250834c6a9edb6074432752838/dados/bncc-2018/educacao-infantil.json",
+      "sha256": "80d35189eaec4053db95a2b550aceb3de747715eb0afcfe9f3ef9a27a86373a1",
+      "bytes": 80300,
+      "license": "CC-BY-4.0"
     }
   ]
 }

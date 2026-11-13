@@ -33,7 +33,7 @@
   const safeUrl=v=>{try{const u=new URL(v);return ["https:","http:"].includes(u.protocol)?u.href:null;}catch{return null;}};
   const initialQ=()=>qNormalize(qMultiply(qAxis([0,1,0],.6),qAxis([1,0,0],-.28)));
   const state={topics:[],byId:new Map(),aliases:new Map(),layers:new Map(),enabledLayers:new Set(["base-br","base-marble"]),inferredEdgesEnabled:false,edges:[],next:new Map(),subjects:[],subjectLabels:{},active:new Set(),filtered:[],rendered:[],visibleIds:new Set(),selected:null,lineage:new Set(),nextIds:new Set(),query:"",grade:"all",system:"all",origin:"all",view:"graph",listLimit:60,lang:"pt-BR",locales:{},translations:{},autoTranslations:new Map(),autoReasons:new Map(),translators:new Map(),history:[],hover:null,loaded:false,missing:[],paused:matchMedia("(prefers-reduced-motion: reduce)").matches,camera:{q:initialQ(),distance:1400,baseDistance:1400,target:[0,0,0],pan:[0,0],focused:null},pointers:new Map(),gesture:null,lastFrame:0};
-  const colors={portugues:"#f5d352",matematica:"#4b94eb",ciencias:"#68cda4",historia:"#e7c976",geografia:"#96dab3",arte:"#c5bf7e","educacao-fisica":"#1eab78",ingles:"#b0cef5","ensino-religioso":"#e6e4c7",computacao:"#677fe0","desenvolvimento-pessoal-social":"#86bda9","habilidades-para-vida":"#a9c89a","aprender-a-aprender":"#d8cc88",frances:"#91a8d1",japones:"#e9c889",chines:"#8fc5bd","estudos-sociais":"#7abdb4","educacao-moral":"#d2d58a","economia-domestica":"#a3bca7",tecnologia:"#709be0","trabalho-pratico":"#b9c384","estudos-integrados":"#97b3d4"};
+  const colors={portugues:"#f5d352",matematica:"#4b94eb",ciencias:"#68cda4",historia:"#e7c976",geografia:"#96dab3",arte:"#c5bf7e","educacao-fisica":"#1eab78",ingles:"#b0cef5","ensino-religioso":"#e6e4c7",computacao:"#677fe0","desenvolvimento-pessoal-social":"#86bda9","habilidades-para-vida":"#a9c89a","aprender-a-aprender":"#d8cc88",frances:"#91a8d1",japones:"#e9c889",chines:"#8fc5bd","estudos-sociais":"#7abdb4","educacao-moral":"#d2d58a","economia-domestica":"#a3bca7",tecnologia:"#709be0","trabalho-pratico":"#b9c384","estudos-integrados":"#97b3d4","ei-eu-outro-nos":"#e5c574","ei-corpo-gestos-movimentos":"#65c69e","ei-tracos-sons-cores-formas":"#98bbeb","ei-escuta-fala-pensamento":"#f3d454","ei-espacos-tempos-relacoes":"#9bc998"};
   const canvas=$("graph"),ctx=canvas.getContext("2d",{alpha:false});
   let width=0,height=0,dpr=1,projected=[],renderOrder=[],raf=0;
   const t=(key,args={})=>{
@@ -47,10 +47,11 @@
   const nativeLanguage=lang=>{try{return new Intl.DisplayNames([state.lang],{type:"language"}).of(lang)||lang;}catch{return lang;}};
   const subjectName=id=>state.locales[state.lang]?.[id]||state.subjectLabels[id]?.translations?.[state.lang]||state.subjectLabels[id]?.name||id.replaceAll("-"," ");
   const topicOrigin=topic=>topic.origin.length?topic.origin.map(t).join(" · "):t("unmappedOrigin");
-  const placementIsExplicit=p=>["source-explicit","source-band"].includes(p.certainty);
+  const placementIsExplicit=p=>["source-explicit","source-band"].includes(p.certainty)||(p.certainty==="source-stage"&&p.system==="BR"&&p.stage==="EI");
   const placements=topic=>{
     const listed=Array.isArray(topic.schoolPlacements)?topic.schoolPlacements.filter(placementIsExplicit):[];
     if(listed.length||!topic.origin.includes("BR"))return listed;
+    if(topic.kind==="objetivo-ei")return [];
     if(!Number.isInteger(topic.gradeMin)||!Number.isInteger(topic.gradeMax))return [];
     return [{system:"BR",years:Array.from({length:topic.gradeMax-topic.gradeMin+1},(_,i)=>topic.gradeMin+i),framework:"BNCC",certainty:topic.gradeMin===topic.gradeMax?"source-explicit":"source-band"}];
   };
@@ -84,7 +85,7 @@
   const baseLayer=layer=>["base-br","base-marble"].includes(layer);
   const layerEnabled=topic=>state.enabledLayers.has(topic.layer);
   function layerName(layer){
-    const keys={"base-br":"layerBrazil","base-marble":"layerMarble","editorial-ia":"layerEditorial","jp-editorial":"layerJapanEditorial","cn-editorial":"layerChinaEditorial","jp-source":"layerJapanSource","cn-source":"layerChinaSource"};
+    const keys={"base-br":"layerBrazil","base-marble":"layerMarble","editorial-ia":"layerEditorial","ei-source":"layerEarlyEducation","jp-editorial":"layerJapanEditorial","cn-editorial":"layerChinaEditorial","jp-source":"layerJapanSource","cn-source":"layerChinaSource"};
     return t(keys[layer]||"layerAdditional")+(keys[layer]?"":" · "+layer);
   }
   function buildLayers(){
@@ -109,6 +110,10 @@
     return state.lang==="pt-BR"?year+"º ano":state.lang==="en"?"Year "+year:year+"年"+(state.lang==="zh-Hant"?"級":"生");
   }
   function formatPlacement(p){
+    if(p.system==="BR"&&p.stage==="EI"){
+      const group=state.lang==="pt-BR"?p.ageGroupLabel||t(p.ageGroup||"earlyEducation"):state.locales[state.lang]?.[p.ageGroup]||p.ageGroupLabel||"";
+      return t("BR")+" · "+t("earlyEducation")+(group?" · "+group:"");
+    }
     const years=[...new Set(p.years||[])].sort((a,b)=>a-b);
     if(!years.length)return t("placementNone");
     const band=years.length>1?yearLabel(p.system,years[0])+" - "+yearLabel(p.system,years.at(-1)):yearLabel(p.system,years[0]);
@@ -169,7 +174,7 @@
         const topic={...raw,id:String(raw.id),name:String(raw.name||raw.id),description:String(raw.description||""),domain:String(raw.domain||""),subject:String(raw.subject),origin:Array.isArray(raw.origin)?raw.origin:[],standards:Array.isArray(raw.standards)?raw.standards:[],prerequisites:Array.isArray(raw.prerequisites)?raw.prerequisites:[],index};
         topic.layer=topicLayer(topic);state.layers.set(topic.layer,(state.layers.get(topic.layer)||0)+1);
         for(const alias of topic.legacyIds||[])state.aliases.set(alias,topic.id);
-        if(topic.layer==="base-br")for(const standard of topic.standards)if(standard.code)state.aliases.set(standard.code,topic.id);
+        if(["base-br","ei-source"].includes(topic.layer))for(const standard of topic.standards)if(standard.code)state.aliases.set(standard.code,topic.id);
         const allNames=Object.values(state.translations[topic.id]||{}).flatMap(r=>typeof r==="object"?[r.name,r.description,r.domain,r.assessmentPrompt,r.question]:[r]);
         topic.searchText=normalize([topic.name,topic.description,topic.domain,topic.parentCode,topic.originalText,...allNames,...Object.values(topic.translatedNames||{}),...topic.standards.flatMap(s=>[s.code,s.sourceCodeLiteral])].join(" "));
         topic.color=colors[topic.subject]||"#a7c6be";
@@ -234,7 +239,9 @@
   }
   function updatePlacementNote(){
     const requiresLayer=["JP","CN"].includes(state.system)&&!state.topics.some(topic=>layerEnabled(topic)&&placements(topic).some(p=>p.system===state.system));
-    $("placement-note").textContent=state.grade==="EI"?t("earlyEducationMissing"):requiresLayer?t("enableCountryLayers"):t("systemNote");
+    const earlyTopics=state.grade==="EI"?state.topics.filter(topic=>placements(topic).some(p=>p.system==="BR"&&p.stage==="EI")):[];
+    const earlyMessage=!earlyTopics.length?"earlyEducationMissing":earlyTopics.some(layerEnabled)?"earlyEducationNote":"enableEarlyEducation";
+    $("placement-note").textContent=state.grade==="EI"?t(earlyMessage):requiresLayer?t("enableCountryLayers"):t("systemNote");
   }
   function matchesFilters(topic){
     if(!layerEnabled(topic))return false;
@@ -242,7 +249,8 @@
     if(state.system!=="all"){
       const ps=placements(topic).filter(p=>p.system===state.system);
       if(!ps.length)return false;
-      if(state.grade!=="all"&&!ps.some(p=>(p.years||[]).some(year=>selectedYears().includes(year))))return false;
+      if(state.grade==="EI"&&!ps.some(p=>p.stage==="EI"))return false;
+      if(!["all","EI"].includes(state.grade)&&!ps.some(p=>(p.years||[]).some(year=>selectedYears().includes(year))))return false;
     }
     if(state.origin==="unmapped"&&topic.origin.length)return false;
     if(state.origin==="other"&&!topic.origin.some(code=>!["BR","US","GB-ENG","JP","CN","AU","CA"].includes(code)))return false;
@@ -298,7 +306,7 @@
     state.selected=topic;state.lineage=getAncestors(topic);state.nextIds=new Set((state.next.get(id)||[]).filter(edgeEnabled).map(x=>x.topic.id));
     state.camera.pivot=[topic.x,topic.y,topic.z];
     updateVisibleContext();state.hover=null;$("tooltip").hidden=true;$("search-results").hidden=true;renderDetail();$("detail").hidden=false;
-    const publicId=topic.layer==="base-br"?topic.standards.find(s=>s.code)?.code||id:id;
+    const publicId=["base-br","ei-source"].includes(topic.layer)?topic.standards.find(s=>s.code)?.code||id:id;
     try{history.replaceState(null,"",location.pathname+location.search+"#"+encodeURIComponent(publicId));}catch{}
     announce(topicText(topic,"name"));scheduleFrame();
   }
@@ -321,11 +329,14 @@
     if(parent&&!related.some(p=>p.topic.id===parent.id))related.push({topic:parent,relation:"parte-da-habilidade",reason:""});
     const name=topicText(topic,"name"),desc=topicText(topic,"description"),domain=topicText(topic,"domain");
     const editorial=["editorial-ia","jp-editorial","cn-editorial"].includes(topic.layer);
-    const kind=t(topic.recordType==="curriculum-source-unit"?"officialUnit":topic.kind==="habilidade"?"curricularSkill":topic.kind==="microtopico"?"microtopic":"taxonomyConcept");
+    const kind=t(topic.kind==="objetivo-ei"?"earlyObjective":topic.recordType==="curriculum-source-unit"?"officialUnit":topic.kind==="habilidade"?"curricularSkill":topic.kind==="microtopico"?"microtopic":"taxonomyConcept");
     const status=editorial?t("editorialWarning"):topic.sourceLiteral?t("literalSource"):topic.origin.includes("BR")?(topic.alignmentStatus==="verified"?t("referenceVerified"):t("referenceProposed")):t("noBncc");
     const translationMissing=!hasTranslation(topic);
-    const translatedRecord=record&&record.reviewState!=="upstream-original",intrinsicAutomatic=topic.translationStatus==="automatic-ai"&&languageCode(topic.language)===languageCode(state.lang);
-    const languageNote=translatedRecord||intrinsicAutomatic?'<p class="translation-note">'+esc(t(intrinsicAutomatic||record?._automatic||record?.translationMode==="automatic-ia"?"automaticTranslation":"editorialTranslation"))+"</p>":"";
+    const automaticRecord=Boolean(record?._automatic||["automatic-ia","automatic-ai"].includes(record?.translationMode));
+    const originalRecord=record?.translationMode==="original"||record?.reviewState==="upstream-original";
+    const translatedRecord=record&&!originalRecord&&(automaticRecord||languageCode(topic.language)!==languageCode(state.lang));
+    const intrinsicAutomatic=topic.translationStatus==="automatic-ai"&&languageCode(topic.language)===languageCode(state.lang);
+    const languageNote=translatedRecord||intrinsicAutomatic?'<p class="translation-note">'+esc(t(intrinsicAutomatic||automaticRecord?"automaticTranslation":"editorialTranslation"))+"</p>":"";
     const missingNote=translationMissing?'<p class="translation-note">'+esc(t("translationPending"))+" "+esc(t("sourceText",{language:nativeLanguage(topic.language||"en")}))+'</p><button id="translate-native" class="small-button">'+esc(t("translateConcept"))+'</button><p id="translate-status" class="muted" role="status"></p>':"";
     const sourceNotes=[topic.sourceFormattingNote,...topic.standards.flatMap(s=>[s.normalizationNote,s.sourceCodeLiteral&&s.sourceCodeLiteral!==s.code?s.sourceCodeLiteral+" → "+s.code:""])].filter(Boolean);
     const notes=sourceNotes.length?'<p class="source-note">'+sourceNotes.map(esc).join("<br>")+"</p>":"";

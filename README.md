@@ -22,12 +22,13 @@ A pasta oficial compartilhada por Claude Code, ChatGPT Codex e Grok Bot é Saber
 | Habilidades BR: BNCC 2018, 1.304; Computação 2022, 104 | 1.408 | Ativa |
 | Tópicos originais Marble, com IDs preservados | 1.907 | Ativa |
 | **Base de consenso** | **3.315** | **Ativa** |
+| Objetivos oficiais da Educação Infantil: 93 BNCC + 11 Computação | 104 | Desativada |
 | Decomposição editorial BR por IA | 743 | Desativada |
 | Unidades japonesas com texto literal da célula MEXT | 1.695 | Desativada |
 | Unidades chinesas com texto literal conferido no MOE | 48 | Desativada |
 | Recortes editoriais japoneses | 307 | Desativada |
 | Recortes editoriais chineses | 303 | Desativada |
-| **Total com todas as camadas** | **6.411** | Ativação explícita |
+| **Total com todas as camadas** | **6.515** | Ativação explícita |
 
 Traduções não acrescentam nós. As unidades curriculares e os recortes editoriais podem representar conteúdos relacionados; o total não comprova unicidade semântica global ou cobertura curricular integral.
 
@@ -36,8 +37,8 @@ Traduções não acrescentam nós. As unidades curriculares e os recortes editor
 | Dependências Marble | 4.003 | Base preservada |
 | Partes de habilidades BR | 743 | Com a camada editorial |
 | Pré-requisitos brasileiros propostos | 97 | Controle de relações propostas |
-| Relações asiáticas propostas | 43 | Controle de relações propostas |
-| **Total** | **4.886** | Tipos separados |
+| Relações asiáticas propostas | 42 | Controle de relações propostas |
+| **Total** | **4.885** | Tipos separados |
 
 Toda relação inferida tem motivo, força e explicação da força. Peso editorial não representa probabilidade calibrada nem validação oficial. O relatório [Consenso_Camadas_V3.json](evidence/Consenso_Camadas_V3.json) inclui conferência dos 1.408 códigos, textos, referências e prova topológica do grafo acíclico.
 
@@ -63,7 +64,7 @@ O resultado é `Saber_Brasil_Offline.html`, também acessível pelo comando `Abr
 - Escolha sistema e série: Brasil, EUA, Inglaterra, Japão ou China. Há atalhos Key Stage e 学段. Séries usam blocos da fonte, nunca conversão automática de idade.
 - Selecionar todas e Desmarcar todas controlam as matérias. Limpar filtros restaura a base padrão, a pesquisa e os seletores.
 
-O seletor BR inclui EI, sinalizado como sem dados nesta base de Ensino Fundamental. O escopo americano do seletor é K-8 e o inglês Years 1-9, preservando registros mais avançados na base importada. Consulte [séries e comparação orientativa por idade](docs/Series_e_Idades.md).
+O seletor BR inclui EI, com 104 objetivos em camada própria, por etapa e grupo etário, sem apresentá-los como ano zero. Ative a camada Educação Infantil para explorá-los. O escopo americano do seletor é K-8 e o inglês Years 1-9, preservando registros mais avançados na base importada. Consulte [séries e comparação orientativa por idade](docs/Series_e_Idades.md).
 
 ## Idiomas, originais e fontes
 
@@ -74,6 +75,8 @@ Os 1.907 tópicos Marble possuem nome, descrição e pergunta em português, jap
 As traduções por IA são identificadas. A cobertura dos demais registros varia; o site informa quando mantém o original e oferece tradução nativa adicional se o navegador tiver suporte. Não confunda seleção de idioma com revisão de todo o conteúdo.
 
 Os 1.408 códigos brasileiros e seus textos foram cotejados com os PDFs e a revisão fixa de [bncc-dados](https://github.com/bncc-dev/bncc-dados/tree/9c268978efa2aa250834c6a9edb6074432752838). EF67LP33 e EF05CO11 estão presentes, mantendo o literal EF05CO011. O símbolo π em EF07MA33 foi restaurado com conferência visual.
+
+Os 104 objetivos da Educação Infantil também foram cotejados individualmente. A proposta recebida do Grok continha quatro números de rodapé incorporados ao texto e uma translineação que exigiu normalização; a camada publicada usa o texto conferido, mantendo o aporte bruto preservado. Uma relação japonesa entre conteúdo do ano 8 e outro do ano 7 foi retirada do grafo e colocada em quarentena para revisão docente.
 
 As 1.695 unidades japonesas usam código e célula literal dos CSV oficiais MEXT de 2017. Foram corrigidos 61 textos reconstruídos e 208 atribuições de série da versão Grok. As 48 unidades chinesas cobrem uma amostra de 14 matérias, com código local explicitamente identificado e páginas conferidas dos padrões MOE 2022. A cobertura chinesa literal é parcial. Os 1.340 candidatos de OCR do Grok permanecem fora do grafo, em ledger, sem selo oficial. Veja [fontes asiáticas e limites](docs/Curriculos_Japao_China.md).
 
@@ -103,7 +106,7 @@ O relatório por item é `evidence/Testes_Navegador_Consenso_V3.json`; as captur
 
 O comando de teste escolhe uma porta local livre e inicia seu próprio servidor, sem reutilizar servidores das outras IAs. A porta de uso normal continua 8788.
 
-Passaram 38 testes Python, seis testes matemáticos e 17 cenários no Google Chrome headless, além das 24 verificações multissistema. Consulte [a entrega verificada](docs/Entrega_Verificada_V3.md), [o consenso adotado](docs/Consenso_Adotado_V3.md) e [o protocolo para as três IAs](docs/Protocolo_Compartilhado_IA.md). Relatórios anteriores preservam o estado histórico; as contagens atuais são as do manifesto de release e da conferência v3.
+Passaram 46 testes Python, seis testes matemáticos e 17 cenários no Google Chrome headless, além das 24 verificações multissistema. Consulte [a entrega verificada](docs/Entrega_Verificada_V3.md), [o consenso adotado](docs/Consenso_Adotado_V3.md) e [o protocolo para as três IAs](docs/Protocolo_Compartilhado_IA.md). Relatórios anteriores preservam o estado histórico; as contagens atuais são as do manifesto de release e da conferência v3.
 
 ## Licenças e responsabilidade
 
@@ -113,4 +116,4 @@ Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · [withmarble.
 
 Confiança: alta na identidade dos dados e nas verificações mecânicas; média na curadoria e nas traduções; limitada nos recortes sem âncora específica.
 
-Pendências: cobertura literal chinesa integral, objetivos da Educação Infantil, decomposição de 1.067 habilidades BR ainda integrais, revisão pedagógica e linguística, revisão semântica entre países, gestos em aparelho físico, abertura direta do HTML e B.9 por família distinta.
+Pendências: cobertura literal chinesa integral, decomposição de 1.067 habilidades BR ainda integrais, revisão pedagógica e linguística, revisão semântica entre países, gestos em aparelho físico, abertura direta do HTML e B.9 por família distinta.

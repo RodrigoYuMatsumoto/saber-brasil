@@ -53,6 +53,7 @@ def main():
               "deliveryStatus": "Base de consenso conferida; camadas opcionais distintas; cobertura literal chinesa parcial",
               "counts": {"baseBrazil": layers["base-br"], "baseMarble": layers["base-marble"],
                          "baseConsensus": layers["base-br"] + layers["base-marble"], "editorialBrazil": layers["editorial-ia"],
+                         "earlyChildhoodSource": layers["ei-source"],
                          "allRecords": len(topics), "layers": dict(layers), "allEdges": sum(edge_types.values()), "edgesByType": dict(edge_types)},
               "defaultView": {"enabledLayers": ["base-br", "base-marble"], "nodes": layers["base-br"] + layers["base-marble"],
                               "edges": edge_types["marble"], "inferredEdgesEnabled": False},

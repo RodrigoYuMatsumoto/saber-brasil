@@ -16,7 +16,7 @@ As pastas Code, Grok, Codex e os-taxonomy-main são referências históricas som
 1. Leia AGENTS.md, README.md e docs/Consenso_Adotado_V3.md. Confira `git status` e o commit atual.
 2. Declare os arquivos que pretende editar. Havendo edição simultânea, combine a responsabilidade antes de tocar no mesmo arquivo. Preserve alterações existentes e crie backup datado em backups.
 3. Confira a base fixa: 1.408 habilidades BR e 1.907 tópicos Marble. Tradução, país, código de referência e alinhamento não criam por si novos tópicos.
-4. Mantenha separados os 743 recortes BR, as unidades asiáticas literais, os recortes asiáticos e os candidatos ainda não promovidos. Uma contagem maior não demonstra maior cobertura correta.
+4. Mantenha separados os 743 recortes BR, os 104 objetivos EI, as unidades asiáticas literais, os recortes asiáticos e os candidatos ainda não promovidos. Uma contagem maior não demonstra maior cobertura correta.
 5. Não promova OCR truncado, tradução automática ou inferência de série a texto curricular oficial. Registre código da fonte ou identificador local, original literal, localizador, hash e limite de verificação.
 6. Execute os validadores e testes de navegador. Registre o commit e os hashes efetivamente revisados, sem presumir consenso por concordância de contagens.
 7. Não faça reset, checkout de arquivos de outros colaboradores, force push ou correção automática do conjunto inteiro durante uma revisão.
@@ -25,7 +25,7 @@ As pastas Code, Grok, Codex e os-taxonomy-main são referências históricas som
 
 Revise de forma independente a pasta oficial Saber_Brasil. Não altere Code, Grok, Codex ou os-taxonomy-main. Primeiro registre commit, alterações locais e hashes dos oito arquivos de entrada de evidence/Build_Portatil.json. Apresente achados antes de editar arquivos sob responsabilidade de outro colaborador.
 
-Recalcule a base 3.315, os 743 editoriais BR e as camadas asiáticas. Confira que o padrão da interface mostra somente a base e 4.003 arestas Marble, que as relações propostas estão desligadas, e que ativar traduções não altera o total de nós. Verifique a separação entre composição e pré-requisito, as forças declaradas e a prova topológica.
+Recalcule a base 3.315, os 743 editoriais BR, os 104 objetivos EI e as camadas asiáticas. A hipótese atual é 6.515 registros e 4.885 relações. Confira que o padrão da interface mostra somente a base e 4.003 arestas Marble, que as relações propostas estão desligadas, e que ativar traduções não altera o total de nós. Verifique a separação entre composição e pré-requisito, as forças declaradas e a prova topológica.
 
 Confira os 1.408 códigos e textos brasileiros nos dois PDFs e na revisão fixa de bncc-dados. Examine EF67LP33, a normalização EF05CO011 para EF05CO11 e o símbolo π restaurado em EF07MA33. Os 743 editoriais devem ter IDs ED, referência ao pai e aviso de revisão, sem código BNCC próprio.
 
@@ -35,4 +35,4 @@ Execute npm run check, npm test, npm run validate, npm run validate:systems, npm
 
 Classifique cada achado como confirmado, divergente, incerto ou não verificado, com arquivo, identificador, fonte e correção proposta. A ausência de ciclos não comprova necessidade pedagógica de cada aresta. Declare o escopo e a família do modelo; a revisão independente não substitui avaliação docente, linguística ou teste físico.
 
-Confiança: alta no perímetro definido. Pendências: os relatórios independentes das outras famílias ainda precisam ser recebidos e confrontados.
+O aporte Grok recebido sobre e66772d foi preservado e seus achados foram cotejados. Ele não cobre os hashes finais desta versão. Confiança: alta no perímetro definido. Pendências: relatórios independentes das outras famílias sobre a versão atual.

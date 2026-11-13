@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import sys
 import unittest
 import unicodedata
 from xml.etree import ElementTree as ET
@@ -104,9 +105,33 @@ class EastAsiaLiteralTests(unittest.TestCase):
         self.assertEqual(len(editorial), 610)
         self.assertTrue(all(t["camada"] == "editorial-ia-asia" for t in editorial))
         edges = [p for t in editorial for p in t["prerequisites"]]
-        self.assertEqual(len(edges), 43)
+        self.assertEqual(len(edges), 42)
         self.assertTrue(all(p["strength"] == "proposed" and p["reason"] and p["strengthBasis"] for p in edges))
         self.assertTrue(all(not t["prerequisites"] for t in self.jp + self.cn))
+
+    def test_chronology_conflict_is_quarantined_and_not_recreated_by_seed(self):
+        source_id = "jp_matematica_expressoes_algebricas"
+        target_id = "jp_matematica_equacoes_de_primeiro_grau"
+        topics = {topic["id"]: topic for topic in self.topics}
+        self.assertFalse(any(p["id"] == source_id for p in topics[target_id]["prerequisites"]))
+        self.assertFalse(any(p["id"] == target_id for p in topics[source_id]["prerequisites"]))
+        ledger = load("data/east_asia_relation_candidates.json")
+        candidate = next(row for row in ledger["candidates"] if row["from"] == source_id and row["to"] == target_id)
+        self.assertEqual(candidate["reasonKind"], "source-chronology-conflict")
+        self.assertEqual(candidate["sourceChronology"]["from"]["years"], [8])
+        self.assertEqual(candidate["sourceChronology"]["to"]["years"], [7])
+        self.assertEqual(candidate["status"], "quarantined")
+        self.assertFalse(candidate["automaticReversal"])
+        self.assertIn("não constitui B.9", candidate["reviewInput"]["scope"])
+        sys.path.insert(0, str(ROOT / "scripts"))
+        try:
+            from build_east_asia import add_editorial_links
+            minimal = [{"id": source_id, "name": "Expressões algébricas", "origin": ["JP"], "prerequisites": []},
+                       {"id": target_id, "name": "Equações de primeiro grau", "origin": ["JP"], "prerequisites": []}]
+            add_editorial_links(minimal)
+            self.assertTrue(all(not topic["prerequisites"] for topic in minimal))
+        finally:
+            sys.path.pop(0)
 
     def test_source_tables_match_published_hashes(self):
         for source_id in ["jp_primary_codes", "jp_secondary_codes", "jp_code_assignment"]:

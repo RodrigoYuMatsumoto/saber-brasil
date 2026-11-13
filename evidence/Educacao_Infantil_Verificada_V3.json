@@ -1,0 +1,2494 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Conferência integral dos objetivos da Educação Infantil",
+    "subject": "93 objetivos BNCC e 11 de Computação, confrontados com PDFs oficiais e compilação de referência",
+    "generatedAt": "2026-11-13T00:54:31.281652+00:00"
+  },
+  "status": "pass",
+  "reference": {
+    "repository": "https://github.com/bncc-dev/bncc-dados",
+    "revision": "9c268978efa2aa250834c6a9edb6074432752838",
+    "license": "CC-BY-4.0",
+    "files": [
+      {
+        "path": "data/reference_bncc/educacao_infantil.json",
+        "sha256": "80d35189eaec4053db95a2b550aceb3de747715eb0afcfe9f3ef9a27a86373a1"
+      },
+      {
+        "path": "data/reference_bncc/computacao.json",
+        "sha256": "6192c381961c55abfc886415e8ae60cc5e16ed783496c63d09bef9c6302b4f69"
+      }
+    ]
+  },
+  "counts": {
+    "bncc2018": 93,
+    "computing2022": 11,
+    "uniqueReferenceCodes": 104,
+    "uniquePdfCodes": 104,
+    "codeAndFullTextMatches": 104
+  },
+  "missingFromPdf": [],
+  "extraInPdf": [],
+  "rows": [
+    {
+      "code": "EI01CG01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Movimentar as partes do corpo para exprimir corporalmente emoções, necessidades e desejos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        77.953,
+        220.184,
+        204.155,
+        282.344
+      ]
+    },
+    {
+      "code": "EI01CG02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Experimentar as possibilidades corporais nas brincadeiras e interações em ambientes acolhedores e desafiantes.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        77.953,
+        334.104,
+        209.054,
+        408.963
+      ]
+    },
+    {
+      "code": "EI01CG03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Imitar gestos e movimentos de outras crianças, adultos e animais.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        77.953,
+        447.833,
+        212.633,
+        497.193
+      ]
+    },
+    {
+      "code": "EI01CG04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Participar do cuidado do seu corpo e da promoção do seu bem-estar.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        77.953,
+        536.053,
+        211.393,
+        585.413
+      ]
+    },
+    {
+      "code": "EI01CG05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Utilizar os movimentos de preensão, encaixe e lançamento, ampliando suas possibilidades de manuseio de diferentes materiais e objetos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        77.953,
+        611.483,
+        196.583,
+        699.243
+      ]
+    },
+    {
+      "code": "EI01EF01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Reconhecer quando é chamado por seu nome e reconhecer os nomes de pessoas com quem convive.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        77.953,
+        220.174,
+        195.233,
+        295.134
+      ]
+    },
+    {
+      "code": "EI01EF02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Demonstrar interesse ao ouvir a leitura de poemas e a apresentação de músicas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        77.953,
+        334.564,
+        206.743,
+        396.724
+      ]
+    },
+    {
+      "code": "EI01EF03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Demonstrar interesse ao ouvir histórias lidas ou contadas, observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        77.953,
+        410.553,
+        207.673,
+        523.913
+      ]
+    },
+    {
+      "code": "EI01EF04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Reconhecer elementos das ilustrações de histórias, apontando-os, a pedido do adulto-leitor.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        77.953,
+        550.543,
+        214.465,
+        612.703
+      ]
+    },
+    {
+      "code": "EI01EF05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Imitar as variações de entonação e gestos realizados pelos adultos, ao ler histórias e ao cantar.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        77.953,
+        652.133,
+        210.68,
+        714.293
+      ]
+    },
+    {
+      "code": "EI01EF06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Comunicar-se com outras pessoas usando movimentos, gestos, balbucios, fala e outras formas de expressão.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        69.449,
+        220.544,
+        186.419,
+        295.504
+      ]
+    },
+    {
+      "code": "EI01EF07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Conhecer e manipular materiais impressos e audiovisuais em diferentes portadores (livro, revista, gibi, jornal, cartaz, CD, tablet etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        69.449,
+        308.764,
+        203.758,
+        396.884
+      ]
+    },
+    {
+      "code": "EI01EF08",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Participar de situações de escuta de textos em diferentes gêneros textuais (poemas, fábulas, contos, receitas, quadrinhos, anúncios etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        69.449,
+        409.894,
+        202.378,
+        497.554
+      ]
+    },
+    {
+      "code": "EI01EF09",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Conhecer e manipular diferentes instrumentos e suportes de escrita.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        69.449,
+        549.324,
+        198.67,
+        598.584
+      ]
+    },
+    {
+      "code": "EI01EO01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Perceber que suas ações têm efeitos nas outras crianças e nos adultos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        77.953,
+        221.591,
+        203.915,
+        270.951
+      ]
+    },
+    {
+      "code": "EI01EO02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Perceber as possibilidades e os limites de seu corpo nas brincadeiras e interações das quais participa.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        77.953,
+        312.381,
+        218.625,
+        374.541
+      ]
+    },
+    {
+      "code": "EI01EO03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Interagir com crianças da mesma faixa etária e adultos ao explorar espaços, materiais, objetos, brinquedos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        77.953,
+        390.371,
+        193.196,
+        465.331
+      ]
+    },
+    {
+      "code": "EI01EO04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Comunicar necessidades, desejos e emoções, utilizando gestos, balbucios, palavras.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        77.953,
+        481.161,
+        206.173,
+        543.321
+      ]
+    },
+    {
+      "code": "EI01EO05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Reconhecer seu corpo e expressar suas sensações em momentos de alimentação, higiene, brincadeira e descanso.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        77.953,
+        559.15,
+        207.212,
+        634.11
+      ]
+    },
+    {
+      "code": "EI01EO06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 48,
+      "printedPage": "46",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+      "literalText": "Interagir com outras crianças da mesma faixa etária e adultos, adaptando-se ao convívio social.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=48",
+      "block": [
+        69.449,
+        222.015,
+        208.423,
+        284.075
+      ]
+    },
+    {
+      "code": "EI01ET01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Explorar e descobrir as propriedades de objetos e materiais (odor, cor, sabor, temperatura).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        77.953,
+        220.174,
+        211.552,
+        282.334
+      ]
+    },
+    {
+      "code": "EI01ET02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Explorar relações de causa e efeito (transbordar, tingir, misturar, mover e remover etc.) na interação com o mundo físico.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        77.953,
+        308.394,
+        210.45,
+        396.154
+      ]
+    },
+    {
+      "code": "EI01ET03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Explorar o ambiente pela ação e observação, manipulando, experimentando e fazendo descobertas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        77.953,
+        422.213,
+        200.272,
+        497.173
+      ]
+    },
+    {
+      "code": "EI01ET04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Manipular, experimentar, arrumar e explorar o espaço por meio de experiências de deslocamentos de si e dos objetos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        77.953,
+        510.433,
+        212.173,
+        598.193
+      ]
+    },
+    {
+      "code": "EI01ET05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Manipular materiais diversos e variados para comparar as diferenças e semelhanças entre eles.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        77.953,
+        623.793,
+        205.394,
+        685.853
+      ]
+    },
+    {
+      "code": "EI01ET06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Vivenciar diferentes ritmos, velocidades e fluxos nas interações e brincadeiras (em danças, balanços, escorregadores etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        77.953,
+        698.373,
+        210.893,
+        773.233
+      ]
+    },
+    {
+      "code": "EI01TS01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Explorar sons produzidos com o próprio corpo e com objetos do ambiente.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        69.449,
+        220.674,
+        198.87,
+        270.034
+      ]
+    },
+    {
+      "code": "EI01TS02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Traçar marcas gráficas, em diferentes suportes, usando instrumentos riscantes e tintas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        69.449,
+        321.694,
+        188.87,
+        383.854
+      ]
+    },
+    {
+      "code": "EI01TS03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Explorar diferentes fontes sonoras e materiais para acompanhar brincadeiras cantadas, canções, músicas e melodias.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        69.449,
+        435.523,
+        200.7,
+        510.483
+      ]
+    },
+    {
+      "code": "EI02CG01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        222.523,
+        220.184,
+        375.013,
+        282.344
+      ]
+    },
+    {
+      "code": "EI02CG02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        222.523,
+        334.113,
+        377.482,
+        434.573
+      ]
+    },
+    {
+      "code": "EI02CG03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        222.523,
+        447.833,
+        360.543,
+        522.793
+      ]
+    },
+    {
+      "code": "EI02CG04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Demonstrar progressiva independência no cuidado do seu corpo.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        222.523,
+        536.053,
+        373.193,
+        585.413
+      ]
+    },
+    {
+      "code": "EI02CG05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        222.523,
+        611.483,
+        377.943,
+        686.443
+      ]
+    },
+    {
+      "code": "EI02EF01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        222.523,
+        220.174,
+        355.223,
+        282.334
+      ]
+    },
+    {
+      "code": "EI02EF02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        222.523,
+        334.564,
+        362.292,
+        396.724
+      ]
+    },
+    {
+      "code": "EI02EF03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto",
+        "remoção do hífen de translineação repetido no composto adulto-leitor"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        222.523,
+        410.553,
+        374.502,
+        536.713
+      ]
+    },
+    {
+      "code": "EI02EF04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        222.523,
+        550.543,
+        373.723,
+        625.503
+      ]
+    },
+    {
+      "code": "EI02EF05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        222.523,
+        652.133,
+        376.774,
+        714.293
+      ]
+    },
+    {
+      "code": "EI02EF06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        214.019,
+        220.544,
+        358.269,
+        269.904
+      ]
+    },
+    {
+      "code": "EI02EF07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        214.019,
+        308.764,
+        348.021,
+        370.924
+      ]
+    },
+    {
+      "code": "EI02EF08",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        214.019,
+        409.894,
+        364.639,
+        510.354
+      ]
+    },
+    {
+      "code": "EI02EF09",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        214.019,
+        549.324,
+        366.443,
+        611.384
+      ]
+    },
+    {
+      "code": "EI02EO01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        225.353,
+        221.591,
+        361.973,
+        283.751
+      ]
+    },
+    {
+      "code": "EI02EO02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        225.353,
+        312.371,
+        371.573,
+        374.531
+      ]
+    },
+    {
+      "code": "EI02EO03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        225.353,
+        390.361,
+        369.524,
+        439.721
+      ]
+    },
+    {
+      "code": "EI02EO04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        225.353,
+        481.161,
+        377.033,
+        543.321
+      ]
+    },
+    {
+      "code": "EI02EO05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        225.353,
+        559.14,
+        371.822,
+        621.3
+      ]
+    },
+    {
+      "code": "EI02EO06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 48,
+      "printedPage": "46",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+      "literalText": "Respeitar regras básicas de convívio social nas interações e brincadeiras.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=48",
+      "block": [
+        216.849,
+        221.915,
+        366.68,
+        271.275
+      ]
+    },
+    {
+      "code": "EI02EO07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 48,
+      "printedPage": "46",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+      "literalText": "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=48",
+      "block": [
+        216.849,
+        299.905,
+        370.652,
+        349.265
+      ]
+    },
+    {
+      "code": "EI02ET01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        221.103,
+        220.174,
+        355.733,
+        295.134
+      ]
+    },
+    {
+      "code": "EI02ET02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        221.103,
+        308.394,
+        371.692,
+        370.554
+      ]
+    },
+    {
+      "code": "EI02ET03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        221.103,
+        422.213,
+        375.633,
+        497.173
+      ]
+    },
+    {
+      "code": "EI02ET04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        221.103,
+        510.433,
+        372.753,
+        585.393
+      ]
+    },
+    {
+      "code": "EI02ET05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        221.103,
+        623.793,
+        367.083,
+        685.853
+      ]
+    },
+    {
+      "code": "EI02ET06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        221.103,
+        698.263,
+        370.696,
+        773.223
+      ]
+    },
+    {
+      "code": "EI02ET07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 54,
+      "printedPage": "52",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54",
+      "literalText": "Contar oralmente objetos, pessoas, livros etc., em contextos diversos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=54",
+      "block": [
+        212.598,
+        239.965,
+        344.891,
+        289.325
+      ]
+    },
+    {
+      "code": "EI02ET08",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 54,
+      "printedPage": "52",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54",
+      "literalText": "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=54",
+      "block": [
+        212.598,
+        328.295,
+        368.518,
+        415.955
+      ]
+    },
+    {
+      "code": "EI02TS01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        214.019,
+        220.674,
+        351.79,
+        282.834
+      ]
+    },
+    {
+      "code": "EI02TS02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        214.019,
+        321.804,
+        369.571,
+        422.264
+      ]
+    },
+    {
+      "code": "EI02TS03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        214.019,
+        435.523,
+        362.229,
+        510.483
+      ]
+    },
+    {
+      "code": "EI03CG01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Criar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro, música.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        385.513,
+        220.284,
+        524.571,
+        320.744
+      ]
+    },
+    {
+      "code": "EI03CG02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        385.513,
+        334.113,
+        515.733,
+        434.573
+      ]
+    },
+    {
+      "code": "EI03CG03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        385.513,
+        447.933,
+        517.923,
+        522.793
+      ]
+    },
+    {
+      "code": "EI03CG04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        385.513,
+        536.163,
+        516.843,
+        598.223
+      ]
+    },
+    {
+      "code": "EI03CG05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 49,
+      "printedPage": "47",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 49",
+      "literalText": "Coordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "block": [
+        385.513,
+        611.483,
+        531.554,
+        686.443
+      ]
+    },
+    {
+      "code": "EI03CO01",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 6,
+      "printedPage": "",
+      "referenceLocator": "página PDF 6",
+      "literalText": "Reconhecer padrão de repetição em sequência de sons, movimentos, desenhos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=6",
+      "block": [
+        195.784,
+        258.803,
+        560.293,
+        278.603
+      ]
+    },
+    {
+      "code": "EI03CO02",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 6,
+      "printedPage": "",
+      "referenceLocator": "página PDF 6",
+      "literalText": "Expressar as etapas para a realização de uma tarefa de forma clara e ordenada.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=6",
+      "block": [
+        195.784,
+        465.711,
+        559.438,
+        485.511
+      ]
+    },
+    {
+      "code": "EI03CO03",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 6,
+      "printedPage": "",
+      "referenceLocator": "página PDF 6",
+      "literalText": "Experienciar a execução de algoritmos brincando com objetos (des)plugados.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=6",
+      "block": [
+        195.784,
+        661.82,
+        531.772,
+        681.62
+      ]
+    },
+    {
+      "code": "EI03CO04",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 8,
+      "printedPage": "",
+      "referenceLocator": "página PDF 8",
+      "literalText": "Criar e representar algoritmos para resolver problemas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=8",
+      "block": [
+        201.453,
+        227.972,
+        505.95,
+        236.972
+      ]
+    },
+    {
+      "code": "EI03CO05",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 8,
+      "printedPage": "",
+      "referenceLocator": "página PDF 8",
+      "literalText": "Comparar soluções algorítmicas para resolver um mesmo problema.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=8",
+      "block": [
+        201.453,
+        367.219,
+        514.95,
+        387.219
+      ]
+    },
+    {
+      "code": "EI03CO06",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 8,
+      "printedPage": "",
+      "referenceLocator": "página PDF 8",
+      "literalText": "Compreender decisões em dois estados (verdadeiro ou falso).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=8",
+      "block": [
+        201.453,
+        517.466,
+        535.587,
+        526.466
+      ]
+    },
+    {
+      "code": "EI03CO07",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 10,
+      "printedPage": "",
+      "referenceLocator": "página PDF 10",
+      "literalText": "Reconhecer dispositivos eletrônicos (e não-eletrônicos), identificando quando estão ligados ou desligados (abertos ou fechados).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=10",
+      "block": [
+        195.784,
+        205.803,
+        521.8,
+        225.803
+      ]
+    },
+    {
+      "code": "EI03CO08",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 10,
+      "printedPage": "",
+      "referenceLocator": "página PDF 10",
+      "literalText": "Compreender o conceito de interfaces para comunicação com objetos (des)plugados.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=10",
+      "block": [
+        195.784,
+        328.211,
+        531.034,
+        348.211
+      ]
+    },
+    {
+      "code": "EI03CO09",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 10,
+      "printedPage": "",
+      "referenceLocator": "página PDF 10",
+      "literalText": "Identificar dispositivos computacionais e as diferentes formas de interação.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=10",
+      "block": [
+        195.784,
+        472.62,
+        542.428,
+        492.62
+      ]
+    },
+    {
+      "code": "EI03CO10",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 12,
+      "printedPage": "",
+      "referenceLocator": "página PDF 12",
+      "literalText": "Utilizar tecnologia digital de maneira segura, consciente e respeitosa.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=12",
+      "block": [
+        195.784,
+        260.803,
+        559.195,
+        269.803
+      ]
+    },
+    {
+      "code": "EI03CO11",
+      "sourceId": "bncc-computacao-2022",
+      "pdfPage": 12,
+      "printedPage": "",
+      "referenceLocator": "página PDF 12",
+      "literalText": "Adotar hábitos saudáveis de uso de artefatos computacionais, seguindo recomendações de órgãos de saúde competentes.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "60aab0b192acf867bc582dc06678cd8f3bc597e8f1b65256fc7bf04190bb793d",
+      "pdfHashMatchesManifest": true,
+      "url": "https://portalpedagogico.educacao.mg.gov.br/wp-content/uploads/2026/05/BNCCComputaoCompletodiagramado-1.pdf#page=12",
+      "block": [
+        195.784,
+        482.211,
+        525.076,
+        502.211
+      ]
+    },
+    {
+      "code": "EI03EF01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita (escrita espontânea), de fotos, desenhos e outras formas de expressão.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        385.983,
+        220.174,
+        514.293,
+        320.734
+      ]
+    },
+    {
+      "code": "EI03EF02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Inventar brincadeiras cantadas, poemas e canções, criando rimas, aliterações e ritmos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        385.983,
+        334.564,
+        505.013,
+        396.724
+      ]
+    },
+    {
+      "code": "EI03EF03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Escolher e folhear livros, procurando orientar-se por temas e ilustrações e tentando identificar palavras conhecidas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        385.983,
+        410.553,
+        531.013,
+        485.513
+      ]
+    },
+    {
+      "code": "EI03EF04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Recontar histórias ouvidas e planejar coletivamente roteiros de vídeos e de encenações, definindo os contextos, os personagens, a estrutura da história.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        385.983,
+        550.543,
+        523.786,
+        638.303
+      ]
+    },
+    {
+      "code": "EI03EF05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 51,
+      "printedPage": "49",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 51",
+      "literalText": "Recontar histórias ouvidas para produção de reconto escrito, tendo o professor como escriba.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "block": [
+        385.983,
+        652.133,
+        520.243,
+        714.293
+      ]
+    },
+    {
+      "code": "EI03EF06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Produzir suas próprias histórias orais e escritas (escrita espontânea), em situações com função social significativa.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        377.479,
+        220.544,
+        519.829,
+        295.504
+      ]
+    },
+    {
+      "code": "EI03EF07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Levantar hipóteses sobre gêneros textuais veiculados em portadores conhecidos, recorrendo a estratégias de observação gráfica e/ou de leitura.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        377.479,
+        308.764,
+        517.728,
+        396.524
+      ]
+    },
+    {
+      "code": "EI03EF08",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Selecionar livros e textos de gêneros conhecidos para a leitura de um adulto e/ou para sua própria leitura (partindo de seu repertório sobre esses textos, como a recuperação pela memória, pela leitura das ilustrações etc.).",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        377.479,
+        409.894,
+        519.35,
+        535.954
+      ]
+    },
+    {
+      "code": "EI03EF09",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 52,
+      "printedPage": "50",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 52",
+      "literalText": "Levantar hipóteses em relação à linguagem escrita, realizando registros de palavras e textos, por meio de escrita espontânea.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "block": [
+        377.479,
+        549.324,
+        521.749,
+        624.184
+      ]
+    },
+    {
+      "code": "EI03EO01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Demonstrar empatia pelos outros, percebendo que as pessoas têm diferentes sentimentos, necessidades e maneiras de pensar e agir.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        385.513,
+        221.591,
+        529.554,
+        296.551
+      ]
+    },
+    {
+      "code": "EI03EO02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Agir de maneira independente, com confiança em suas capacidades, reconhecendo suas conquistas e limitações.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        385.513,
+        312.381,
+        533.195,
+        374.541
+      ]
+    },
+    {
+      "code": "EI03EO03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Ampliar as relações interpessoais, desenvolvendo atitudes de participação e cooperação.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        385.513,
+        390.371,
+        533.647,
+        452.531
+      ]
+    },
+    {
+      "code": "EI03EO04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Comunicar suas ideias e sentimentos a pessoas e grupos diversos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        385.513,
+        481.161,
+        509.523,
+        530.521
+      ]
+    },
+    {
+      "code": "EI03EO05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "printedPage": "45",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 47",
+      "literalText": "Demonstrar valorização das características de seu corpo e respeitar as características dos outros (crianças e adultos) com os quais convive.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "block": [
+        385.513,
+        559.25,
+        532.994,
+        634.11
+      ]
+    },
+    {
+      "code": "EI03EO06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 48,
+      "printedPage": "46",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+      "literalText": "Manifestar interesse e respeito por diferentes culturas e modos de vida.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=48",
+      "block": [
+        377.009,
+        222.015,
+        504.19,
+        271.275
+      ]
+    },
+    {
+      "code": "EI03EO07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 48,
+      "printedPage": "46",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 48",
+      "literalText": "Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=48",
+      "block": [
+        62.362,
+        299.905,
+        521.183,
+        386.854
+      ]
+    },
+    {
+      "code": "EI03ET01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Estabelecer relações de comparação entre objetos, observando suas propriedades.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        386.933,
+        220.284,
+        515.994,
+        282.344
+      ]
+    },
+    {
+      "code": "EI03ET02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Observar e descrever mudanças em diferentes materiais, resultantes de ações sobre eles, em experimentos envolvendo fenômenos naturais e artificiais.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        386.933,
+        308.394,
+        517.742,
+        408.953
+      ]
+    },
+    {
+      "code": "EI03ET03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Identificar e selecionar fontes de informações, para responder a questões sobre a natureza, seus fenômenos, sua conservação.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        386.933,
+        422.213,
+        529.854,
+        497.173
+      ]
+    },
+    {
+      "code": "EI03ET04",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Registrar observações, manipulações e medidas, usando múltiplas linguagens (desenho, registro por números ou escrita espontânea), em diferentes suportes.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        386.933,
+        510.433,
+        530.843,
+        610.993
+      ]
+    },
+    {
+      "code": "EI03ET05",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Classificar objetos e figuras de acordo com suas semelhanças e diferenças.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        386.933,
+        623.793,
+        525.663,
+        673.053
+      ]
+    },
+    {
+      "code": "EI03ET06",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 53,
+      "printedPage": "51",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 53",
+      "literalText": "Relatar fatos importantes sobre seu nascimento e desenvolvimento, a história dos seus familiares e da sua comunidade.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "block": [
+        386.933,
+        698.263,
+        527.563,
+        773.223
+      ]
+    },
+    {
+      "code": "EI03ET07",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 54,
+      "printedPage": "52",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54",
+      "literalText": "Relacionar números às suas respectivas quantidades e identificar o antes, o depois e o entre em uma sequência.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=54",
+      "block": [
+        378.428,
+        239.965,
+        518.397,
+        314.925
+      ]
+    },
+    {
+      "code": "EI03ET08",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 54,
+      "printedPage": "52",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 54",
+      "literalText": "Expressar medidas (peso, altura etc.), construindo gráficos básicos.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=54",
+      "block": [
+        378.428,
+        328.295,
+        508.657,
+        377.555
+      ]
+    },
+    {
+      "code": "EI03TS01",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Utilizar sons produzidos por materiais, objetos e instrumentos musicais durante brincadeiras de faz de conta, encenações, criações musicais, festas.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        376.539,
+        220.674,
+        507.461,
+        308.434
+      ]
+    },
+    {
+      "code": "EI03TS02",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        376.539,
+        321.693,
+        519.891,
+        409.453
+      ]
+    },
+    {
+      "code": "EI03TS03",
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 50,
+      "printedPage": "48",
+      "referenceLocator": "Base-Nacional-Comum-Curricular-BNCC.pdf, página PDF 50",
+      "literalText": "Reconhecer as qualidades do som (intensidade, duração, altura e timbre), utilizando-as em suas produções sonoras e ao ouvir músicas e sons.",
+      "codeAndFullTextInSameBlock": true,
+      "normalizationRules": [
+        "normalização Unicode NFC",
+        "remoção de quebras de linha e espaços de diagramação",
+        "identificador curricular separado do texto"
+      ],
+      "pdfSha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b",
+      "pdfHashMatchesManifest": true,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=50",
+      "block": [
+        376.539,
+        435.523,
+        525.146,
+        510.483
+      ]
+    }
+  ],
+  "externalContribution": {
+    "available": true,
+    "promotedVerbatim": false,
+    "path": "contribuicoes/grok-2026-11-12/extraido/auditoria/ei_extraido.json",
+    "sha256": "c9a2f9752357418d2f88e5825c54580979672e3cc56a752936b61e5ca7b22582",
+    "records": 104,
+    "differences": [
+      {
+        "code": "EI02EF03",
+        "reason": "hífen de translineação repetido",
+        "decision": "Usar o bloco do PDF conferido com a compilação fixa; preservar contribuição original sem alteração."
+      },
+      {
+        "code": "EI03CG05",
+        "reason": "número de rodapé incorporado ao início do objetivo",
+        "decision": "Usar o bloco do PDF conferido com a compilação fixa; preservar contribuição original sem alteração."
+      },
+      {
+        "code": "EI03EF05",
+        "reason": "número de rodapé incorporado ao início do objetivo",
+        "decision": "Usar o bloco do PDF conferido com a compilação fixa; preservar contribuição original sem alteração."
+      },
+      {
+        "code": "EI03EO05",
+        "reason": "número de rodapé incorporado ao início do objetivo",
+        "decision": "Usar o bloco do PDF conferido com a compilação fixa; preservar contribuição original sem alteração."
+      },
+      {
+        "code": "EI03ET06",
+        "reason": "número de rodapé incorporado ao início do objetivo",
+        "decision": "Usar o bloco do PDF conferido com a compilação fixa; preservar contribuição original sem alteração."
+      }
+    ]
+  },
+  "layer": {
+    "id": "ei-source",
+    "camada": "fonte-educacao-infantil",
+    "count": 104,
+    "defaultEnabled": false,
+    "includedInConsensusBase": false
+  },
+  "placementPolicy": {
+    "system": "BR",
+    "stage": "EI",
+    "years": [],
+    "certainty": "source-stage",
+    "layoutConvention": "O valor zero em gradeMin/gradeMax é apenas convenção visual da etapa EI; não designa ano escolar. A associação curricular usa stage EI e years vazio.",
+    "ageGroups": {
+      "01": "Bebês (zero a 1 ano e 6 meses)",
+      "02": "Crianças bem pequenas (1 ano e 7 meses a 3 anos e 11 meses)",
+      "03": "Crianças pequenas (4 anos a 5 anos e 11 meses)"
+    },
+    "ageGroupSource": {
+      "sourceId": "bncc-mec-2018",
+      "pdfPage": 47,
+      "note": "Grupos etários publicados nos cabeçalhos das colunas, sem converter faixa etária em série oficial."
+    }
+  },
+  "limitations": [
+    "São objetivos oficiais integrais da etapa EI, sem decomposição editorial nem equivalência com séries de outro país.",
+    "O cotejo mecânico de código e texto com normalizações de diagramação declaradas não substitui revisão docente independente.",
+    "Os 104 objetivos EI não entram nas 1.408 habilidades EF nem nos 3.315 nós da base de consenso."
+  ]
+}

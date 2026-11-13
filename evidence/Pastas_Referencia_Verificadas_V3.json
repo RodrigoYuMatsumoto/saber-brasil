@@ -7,9 +7,17 @@
     "title": "Conferência das pastas históricas na consolidação v3",
     "subject": "Comparação SHA-256 dos arquivos de referência antes e depois do trabalho"
   },
-  "status": "PASS",
+  "status": "FAIL",
   "checkedFiles": 935,
-  "changed": [],
+  "changed": [
+    "Code/dados/fonte/bncc_computacao_extracao.json",
+    "Code/scripts/build_graph.py",
+    "Code/scripts/extract_bncc_computacao.py",
+    "Code/src/template.html"
+  ],
   "missing": [],
-  "scope": "Arquivos de dados, código e documentação incluídos no inventário inicial; sem alegar inventário de binários ou pastas excluídas."
+  "scope": "Arquivos de dados, código e documentação incluídos no inventário inicial; sem alegar inventário de binários ou pastas excluídas.",
+  "checkedAt": "2026-11-13T01:03:19.397235+00:00",
+  "interpretation": "A rechecagem detectou quatro alterações posteriores em Code. A comparação não identifica o autor. Esta execução não editou os caminhos apontados; a aplicação usa os arquivos próprios identificados por hash.",
+  "referenceWritesByThisExecution": false
 }

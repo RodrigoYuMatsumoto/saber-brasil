@@ -45,6 +45,8 @@ def placement_is_valid(placement):
     system = placement.get("system")
     years = placement.get("years", [])
     certainty = placement.get("certainty")
+    if certainty == "source-stage":
+        return system == "BR" and placement.get("stage") == "EI" and years == [] and bool(placement.get("framework")) and bool(placement.get("sourceCode")) and bool(placement.get("sourceUrl"))
     valid = system in EXPECTED_SYSTEMS and isinstance(years, list) and bool(years) and all(isinstance(year, int) and not isinstance(year, bool) for year in years)
     valid = valid and len(years) == len(set(years)) and years == sorted(years)
     valid = valid and certainty in {"source-explicit", "source-band"} and bool(placement.get("framework"))
