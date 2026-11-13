@@ -44,3 +44,12 @@ test("O enquadramento mantém todos os pontos dentro da área disponível", () =
     assert.ok(Math.abs(p[1]*scale)<=280);
   }
 });
+
+test("Zoom relativo ao enquadramento fica entre 0,25x e 24x (auditoria Grok 2026-11-12)", () => {
+  const {ZOOM_MIN,ZOOM_MAX}=context.module.exports;
+  near(ZOOM_MIN,.25);near(ZOOM_MAX,24);
+  const base=1000;
+  near(base/zoomDistance(base,1e-6,base),24);
+  near(base/zoomDistance(base,1e6,base),.25);
+  near(zoomDistance(base,.5,base),500);
+});

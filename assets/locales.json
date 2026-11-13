@@ -155,7 +155,15 @@
       "resultsOne": "{n} resultado",
       "foundOne": "{n} conceito encontrado. Selecione-o para explorar suas conexões.",
       "exportPreparedOne": "Exportação preparada: {n} conceito.",
-      "relatedCountOne": "{n} conceito relacionado no caminho. Posições e relações editoriais precisam de revisão pedagógica."
+      "relatedCountOne": "{n} conceito relacionado no caminho. Posições e relações editoriais precisam de revisão pedagógica.",
+      "showing": "Mostrando {n} de {m}",
+      "eiShort": "EI (Educação Infantil)",
+      "officialUnit": "Unidade curricular oficial",
+      "eiObjective": "Objetivo de aprendizagem (Educação Infantil)",
+      "ocrExcerpt": "Trecho curto obtido por OCR do PDF oficial; confira o texto na página indicada.",
+      "literalOfficial": "Texto literal do documento oficial (código e texto do CSV do MEXT).",
+      "educacao-infantil": "Educação Infantil",
+      "machineTranslationGated": "Tradução automática (Argos Translate, pivô em inglês) aprovada por verificação automática; não revisada por pessoa."
     },
     "en": {
       "pageTitle": "Saber Brasil · The open learning map",
@@ -304,7 +312,15 @@
       "resultsOne": "{n} result",
       "foundOne": "{n} concept found. Select it to explore its connections.",
       "exportPreparedOne": "Export prepared: {n} concept.",
-      "relatedCountOne": "{n} related concept along the path. Editorial positions and links require educational review."
+      "relatedCountOne": "{n} related concept along the path. Editorial positions and links require educational review.",
+      "showing": "Showing {n} of {m}",
+      "eiShort": "EI (early childhood)",
+      "officialUnit": "Official curriculum unit",
+      "eiObjective": "Learning objective (early childhood)",
+      "ocrExcerpt": "Short excerpt read by OCR from the official PDF; check the text on the cited page.",
+      "literalOfficial": "Literal text of the official document (MEXT CSV code and text).",
+      "educacao-infantil": "Early childhood education",
+      "machineTranslationGated": "Machine translation (Argos Translate, English pivot) passed automatic checks; not reviewed by a person."
     },
     "ja": {
       "pageTitle": "Saber Brasil · 学びのオープンマップ",
@@ -453,7 +469,15 @@
       "resultsOne": "{n}件の結果",
       "foundOne": "{n}個の概念が見つかりました。選択すると関連する概念を確認できます。",
       "exportPreparedOne": "{n}個の概念を書き出しました。",
-      "relatedCountOne": "学習のつながりに{n}個の関連概念があります。配置や編集した関係には教育的な確認が必要です。"
+      "relatedCountOne": "学習のつながりに{n}個の関連概念があります。配置や編集した関係には教育的な確認が必要です。",
+      "showing": "{m}件中{n}件を表示",
+      "eiShort": "EI（幼児教育）",
+      "officialUnit": "公式の学習内容項目",
+      "eiObjective": "学習・発達の目標（幼児教育）",
+      "ocrExcerpt": "公式PDFからOCRで読み取った短い抜粋です。該当ページで本文を確認してください。",
+      "literalOfficial": "公式文書の原文（文部科学省CSVのコードと本文）。",
+      "educacao-infantil": "幼児教育",
+      "machineTranslationGated": "機械翻訳（Argos Translate、英語経由）。自動チェックは通過済みですが、人による確認はしていません。"
     },
     "zh-Hant": {
       "pageTitle": "Saber Brasil · 開放學習地圖",
@@ -602,7 +626,15 @@
       "resultsOne": "{n} 筆結果",
       "foundOne": "找到 {n} 個概念。選取其中一個以探索其連結。",
       "exportPreparedOne": "已準備匯出 {n} 個概念。",
-      "relatedCountOne": "路徑中有 {n} 個相關概念。編輯的位置及關係仍需教育專業審查。"
+      "relatedCountOne": "路徑中有 {n} 個相關概念。編輯的位置及關係仍需教育專業審查。",
+      "showing": "顯示 {n} / {m}",
+      "eiShort": "EI（幼兒教育）",
+      "officialUnit": "官方課程單元",
+      "eiObjective": "學習與發展目標（幼兒教育）",
+      "ocrExcerpt": "以OCR自官方PDF擷取的簡短摘錄；請於所標頁碼核對原文。",
+      "literalOfficial": "官方文件原文（文部科學省CSV的代碼與文字）。",
+      "educacao-infantil": "幼兒教育",
+      "machineTranslationGated": "機器翻譯（Argos Translate，經由英文）已通過自動檢查，尚未經人工審閱。"
     }
   }
 }

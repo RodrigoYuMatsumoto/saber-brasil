@@ -5412,7 +5412,8 @@
           "reason": "Representar relações por letras prepara a resolução de uma igualdade com incógnita. Proposta editorial sujeita à revisão docente.",
           "status": "editorial",
           "relation": "pre-requisito-pedagogico-proposto",
-          "sourceStatus": "not-an-official-prerequisite"
+          "sourceStatus": "not-an-official-prerequisite",
+          "auditFlag": "Auditoria Grok 2026-11-12: o pré-requisito aponta para o código 8350223112200000 (中学2年), posterior ao registro dependente (中学1年, 8350213131200000). O código 8350213121400000 (文字式, 中学1年) existe no CSV do MEXT. Relação mantida; revisão docente necessária."
         }
       ],
       "alignmentStatus": "proposed",

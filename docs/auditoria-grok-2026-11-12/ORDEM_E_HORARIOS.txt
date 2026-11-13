@@ -1,0 +1,9 @@
+2026-11-12T20:56:07-03:00
+2026-11-12T20:56:39-03:00 clone+hashes gravados
+2026-11-12T20:58:41-03:00 PDFs oficiais baixados (idênticos às cópias do repo)
+2026-11-12T21:00:35-03:00 baseline: 19 py + 4 câmera + 6 navegador passam; validate pass
+2026-11-12T21:05:47-03:00 auditoria: BNCC 1408 ok; JP 307 códigos ok; CN âncoras 130 ok/173 pend; QA tradução feito; MT deps reinstaladas
+3ea49e119923c408f4eeb27f8c297738f95f65f7ff4f24a61a9d08dda1c7af95  AUDITORIA_GROK_ETAPA1.md
+2026-11-12T21:09:16-03:00 etapa 1 gravada (antes de ler Code)
+2026-11-12T21:09:50-03:00 adendo π gravado; início da leitura dos relatórios do Code
+2026-11-12T21:11:28-03:00 li relatórios do Code (verificacao, consenso_tres_versoes)
