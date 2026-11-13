@@ -1,0 +1,422 @@
+{
+ "bncc": {
+  "EI01EO01": {
+   "page": 47,
+   "text": "Perceber que suas ações têm efeitos nas outras crianças e nos adultos."
+  },
+  "EI02EO01": {
+   "page": 47,
+   "text": "Demonstrar atitudes de cuidado e solidariedade na interação com crianças e adultos."
+  },
+  "EI03EO01": {
+   "page": 47,
+   "text": "Demonstrar empatia pelos outros, percebendo que as pessoas têm diferentes sentimentos, necessidades e maneiras de pensar e agir."
+  },
+  "EI01EO02": {
+   "page": 47,
+   "text": "Perceber as possibilidades e os limites de seu corpo nas brincadeiras e interações das quais participa."
+  },
+  "EI02EO02": {
+   "page": 47,
+   "text": "Demonstrar imagem positiva de si e confiança em sua capacidade para enfrentar dificuldades e desafios."
+  },
+  "EI03EO02": {
+   "page": 47,
+   "text": "Agir de maneira independente, com confiança em suas capacidades, reconhecendo suas conquistas e limitações."
+  },
+  "EI01EO03": {
+   "page": 47,
+   "text": "Interagir com crianças da mesma faixa etária e adultos ao explorar espaços, materiais, objetos, brinquedos."
+  },
+  "EI02EO03": {
+   "page": 47,
+   "text": "Compartilhar os objetos e os espaços com crianças da mesma faixa etária e adultos."
+  },
+  "EI03EO03": {
+   "page": 47,
+   "text": "Ampliar as relações interpessoais, desenvolvendo atitudes de participação e cooperação."
+  },
+  "EI01EO04": {
+   "page": 47,
+   "text": "Comunicar necessidades, desejos e emoções, utilizando gestos, balbucios, palavras."
+  },
+  "EI02EO04": {
+   "page": 47,
+   "text": "Comunicar-se com os colegas e os adultos, buscando compreendê-los e fazendo-se compreender."
+  },
+  "EI03EO04": {
+   "page": 47,
+   "text": "Comunicar suas ideias e sentimentos a pessoas e grupos diversos."
+  },
+  "EI01EO05": {
+   "page": 47,
+   "text": "Reconhecer seu corpo e expressar suas sensações em momentos de alimentação, higiene, brincadeira e descanso."
+  },
+  "EI02EO05": {
+   "page": 47,
+   "text": "Perceber que as pessoas têm características físicas diferentes, respeitando essas diferenças."
+  },
+  "EI03EO05": {
+   "page": 47,
+   "text": "45 Demonstrar valorização das características de seu corpo e respeitar as características dos outros (crianças e adultos) com os quais convive."
+  },
+  "EI01EO06": {
+   "page": 48,
+   "text": "Interagir com outras crianças da mesma faixa etária e adultos, adaptando-se ao convívio social."
+  },
+  "EI02EO06": {
+   "page": 48,
+   "text": "Respeitar regras básicas de convívio social nas interações e brincadeiras."
+  },
+  "EI03EO06": {
+   "page": 48,
+   "text": "Manifestar interesse e respeito por diferentes culturas e modos de vida."
+  },
+  "EI02EO07": {
+   "page": 48,
+   "text": "Resolver conflitos nas interações e brincadeiras, com a orientação de um adulto."
+  },
+  "EI03EO07": {
+   "page": 48,
+   "text": "Usar estratégias pautadas no respeito mútuo para lidar com conflitos nas interações com crianças e adultos."
+  },
+  "EI01CG01": {
+   "page": 49,
+   "text": "Movimentar as partes do corpo para exprimir corporalmente emoções, necessidades e desejos."
+  },
+  "EI02CG01": {
+   "page": 49,
+   "text": "Apropriar-se de gestos e movimentos de sua cultura no cuidado de si e nos jogos e brincadeiras."
+  },
+  "EI03CG01": {
+   "page": 49,
+   "text": "Criar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro, música."
+  },
+  "EI01CG02": {
+   "page": 49,
+   "text": "Experimentar as possibilidades corporais nas brincadeiras e interações em ambientes acolhedores e desafiantes."
+  },
+  "EI02CG02": {
+   "page": 49,
+   "text": "Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas."
+  },
+  "EI03CG02": {
+   "page": 49,
+   "text": "Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades."
+  },
+  "EI01CG03": {
+   "page": 49,
+   "text": "Imitar gestos e movimentos de outras crianças, adultos e animais."
+  },
+  "EI02CG03": {
+   "page": 49,
+   "text": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações."
+  },
+  "EI03CG03": {
+   "page": 49,
+   "text": "Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música."
+  },
+  "EI01CG04": {
+   "page": 49,
+   "text": "Participar do cuidado do seu corpo e da promoção do seu bem-estar."
+  },
+  "EI02CG04": {
+   "page": 49,
+   "text": "Demonstrar progressiva independência no cuidado do seu corpo."
+  },
+  "EI03CG04": {
+   "page": 49,
+   "text": "Adotar hábitos de autocuidado relacionados a higiene, alimentação, conforto e aparência."
+  },
+  "EI01CG05": {
+   "page": 49,
+   "text": "Utilizar os movimentos de preensão, encaixe e lançamento, ampliando suas possibilidades de manuseio de diferentes materiais e objetos."
+  },
+  "EI02CG05": {
+   "page": 49,
+   "text": "Desenvolver progressivamente as habilidades manuais, adquirindo controle para desenhar, pintar, rasgar, folhear, entre outros."
+  },
+  "EI03CG05": {
+   "page": 49,
+   "text": "47 Coordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas."
+  },
+  "EI01TS01": {
+   "page": 50,
+   "text": "Explorar sons produzidos com o próprio corpo e com objetos do ambiente."
+  },
+  "EI02TS01": {
+   "page": 50,
+   "text": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música."
+  },
+  "EI03TS01": {
+   "page": 50,
+   "text": "Utilizar sons produzidos por materiais, objetos e instrumentos musicais durante brincadeiras de faz de conta, encenações, criações musicais, festas."
+  },
+  "EI01TS02": {
+   "page": 50,
+   "text": "Traçar marcas gráficas, em diferentes suportes, usando instrumentos riscantes e tintas."
+  },
+  "EI02TS02": {
+   "page": 50,
+   "text": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais."
+  },
+  "EI03TS02": {
+   "page": 50,
+   "text": "Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais."
+  },
+  "EI01TS03": {
+   "page": 50,
+   "text": "Explorar diferentes fontes sonoras e materiais para acompanhar brincadeiras cantadas, canções, músicas e melodias."
+  },
+  "EI02TS03": {
+   "page": 50,
+   "text": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias."
+  },
+  "EI03TS03": {
+   "page": 50,
+   "text": "Reconhecer as qualidades do som (intensidade, duração, altura e timbre), utilizando-as em suas produções sonoras e ao ouvir músicas e sons."
+  },
+  "EI01EF01": {
+   "page": 51,
+   "text": "Reconhecer quando é chamado por seu nome e reconhecer os nomes de pessoas com quem convive."
+  },
+  "EI02EF01": {
+   "page": 51,
+   "text": "Dialogar com crianças e adultos, expressando seus desejos, necessidades, sentimentos e opiniões."
+  },
+  "EI03EF01": {
+   "page": 51,
+   "text": "Expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita (escrita espontânea), de fotos, desenhos e outras formas de expressão."
+  },
+  "EI01EF02": {
+   "page": 51,
+   "text": "Demonstrar interesse ao ouvir a leitura de poemas e a apresentação de músicas."
+  },
+  "EI02EF02": {
+   "page": 51,
+   "text": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos."
+  },
+  "EI03EF02": {
+   "page": 51,
+   "text": "Inventar brincadeiras cantadas, poemas e canções, criando rimas, aliterações e ritmos."
+  },
+  "EI01EF03": {
+   "page": 51,
+   "text": "Demonstrar interesse ao ouvir histórias lidas ou contadas, observando ilustrações e os movimentos de leitura do adulto-leitor (modo de segurar o portador e de virar as páginas)."
+  },
+  "EI02EF03": {
+   "page": 51,
+   "text": "Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto- -leitor, a direção da leitura (de cima para baixo, da esquerda para a direita)."
+  },
+  "EI03EF03": {
+   "page": 51,
+   "text": "Escolher e folhear livros, procurando orientar-se por temas e ilustrações e tentando identificar palavras conhecidas."
+  },
+  "EI01EF04": {
+   "page": 51,
+   "text": "Reconhecer elementos das ilustrações de histórias, apontando-os, a pedido do adulto-leitor."
+  },
+  "EI02EF04": {
+   "page": 51,
+   "text": "Formular e responder perguntas sobre fatos da história narrada, identificando cenários, personagens e principais acontecimentos."
+  },
+  "EI03EF04": {
+   "page": 51,
+   "text": "Recontar histórias ouvidas e planejar coletivamente roteiros de vídeos e de encenações, definindo os contextos, os personagens, a estrutura da história."
+  },
+  "EI01EF05": {
+   "page": 51,
+   "text": "Imitar as variações de entonação e gestos realizados pelos adultos, ao ler histórias e ao cantar."
+  },
+  "EI02EF05": {
+   "page": 51,
+   "text": "Relatar experiências e fatos acontecidos, histórias ouvidas, filmes ou peças teatrais assistidos etc."
+  },
+  "EI03EF05": {
+   "page": 51,
+   "text": "49 Recontar histórias ouvidas para produção de reconto escrito, tendo o professor como escriba."
+  },
+  "EI01EF06": {
+   "page": 52,
+   "text": "Comunicar-se com outras pessoas usando movimentos, gestos, balbucios, fala e outras formas de expressão."
+  },
+  "EI02EF06": {
+   "page": 52,
+   "text": "Criar e contar histórias oralmente, com base em imagens ou temas sugeridos."
+  },
+  "EI03EF06": {
+   "page": 52,
+   "text": "Produzir suas próprias histórias orais e escritas (escrita espontânea), em situações com função social significativa."
+  },
+  "EI01EF07": {
+   "page": 52,
+   "text": "Conhecer e manipular materiais impressos e audiovisuais em diferentes portadores (livro, revista, gibi, jornal, cartaz, CD, tablet etc.)."
+  },
+  "EI02EF07": {
+   "page": 52,
+   "text": "Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais."
+  },
+  "EI03EF07": {
+   "page": 52,
+   "text": "Levantar hipóteses sobre gêneros textuais veiculados em portadores conhecidos, recorrendo a estratégias de observação gráfica e/ou de leitura."
+  },
+  "EI01EF08": {
+   "page": 52,
+   "text": "Participar de situações de escuta de textos em diferentes gêneros textuais (poemas, fábulas, contos, receitas, quadrinhos, anúncios etc.)."
+  },
+  "EI02EF08": {
+   "page": 52,
+   "text": "Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.)."
+  },
+  "EI03EF08": {
+   "page": 52,
+   "text": "Selecionar livros e textos de gêneros conhecidos para a leitura de um adulto e/ou para sua própria leitura (partindo de seu repertório sobre esses textos, como a recuperação pela memória, pela leitura das ilustrações etc.)."
+  },
+  "EI01EF09": {
+   "page": 52,
+   "text": "Conhecer e manipular diferentes instrumentos e suportes de escrita."
+  },
+  "EI02EF09": {
+   "page": 52,
+   "text": "Manusear diferentes instrumentos e suportes de escrita para desenhar, traçar letras e outros sinais gráficos."
+  },
+  "EI03EF09": {
+   "page": 52,
+   "text": "Levantar hipóteses em relação à linguagem escrita, realizando registros de palavras e textos, por meio de escrita espontânea."
+  },
+  "EI01ET01": {
+   "page": 53,
+   "text": "Explorar e descobrir as propriedades de objetos e materiais (odor, cor, sabor, temperatura)."
+  },
+  "EI02ET01": {
+   "page": 53,
+   "text": "Explorar e descrever semelhanças e diferenças entre as características e propriedades dos objetos (textura, massa, tamanho)."
+  },
+  "EI03ET01": {
+   "page": 53,
+   "text": "Estabelecer relações de comparação entre objetos, observando suas propriedades."
+  },
+  "EI01ET02": {
+   "page": 53,
+   "text": "Explorar relações de causa e efeito (transbordar, tingir, misturar, mover e remover etc.) na interação com o mundo físico."
+  },
+  "EI02ET02": {
+   "page": 53,
+   "text": "Observar, relatar e descrever incidentes do cotidiano e fenômenos naturais (luz solar, vento, chuva etc.)."
+  },
+  "EI03ET02": {
+   "page": 53,
+   "text": "Observar e descrever mudanças em diferentes materiais, resultantes de ações sobre eles, em experimentos envolvendo fenômenos naturais e artificiais."
+  },
+  "EI01ET03": {
+   "page": 53,
+   "text": "Explorar o ambiente pela ação e observação, manipulando, experimentando e fazendo descobertas."
+  },
+  "EI02ET03": {
+   "page": 53,
+   "text": "Compartilhar, com outras crianças, situações de cuidado de plantas e animais nos espaços da instituição e fora dela."
+  },
+  "EI03ET03": {
+   "page": 53,
+   "text": "Identificar e selecionar fontes de informações, para responder a questões sobre a natureza, seus fenômenos, sua conservação."
+  },
+  "EI01ET04": {
+   "page": 53,
+   "text": "Manipular, experimentar, arrumar e explorar o espaço por meio de experiências de deslocamentos de si e dos objetos."
+  },
+  "EI02ET04": {
+   "page": 53,
+   "text": "Identificar relações espaciais (dentro e fora, em cima, embaixo, acima, abaixo, entre e do lado) e temporais (antes, durante e depois)."
+  },
+  "EI03ET04": {
+   "page": 53,
+   "text": "Registrar observações, manipulações e medidas, usando múltiplas linguagens (desenho, registro por números ou escrita espontânea), em diferentes suportes."
+  },
+  "EI01ET05": {
+   "page": 53,
+   "text": "Manipular materiais diversos e variados para comparar as diferenças e semelhanças entre eles."
+  },
+  "EI02ET05": {
+   "page": 53,
+   "text": "Classificar objetos, considerando determinado atributo (tamanho, peso, cor, forma etc.)."
+  },
+  "EI03ET05": {
+   "page": 53,
+   "text": "Classificar objetos e figuras de acordo com suas semelhanças e diferenças."
+  },
+  "EI01ET06": {
+   "page": 53,
+   "text": "Vivenciar diferentes ritmos, velocidades e fluxos nas interações e brincadeiras (em danças, balanços, escorregadores etc.)."
+  },
+  "EI02ET06": {
+   "page": 53,
+   "text": "Utilizar conceitos básicos de tempo (agora, antes, durante, depois, ontem, hoje, amanhã, lento, rápido, depressa, devagar)."
+  },
+  "EI03ET06": {
+   "page": 53,
+   "text": "51 Relatar fatos importantes sobre seu nascimento e desenvolvimento, a história dos seus familiares e da sua comunidade."
+  },
+  "EI02ET07": {
+   "page": 54,
+   "text": "Contar oralmente objetos, pessoas, livros etc., em contextos diversos."
+  },
+  "EI03ET07": {
+   "page": 54,
+   "text": "Relacionar números às suas respectivas quantidades e identificar o antes, o depois e o entre em uma sequência."
+  },
+  "EI02ET08": {
+   "page": 54,
+   "text": "Registrar com números a quantidade de crianças (meninas e meninos, presentes e ausentes) e a quantidade de objetos da mesma natureza (bonecas, bolas, livros etc.)."
+  },
+  "EI03ET08": {
+   "page": 54,
+   "text": "Expressar medidas (peso, altura etc.), construindo gráficos básicos."
+  }
+ },
+ "comp": {
+  "EI03CO01": {
+   "page": 6,
+   "text": "Reconhecer padrão de repetição em sequência de sons, movimentos, desenhos."
+  },
+  "EI03CO02": {
+   "page": 6,
+   "text": "Expressar as etapas para a realização de uma tarefa de forma clara e ordenada."
+  },
+  "EI03CO03": {
+   "page": 6,
+   "text": "Experienciar a execução de algoritmos brincando com objetos (des)plugados."
+  },
+  "EI03CO04": {
+   "page": 8,
+   "text": "Criar e representar algoritmos para resolver problemas."
+  },
+  "EI03CO05": {
+   "page": 8,
+   "text": "Comparar soluções algorítmicas para resolver um mesmo problema."
+  },
+  "EI03CO06": {
+   "page": 8,
+   "text": "Compreender decisões em dois estados (verdadeiro ou falso)."
+  },
+  "EI03CO07": {
+   "page": 10,
+   "text": "Reconhecer dispositivos eletrônicos (e não-eletrônicos), identificando quando estão ligados ou desligados (abertos ou fechados)."
+  },
+  "EI03CO08": {
+   "page": 10,
+   "text": "Compreender o conceito de interfaces para comunicação com objetos (des)plugados."
+  },
+  "EI03CO09": {
+   "page": 10,
+   "text": "Identificar dispositivos computacionais e as diferentes formas de interação."
+  },
+  "EI03CO10": {
+   "page": 12,
+   "text": "Utilizar tecnologia digital de maneira segura, consciente e respeitosa."
+  },
+  "EI03CO11": {
+   "page": 12,
+   "text": "Adotar hábitos saudáveis de uso de artefatos computacionais, seguindo recomendações de órgãos de saúde competentes."
+  }
+ }
+}

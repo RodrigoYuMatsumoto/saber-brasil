@@ -178,6 +178,16 @@
       "bytes": 29395030,
       "sha256": "7c5c688f5e1b9d8e5c2a0ef908055322df67bb36d5b85ca1c540f1c35807230d",
       "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "jp_code_assignment",
+      "url": "https://www.mext.go.jp/content/000146149.xlsx",
+      "path": "data/source_tables/jp_code_assignment.xlsx",
+      "bytes": 75099,
+      "sha256": "f76768237145a44f4f74e0d9de29089a79b43fae66434a2e2c3e5778c42574c3",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired",
+      "locator": "folha10, sexto dígito: 学年・段階"
     }
   ],
   "indexes": {
@@ -192,42 +202,42 @@
     "pages": 0
   },
   "coverage": {
-    "topics": 610,
+    "topics": 2353,
     "byCountry": {
-      "JP": 307,
-      "CN": 303
+      "JP": 2002,
+      "CN": 351
     },
     "byCountryAndSubject": {
       "JP": {
-        "matematica": 98,
-        "ciencias": 60,
-        "japones": 24,
-        "estudos-sociais": 19,
+        "matematica": 446,
+        "ciencias": 248,
+        "japones": 253,
+        "estudos-sociais": 214,
         "geografia": 8,
         "historia": 8,
-        "educacao-moral": 14,
-        "economia-domestica": 14,
-        "tecnologia": 8,
-        "arte": 15,
-        "educacao-fisica": 15,
-        "ingles": 16,
-        "vida-cotidiana": 8
+        "educacao-moral": 97,
+        "economia-domestica": 47,
+        "tecnologia": 68,
+        "arte": 167,
+        "educacao-fisica": 227,
+        "ingles": 202,
+        "vida-cotidiana": 17
       },
       "CN": {
-        "matematica": 62,
-        "chines": 32,
-        "ciencias": 60,
-        "historia": 17,
-        "geografia": 14,
-        "computacao": 24,
-        "educacao-moral": 18,
-        "trabalho-pratico": 20,
-        "arte": 16,
-        "educacao-fisica": 16,
-        "ingles": 24
+        "matematica": 86,
+        "chines": 34,
+        "ciencias": 68,
+        "historia": 18,
+        "geografia": 16,
+        "computacao": 26,
+        "educacao-moral": 20,
+        "trabalho-pratico": 22,
+        "arte": 17,
+        "educacao-fisica": 18,
+        "ingles": 26
       }
     },
-    "sourceAnchorsConfirmed": 437,
+    "sourceAnchorsConfirmed": 2180,
     "sourceAnchorsPending": 173,
     "curatedCandidates": 630,
     "omittedCandidates": [
@@ -384,6 +394,17 @@
         8,
         9
       ]
+    },
+    "editorialTopics": 610,
+    "sourceUnits": {
+      "JP": 1695,
+      "CN": 48
+    },
+    "byLayer": {
+      "jp-editorial": 307,
+      "cn-editorial": 303,
+      "jp-source": 1695,
+      "cn-source": 48
     }
   }
 }

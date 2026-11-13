@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Proveniência da compilação BNCC de referência",
+    "subject": "Cópias íntegras de dados e decisões para o cotejo de 1.408 habilidades brasileiras"
+  },
+  "repository": "https://github.com/bncc-dev/bncc-dados",
+  "revision": "9c268978efa2aa250834c6a9edb6074432752838",
+  "dataRelease": "dados-2026.08",
+  "retrievedAt": "2026-11-12",
+  "attribution": "Profy Tecnologias Educacionais Ltda: compilação, estruturação e curadoria; MEC/CNE: fontes normativas.",
+  "dataLicense": "CC-BY-4.0",
+  "codeLicense": "MIT",
+  "licenseSource": "https://github.com/bncc-dev/bncc-dados/blob/9c268978efa2aa250834c6a9edb6074432752838/README.md#licenças",
+  "originalCopiesPreserved": true,
+  "files": [
+    {
+      "path": "ensino_fundamental.json",
+      "sourceUrl": "https://raw.githubusercontent.com/bncc-dev/bncc-dados/9c268978efa2aa250834c6a9edb6074432752838/dados/bncc-2018/ensino-fundamental.json",
+      "sha256": "bdc84d6bb6f4b38ca1331b0319cb04ea8f9240d076d3097928124c0b9ba38c0b",
+      "bytes": 1850333,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "computacao.json",
+      "sourceUrl": "https://raw.githubusercontent.com/bncc-dev/bncc-dados/9c268978efa2aa250834c6a9edb6074432752838/dados/computacao-2022/computacao.json",
+      "sha256": "6192c381961c55abfc886415e8ae60cc5e16ed783496c63d09bef9c6302b4f69",
+      "bytes": 146214,
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "DECISOES.md",
+      "sourceUrl": "https://raw.githubusercontent.com/bncc-dev/bncc-dados/9c268978efa2aa250834c6a9edb6074432752838/DECISOES.md",
+      "sha256": "20f2fcd959844b3cebf132bea11fcc6498f88548f4bb13ee30fbda7cf5091f4a",
+      "bytes": 19718,
+      "license": "MIT"
+    },
+    {
+      "path": "LICENSE",
+      "sourceUrl": "https://raw.githubusercontent.com/bncc-dev/bncc-dados/9c268978efa2aa250834c6a9edb6074432752838/LICENSE",
+      "sha256": "e162f8f4b4618650d77579bafa3db25e3ce3fbbb4cdf5ef0d6328159d883e106",
+      "bytes": 1092,
+      "license": "MIT"
+    }
+  ]
+}

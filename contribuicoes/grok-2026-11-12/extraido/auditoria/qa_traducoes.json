@@ -1,0 +1,2175 @@
+{
+"repo_marble_pt": {
+"counts": {
+"sequencia-repetitiva": 4,
+"curta-demais": 16,
+"longa-demais": 15,
+"repeticao-dominante": 1
+},
+"flagged": [
+[
+"mt_C7abt7pRr6",
+"description",
+[
+"sequencia-repetitiva"
+],
+"Read and spell words containing split digraphs (a-e, e-e, i-e, o-e, u-e) where a final 'e' makes the preceding vowel lon",
+"Ler e escrever palavras com dígrafos separados do inglês (a-e, e-e, i-e, o-e, u-e), nas quais o “e” final faz a vogal anterior soar longa."
+],
+[
+"mt_xIoQJbQ0yP",
+"description",
+[
+"curta-demais"
+],
+"Listen to a word spoken as separate speech sounds (phonemes) - with no printed word, letters, letter names or answer pic",
+"Ouvir uma palavra dita em sons separados, sem letras, nomes de letras ou figuras, e juntá-los para dizer a palavra inteira, de dois sons até sequências com enco"
+],
+[
+"mt_kVzAFMuFc4",
+"name",
+[
+"longa-demais"
+],
+"Syllables (age 6+)",
+"Sílabas e leitura de palavras longas (a partir de 6 anos)"
+],
+[
+"mt_EqXlZfB4jp",
+"name",
+[
+"longa-demais"
+],
+"Phonics Vocabulary",
+"Vocabulário da fônica e da estrutura das palavras"
+],
+[
+"mt_37QCuGOxFe",
+"name",
+[
+"longa-demais"
+],
+"Homophones",
+"Homófonos (3º e 4º anos ingleses)"
+],
+[
+"mt_PPNDO7BUrY",
+"description",
+[
+"curta-demais"
+],
+"Describe the Egyptian achievement in mathematics and engineering: the Rhind Mathematical Papyrus shows calculations of a",
+"Descrever as conquistas egípcias em matemática e engenharia: o Papiro de Rhind (áreas, volumes, frações), o alinhamento preciso das pirâmides e os papiros médic"
+],
+[
+"mt_s2mfRBoTal",
+"name",
+[
+"longa-demais"
+],
+"Number bonds",
+"Fatos fundamentais da adição e da subtração"
+],
+[
+"mt_TiQbi027PE",
+"name",
+[
+"longa-demais"
+],
+"Adding numbers",
+"Somar até quatro números de dois algarismos"
+],
+[
+"mt_KwdjWEmMNo",
+"description",
+[
+"sequencia-repetitiva"
+],
+"Use and interpret algebraic notation including: ab for a × b, 3y for y + y + y, a² for a × a, a/b for a ÷ b, coefficient",
+"Usar e interpretar a notação algébrica: ab para a × b, 3y para y + y + y, a² para a × a, a/b para a ÷ b, coeficientes fracionários e parênteses para agrupar; le"
+],
+[
+"mt_3qrCtdoVAU",
+"name",
+[
+"longa-demais"
+],
+"Simple formulae",
+"Fórmulas simples e isolar uma variável"
+],
+[
+"mt_dmNvjroCPT",
+"name",
+[
+"longa-demais"
+],
+"How Many in Total?",
+"Quantos há ao todo? (princípio da cardinalidade)"
+],
+[
+"mt_nvdpxAJTBG",
+"name",
+[
+"longa-demais"
+],
+"Counting in 2s",
+"Contagem de 2 em 2, de 5 em 5 e de 10 em 10"
+],
+[
+"mt_t9BICauBSI",
+"name",
+[
+"longa-demais"
+],
+"Subitising to 5",
+"Reconhecer quantidades até 5 de imediato"
+],
+[
+"mt_7rJM8eWUfw",
+"name",
+[
+"longa-demais"
+],
+"Counting in 6s",
+"Contar de 6 em 6, de 7 em 7, de 9 em 9, de 25 em 25 e de 1000 em 1000"
+],
+[
+"mt_ChjMU2GDJa",
+"name",
+[
+"longa-demais"
+],
+"Bar graphs",
+"Gráficos de barras e de linhas"
+],
+[
+"mt_A2hKhHXgL5",
+"description",
+[
+"curta-demais"
+],
+"Compare two numerical distributions with similar variability shown on a shared scale (e.g. dot plots) in two distinct wa",
+"Comparar duas distribuições numéricas de variabilidade parecida, em uma mesma escala (como diagramas de pontos): avaliar a sobreposição visual e, separadamente,"
+],
+[
+"mt_09sySPqM9Z",
+"description",
+[
+"sequencia-repetitiva"
+],
+"Understand a fraction a/b with a > 1 as a sum of fractions 1/b (e.g. 3/5 = 1/5 + 1/5 + 1/5)",
+"Entender uma fração a/b, com a maior que 1, como a soma de a frações 1/b (ex.: 3/5 = 1/5 + 1/5 + 1/5)."
+],
+[
+"mt_3sE6fcAvkl",
+"description",
+[
+"curta-demais"
+],
+"Draw both diagonals of quadrilaterals and investigate, by measuring or folding, whether in that figure the diagonals are",
+"Traçar as duas diagonais de quadriláteros e investigar, medindo ou dobrando, se são iguais, se uma ou ambas dividem a outra ao meio e se se cruzam em ângulo ret"
+],
+[
+"mt_T3bTU2aet-",
+"description",
+[
+"curta-demais"
+],
+"Draw a perspective view of a simple cube structure or a feature of a physical space using one suitable parallel projecti",
+"Desenhar a perspectiva de uma construção simples de cubos ou de um espaço físico em papel quadriculado ou pontilhado, usando projeção paralela (isométrica ou ca"
+],
+[
+"mt_Sij9ByyHq6",
+"description",
+[
+"curta-demais"
+],
+"Solve real-world and mathematical problems involving the surface area and volume of right prisms (including triangular a",
+"Resolver problemas sobre área da superfície e volume de prismas retos e de sólidos compostos por cubos e prismas: superfície = duas bases mais faces laterais; v"
+],
+[
+"mt_qMu1oc7ZHd",
+"description",
+[
+"curta-demais"
+],
+"Identify and describe the symmetry of prisms, pyramids and cylinders by examining the actual solid - turning a model, us",
+"Identificar e descrever a simetria de prismas, pirâmides e cilindros examinando o sólido (girando um modelo, usando espelho ou imaginando um corte): achar plano"
+],
+[
+"mt_4bc3EAxhlY",
+"description",
+[
+"curta-demais"
+],
+"Decide whether given side and angle conditions determine a unique triangle, more than one triangle, or no triangle, and ",
+"Decidir se condições de lados e ângulos determinam um único triângulo, vários ou nenhum, e explicar por quê, prevendo por esboço e testando por construção; incl"
+],
+[
+"mt_iQYPw8bMfN",
+"name",
+[
+"longa-demais"
+],
+"Working with money",
+"Modelar problemas de medidas, dinheiro e tempo"
+],
+[
+"mt_TcG90kS8nu",
+"description",
+[
+"repeticao-dominante"
+],
+"Use comparative language for time: quicker, slower, earlier, later",
+"Usar palavras de comparação de tempo: mais rápido, mais devagar, mais cedo, mais tarde."
+],
+[
+"mt_skYly2Qm01",
+"name",
+[
+"longa-demais"
+],
+"Measuring length",
+"Medir comprimento: ordenar e comparar indiretamente"
+],
+[
+"mt_ML5t7n2-U8",
+"description",
+[
+"curta-demais"
+],
+"Find the area of parallelograms and triangles by relating them to rectangles: rearrange a parallelogram (cut off a trian",
+"Achar a área de paralelogramos e triângulos relacionando-os a retângulos: rearranjar um paralelogramo em retângulo, ver o triângulo como metade de um retângulo "
+],
+[
+"mt_i2-QaXbyzB",
+"description",
+[
+"curta-demais"
+],
+"Find the area of polygons such as trapezoids, kites, rhombuses, irregular quadrilaterals and other rectilinear or non-re",
+"Achar a área de polígonos como trapézios, pipas, losangos e outros quadriláteros por decomposição ou composição: dividir em retângulos e triângulos e somar, ou "
+],
+[
+"mt_RVK655t391",
+"name",
+[
+"longa-demais"
+],
+"Measuring temperature",
+"Números negativos em contextos (temperatura, finanças)"
+],
+[
+"mt_ESgc4YBw-a",
+"description",
+[
+"sequencia-repetitiva"
+],
+"Know and use the vocabulary of ratio and proportion - ratio, proportion, percentage, scale, equivalent, unequal, relativ",
+"Conhecer e usar o vocabulário de razão e proporção (razão, proporção, porcentagem, escala, equivalente, desigual, tamanho relativo, parte-parte, parte-todo, em "
+],
+[
+"mt_5mIcmKRCgA",
+"name",
+[
+"longa-demais"
+],
+"Proportion",
+"Proporção direta e inversa"
+],
+[
+"mt_QDM6Rc6pph",
+"description",
+[
+"curta-demais"
+],
+"Know a bounded contemporary repertoire of French-speaking community life in Quebec through Montréal and Québec City, wit",
+"Conhecer exemplos atuais da vida comunitária francófona em Quebec, em Montréal e Québec, ligando o salão do livro, o museu e a criação circense a seus lugares, "
+],
+[
+"mt_6M7zCpUQex",
+"description",
+[
+"curta-demais"
+],
+"Name and locate Africa, Antarctica, Asia, Australia, Europe, North America and South America using the stated seven-cont",
+"Nomear e localizar os sete continentes no modelo adotado, distinguindo continentes de países e oceanos e reconhecendo que modelos e rótulos geográficos podem va"
+],
+[
+"mt_1xOenPgYlR",
+"description",
+[
+"curta-demais"
+],
+"Describe a bounded repertoire of French colonial institutions in the St. Lawrence colony, chiefly during the royal regim",
+"Descrever instituições coloniais francesas na colônia do São Lourenço, sobretudo de 1663 a 1713: rei, governador e intendente, instituições católicas de ensino "
+],
+[
+"mt_tZH71wLrpj",
+"description",
+[
+"curta-demais"
+],
+"Know a bounded repertoire of early Indigenous-European trade, settlement and alliance relationships in northeastern Nort",
+"Conhecer relações iniciais de comércio, povoamento e aliança entre indígenas e europeus no nordeste da América do Norte e explicar o surgimento de comunidades m"
+],
+[
+"mt_pmd6Cp2r5p",
+"description",
+[
+"curta-demais"
+],
+"Know a bounded Jewish Canadian historical repertoire linking political and social exclusion with community action and co",
+"Conhecer casos da história judaica canadense que ligam exclusão política e social a ação comunitária: o caso de Hart no Baixo Canadá, a fundação do hospital Mou"
+],
+[
+"mt_jJjjV2WtS6",
+"description",
+[
+"curta-demais"
+],
+"Explain a qualitative model of aerodynamic flight: interaction with air can create drag opposing the flyer's motion rela",
+"Explicar um modelo qualitativo do voo: a interação com o ar gera arrasto (contra o movimento) e sustentação (perpendicular a ele); a gravidade dá o peso e a pro"
+]
+]
+},
+"repo_ea": {
+"counts": {
+"('ja', 'curta-demais')": 35,
+"('ja', 'idioma-incorreto(sem-kana)')": 2,
+"('zh-Hant', 'curta-demais')": 2,
+"('en', 'curta-demais')": 1
+},
+"flagged": [
+[
+"jp_matematica_representacao_de_quantidades_em_imagens",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"絵や図"
+],
+[
+"jp_matematica_milimetros_centimetros_e_metros",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"mm"
+],
+[
+"jp_matematica_triangulos_isosceles_e_equilateros",
+"ja",
+"translatedNames",
+[
+"idioma-incorreto(sem-kana)"
+],
+"二等辺三角形，正三角形"
+],
+[
+"jp_matematica_pesquisas_e_classificacao_de_dados",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"分類整理"
+],
+[
+"jp_matematica_fracoes_com_denominadores_diferentes",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"異分母"
+],
+[
+"jp_matematica_razao_entre_circunferencia_e_diametro",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"円周率"
+],
+[
+"jp_matematica_razao_entre_circunferencia_e_diametro",
+"zh-Hant",
+"translatedNames",
+[
+"curta-demais"
+],
+"圓周率"
+],
+[
+"jp_matematica_velocidade_e_grandezas_relacionadas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"速さ"
+],
+[
+"jp_matematica_distribuicao_e_representatividade",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"代表値"
+],
+[
+"jp_matematica_sistemas_de_equacoes",
+"ja",
+"translatedNames",
+[
+"idioma-incorreto(sem-kana)"
+],
+"連立二元一次方程式"
+],
+[
+"jp_ciencias_propagacao_de_calor_nos_metais",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"金属"
+],
+[
+"jp_ciencias_polinizacao_e_formacao_de_sementes",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"受粉"
+],
+[
+"jp_ciencias_propriedades_das_solucoes_aquosas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"水溶液"
+],
+[
+"jp_ciencias_producao_e_utilizacao_da_eletricidade",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"発電"
+],
+[
+"jp_ciencias_armazenamento_de_energia_eletrica",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"蓄電"
+],
+[
+"jp_ciencias_correntes_eletricas_e_magnetismo",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"磁界"
+],
+[
+"jp_historia_japao_na_ordem_internacional_moderna",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"近代"
+],
+[
+"jp_historia_democracia_e_japao_do_pos_guerra",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"民主化"
+],
+[
+"cn_computacao_regras_de_utilizacao_dos_dispositivos",
+"en",
+"translatedNames",
+[
+"curta-demais"
+],
+"Device-use rules"
+],
+[
+"jp_vida_cotidiana_conhecer_a_escola_e_as_pessoas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"学校"
+],
+[
+"jp_vida_cotidiana_seguranca_nos_espacos_publicos",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"公共"
+],
+[
+"jp_vida_cotidiana_brinquedos_e_materiais_do_cotidiano",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"遊び"
+],
+[
+"jp_vida_cotidiana_comunicacao_com_outras_pessoas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"伝え合"
+],
+[
+"jp_vida_cotidiana_crescimento_e_autonomia_pessoal",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"成長"
+],
+[
+"jp_ingles_leitura_de_informacoes_especificas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"読むこと"
+],
+[
+"jp_ingles_conversacao_e_troca_de_informacoes",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"やり取り"
+],
+[
+"jp_ingles_estruturas_gramaticais_em_contexto",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"文法"
+],
+[
+"jp_ingles_vocabulario_e_comunicacao_intercultural",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"文化"
+],
+[
+"jp_arte_expressao_vocal_e_instrumental",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"器楽"
+],
+[
+"jp_arte_escultura_e_expressao_espacial",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"彫刻"
+],
+[
+"jp_arte_patrimonio_artistico_e_cultural",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"文化"
+],
+[
+"jp_educacao_fisica_desenvolvimento_da_condicao_fisica",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"体力"
+],
+[
+"jp_educacao_fisica_desenvolvimento_da_condicao_fisica",
+"zh-Hant",
+"translatedNames",
+[
+"curta-demais"
+],
+"發展體能"
+],
+[
+"jp_educacao_moral_autonomia_e_responsabilidade_pessoal",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"自律"
+],
+[
+"jp_educacao_moral_respeito_pela_vida_e_pela_natureza",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"生命"
+],
+[
+"jp_economia_domestica_desenvolvimento_e_cuidado_de_criancas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"幼児"
+],
+[
+"jp_economia_domestica_preparacao_e_conservacao_de_alimentos",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"食品"
+],
+[
+"jp_economia_domestica_materiais_e_cuidados_com_roupas",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"衣服"
+],
+[
+"jp_economia_domestica_habitacao_e_seguranca_domestica",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"住居"
+],
+[
+"jp_economia_domestica_decisoes_de_consumo_responsavel",
+"ja",
+"translatedNames",
+[
+"curta-demais"
+],
+"消費"
+]
+],
+"templateDescriptions": [
+[
+" reconhecer os conceitos envolvidos, trabalhar representações e explicar sua aplicação em situações de aprendizagem. Recorte editorial associado ao código japonês indicado.",
+307
+],
+[
+" reconhecer os conceitos envolvidos, trabalhar representações e explicar sua aplicação em situações de aprendizagem. Recorte editorial associado à edição chinesa de 2022; a distribuição por blocos e a tradução exigem revisão pedagógica.",
+303
+]
+]
+},
+"grok en>pt (Marble)": {
+"n": 5774,
+"flagged": 222,
+"counts": {
+"curta-demais": 124,
+"longa-demais": 47,
+"repeticao-dominante": 30,
+"sequencia-repetitiva": 96,
+"igual-ao-original": 7
+},
+"examples": [
+[
+"Before starting a business, making a simple plan: what will I make or do, who will buy it, what do I need, how much will",
+"Bundes",
+[
+"curta-demais"
+]
+],
+[
+"Construct and interpret food chains identifying producers, predators, and prey, and understand energy transfer between t",
+"mente ou ou999 ou. ou!!idaspaper.3-0 ou nós!GR por ou ou ou ou ou ou ou ou ou ou ou ou ou ou Oscar ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou ou o",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Compare how children in ancient Greece or Rome lived with how children live today — including differences in school (wri",
+", algemas jardins da que bolhas que SEGURANÇA Não",
+[
+"curta-demais"
+]
+],
+[
+"Divide a fraction by a fraction using the 'keep-change-flip' method and visual models; interpret and solve word problems",
+"AÍ AA A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A ",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Interpret products of whole numbers (e.g. 5 × 7 as the total number of objects in 5 groups of 7)",
+", A como E",
+[
+"curta-demais"
+]
+],
+[
+"Can your child count confidently up to 1000 — and if you ask them to count by hundreds from 200, or by tens from 650, ca",
+"- O que que você sabe?",
+[
+"curta-demais"
+]
+],
+[
+"Decimal place value to thousandths",
+"em. de em bolas em..............................................................................................................................................",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"When your child reads a story aloud, do they vary their voice to match the mood — pausing at punctuation, slowing for sa",
+"Vamosŕ,ar.",
+[
+"curta-demais"
+]
+],
+[
+"Inverse: addition undoes subtraction",
+"In ao contrário!",
+[
+"curta-demais"
+]
+],
+[
+"Notice when your first reading of a social situation might be wrong — your assumptions about why someone acted a certain",
+"ère",
+[
+"curta-demais"
+]
+],
+[
+"Humans are great at spotting patterns; computers can learn to spot patterns too, but they need lots of examples; sorting",
+"os humanos home guardanapo",
+[
+"curta-demais"
+]
+],
+[
+"Using business skills to help others or solve social and environmental problems; making money AND making a difference; e",
+"não não não não não não não não não não.. não não.",
+[
+"curta-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"If your child is given three coordinate pairs on a grid, can they plot each point and then connect the dots to draw the ",
+"ale                                                                                                                                                             ",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"What the Middle Ages gave us: Parliament, universities, common law, Gothic architecture, the English language (Anglo-Sax",
+", os,vinas eslovacas.",
+[
+"curta-demais"
+]
+],
+[
+"Partition a rectangle into rows and columns of same-size squares and count to find the total number of them",
+"Adi?",
+[
+"curta-demais"
+]
+],
+[
+"When your child is given a writing project that involves finding out about something — like an animal or a place — can t",
+"que ser",
+[
+"curta-demais"
+]
+],
+[
+"Evaluating Arguments in Non-Fiction",
+"das as das das das das das as das das das das das das das das as das das as das das das as das das das das das das das das das das das das das das das das das d",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Using picture cases, can your child name several foods that can trigger an allergy, explain why a milk allergy and lacto",
+", e dizer o que fazer se alguém pode estar reagindo aos alimentos?",
+[
+"curta-demais"
+]
+],
+[
+"Can your child test materials and sort them by whether they dissolve in water, conduct electricity, or are attracted to ",
+"PROu,,,,,",
+[
+"curta-demais"
+]
+],
+[
+"Can your child come up with different ideas for keeping people safe from earthquakes or floods, and compare which ones w",
+".",
+[
+"curta-demais"
+]
+],
+[
+"Rows & Columns in Rectangles",
+",,, plano,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Structures for Survival",
+"- se a segurança. se segurança. se segurança. se se segurança. se segurança. se segurança. se segurança. se segurança.. se se segurança. se se se segurança. se ",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"If you spread out 15 buttons on the table in a random arrangement and ask your child how many there are, can they count ",
+"apartamentos?, oujar um, malhar?chejar?chejar?che",
+[
+"curta-demais"
+]
+],
+[
+"If your child tracked a cycle ride on a map and knew how far they went and how long it took, could they calculate the av",
+"sobre incluindo uma para",
+[
+"curta-demais"
+]
+],
+[
+"Know the main approaches to rainforest conservation — protected areas and national parks, reforestation and rewilding pr",
+",,, não,,,,,,,,,, não,, não,,, não,,, não não, não,,,, não,, não,,, não,,, não não,,,, não não não,,, não não não,, não não não não não,, não não não não não nã",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Dissolving & Solutions",
+"Só sempre sempre sempre sempre sempre sempre... sempre sempre. sempre... sempre sempre sempre sempre.. sempre. sempre.......... sempre.. sempre... sempre..... s",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Locate positions on a two-dimensional representation (simple map or plan) of a familiar space such as the classroom or p",
+"faixas de",
+[
+"curta-demais"
+]
+],
+[
+"Work interchangeably with terminating decimals and their corresponding fractions (such as 3.5 and 7/2 or 0.375 and 3/8);",
+"e e e , e , e , e , e , e , e , e ,",
+[
+"curta-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"When your child reads a science claim — like 'plants grow faster with music' — can they evaluate whether the evidence ac",
+"tuba- do atual-",
+[
+"curta-demais"
+]
+],
+[
+"Understand the water cycle: the Sun heats water in oceans and lakes causing it to evaporate into water vapour, the vapou",
+"mais",
+[
+"curta-demais"
+]
+],
+[
+"Draw a picture graph and a bar graph (with single-unit scale) to represent a data set with up to four categories; solve ",
+"O ponto de referência é o ponto de referência.",
+[
+"curta-demais"
+]
+],
+[
+"Predator Hunting Strategies",
+"-, e a nossa nossa nossa nossa nossa nossa nossa nossa nossa, nossa nossa, nossa nossa nossa, nossa nossa nossa, nossa nossa, nossa nossa, nossa nossa, nossa no",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Describe how nutrients and water are transported within animals, including the role of the circulatory system in deliver",
+"Desguard, para o, para a, para para para,, para para para,, para para para,, para para para para para,, para para, para para,, para para para, para para para, p",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Solve problems involving percentage increase, percentage decrease, finding the original value after a percentage change,",
+"o em",
+[
+"curta-demais"
+]
+],
+[
+"Greek theatre",
+"o  comparativamente ao  quando o  quando o n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n n  n ",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Use tools and materials to design and build a structure that will reduce the warming effect of sunlight on an area, such",
+"-",
+[
+"curta-demais"
+]
+],
+[
+"Name and use vocabulary for types of energy and energy transfer — kinetic energy, potential energy, heat energy, light e",
+"bolas de de energiapor exemplo:",
+[
+"curta-demais"
+]
+],
+[
+"Use determiners (articles a/an/the and demonstratives this/that/these/those) correctly before nouns",
+"ver",
+[
+"curta-demais"
+]
+],
+[
+"When your child writes a story, do they use time words like \"after\", \"while\", or \"soon\" to show the order things happene",
+"??.",
+[
+"curta-demais"
+]
+],
+[
+"Why circuit components behave differently",
+"das",
+[
+"curta-demais"
+]
+],
+[
+"Find unknown angles in triangles, quadrilaterals, and regular polygons using angle sum properties",
+"que o o oman o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"If you say 'I had some sweets, ate 5, and now have 9 left — how many did I start with?', can your child figure out the m",
+"Se vocêPRE",
+[
+"curta-demais"
+]
+],
+[
+"When your child is multiplying or working with larger numbers, do they use what they know about place value or number re",
+"mais um vagões ou um boxe mais um...",
+[
+"curta-demais"
+]
+],
+[
+"Explain the principle of conservation of energy (energy cannot be created or destroyed, only transferred between stores)",
+"Explique com o",
+[
+"curta-demais"
+]
+],
+[
+"Identify, represent and estimate three-digit numbers using different representations: place a number on a 0–1000 number ",
+"toxicity conjuntos de NOVA uma.",
+[
+"curta-demais"
+]
+],
+[
+"Know about extreme weather events — hurricanes (spinning storms over warm ocean), tornadoes (violent rotating columns of",
+"são, origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a origem, a orige",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Investigate the physical conditions of a habitat (light, temperature, moisture, wind) by measuring them, and analyse dat",
+"- Eu, balde,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, e,,,,,,,, e,,,,,,, e,,,,,,",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Participate in shared research and writing projects; recall information from experiences or gather information from sour",
+"... chinelos de o, de de de de de de de de de de de de de de, de de, de de, de de, de de, de de, de, de, de, de, de, de, de, de, de, de, de, de, de, de,, o o o ",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Explain the federal/provincial Crown’s constitutional duty to meaningfully consult affected Indigenous rights-holding gr",
+"Quer que você, corante. Utilizar os casos fornecidos para reconhecer quando o direito pode ser aplicado, distinguindo-o da reunião da opinião pública comum sem ",
+[
+"curta-demais"
+]
+],
+[
+"Use capital letters for proper nouns (names of people, places) the days of the week, and the personal pronoun 'I'",
+"Ótimo bolas, o que-----",
+[
+"curta-demais"
+]
+],
+[
+"Can your child describe an animal that can survive being frozen solid, completely dried out, or exposed to the vacuum of",
+"de para a para para para para para para para para para para para para para para para para para para para para para para para para para para para para para para ",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Compare numbers with the same number of decimal places up to two decimal places",
+", e o rec do e/ a e e/ a e e/ a e e a a a e e a a a e e a a a e e a a a e e a a a e a a a a a a a a a a a e a a a a a a a a a a a a a a a a a a a a a a a a a a ",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Can your child explain why their body needs food, water, sleep, and exercise — and what happens if they miss any of them",
+"algum dos dois PROCEDIMENTOs?",
+[
+"curta-demais"
+]
+],
+[
+"Apply suffix spelling rules that require changes to the root word: dropping final -e before vowel suffixes, changing -y ",
+", e",
+[
+"curta-demais"
+]
+],
+[
+"Identify and describe different types of weather — sunny, rainy, windy, snowy, cloudy, foggy, stormy — and describe what",
+"há",
+[
+"curta-demais"
+]
+],
+[
+"Understand that friendships change over time — that it's normal for friends to drift apart or for new friendships to for",
+"Não há nada de errado com eles.",
+[
+"curta-demais"
+]
+],
+[
+"Commutative Multiplication",
+"tabuleiro....,..................................................................................................................................................",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Observation vs Interpretation",
+"pacotes.........................................................................................................................................................",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Show kindness and care towards others in simple everyday ways — comforting a friend who is upset, helping someone who ha",
+"Mostreir---------,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+[
+"curta-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Use evidence to construct an explanation relating the speed of an object to the energy of that object",
+", não não é não é não é não de não não não de não não é não de não não não de não não de não não de não não não não de não não de não não de não de não não não ",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+]
+]
+},
+"grok pt>en": {
+"n": 3562,
+"flagged": 11,
+"counts": {
+"sequencia-repetitiva": 6,
+"igual-ao-original": 1,
+"curta-demais": 4
+},
+"examples": [
+[
+"Analisar e utilizar modalização epistêmica, isto é, modos de indicar uma avaliação sobre o valor de verdade e as condiçõ",
+"Analyzing and using epistemic modalization, that is, ways of indicating an assessment of the value of truth and the conditions of truth of a proposition, such a",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Comparar as regras de colocação pronominal na norma-padrão com o seu uso no português brasileiro coloquial.",
+"To compare the rules of pronomial placement in the standard standard standard with its use in Brazilian Portuguese colloquial.",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Cyberbullying",
+"Cyberbullying",
+[
+"igual-ao-original"
+]
+],
+[
+"Elaborar texto teatral, a partir da adaptação de romances, contos, mitos, narrativas de enigma e de aventura, novelas, b",
+"Elaborate theatrical text, from the adaptation of novels, tales, myths, narratives of enigma and adventure, novels, novels, novels, chronicles, among others, in",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Identificar e reproduzir, em relatos de experiências pessoais, a sequência dos fatos, utilizando expressões que marquem ",
+"Identify and reproduce, in personal experiences reports, the sequence of facts, using expressions that mark the passage of time (“before”, “after”, “after”, “af",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Ler em voz alta textos literários diversos – como contos de amor, de humor, de suspense, de terror; crônicas líricas, hu",
+"Read aloud various literary texts – such as tales of love, humor, suspense, terror; lyrical chronicles, humor, criticism; as well as capitulated oral readings (",
+[
+"curta-demais"
+]
+],
+[
+"Produzir e publicar notícias, fotodenúncias, fotorreportagens, reportagens, reportagens multimidiáticas, infográficos, p",
+"Produce and publish news, photo-innunciations, photo-reports, reports, multi-media reports, infographics, news podcasts, interviews, reader letters, comments, o",
+[
+"curta-demais"
+]
+],
+[
+"Seu filho consegue analisar e utilizar modalização epistêmica, isto é, modos de indicar uma avaliação sobre o valor de v",
+"Your child is able to analyze and use epistemic modalization, that is, ways of indicating an assessment of the truth value and the conditions of truth of a prop",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Seu filho consegue elaborar texto teatral, a partir da adaptação de romances, contos, mitos, narrativas de enigma e de a",
+"Can your son elaborate theatrical text, from the adaptation of novels, tales, myths, riddle and adventure narratives, novels, novels, novels, chronicles, among ",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Seu filho consegue ler em voz alta textos literários diversos – como contos de amor, de humor, de suspense, de terror; c",
+"His son can read aloud various literary texts – such as tales of love, humor, suspense, terror; lyrical chronicles, humorous, criticism; as well as capitulated ",
+[
+"curta-demais"
+]
+],
+[
+"Seu filho consegue produzir e publicar notícias, fotodenúncias, fotorreportagens, reportagens, reportagens multimidiátic",
+"Your child manages to produce and publish news, photos, reports, reports, multimedia reports, infographics, news podcasts, interviews, reader's letters injetáve",
+[
+"curta-demais"
+]
+]
+]
+},
+"grok en>ja": {
+"n": 11365,
+"flagged": 326,
+"counts": {
+"igual-ao-original": 4,
+"idioma-incorreto(sem-kana)": 66,
+"repeticao-dominante": 164,
+"longa-demais": 74,
+"sequencia-repetitiva": 165
+},
+"examples": [
+[
+"(a+b)(a-b)=a^2-b^2",
+"(a+b)(a-b)=a^2-b^2",
+[
+"igual-ao-original",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"(a+b)^2=a^2+2ab+b^2",
+"(a+b)^2=a^2+2ab+b^2",
+[
+"igual-ao-original",
+"repeticao-dominante",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"(a-b)^2=a^2-2ab+b^2",
+"(a-b)^2=a^2-2ab+b^2",
+[
+"igual-ao-original",
+"repeticao-dominante",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"(x+a)(x+b)=x^2+(a+b)x+ab",
+"(x+a)(x+b)=x^2+(a+b)x+ab",
+[
+"igual-ao-original",
+"repeticao-dominante",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"12-hour and 24-hour time",
+"12時間、24時間",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"2-D shapes (age 10+)",
+"2次元形状(10倍以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"2-D shapes (age 6+)",
+"2-D形状(6歳以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"2-D shapes (age 7+)",
+"2次元形状(7倍以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"2-D shapes (age 8+)",
+"2次元形状(8倍以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"3-D shapes (age 10+)",
+"3次元形状(10倍以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"3-D shapes (age 11+)",
+"3D形状(11歳以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"3-D shapes (age 5+)",
+"3D形状(年齢5+)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"3-D shapes (age 9+)",
+"3D形状(9歳以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"600 to 700 words, including words that are used to conduct foreign…",
+"600〜700語で、外国の行動に使われる言葉など...",
+[
+"repeticao-dominante"
+]
+],
+[
+"A sense of the meaning of the degree of data dissegregation, which…",
+"データの分離の程度の意味の感覚, 誰が...",
+[
+"repeticao-dominante"
+]
+],
+[
+"A simple allowance such as injury must be done promptly.",
+"怪我などの簡単な手当は、速やかに行わなければならない。",
+[
+"repeticao-dominante"
+]
+],
+[
+"A skill to listen to the sound of each instrument, sub-sectional mel ⁇…",
+"各楽器の音を聴くためのスキル、サブセクショナルメル???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Acids and alkalis Experiments to examine the properties of acids and alkalis, and know that the properties of acids and ",
+"酸およびアルカリ 酸およびアルカリ 酸およびアルカリの特性を調べ、酸およびアルカリの特性が水素イオンおよび水酸化物イオンに基づいていることを知っています。",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Activities that identify and solve problems that mathema ⁇ ly capture…",
+"マテーマの問題を識別し、解決する活動 ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Activities that teach basic information about yourself, such as ho ⁇ s…",
+"自分で基本情報を教えている活動は、ホ??????????????...",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Activities that write thoughts and ideas, such as finding events and ⁇…",
+"イベントやイベントの検索など、思考やアイデアを書く活動?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Activities to continue conversations with each other by appropriately…",
+"お互いに会話を続けていきたいという活動は、",
+[
+"repeticao-dominante"
+]
+],
+[
+"Activities to read, understand, and report what you thought or…",
+"ご意見・ご要望・ご意見・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・ご要望・",
+[
+"longa-demais",
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Add and subtract fractions with unlike denominators (including mixed numbers) by replacing given fractions with equivale",
+"特定の分数を同等の分数に置き換えることで、分数の差分を分別し、分数を分別して分数を分別し、分数を分別して分数を分別します。",
+[
+"repeticao-dominante"
+]
+],
+[
+"Advanced Spelling Conventions",
+"アドバンスト・スペル・コンベンション",
+[
+"repeticao-dominante"
+]
+],
+[
+"Analyze different practices (like, share, comment, heal etc.) and texts belonging to different genres of digital culture",
+"デジタル文化(memememe、gif、コメント、デジタルチャージなど)の異なるジャンルに属するさまざまな慣行(、共有、コメント、ヘールなど)を分析し、情報や意見に対処するため、ネットワークにおけるより重要かつ倫理的な存在感を有効にします。",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Analyze practices, projects and public policies that contribute to the promotion of freedom of thought, beliefs and conv",
+"思考、信念、信念、信念の自由の推進に貢献し、実践、プロジェクト、公共政策を分析します。",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Analyze the effects of meaning resulting from the interaction between linguistic elements and paralinguistic and kinesic",
+"リズムのバリエーション、声の調子、一時停止、言語の流暢な操作による変化、連想、リズムの発音、アソナメント、オマトフェア、その他、身体の姿勢、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、演説、",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Analyzing and using epistemic modalization, that is, ways of indicating an assessment of the value of truth and the cond",
+"エピステミック・モダライゼーションを分析し、使用する方法は、真実の価値の評価を示す方法と、妥当性などの真理の条件を示す方法 - いずれかが(実際には、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、もちろん、",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Animal cells, plant cells have cellular membranes, cell matter, cell nuclei, etc.",
+"動物細胞、植物細胞に細胞膜、細胞物質、細胞核等があります。",
+[
+"repeticao-dominante"
+]
+],
+[
+"Animal cells, plant cells have cellular membranes, cell matter, cell…",
+"動物細胞、植物細胞は、細胞膜、細胞物質、細胞を持っています...",
+[
+"repeticao-dominante"
+]
+],
+[
+"Antarctic Treaty & Research",
+"アントアークティック・トリーティー&リサーチ",
+[
+"repeticao-dominante"
+]
+],
+[
+"Association of a first-degree linear equation to a straight line in the plane...",
+"飛行機の直線に最初の程度の線形方程式の協会...",
+[
+"repeticao-dominante"
+]
+],
+[
+"Awareness of the implications of the Civil Code for the protection of personal rights, property rights",
+"民法の侵害の意識は、個人の権利、財産権の保護のために",
+[
+"repeticao-dominante"
+]
+],
+[
+"B Biological development technology",
+"B 生物学的開発技術",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"Be happy to explore how to solve problems in learning and life and to…",
+"学びと生活の問題を解決する方法と、そして、そして、そして、そして、何かを解決する方法を探求して幸せにしてください。",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Beliefs, convictions and attitudes",
+"信念、信念、信念、態度",
+[
+"sequencia-repetitiva",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"Brief explanation of the three-state change of the substance using the…",
+"物質の3つの状態の変化の簡単な説明...",
+[
+"repeticao-dominante"
+]
+],
+[
+"By analysing typical artificial intelligence applications, understand the basic features of artificial intelligence and ",
+"典型的な人工知能アプリケーションを分析することで、人工知能とデータ、アルゴリズム、アルゴリズムの基本的な機能を理解し、そのデータを分析し、人工知能を分析し、人工知能を分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを分析し、AIを",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"C Athletic Athletic Athletic Athletic Athletic Athletic Athletic Athletic Athletics:",
+"Cのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチックのアスレチック:",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Camouflage, warning colours, and mimicry: how insects survive by hiding or sending visual signals. Stick insects look li",
+"キャモフラージュ、警告色、および模倣:視覚信号を隠すことか、または送信することによって昆虫が生き残る方法。虫を刺すと、葉の昆虫は葉のように見えます。Waspsは警告ストリップを持っています。 ホバーハミミコは無害です。' を ' と ' の ' の ' の ' の ' の ' の ' の ' の ' の ' の ' の",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Choose pronouns for clarity and cohesion, avoiding ambiguity and repetition; use reflexive pronouns correctly (e.g., mys",
+"明快さと凝集性のために名詞を選択し、曖昧さと反復を避けてください。 反射性の名詞を正しく使用してください(例えば、自分自身、自分自身、自分自身)",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Chromosomes, Genes & DNA",
+"染色体、遺伝子、DNA",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"Circuits and currents/voltage Experiments to measure the current and…",
+"回路と電流/電圧実験は、電流と電流を測定します。...",
+[
+"repeticao-dominante"
+]
+],
+[
+"Classes and school rules, rules awareness",
+"授業と学校ルール、意識のルール",
+[
+"repeticao-dominante"
+]
+],
+[
+"Compare numbers with the same number of decimal places up to two decimal places",
+"2つの小数点までの小数点の同じ数の数字を比較",
+[
+"repeticao-dominante"
+]
+],
+[
+"Compose two-dimensional shapes (rectangles, squares, trapezoids, triangles, half-circles, quarter-circles) to create com",
+"2次元形状(長方形、角形、角形、台形、三角形、半円弧、四分円)を構成し、複合形状から新しい形状を構成",
+[
+"repeticao-dominante"
+]
+],
+[
+"Consider and devise responsible consumption behavior as a self-sufficient consumer for familiar consumption.",
+"責任ある消費行動を自給自給自給自給自給自給自給自費として考え、考案する。",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Consider and express how to solve the  ⁇ ation of the  ⁇ ation of the  ⁇ ation of the  ⁇ ation of the first  ⁇ ation.",
+"??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????の?????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Consider and express how to solve the ⁇ ation of the ⁇ ation of the ⁇…",
+"????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"Consider and express the method of  ⁇ ulation of positive and negative numbers in relation to the  ⁇ ulation of the numb",
+"????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva",
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"Consider the order of production from the characteristics of materials and tools, and express it with ⁇ s.",
+"素材や工具の特性からの生産の注文を考え、それを表現する?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"Construct and interpret dot plots for numerical data sets of any kind (counts, scores, times or measurements), extending",
+"以前の測定ラインプロットを拡張する、任意の種類の数値データセット(counts、スコア、時間または測定)のドットプロットを構成し、解釈します。 少なくとも最小値から最大値まで実行する等しい間隔で数行のスケールを描画します。 誰も記録した値を含む、 誰も表示する値を含みます。 観察ごとに1つのドットを配置し、繰り返し値を",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"Coordinates (age 11+)",
+"座標(11歳以上)",
+[
+"idioma-incorreto(sem-kana)"
+]
+],
+[
+"Count forwards and backwards in steps of powers of 10 (10, 100, 1000, 10,000, 100,000) for any given number up to 1,000,",
+"1,000,000までの任意の数のための10の(10、100、1000、10,000、100,000の力のステップの前後を計算して下さい)",
+[
+"repeticao-dominante"
+]
+],
+[
+"Count from 0 in multiples of 4, 8, 50, and 100",
+"4、8、50、100 の複数の 0 からのカウント",
+[
+"repeticao-dominante"
+]
+],
+[
+"Count within 1000, including skip-counting by 5s, 10s, and 100s",
+"5秒、10秒、100秒でスキップカウントを含む1000以内のカウント",
+[
+"repeticao-dominante"
+]
+],
+[
+"Create poems composed of free and fixed verses (such as blocks and sonnets), using visual, semantic and sound resources,",
+"ビジュアル、セマンティック、サウンドリソース(アカデミー、リズム、リズム、リズム、リズム、視覚詩、映像詩、映像詩、映像詩、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、映像、",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"Current, voltage and resistance Experiments to measure voltage and…",
+"電流、電圧および抵抗 電圧を測定する実験および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電圧および抵抗 電",
+[
+"longa-demais",
+"sequencia-repetitiva"
+]
+],
+[
+"D. ⁇ im. ⁇ im. ⁇ im. ⁇ im.",
+"D. ?? ? ? ? ? ? ? ?? ?? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?? ?? ???? ???? ?????? ??????? ??? ? ?? ???? ? ????? ??",
+[
+"longa-demais",
+"sequencia-repetitiva",
+"idioma-incorreto(sem-kana)"
+]
+]
+]
+},
+"grok en>zt": {
+"n": 11365,
+"flagged": 2185,
+"counts": {
+"igual-ao-original": 4,
+"idioma-incorreto(sem-han)": 8,
+"repeticao-dominante": 190,
+"sequencia-repetitiva": 86,
+"chines-simplificado": 1181,
+"curta-demais": 804,
+"longa-demais": 14
+},
+"examples": [
+[
+"(a+b)(a-b)=a^2-b^2",
+"(a+b)(a-b)=a^2-b^2",
+[
+"igual-ao-original",
+"idioma-incorreto(sem-han)"
+]
+],
+[
+"(a+b)^2=a^2+2ab+b^2",
+"(a+b)^2=a^2+2ab+b^2",
+[
+"igual-ao-original",
+"repeticao-dominante",
+"idioma-incorreto(sem-han)"
+]
+],
+[
+"(a-b)^2=a^2-2ab+b^2",
+"(a-b)^2=a^2-2ab+b^2",
+[
+"igual-ao-original",
+"repeticao-dominante",
+"idioma-incorreto(sem-han)"
+]
+],
+[
+"(b) Restrictive use of that,which,who,that,which of the subject",
+"(b) 限制使用、何人、何人、何人、何人",
+[
+"repeticao-dominante",
+"sequencia-repetitiva"
+]
+],
+[
+"(c) Subject+ ⁇ ,want+Objective+to Irregular",
+"(c) 主体+ ? , 想要+ 目标+ 不正常",
+[
+"chines-simplificado"
+]
+],
+[
+"(c) The main word + ⁇  + target language + clause starting with {that, w ⁇  etc.",
+"主詞 + + + 目標語言 + 從 {那 開始的條款 + + + + +",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"(x+a)(x+b)=x^2+(a+b)x+ab",
+"(x+a)(x+b)=x^2+(a+b)x+ab",
+[
+"igual-ao-original",
+"repeticao-dominante",
+"idioma-incorreto(sem-han)"
+]
+],
+[
+"1 Consideration based on the natural environment",
+"1 以自然环境为基础的考量",
+[
+"chines-simplificado"
+]
+],
+[
+"1 Global community structure",
+"1. 全球社区结构",
+[
+"chines-simplificado"
+]
+],
+[
+"3 Consideration based on the core of industry",
+"3 以工業核心为基础的考量",
+[
+"chines-simplificado"
+]
+],
+[
+"A  ⁇ ue with History",
+"A ? ? ? ? ? ? ? 和歷史?",
+[
+"sequencia-repetitiva"
+]
+],
+[
+"A Family and family life The following items are provided in cooperation with the people of the family and the local com",
+"家庭和家庭生活 与家庭和當地社群的人民合作提供下列物品,其中第(1)至(4)款有挑戰性,并通过思考和設計改善家庭生活的活动,教授以下物品。",
+[
+"chines-simplificado"
+]
+],
+[
+"A brief analysis of a country ' s experience and lessons learned in resource development, environmental protection, usin",
+"利用地圖與相關資訊,",
+[
+"curta-demais"
+]
+],
+[
+"A new language of 1600 to 1800 is required to achieve the goals of the…",
+"需要1600到1800的新語言来实现...",
+[
+"repeticao-dominante",
+"chines-simplificado"
+]
+],
+[
+"A proper understanding of the relationship between economic development and ecological protection of the environment, ta",
+"要正确理解經濟發展與環境生态保護之間的關係,",
+[
+"curta-demais"
+]
+],
+[
+"A short conversation activity by answering simple questions about yourself or asking questions about the other person.",
+"或問問對方的問題。",
+[
+"curta-demais"
+]
+],
+[
+"Academic Vocabulary",
+"学术词汇",
+[
+"chines-simplificado"
+]
+],
+[
+"Access information on the Internet critically to distinguish reliable from unreliable content.",
+"在網路上获取資訊,",
+[
+"curta-demais"
+]
+],
+[
+"Access to information and small seminars on environmental impacts of energy use, such as atmospheric pollution, acid rai",
+"例如大气污染、酸雨、溫室影響等,",
+[
+"curta-demais"
+]
+],
+[
+"Access to information on the development of the magnetic suspension train in our country and to discuss the application ",
+"取得國內磁悬浮列車發展資訊,",
+[
+"curta-demais"
+]
+],
+[
+"Access to information on the implications of the development and use of the deep sea, space, etc. for the development of",
+"了解深海、太空等的开发和利用對人類社會發展的影響,",
+[
+"chines-simplificado"
+]
+],
+[
+"Access to information on the implications of the development and use of…",
+"取得關于...",
+[
+"curta-demais"
+]
+],
+[
+"Access to information on the role and advantages of our Beidou satellite navigation system and discussion of application",
+"了解北斗衛星導航系統的作用和優勢,",
+[
+"curta-demais"
+]
+],
+[
+"Access to information or professionals such as agricultural machinery, auto maintenance, to find out where the heat rele",
+"取得資訊或專業人士, 如農業機械、汽車維持,",
+[
+"curta-demais"
+]
+],
+[
+"Acids and alkalis Experiments to examine the properties of acids and alkalis, and know that the properties of acids and ",
+"酸和碱 實驗 檢查酸和碱的性別, 并知道酸和碱的性質 基於氢离子和氢氧化物离子.",
+[
+"chines-simplificado"
+]
+],
+[
+"Acquire and use accurately a broad range of general academic vocabulary and domain-specific words — drawing new vocabula",
+"取得並精确使用廣泛的學術語言及專業詞典,",
+[
+"curta-demais"
+]
+],
+[
+"Active and passive voice",
+"主动與被动的聲音",
+[
+"chines-simplificado"
+]
+],
+[
+"Actively engage in learning about sports and sports.",
+"积极开展体育运动知识学习.",
+[
+"chines-simplificado"
+]
+],
+[
+"Actively engage in the processes of planning, textualization, revision/edition and rewriting, in view of the thematic, c",
+"也透過文學文字的想像力、穩定與可能性。 校對:Soup",
+[
+"curta-demais"
+]
+],
+[
+"Actively participating in school cultural communities, in dramas, calligraphy, carving, painting, embroidery, mud, peopl",
+"积极参与學校文化社區,从事戏剧,書法,雕刻,油畫,刺绣,泥塑,人......",
+[
+"chines-simplificado"
+]
+],
+[
+"Actively participating in school cultural communities, in dramas…",
+"积极参与學校文化社區,戲劇...",
+[
+"chines-simplificado"
+]
+],
+[
+"Activities that communicate about familiar and simple things related to daily life, such as their thoughts and feelings,",
+"分享與日常生活相關的熟悉與簡單的活動,",
+[
+"curta-demais"
+]
+],
+[
+"Activities that communicate with each other and discuss throughout the group and school.",
+"彼此交流,",
+[
+"curta-demais"
+]
+],
+[
+"Activities that consider the person or media that you want to communicate, such as writing letters and e-mails necessary",
+"包括寫信與電子郵件等,",
+[
+"curta-demais"
+]
+],
+[
+"Activities that convey your current situation in a simple letter or…",
+"以簡信或...",
+[
+"curta-demais"
+]
+],
+[
+"Activities that express and communicate the process and results of…",
+"表示和宣傳...",
+[
+"curta-demais"
+]
+],
+[
+"Activities that find and solve arithmetic problems from everyday events, and check results, and to affect daily life, et",
+"調查結果, 影響日常生活等。",
+[
+"curta-demais"
+]
+],
+[
+"Activities that listen to short stories about familiar and simple things and understand the approximate contents.",
+"也理解這些相關內容。",
+[
+"curta-demais"
+]
+],
+[
+"Activities that listen to specific information about familiar and simple things related to daily life, such as expressio",
+"包括日期、時間、價格等。",
+[
+"curta-demais"
+]
+],
+[
+"Activities that meet and respond to inquiries, app ⁇  ⁇ , simple instructions, and requests.",
+"* 簡單的指令和要求。",
+[
+"curta-demais"
+]
+],
+[
+"Activities that teach basic information about yourself, such as ho ⁇ s and dislikes, in phrases and sentences.",
+"教人如何了解自己,",
+[
+"curta-demais"
+]
+],
+[
+"Activities that write thoughts and ideas, such as finding events and ⁇ ing opinions.",
+"包括尋找事件與意見。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to collect information and to announce them, such as asking questions.",
+"收集資訊及宣佈,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to continue conversations with each other by appropriately responding to questions from the other party or as",
+"或當場提出相關問題。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to find and solve problems from mathematics events, review the process and results of the solution, and consi",
+"研究解決問題的進程與結果,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to find and solve problems with ⁇ s from math events, and to look back on the process and results of the solu",
+"以综合、進步的方式考慮這些問題。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to listen to the information you need from simple announcements such as shops and public transportation.",
+"人們在推特上表示,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to make simple speeches, summarize facts, thoughts, feelings, etc. about everyday topics.",
+"做簡單的演講、总结關於日常議題的事實、想法、感覺等活動。",
+[
+"chines-simplificado"
+]
+],
+[
+"Activities to make simple speeches, summarize facts, thoughts…",
+"做簡單的演講 总结事實 思考...",
+[
+"chines-simplificado"
+]
+],
+[
+"Activities to obtain information that you need from ⁇ s and brochures that contain familiar and simple things related to",
+"包括熟悉與簡單的日常生活資訊。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to organize and organize things to communicate, such as information on events and writing articles of reports",
+"例如活動資訊、寫文章等。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to organize and organize things to communicate, such as…",
+"例如...",
+[
+"curta-demais"
+]
+],
+[
+"Activities to read brief explanations and essays about everyday topics written in simple phrases and sentences, and to u",
+"讀取關於日常議題的簡短解釋與論文,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to read practical sentences and think about how to live.",
+"思考如何生活。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to read ⁇ s and stories, explain the contents, and share thoughts.",
+"以及分享想法。",
+[
+"curta-demais"
+]
+],
+[
+"Activities to read, cite and comment on ⁇ ry songs and novels, and to share thoughts.",
+"讀取、引用和評論,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to read, understand, and discuss the thoughts, and to summarize sentences, such as comparing sentences such a",
+"讀取、理解、討論想法、總結句子,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to read, write and discuss sentences, and to discuss and summarize what you think.",
+"讀、寫和討論句子 討論和总结你的想法",
+[
+"chines-simplificado"
+]
+],
+[
+"Activities to solve arithmetic problems found in the learning scene of the arithmetic number, using concrete objects, fi",
+"使用混凝土物件、數據、公式等,",
+[
+"curta-demais"
+]
+],
+[
+"Activities to talk about opinions and proposals, or to listen to them.",
+"討論意見與建議,",
+[
+"curta-demais"
+]
+]
+]
+}
+}

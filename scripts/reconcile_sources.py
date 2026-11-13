@@ -236,7 +236,7 @@ def placements(brazil, international):
     counts = Counter()
     for topic in brazil["topics"]:
         years = list(range(topic["gradeMin"], topic["gradeMax"] + 1))
-        standard = topic["standards"][0]
+        standard = (topic.get("standards") or topic.get("parentStandards"))[0]
         topic["schoolPlacements"] = [{"system": "BR", "years": years, "label": f"{years[0]}º ano" if len(years) == 1 else f"{years[0]}º ao {years[-1]}º ano", "framework": standard["framework"], "certainty": "source-explicit" if len(years) == 1 else "source-band", "sourceCode": standard.get("sourceCodeLiteral", standard["code"]), "sourceUrl": standard["url"], "scopeNote": "O recorte editorial herda o bloco de anos de sua habilidade de origem; não recebeu uma série própria oficial." if topic.get("kind") == "microtopico" else "Bloco de anos publicado para a habilidade; não há equivalência automática com outro país."}]
         counts["BR"] += 1
     for topic in international["topics"]:
@@ -280,6 +280,8 @@ def main():
     corrections = verify_corrections(inputs["corrections"])
     add_corrections(brazil, inputs["corrections"], corrections)
     grade_report = placements(brazil, international)
+    from consensus_layers import apply_brazil_layers
+    brazil = apply_brazil_layers(brazil)
     translations = load(ROOT / "data/translations.json") if (ROOT / "data/translations.json").exists() else {"metadata": metadata("Traduções propostas da taxonomia", "Camada pt-BR da entrega Code, com originais ingleses e revisão pendente"), "topics": {}}
     code_by_id = {t["id"]: t for t in inputs["translationsCode"]}
     for topic in brazil["topics"]:

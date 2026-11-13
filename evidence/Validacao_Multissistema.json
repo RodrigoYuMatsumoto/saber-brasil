@@ -8,71 +8,71 @@
     "subject": "Identidades, séries de origem, fontes, idiomas e estados explícitos de tradução"
   },
   "status": "pass",
-  "checkedAt": "2026-11-12T13:06:05.710678+00:00",
+  "checkedAt": "2026-11-13T00:28:46.634732+00:00",
   "files": [
     {
       "path": "data/brazil_topics.json",
-      "bytes": 4987532,
-      "sha256": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082"
+      "bytes": 6603828,
+      "sha256": "50bcc4aeaebfe388c0bb7828ac1b3320b15b95825be434168e5d4cbcdda48710"
     },
     {
       "path": "data/international.json",
-      "bytes": 14745824,
-      "sha256": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a"
+      "bytes": 14916001,
+      "sha256": "c74c0fc48758f1b832cd95b63c0ce33c54f237f99dea84ed350f82145141a8d5"
     },
     {
       "path": "data/east_asia.json",
-      "bytes": 2206501,
-      "sha256": "0d0247ca32204e2d2844946d0bd6892f4a85e01df42c86b65397406feac74c28"
+      "bytes": 8169872,
+      "sha256": "bac0892cfe7879de8487667b1916ed89b73f9fb6d03598e61d2663430c3bbb62"
     },
     {
       "path": "assets/locales.json",
-      "bytes": 36274,
-      "sha256": "d0adf51c98e47472fbc23c6e3a314c16c042cdd8cd2b2548175e05fc74b963d7"
+      "bytes": 46621,
+      "sha256": "48d3939134d4da19f71cc50206de6fa4f8f6f39ef62ecf156ecdec0965f5298e"
     },
     {
       "path": "data/translations.json",
-      "bytes": 2951930,
-      "sha256": "564b0876abac92b47f381a7d3fc94d536caff3669f0a3122247970909c5460e6"
+      "bytes": 11613763,
+      "sha256": "daadceed090ea495e1ca898448671d330fcac9e231914665b6acadafe8d36809"
     }
   ],
   "datasets": {
     "brazil": 2151,
     "international": 1907,
-    "eastAsia": 610
+    "eastAsia": 2353
   },
-  "uniqueConcepts": 4668,
+  "uniqueConcepts": 6411,
   "relations": 4886,
   "placementTopics": {
     "BR": 2151,
-    "GB-ENG": 715,
     "US": 670,
-    "JP": 307,
-    "CN": 303
+    "GB-ENG": 715,
+    "JP": 2002,
+    "CN": 351
   },
   "interfaceKeys": {
-    "pt-BR": 147,
-    "en": 147,
-    "ja": 147,
-    "zh-Hant": 147
+    "pt-BR": 184,
+    "en": 184,
+    "ja": 184,
+    "zh-Hant": 184
   },
   "contentDescriptionCoverage": {
-    "en": 2517,
-    "ja": 610,
-    "zh-Hant": 610,
-    "pt-BR": 4668
+    "pt-BR": 4716,
+    "ja": 5619,
+    "en": 3924,
+    "zh-Hant": 3924
   },
   "contentNameCoverage": {
-    "en": 2517,
-    "ja": 610,
-    "zh-Hant": 610,
-    "pt-BR": 4668
+    "pt-BR": 4716,
+    "ja": 5619,
+    "en": 3924,
+    "zh-Hant": 3924
   },
   "translatedDescriptionCoverage": {
-    "en": 2517,
-    "ja": 610,
-    "zh-Hant": 610,
-    "pt-BR": 4668
+    "pt-BR": 4668,
+    "ja": 3924,
+    "en": 3924,
+    "zh-Hant": 3924
   },
   "checks": [
     {
@@ -94,8 +94,8 @@
       "id": "CROSS_DATASET_UNIQUE_IDS",
       "passed": true,
       "detail": {
-        "total": 4668,
-        "unique": 4668,
+        "total": 6411,
+        "unique": 6411,
         "duplicates": []
       }
     },
@@ -111,8 +111,8 @@
       "id": "CROSS_DATASET_ACYCLIC",
       "passed": true,
       "detail": {
-        "nodes": 4668,
-        "visited": 4668
+        "nodes": 6411,
+        "visited": 6411
       }
     },
     {
@@ -149,10 +149,10 @@
         ],
         "topicsWithPlacement": {
           "BR": 2151,
-          "GB-ENG": 715,
           "US": 670,
-          "JP": 307,
-          "CN": 303
+          "GB-ENG": 715,
+          "JP": 2002,
+          "CN": 351
         }
       }
     },
@@ -183,10 +183,10 @@
       "id": "INTERFACE_KEY_COVERAGE",
       "passed": true,
       "detail": {
-        "pt-BR": 147,
-        "en": 147,
-        "ja": 147,
-        "zh-Hant": 147
+        "pt-BR": 184,
+        "en": 184,
+        "ja": 184,
+        "zh-Hant": 184
       }
     },
     {
@@ -239,7 +239,7 @@
       "id": "EAST_ASIA_TRACE_AND_REVIEW_STATE",
       "passed": true,
       "detail": {
-        "topics": 610,
+        "topics": 2353,
         "invalid": []
       }
     },
@@ -247,8 +247,18 @@
       "id": "EAST_ASIA_FOUR_LANGUAGE_RECORDS",
       "passed": true,
       "detail": {
-        "topics": 610,
+        "editorialTopics": 610,
+        "sourceUnitsExcludedFromEditorialTranslationClaim": 1743,
         "missing": []
+      }
+    },
+    {
+      "id": "EAST_ASIA_SOURCE_LITERAL_PROVENANCE",
+      "passed": true,
+      "detail": {
+        "sourceUnits": 1743,
+        "invalid": [],
+        "scope": "Texto literal e rastreabilidade não significam aprovação pedagógica nem tradução oficial."
       }
     },
     {

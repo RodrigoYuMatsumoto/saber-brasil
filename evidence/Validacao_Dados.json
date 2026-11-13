@@ -6,23 +6,23 @@
     "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
     "title": "Validação mecânica da taxonomia de habilidades",
     "subject": "Integridade, referências, cobertura, proveniência e limites da validação",
-    "checkedAt": "2026-11-12T12:25:48.867464+00:00",
+    "checkedAt": "2026-11-13T00:28:35.227911+00:00",
     "verificationFamily": "OpenAI",
     "independentB9": false
   },
   "status": "pass",
   "datasetFiles": {
     "brazil_topics.json": {
-      "sha256": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082",
-      "bytes": 4987532
+      "sha256": "50bcc4aeaebfe388c0bb7828ac1b3320b15b95825be434168e5d4cbcdda48710",
+      "bytes": 6603828
     },
     "international.json": {
-      "sha256": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a",
-      "bytes": 14745824
+      "sha256": "c74c0fc48758f1b832cd95b63c0ce33c54f237f99dea84ed350f82145141a8d5",
+      "bytes": 14916001
     },
     "east_asia.json": {
-      "sha256": "be3fbd108f72bd24bde4262a0e13db51c3a4302159eb9e020d08387dc6138a92",
-      "bytes": 2195891
+      "sha256": "bac0892cfe7879de8487667b1916ed89b73f9fb6d03598e61d2663430c3bbb62",
+      "bytes": 8169872
     }
   },
   "datasets": {
@@ -178,6 +178,7 @@
           "scope",
           "subject",
           "title",
+          "typographyPolicy",
           "version"
         ]
       },
@@ -774,29 +775,30 @@
       }
     },
     "eastAsia": {
-      "topics": 610,
-      "uniqueIds": 610,
-      "uniqueStandardCodes": 288,
+      "topics": 2353,
+      "uniqueIds": 2353,
+      "uniqueStandardCodes": 1824,
       "kinds": {
-        "microtopico": 610
+        "microtopico": 610,
+        "unidade-curricular-oficial": 1743
       },
       "subjects": {
-        "matematica": 160,
-        "ciencias": 120,
-        "japones": 24,
-        "estudos-sociais": 19,
-        "geografia": 22,
-        "historia": 25,
-        "educacao-moral": 32,
-        "economia-domestica": 14,
-        "tecnologia": 8,
-        "arte": 31,
-        "educacao-fisica": 31,
-        "ingles": 40,
-        "chines": 32,
-        "computacao": 24,
-        "trabalho-pratico": 20,
-        "vida-cotidiana": 8
+        "matematica": 532,
+        "ciencias": 316,
+        "japones": 253,
+        "estudos-sociais": 214,
+        "geografia": 24,
+        "historia": 26,
+        "educacao-moral": 117,
+        "economia-domestica": 47,
+        "tecnologia": 68,
+        "arte": 184,
+        "educacao-fisica": 245,
+        "ingles": 228,
+        "chines": 34,
+        "computacao": 26,
+        "trabalho-pratico": 22,
+        "vida-cotidiana": 17
       },
       "relations": {
         "pre-requisito-pedagogico-proposto": 43
@@ -830,13 +832,19 @@
           3,
           4,
           5,
-          6
+          6,
+          7,
+          8,
+          9
         ],
         "estudos-sociais": [
           3,
           4,
           5,
-          6
+          6,
+          7,
+          8,
+          9
         ],
         "geografia": [
           7,
@@ -942,9 +950,9 @@
       },
       "graph": {
         "acyclic": true,
-        "nodes": 610,
+        "nodes": 2353,
         "edges": 43,
-        "topologicalNodes": 610
+        "topologicalNodes": 2353
       },
       "metadata": {
         "present": true,
@@ -966,9 +974,9 @@
   },
   "combinedGraph": {
     "acyclic": true,
-    "nodes": 4668,
+    "nodes": 6411,
     "edges": 4886,
-    "topologicalNodes": 4668
+    "topologicalNodes": 6411
   },
   "upstreamIntegrity": {
     "checked": 8,
@@ -1017,42 +1025,60 @@
     ]
   },
   "characterChecks": {
-    "filesChecked": 41,
+    "filesChecked": 59,
     "files": [
       "AGENTS.md",
       "app.js",
       "index.html",
+      "LICENSE.md",
+      "package-lock.json",
       "package.json",
       "README.md",
+      "Release_Manifest.json",
+      "Saber_Brasil_Offline.html",
       "styles.css",
       "assets/locales.json",
       "data/brazil_topics.json",
       "data/curriculum_grades.json",
       "data/east_asia.json",
+      "data/east_asia_candidates.json",
       "data/east_asia_curated.json",
       "data/east_asia_source_anchors.json",
       "data/east_asia_source_manifest.json",
+      "data/east_asia_source_selection.json",
       "data/international.json",
       "data/reconciliation_inputs.json",
       "data/translations.json",
+      "docs/Consenso_Adotado_V3.md",
       "docs/Consenso_Taxonomias.md",
+      "docs/Curriculos_Japao_China.md",
+      "docs/Entrega_Verificada.md",
       "docs/Prompts_Convergencia.md",
+      "docs/Prompts_Revisao_Final.md",
+      "docs/Protocolo_Compartilhado_IA.md",
+      "docs/Series_e_Idades.md",
       "scripts/acquire_east_asia.py",
       "scripts/brazil_curated.py",
-      "scripts/browser_scenarios.py",
+      "scripts/browser_scenarios_v2.py",
       "scripts/build_brazil.py",
       "scripts/build_east_asia.py",
+      "scripts/build_east_asia_sources.py",
       "scripts/build_portable.py",
+      "scripts/consensus_layers.py",
       "scripts/create_manifest.py",
       "scripts/east_asia_curated.py",
       "scripts/east_asia_japanese_names.py",
+      "scripts/import_content_translations.py",
       "scripts/import_marble.py",
       "scripts/ocr_east_asia.py",
       "scripts/reconcile_sources.py",
       "scripts/serve.py",
       "scripts/validate_multisystem.py",
       "scripts/validate_project.py",
-      "scripts/verify_browser_evidence.py",
+      "tests/test_brazil_extractor.py",
+      "tests/test_consensus_layers.py",
+      "tests/test_content_translations.py",
+      "tests/test_east_asia_sources.py",
       "tests/test_multisystem_data.py",
       "tests/test_reconciliation.py",
       "evidence/sources_east_asia/cn_index.html",
@@ -1063,11 +1089,15 @@
     ],
     "excludedLegacyAndEvidence": [
       ".git",
+      "CI_Artefatos",
       "backups",
       "licenses",
       "node_modules",
       "original",
+      "playwright-report",
+      "reference_bncc",
       "sources_brazil",
+      "test-results",
       "upstream"
     ],
     "scope": "Pontuação literal nos arquivos novos; aspas em prosa Markdown e texto HTML visível. Código, chaves JSON e arquivos de fonte são dados de máquina."

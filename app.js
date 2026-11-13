@@ -6,7 +6,16 @@
   const qMultiply = (a,b) => [a[3]*b[0]+a[0]*b[3]+a[1]*b[2]-a[2]*b[1],a[3]*b[1]-a[0]*b[2]+a[1]*b[3]+a[2]*b[0],a[3]*b[2]+a[0]*b[1]-a[1]*b[0]+a[2]*b[3],a[3]*b[3]-a[0]*b[0]-a[1]*b[1]-a[2]*b[2]];
   const qAxis = (axis,angle) => { const s=Math.sin(angle/2); return [axis[0]*s,axis[1]*s,axis[2]*s,Math.cos(angle/2)]; };
   const qRotate = (q,v) => { const p=qMultiply(qMultiply(q,[v[0],v[1],v[2],0]),[-q[0],-q[1],-q[2],q[3]]); return p.slice(0,3); };
-  const zoomDistance = (distance,factor) => clamp(distance*factor,18,40000);
+  const zoomDistance = (distance,factor,baseDistance=1000) => clamp(distance*factor,baseDistance/24,baseDistance/.25);
+  const anchorPan = (pan,center,anchor,oldDistance,newDistance,depth=0) => {
+    const ratio=(oldDistance-depth)/Math.max(8,newDistance-depth);
+    return [0,1].map(i=>anchor[i]-center[i]-(anchor[i]-center[i]-pan[i])*ratio);
+  };
+  const orbitTarget = (oldQ,newQ,target,pivot) => {
+    const relative=qRotate(oldQ,pivot.map((v,i)=>v-target[i]));
+    const offset=qRotate([-newQ[0],-newQ[1],-newQ[2],newQ[3]],relative);
+    return pivot.map((v,i)=>v-offset[i]);
+  };
   const fittedDistance = (points,q,target,focal,halfWidth,halfHeight) => {
     let needed=120;
     for (const p of points) {
@@ -15,7 +24,7 @@
     }
     return clamp(needed,120,40000);
   };
-  const math=Object.freeze({qNormalize,qMultiply,qAxis,qRotate,zoomDistance,fittedDistance});
+  const math=Object.freeze({qNormalize,qMultiply,qAxis,qRotate,zoomDistance,anchorPan,orbitTarget,fittedDistance});
   if (typeof module === "object" && module.exports) { module.exports=math; return; }
   root.SaberCameraMath=math;
   const $=id=>document.getElementById(id);
@@ -23,7 +32,7 @@
   const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
   const safeUrl=v=>{try{const u=new URL(v);return ["https:","http:"].includes(u.protocol)?u.href:null;}catch{return null;}};
   const initialQ=()=>qNormalize(qMultiply(qAxis([0,1,0],.6),qAxis([1,0,0],-.28)));
-  const state={topics:[],byId:new Map(),edges:[],next:new Map(),subjects:[],subjectLabels:{},active:new Set(),filtered:[],rendered:[],visibleIds:new Set(),selected:null,lineage:new Set(),nextIds:new Set(),query:"",grade:"all",system:"all",origin:"all",view:"graph",listLimit:60,lang:"pt-BR",locales:{},translations:{},autoTranslations:new Map(),autoReasons:new Map(),translators:new Map(),history:[],hover:null,loaded:false,missing:[],paused:matchMedia("(prefers-reduced-motion: reduce)").matches,camera:{q:initialQ(),distance:1400,baseDistance:1400,target:[0,0,0],pan:[0,0],focused:null},pointers:new Map(),gesture:null,lastFrame:0};
+  const state={topics:[],byId:new Map(),aliases:new Map(),layers:new Map(),enabledLayers:new Set(["base-br","base-marble"]),inferredEdgesEnabled:false,edges:[],next:new Map(),subjects:[],subjectLabels:{},active:new Set(),filtered:[],rendered:[],visibleIds:new Set(),selected:null,lineage:new Set(),nextIds:new Set(),query:"",grade:"all",system:"all",origin:"all",view:"graph",listLimit:60,lang:"pt-BR",locales:{},translations:{},autoTranslations:new Map(),autoReasons:new Map(),translators:new Map(),history:[],hover:null,loaded:false,missing:[],paused:matchMedia("(prefers-reduced-motion: reduce)").matches,camera:{q:initialQ(),distance:1400,baseDistance:1400,target:[0,0,0],pan:[0,0],focused:null},pointers:new Map(),gesture:null,lastFrame:0};
   const colors={portugues:"#f5d352",matematica:"#4b94eb",ciencias:"#68cda4",historia:"#e7c976",geografia:"#96dab3",arte:"#c5bf7e","educacao-fisica":"#1eab78",ingles:"#b0cef5","ensino-religioso":"#e6e4c7",computacao:"#677fe0","desenvolvimento-pessoal-social":"#86bda9","habilidades-para-vida":"#a9c89a","aprender-a-aprender":"#d8cc88",frances:"#91a8d1",japones:"#e9c889",chines:"#8fc5bd","estudos-sociais":"#7abdb4","educacao-moral":"#d2d58a","economia-domestica":"#a3bca7",tecnologia:"#709be0","trabalho-pratico":"#b9c384","estudos-integrados":"#97b3d4"};
   const canvas=$("graph"),ctx=canvas.getContext("2d",{alpha:false});
   let width=0,height=0,dpr=1,projected=[],renderOrder=[],raf=0;
@@ -64,11 +73,39 @@
     return Boolean(translationRecord(topic)?.[field])||languageCode(topic.language)===languageCode(state.lang);
   }
   const languageCode=code=>code==="pt-BR"?"pt":code==="zh-Hans"?"zh":code||"en";
+  function topicLayer(topic){
+    const explicit=topic.layer||topic.camada;
+    if(explicit)return explicit;
+    if(topic.origin.includes("BR"))return topic.kind==="microtopico"?"editorial-ia":"base-br";
+    if(topic.origin.includes("JP"))return "jp-editorial";
+    if(topic.origin.includes("CN"))return "cn-editorial";
+    return "base-marble";
+  }
+  const baseLayer=layer=>["base-br","base-marble"].includes(layer);
+  const layerEnabled=topic=>state.enabledLayers.has(topic.layer);
+  function layerName(layer){
+    const keys={"base-br":"layerBrazil","base-marble":"layerMarble","editorial-ia":"layerEditorial","jp-editorial":"layerJapanEditorial","cn-editorial":"layerChinaEditorial","jp-source":"layerJapanSource","cn-source":"layerChinaSource"};
+    return t(keys[layer]||"layerAdditional")+(keys[layer]?"":" · "+layer);
+  }
+  function buildLayers(){
+    $("layers").innerHTML=[...state.layers].map(([layer,count])=>'<label class="layer-option"><input type="checkbox" data-layer="'+esc(layer)+'" '+(state.enabledLayers.has(layer)?"checked ":"")+(baseLayer(layer)?"disabled ":"")+'><span>'+esc(layerName(layer))+'</span><small>'+number(count)+"</small></label>").join("");
+    const proposed=state.edges.filter(edge=>edge.status!=="upstream"&&edge.relation!=="parte-da-habilidade").length;
+    $("layers").insertAdjacentHTML("beforeend",'<label class="layer-option edge-option"><input type="checkbox" id="inferred-relations" '+(state.inferredEdgesEnabled?"checked ":"")+'><span>'+esc(t("inferredRelations"))+'</span><small>'+number(proposed)+"</small></label>");
+    const enabled=[...state.layers].filter(([layer])=>state.enabledLayers.has(layer)).reduce((n,[,count])=>n+count,0);
+    $("layer-summary").textContent=t("layerSummary",{base:number([...state.layers].filter(([layer])=>baseLayer(layer)).reduce((n,[,count])=>n+count,0)),enabled:number(enabled),total:number(state.topics.length)});
+  }
+  const edgeEnabled=edge=>edge.status==="upstream"||edge.relation==="parte-da-habilidade"||state.inferredEdgesEnabled;
+  function resolveTopic(value){
+    if(state.byId.has(value))return value;
+    if(state.aliases.has(value))return state.aliases.get(value);
+    return state.aliases.get(String(value).toUpperCase())||null;
+  }
   function yearLabel(system,year){
+    if(system==="BR"&&year==="EI")return t("earlyEducation");
     if(system==="US")return year===0?(state.lang==="ja"?"幼稚園 K":state.lang==="zh-Hant"?"幼稚園 K":"Kindergarten (K)"):(state.lang==="pt-BR"?"Grade "+year:state.lang==="ja"?year+"年生":state.lang==="zh-Hant"?year+" 年級":"Grade "+year);
     if(system==="GB-ENG")return state.lang==="pt-BR"?"Year "+year:state.lang==="ja"?"Year "+year:state.lang==="zh-Hant"?"Year "+year:"Year "+year;
-    if(system==="JP")return state.lang==="ja"?(year<=6?"小学"+year+"年":"中学"+(year-6)+"年"):state.lang==="zh-Hant"?(year<=6?"小學 "+year+" 年級":"中學 "+(year-6)+" 年級"):state.lang==="en"?(year<=6?"Elementary "+year:"Lower secondary "+(year-6)):(year<=6?year+"º ano primário":(year-6)+"º ano secundário");
-    if(system==="CN")return state.lang==="zh-Hant"?(year<=6?"小學 "+year+" 年級":"初中 "+(year-6)+" 年級"):state.lang==="ja"?(year<=6?"小学"+year+"年":"初中"+(year-6)+"年"):state.lang==="en"?(year<=6?"Primary "+year:"Junior secondary "+(year-6)):(year<=6?year+"º ano primário":(year-6)+"º ano secundário");
+    if(system==="JP")return (year<=6?"小"+year:"中"+(year-6))+" · "+(state.lang==="ja"?(year<=6?"小学"+year+"年":"中学"+(year-6)+"年"):state.lang==="zh-Hant"?(year<=6?"小學 "+year+" 年級":"中學 "+(year-6)+" 年級"):state.lang==="en"?(year<=6?"Elementary "+year:"Lower secondary "+(year-6)):(year<=6?year+"º ano primário":(year-6)+"º ano secundário"));
+    if(system==="CN")return year+"年级 · "+(state.lang==="zh-Hant"?(year<=6?"小學 "+year+" 年級":"初中 "+(year-6)+" 年級"):state.lang==="ja"?(year<=6?"小学"+year+"年":"初中"+(year-6)+"年"):state.lang==="en"?(year<=6?"Primary "+year:"Junior secondary "+(year-6)):(year<=6?year+"º ano primário":(year-6)+"º ano secundário"));
     return state.lang==="pt-BR"?year+"º ano":state.lang==="en"?"Year "+year:year+"年"+(state.lang==="zh-Hant"?"級":"生");
   }
   function formatPlacement(p){
@@ -90,7 +127,7 @@
     document.querySelectorAll("[data-i18n]").forEach(el=>el.textContent=t(el.dataset.i18n));
     document.querySelectorAll("[data-i18n-html]").forEach(el=>el.innerHTML=t(el.dataset.i18nHtml));
     $("search").placeholder=t("searchPlaceholder");$("search").setAttribute("aria-label",t("searchLabel"));
-    for(const [id,key] of Object.entries({"language":"language","school-system":"schoolSystem","grade":"grade","origin":"origin","graph-view":"graphView","list-view":"listView","detail-close":"closeConcept","about-close":"closeAbout","zoom-in":"zoomIn","zoom-out":"zoomOut","focus-topic":"focusTopic","fit-all":"fitAll","show-details":"showDetails","reset-camera":"resetCamera","roll-left":"rollLeft","roll-right":"rollRight"})){
+    for(const [id,key] of Object.entries({"language":"language","school-system":"schoolSystem","grade":"grade","origin":"origin","graph-view":"graphView","list-view":"listView","detail-close":"closeConcept","about-close":"closeAbout","zoom-in":"zoomIn","zoom-out":"zoomOut","focus-topic":"focusTopic","fit-all":"fitAll","fit-selection":"fitSelection","show-details":"showDetails","reset-camera":"resetCamera","roll-left":"rollLeft","roll-right":"rollRight"})){
       $(id).setAttribute("aria-label",t(key));$(id).title=t(key);
     }
     canvas.setAttribute("aria-label",t("graphAria"));
@@ -101,7 +138,7 @@
     document.querySelector('a[href="docs/Consenso_Taxonomias.md"]').textContent=t("consensusDoc")+" ↗";
     document.querySelector('a[href="docs/Curriculos_Japao_China.md"]').textContent=t("eastAsiaDoc")+" ↗";
     for(const option of $("origin").options)option.textContent=option.value==="all"?t("allOrigins"):option.value==="other"?t("otherOrigins"):option.value==="unmapped"?t("unmappedOrigin"):t(option.value);
-    updateGradeOptions();updateTotals();updateRotate();buildSubjects();updateVisibleContext();updateSearch();
+    updateGradeOptions();updateTotals();updateRotate();buildSubjects();buildLayers();updateVisibleContext();updateSearch();
     if(state.view==="list")renderList();
     if(state.selected)renderDetail();
     $("graph-status").textContent=state.missing.length?t("missingExtra"):t("localData");
@@ -109,7 +146,9 @@
     announce(t("results",{n:number(state.filtered.length)}));
   }
   function updateTotals(){
-    $("hero-description").innerHTML=t("heroDescription",{topics:'<span id="total-concepts">'+number(state.topics.length)+"</span>",links:'<span id="total-links">'+number(state.edges.length)+"</span>"});
+    const enabledTopics=state.topics.filter(layerEnabled),enabledIds=new Set(enabledTopics.map(topic=>topic.id));
+    const enabledEdges=state.edges.filter(edge=>edgeEnabled(edge)&&enabledIds.has(edge.from)&&enabledIds.has(edge.to));
+    $("hero-description").innerHTML=t("heroDescription",{topics:'<span id="total-concepts">'+number(enabledTopics.length)+"</span>",links:'<span id="total-links">'+number(enabledEdges.length)+"</span>"});
   }
   async function loadJson(path,required){
     try{const response=await fetch(path);if(!response.ok)throw new Error(String(response.status));return await response.json();}
@@ -128,29 +167,36 @@
       const datasets=[brazil,international,eastAsia].filter(Boolean);
       state.topics=datasets.flatMap(d=>d.topics||[]).map((raw,index)=>{
         const topic={...raw,id:String(raw.id),name:String(raw.name||raw.id),description:String(raw.description||""),domain:String(raw.domain||""),subject:String(raw.subject),origin:Array.isArray(raw.origin)?raw.origin:[],standards:Array.isArray(raw.standards)?raw.standards:[],prerequisites:Array.isArray(raw.prerequisites)?raw.prerequisites:[],index};
-        const allNames=Object.values(state.translations[topic.id]||{}).flatMap(r=>typeof r==="object"?[r.name,r.description,r.domain]:[r]);
-        topic.searchText=normalize([topic.name,topic.description,topic.domain,...allNames,...Object.values(topic.translatedNames||{}),...topic.standards.flatMap(s=>[s.code,s.sourceCodeLiteral])].join(" "));
+        topic.layer=topicLayer(topic);state.layers.set(topic.layer,(state.layers.get(topic.layer)||0)+1);
+        for(const alias of topic.legacyIds||[])state.aliases.set(alias,topic.id);
+        if(topic.layer==="base-br")for(const standard of topic.standards)if(standard.code)state.aliases.set(standard.code,topic.id);
+        const allNames=Object.values(state.translations[topic.id]||{}).flatMap(r=>typeof r==="object"?[r.name,r.description,r.domain,r.assessmentPrompt,r.question]:[r]);
+        topic.searchText=normalize([topic.name,topic.description,topic.domain,topic.parentCode,topic.originalText,...allNames,...Object.values(topic.translatedNames||{}),...topic.standards.flatMap(s=>[s.code,s.sourceCodeLiteral])].join(" "));
         topic.color=colors[topic.subject]||"#a7c6be";
         return topic;
       });
       state.byId=new Map(state.topics.map(topic=>[topic.id,topic]));
+      for(const d of datasets)for(const [alias,id] of Object.entries(d.aliases||{}))state.aliases.set(alias,id);
       for(const d of datasets)for(const s of d.subjects||[])if(s.id)state.subjectLabels[s.id]=s;
       const priority=["portugues","matematica","ciencias","historia","geografia","arte","educacao-fisica","ingles","ensino-religioso","computacao","japones","chines"];
       state.subjects=[...new Set(state.topics.map(topic=>topic.subject))].sort((a,b)=>(priority.indexOf(a)<0?99:priority.indexOf(a))-(priority.indexOf(b)<0?99:priority.indexOf(b))||a.localeCompare(b));
       state.active=new Set(state.subjects);
       for(const topic of state.topics)for(const pre of topic.prerequisites){
         if(!state.byId.has(pre.id)||pre.id===topic.id)continue;
-        const edge={from:pre.id,to:topic.id,reason:pre.reason||"",status:pre.status||"editorial",relation:pre.relation||"pre-requisito"};
+        const edge={from:pre.id,to:topic.id,reason:pre.reason||"",strength:pre.strength||"proposed",status:pre.status||"editorial",relation:pre.relation||"pre-requisito"};
         state.edges.push(edge);
         if(!state.next.has(pre.id))state.next.set(pre.id,[]);
-        state.next.get(pre.id).push({topic,reason:pre.reason||"",status:edge.status,relation:edge.relation});
+        state.next.get(pre.id).push({topic,reason:pre.reason||"",strength:edge.strength,status:edge.status,relation:edge.relation});
       }
       makePositions();state.loaded=true;applyLanguage();applyFilters(true);
-      const initialId=decodeURIComponent(location.hash.slice(1));if(state.byId.has(initialId))selectTopic(initialId);
+      const initialId=resolveTopic(decodeURIComponent(location.hash.slice(1)));if(initialId)selectTopic(initialId);
       if(!ctx)setView("list");
       Object.defineProperty(window,"__SABER_TEST__",{configurable:true,value:Object.freeze({
-        getSummary:()=>({topicCount:state.topics.length,edgeCount:state.edges.length,visibleCount:state.rendered.length,filteredCount:state.filtered.length,contextCount:state.rendered.length-state.filtered.length,selected:state.selected?.id||null,subjects:state.subjects.length,activeSubjects:state.active.size,view:state.view,paused:state.paused,language:state.lang,schoolSystem:state.system,grade:state.grade,zoom:state.camera.baseDistance/state.camera.distance,camera:cameraSnapshot()}),
+        getSummary:()=>({topicCount:state.topics.length,edgeCount:state.edges.length,activeEdgeCount:state.edges.filter(edge=>edgeEnabled(edge)&&layerEnabled(state.byId.get(edge.from))&&layerEnabled(state.byId.get(edge.to))).length,inferredEdgesEnabled:state.inferredEdgesEnabled,layers:Object.fromEntries(state.layers),layerCounts:Object.fromEntries(state.layers),enabledLayers:[...state.enabledLayers],visibleCount:state.rendered.length,filteredCount:state.filtered.length,contextCount:state.rendered.length-state.filtered.length,selected:state.selected?.id||null,subjects:state.subjects.length,activeSubjects:state.active.size,view:state.view,paused:state.paused,language:state.lang,schoolSystem:state.system,grade:state.grade,zoom:state.camera.baseDistance/state.camera.distance,camera:cameraSnapshot()}),
         getVisibleIds:()=>state.rendered.map(topic=>topic.id),getFilteredIds:()=>state.filtered.map(topic=>topic.id),
+        getProjectedTopic:id=>projectedTopic(id),
+        hitTest:(x,y)=>{const topic=pick(Number(x),Number(y));return topic?projectedTopic(topic.id):null;},
+        projectPoint:id=>{const topic=state.byId.get(resolveTopic(id));if(!topic)return null;const v=viewport(),c=state.camera,r=qRotate(c.q,[topic.x-c.target[0],topic.y-c.target[1],topic.z-c.target[2]]),den=c.distance-r[2];return {id:topic.id,x:v.x+c.pan[0]+r[0]*v.focal/den,y:v.y+c.pan[1]+r[1]*v.focal/den,depth:r[2],world:[topic.x,topic.y,topic.z],visible:den>8&&state.visibleIds.has(topic.id)};},
         getSelected:()=>state.selected?JSON.parse(JSON.stringify({id:state.selected.id,prerequisites:state.selected.prerequisites,placements:placements(state.selected)})):null
       })});
       announce(t("found",{n:number(state.topics.length)}));
@@ -171,21 +217,32 @@
   }
   function buildSubjects(){
     if(!state.loaded)return;
-    const counts=new Map();state.topics.forEach(topic=>counts.set(topic.subject,(counts.get(topic.subject)||0)+1));
-    $("subjects").innerHTML=state.subjects.map(id=>'<button class="subject-chip" data-subject="'+esc(id)+'" aria-pressed="'+state.active.has(id)+'" title="'+esc(subjectName(id))+'" style="--subject-color:'+(colors[id]||"#a7c6be")+'"><span class="dot" aria-hidden="true"></span><span class="subject-label">'+esc(subjectName(id))+'</span><span class="subject-count">'+number(counts.get(id))+"</span></button>").join("");
+    const counts=new Map();state.topics.filter(layerEnabled).forEach(topic=>counts.set(topic.subject,(counts.get(topic.subject)||0)+1));
+    $("subjects").innerHTML=state.subjects.map(id=>'<button class="subject-chip" data-subject="'+esc(id)+'" aria-pressed="'+state.active.has(id)+'" title="'+esc(subjectName(id))+'" style="--subject-color:'+(colors[id]||"#a7c6be")+'"><span class="dot" aria-hidden="true"></span><span class="subject-label">'+esc(subjectName(id))+'</span><span class="subject-count">'+number(counts.get(id)||0)+"</span></button>").join("");
   }
+  const gradeBands={KS1:[1,2],KS2:[3,4,5,6],KS3:[7,8,9],CN1:[1,2],CN2:[3,4],CN3:[5,6],CN4:[7,8,9]};
+  function selectedYears(){return gradeBands[state.grade]||(state.grade==="EI"?[]:[Number(state.grade)]);}
   function updateGradeOptions(){
-    const years=[...new Set(state.topics.flatMap(topic=>placements(topic).filter(p=>p.system===state.system).flatMap(p=>p.years||[])))].sort((a,b)=>a-b);
-    $("grade").innerHTML='<option value="all">'+esc(t("allGrades"))+"</option>"+years.map(year=>'<option value="'+year+'">'+esc(yearLabel(state.system,year))+"</option>").join("");
-    if(state.grade!=="all"&&!years.includes(Number(state.grade)))state.grade="all";
+    const years=state.system==="all"?[]:state.system==="US"?Array.from({length:9},(_,i)=>i):Array.from({length:9},(_,i)=>i+1);
+    const bands=state.system==="GB-ENG"?["KS1","KS2","KS3"]:state.system==="CN"?["CN1","CN2","CN3","CN4"]:[];
+    const early=state.system==="BR"?'<option value="EI">'+esc(t("earlyEducation"))+"</option>":"";
+    $("grade").innerHTML='<option value="all">'+esc(t("allGrades"))+"</option>"+early+years.map(year=>'<option value="'+year+'">'+esc(yearLabel(state.system,year))+"</option>").join("")+(bands.length?'<optgroup label="'+esc(t("stageShortcuts"))+'">'+bands.map(band=>'<option value="'+band+'">'+esc(t(band))+"</option>").join("")+"</optgroup>":"");
+    const valid=state.grade==="all"||years.map(String).includes(state.grade)||bands.includes(state.grade)||(state.system==="BR"&&state.grade==="EI");
+    if(!valid)state.grade="all";
     $("grade").value=state.grade;$("grade").disabled=state.system==="all";$("grade").title=state.system==="all"?t("chooseSystem"):t("systemNote");
+    updatePlacementNote();
+  }
+  function updatePlacementNote(){
+    const requiresLayer=["JP","CN"].includes(state.system)&&!state.topics.some(topic=>layerEnabled(topic)&&placements(topic).some(p=>p.system===state.system));
+    $("placement-note").textContent=state.grade==="EI"?t("earlyEducationMissing"):requiresLayer?t("enableCountryLayers"):t("systemNote");
   }
   function matchesFilters(topic){
+    if(!layerEnabled(topic))return false;
     if(!state.active.has(topic.subject))return false;
     if(state.system!=="all"){
       const ps=placements(topic).filter(p=>p.system===state.system);
       if(!ps.length)return false;
-      if(state.grade!=="all"&&!ps.some(p=>(p.years||[]).includes(Number(state.grade))))return false;
+      if(state.grade!=="all"&&!ps.some(p=>(p.years||[]).some(year=>selectedYears().includes(year))))return false;
     }
     if(state.origin==="unmapped"&&topic.origin.length)return false;
     if(state.origin==="other"&&!topic.origin.some(code=>!["BR","US","GB-ENG","JP","CN","AU","CA"].includes(code)))return false;
@@ -201,7 +258,7 @@
   function updateVisibleContext(){
     state.rendered=state.filtered.slice();state.visibleIds=new Set(state.filtered.map(topic=>topic.id));
     if(state.selected)for(const id of [state.selected.id,...state.lineage,...state.nextIds]){
-      if(state.visibleIds.has(id))continue;const topic=state.byId.get(id);if(topic){state.rendered.push(topic);state.visibleIds.add(id);}
+      if(state.visibleIds.has(id))continue;const topic=state.byId.get(id);if(topic&&layerEnabled(topic)){state.rendered.push(topic);state.visibleIds.add(id);}
     }
     $("visible-count").textContent=t("visible",{n:number(state.filtered.length)})+(state.rendered.length>state.filtered.length?t("context",{n:number(state.rendered.length-state.filtered.length)}):"");
     $("empty").hidden=state.rendered.length>0;
@@ -209,8 +266,8 @@
     scheduleFrame();
   }
   function clearFilters(){
-    clearSelection(false);state.query="";state.grade="all";state.system="all";state.origin="all";state.active=new Set(state.subjects);
-    $("search").value="";$("school-system").value="all";$("origin").value="all";updateGradeOptions();buildSubjects();applyFilters(true);announce(t("filterCleared"));
+    clearSelection(false);state.query="";state.grade="all";state.system="all";state.origin="all";state.active=new Set(state.subjects);state.enabledLayers=new Set(["base-br","base-marble"]);state.inferredEdgesEnabled=false;
+    $("search").value="";$("school-system").value="all";$("origin").value="all";updateGradeOptions();buildSubjects();buildLayers();updateTotals();applyFilters(true);announce(t("filterCleared"));
   }
   function updateSearch(){
     if(!state.query||state.view==="list"){$("search-results").hidden=true;return;}
@@ -230,15 +287,19 @@
   }
   function getAncestors(topic){
     const found=new Set(),pending=[topic];
-    while(pending.length){const current=pending.pop();for(const pre of current.prerequisites){if(found.has(pre.id)||pre.id===topic.id)continue;const p=state.byId.get(pre.id);if(p){found.add(pre.id);pending.push(p);}}}
+    while(pending.length){const current=pending.pop();for(const pre of current.prerequisites){if(!edgeEnabled(pre)||!layerEnabled(state.byId.get(pre.id)||{}))continue;if(found.has(pre.id)||pre.id===topic.id)continue;const p=state.byId.get(pre.id);if(p){found.add(pre.id);pending.push(p);}}}
     return found;
   }
   function selectTopic(id,remember=true){
-    const topic=state.byId.get(id);if(!topic)return;
+    id=resolveTopic(id);const topic=state.byId.get(id);if(!topic)return;
+    document.querySelector(".layer-controls").open=false;
+    if(!layerEnabled(topic)){state.enabledLayers.add(topic.layer);buildLayers();buildSubjects();updateTotals();updatePlacementNote();state.filtered=state.topics.filter(matchesFilters);}
     if(remember&&state.selected&&state.selected.id!==id)state.history.push(state.selected.id);
-    state.selected=topic;state.lineage=getAncestors(topic);state.nextIds=new Set((state.next.get(id)||[]).map(x=>x.topic.id));
+    state.selected=topic;state.lineage=getAncestors(topic);state.nextIds=new Set((state.next.get(id)||[]).filter(edgeEnabled).map(x=>x.topic.id));
+    state.camera.pivot=[topic.x,topic.y,topic.z];
     updateVisibleContext();state.hover=null;$("tooltip").hidden=true;$("search-results").hidden=true;renderDetail();$("detail").hidden=false;
-    try{history.replaceState(null,"",location.pathname+location.search+"#"+encodeURIComponent(id));}catch{}
+    const publicId=topic.layer==="base-br"?topic.standards.find(s=>s.code)?.code||id:id;
+    try{history.replaceState(null,"",location.pathname+location.search+"#"+encodeURIComponent(publicId));}catch{}
     announce(topicText(topic,"name"));scheduleFrame();
   }
   function dependencyHtml(items,isNext=false,composition=false){
@@ -246,32 +307,43 @@
     return items.map(item=>{
       const topic=isNext?item.topic:state.byId.get(item.id);if(!topic)return "";
       const reason=state.autoReasons.get(state.lang+"|"+state.selected.id+"|"+topic.id)||item.reason||"";
-      return '<button class="dependency-item" data-topic="'+esc(topic.id)+'"><span aria-hidden="true">'+(composition?"◇":isNext?"↗":"↙")+"</span><span><strong>"+esc(topicText(topic,"name"))+"</strong><small>"+esc(reason)+"</small></span></button>";
+      const strength=typeof item.strength==="number"?number(item.strength):state.locales[state.lang]?.["strength_"+item.strength]||item.strength;
+      const force=item.strength?" · "+t("relationStrength")+": "+strength:"";
+      return '<button class="dependency-item" data-topic="'+esc(topic.id)+'"><span aria-hidden="true">'+(composition?"◇":isNext?"↗":"↙")+"</span><span><strong>"+esc(topicText(topic,"name"))+"</strong><small>"+esc(reason+force)+"</small></span></button>";
     }).join("");
   }
   function detailSection(title,items,isNext=false,composition=false){return '<div class="detail-section"><h3>'+esc(t(title))+" <span>"+number(items.length)+"</span></h3>"+dependencyHtml(items,isNext,composition)+"</div>";}
   function renderDetail(){
     const topic=state.selected;if(!topic)return;
-    const incoming=topic.prerequisites.filter(p=>state.byId.has(p.id)),parts=incoming.filter(p=>p.relation==="parte-da-habilidade"),pres=incoming.filter(p=>p.relation!=="parte-da-habilidade");
-    const outgoing=state.next.get(topic.id)||[],next=outgoing.filter(p=>p.relation!=="parte-da-habilidade"),related=outgoing.filter(p=>p.relation==="parte-da-habilidade");
+    const incoming=topic.prerequisites.filter(p=>edgeEnabled(p)&&state.byId.has(p.id)&&layerEnabled(state.byId.get(p.id))),parts=incoming.filter(p=>p.relation==="parte-da-habilidade"),pres=incoming.filter(p=>p.relation!=="parte-da-habilidade");
+    const outgoing=(state.next.get(topic.id)||[]).filter(p=>edgeEnabled(p)&&layerEnabled(p.topic)),next=outgoing.filter(p=>p.relation!=="parte-da-habilidade"),related=outgoing.filter(p=>p.relation==="parte-da-habilidade");
     const parent=state.byId.get(topic.parentId),record=translationRecord(topic);
     if(parent&&!related.some(p=>p.topic.id===parent.id))related.push({topic:parent,relation:"parte-da-habilidade",reason:""});
     const name=topicText(topic,"name"),desc=topicText(topic,"description"),domain=topicText(topic,"domain");
-    const kind=t(topic.kind==="habilidade"?"curricularSkill":topic.kind==="microtopico"?"microtopic":"taxonomyConcept");
-    const status=topic.origin.includes("BR")?(topic.alignmentStatus==="verified"?t("referenceVerified"):t("referenceProposed")):t("noBncc");
+    const editorial=["editorial-ia","jp-editorial","cn-editorial"].includes(topic.layer);
+    const kind=t(topic.recordType==="curriculum-source-unit"?"officialUnit":topic.kind==="habilidade"?"curricularSkill":topic.kind==="microtopico"?"microtopic":"taxonomyConcept");
+    const status=editorial?t("editorialWarning"):topic.sourceLiteral?t("literalSource"):topic.origin.includes("BR")?(topic.alignmentStatus==="verified"?t("referenceVerified"):t("referenceProposed")):t("noBncc");
     const translationMissing=!hasTranslation(topic);
-    const languageNote=record?'<p class="translation-note">'+esc(t(record._automatic?"automaticTranslation":"editorialTranslation"))+"</p>":"";
+    const translatedRecord=record&&record.reviewState!=="upstream-original",intrinsicAutomatic=topic.translationStatus==="automatic-ai"&&languageCode(topic.language)===languageCode(state.lang);
+    const languageNote=translatedRecord||intrinsicAutomatic?'<p class="translation-note">'+esc(t(intrinsicAutomatic||record?._automatic||record?.translationMode==="automatic-ia"?"automaticTranslation":"editorialTranslation"))+"</p>":"";
     const missingNote=translationMissing?'<p class="translation-note">'+esc(t("translationPending"))+" "+esc(t("sourceText",{language:nativeLanguage(topic.language||"en")}))+'</p><button id="translate-native" class="small-button">'+esc(t("translateConcept"))+'</button><p id="translate-status" class="muted" role="status"></p>':"";
     const sourceNotes=[topic.sourceFormattingNote,...topic.standards.flatMap(s=>[s.normalizationNote,s.sourceCodeLiteral&&s.sourceCodeLiteral!==s.code?s.sourceCodeLiteral+" → "+s.code:""])].filter(Boolean);
     const notes=sourceNotes.length?'<p class="source-note">'+sourceNotes.map(esc).join("<br>")+"</p>":"";
-    const sourceHtml=topic.standards.length?topic.standards.map(s=>{
+    const references=topic.standards.length?topic.standards:topic.parentStandards||[];
+    const sourceHtml=references.length?references.map(s=>{
       const url=safeUrl(s.url);const code=s.sourceCodeLiteral||s.code||s.sourceSection||s.framework||"";
       return '<div class="standard">'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+esc(code)+" ↗</a>":"<code>"+esc(code)+"</code>")+"<p>"+esc(s.framework||"")+" · "+esc(t(s.verified?"officialSource":"sourceAlignment"))+"</p>"+(s.description?"<p lang=\""+esc(s.originalLanguage||topic.language||"en")+"\">"+esc(s.description)+"</p>":"")+"</div>";
     }).join(""):'<p class="muted">'+esc(t("noReference"))+"</p>";
-    $("detail-content").innerHTML='<p class="detail-subject" style="--subject-color:'+topic.color+'">'+esc(subjectName(topic.subject))+(domain?" · "+esc(domain):"")+'</p><h2 id="detail-title">'+esc(name)+'</h2><p class="detail-description">'+esc(desc)+'</p><div class="badges"><span class="badge">'+esc(kind)+'</span><span class="badge br">'+esc(topicOrigin(topic))+'</span><span class="badge">'+esc(status)+'</span></div><p class="placement-detail">'+esc(fmtGrade(topic))+"</p>"+languageNote+missingNote+notes+(parent?'<p class="muted">'+esc(t("partOf",{code:parent.standards[0]?.sourceCodeLiteral||parent.standards[0]?.code||topicText(parent,"name")}))+"</p>":"")+(parts.length?detailSection("parts",parts,false,true)+'<p class="muted">'+esc(t("partsNote"))+"</p>":"")+detailSection(topic.origin.includes("BR")||topic.origin.includes("JP")||topic.origin.includes("CN")?"proposedPrerequisites":"sourcePrerequisites",pres)+detailSection("next",next,true)+(related.length?detailSection("relatedSkills",related,true,true):"")+'<div class="detail-section"><h3>'+esc(t("references"))+" <span>"+number(topic.standards.length)+"</span></h3>"+sourceHtml+'</div><p class="editorial-note">'+esc(t("relatedCount",{n:number(new Set([...state.lineage,...state.nextIds]).size)}))+"</p>";
+    const question=topicText(topic,"assessmentPrompt")||topicText(topic,"question");
+    const questionHtml=question?'<section class="detail-section assessment-question"><h3>'+esc(t("assessmentQuestion"))+'</h3><p>'+esc(question)+'</p></section>':"";
+    const originalHtml=topic.layer==="base-marble"?'<section class="detail-section original-text" lang="en"><h3>'+esc(t("originalEnglish"))+'</h3><strong>'+esc(topic.originalName||topic.name)+'</strong><p>'+esc(topic.originalDescription||topic.description)+'</p><p>'+esc(topic.originalAssessmentPrompt||topic.assessmentPrompt||topic.question||"")+'</p></section>':"";
+    const literal=topic.sourceLiteral;
+    const literalHtml=literal?'<section class="detail-section original-text" lang="'+esc(literal.language||topic.originalLanguage||topic.language)+'"><h3>'+esc(t("literalSource"))+'</h3><p>'+esc(literal.text||topic.originalText)+'</p><small>'+esc(t(literal.codeKind==="local"?"localCode":"sourceCode"))+": "+esc(topic.standards[0]?.code||topic.id)+"</small></section>":"";
+    const layerNote=editorial?'<p class="source-note editorial-warning">'+esc(t("editorialWarning"))+"</p>":"";
+    $("detail-content").innerHTML='<p class="detail-subject" style="--subject-color:'+topic.color+'">'+esc(subjectName(topic.subject))+(domain?" · "+esc(domain):"")+'</p><h2 id="detail-title">'+esc(name)+'</h2><p class="detail-description">'+esc(desc)+'</p><div class="badges"><span class="badge">'+esc(kind)+'</span><span class="badge br">'+esc(topicOrigin(topic))+'</span><span class="badge">'+esc(layerName(topic.layer))+'</span><span class="badge">'+esc(status)+'</span></div><p class="placement-detail">'+esc(fmtGrade(topic))+"</p>"+languageNote+missingNote+layerNote+notes+questionHtml+originalHtml+literalHtml+(parent?'<p class="muted">'+esc(t("partOf",{code:parent.standards[0]?.sourceCodeLiteral||parent.standards[0]?.code||topicText(parent,"name")}))+"</p>":"")+(parts.length?detailSection("parts",parts,false,true)+'<p class="muted">'+esc(t("partsNote"))+"</p>":"")+detailSection(topic.origin.includes("BR")||topic.origin.includes("JP")||topic.origin.includes("CN")?"proposedPrerequisites":"sourcePrerequisites",pres)+detailSection("next",next,true)+(related.length?detailSection("relatedSkills",related,true,true):"")+'<div class="detail-section"><h3>'+esc(t(topic.standards.length?"references":"parentReferences"))+" <span>"+number(references.length)+"</span></h3>"+sourceHtml+'</div><p class="editorial-note">'+esc(t("relatedCount",{n:number(new Set([...state.lineage,...state.nextIds]).size)}))+"</p>";
   }
   function clearSelection(update=true){
-    state.selected=null;state.lineage.clear();state.nextIds.clear();state.history=[];state.camera.focused=null;$("detail").hidden=true;
+    state.selected=null;state.lineage.clear();state.nextIds.clear();state.history=[];state.camera.focused=null;state.camera.pivot=null;$("detail").hidden=true;
     try{history.replaceState(null,"",location.pathname+location.search);}catch{}
     if(update)updateVisibleContext();
   }
@@ -290,31 +362,35 @@
     const controls=document.querySelector(".explore-controls");$("app").style.setProperty("--controls-bottom",controls.offsetTop+controls.offsetHeight+18+"px");
     scheduleFrame();
   }
-  function cameraSnapshot(){return {quaternion:state.camera.q.map(n=>Number(n.toFixed(6))),distance:Number(state.camera.distance.toFixed(3)),target:state.camera.target.map(n=>Number(n.toFixed(3))),pan:state.camera.pan.map(n=>Number(n.toFixed(3))),focused:state.camera.focused};}
+  function projectedTopic(id){const topic=state.byId.get(resolveTopic(id));if(!topic)return null;const v=viewport(),c=state.camera,r=qRotate(c.q,[topic.x-c.target[0],topic.y-c.target[1],topic.z-c.target[2]]),den=c.distance-r[2];return {id:topic.id,x:v.x+c.pan[0]+r[0]*v.focal/den,y:v.y+c.pan[1]+r[1]*v.focal/den,depth:r[2],world:[topic.x,topic.y,topic.z],visible:den>8&&state.visibleIds.has(topic.id)};}
+  function cameraSnapshot(){return {quaternion:state.camera.q.map(n=>Number(n.toFixed(6))),distance:Number(state.camera.distance.toFixed(3)),baseDistance:Number(state.camera.baseDistance.toFixed(3)),zoom:Number((state.camera.baseDistance/state.camera.distance).toFixed(6)),zoomLimits:[.25,24],target:state.camera.target.map(n=>Number(n.toFixed(3))),pivot:(state.camera.pivot||state.camera.target).map(n=>Number(n.toFixed(3))),pan:state.camera.pan.map(n=>Number(n.toFixed(3))),focused:state.camera.focused};}
   function updateCameraUI(){
     const zoom=Math.round(state.camera.baseDistance/state.camera.distance*100);$("zoom-level").textContent=zoom+"%";canvas.dataset.zoom=String(zoom);canvas.dataset.camera=JSON.stringify(cameraSnapshot());
   }
-  function rotate(dx,dy,roll=0){
+  function rotate(dx,dy,roll=0,schedule=true){
     const delta=qMultiply(qMultiply(qAxis([0,0,1],roll),qAxis([0,1,0],dx)),qAxis([1,0,0],dy));
-    state.camera.q=qNormalize(qMultiply(delta,state.camera.q));scheduleFrame();
+    const previous=state.camera.q,next=qNormalize(qMultiply(delta,previous));
+    if(state.camera.pivot)state.camera.target=orbitTarget(previous,next,state.camera.target,state.camera.pivot);
+    state.camera.q=next;if(schedule)scheduleFrame();
   }
-  function fitGraph(speak=true){
-    const pts=state.rendered;if(!pts.length){state.camera.target=[0,0,0];state.camera.distance=1400;}
+  function fitGraph(speak=true,selectionOnly=false){
+    const pts=selectionOnly?state.filtered:state.topics.filter(layerEnabled);if(!pts.length){state.camera.target=[0,0,0];state.camera.distance=1400;}
     else{
       const bounds=[["x",0],["y",1],["z",2]].map(([key])=>[Math.min(...pts.map(p=>p[key])),Math.max(...pts.map(p=>p[key]))]);
       state.camera.target=bounds.map(([min,max])=>(min+max)/2);
       const v=viewport();state.camera.distance=fittedDistance(pts,state.camera.q,state.camera.target,v.focal,v.halfW,v.halfH);
     }
-    state.camera.baseDistance=state.camera.distance;state.camera.pan=[0,0];state.camera.focused=null;updateCameraUI();scheduleFrame();if(speak)announce(t("fitted"));
+    state.camera.baseDistance=state.camera.distance;state.camera.pan=[0,0];state.camera.focused=null;state.camera.pivot=null;updateCameraUI();scheduleFrame();if(speak)announce(t(selectionOnly?"selectionFitted":"fitted"));
   }
   function focusTopic(){
     if(!state.selected)return;
-    state.camera.target=[state.selected.x,state.selected.y,state.selected.z];state.camera.pan=[0,0];state.camera.distance=180;state.camera.focused=state.selected.id;
+    state.camera.target=[state.selected.x,state.selected.y,state.selected.z];state.camera.pivot=state.camera.target.slice();state.camera.pan=[0,0];state.camera.distance=zoomDistance(state.camera.distance,180/state.camera.distance,state.camera.baseDistance);state.camera.focused=state.selected.id;
     state.paused=true;updateRotate();setView("graph");$("detail").hidden=true;updateCameraUI();scheduleFrame();canvas.focus({preventScroll:true});announce(t("focused"));
   }
-  function setZoom(factor,focusIfSelected=false){
-    if(focusIfSelected&&state.selected&&state.camera.focused!==state.selected.id)focusTopic();
-    state.camera.distance=zoomDistance(state.camera.distance,factor);updateCameraUI();scheduleFrame();
+  function setZoom(factor,anchor=null,depth=0){
+    const previous=state.camera.distance,next=zoomDistance(previous,factor,state.camera.baseDistance);
+    if(anchor){const v=viewport();state.camera.pan=anchorPan(state.camera.pan,[v.x,v.y],[anchor.x,anchor.y],previous,next,depth);}
+    state.camera.distance=next;updateCameraUI();scheduleFrame();
   }
   function resetCamera(){state.camera.q=initialQ();fitGraph();}
   function project(){
@@ -328,11 +404,11 @@
   }
   function draw(time){
     raf=0;const elapsed=Math.min(50,time-(state.lastFrame||time));state.lastFrame=time;
-    if(!state.paused&&!state.pointers.size&&!document.hidden&&state.view==="graph")state.camera.q=qNormalize(qMultiply(qAxis([0,1,0],elapsed*.000105),state.camera.q));
+    if(!state.paused&&!state.pointers.size&&!document.hidden&&state.view==="graph")rotate(elapsed*.000105,0,0,false);
     ctx.fillStyle="#080e13";ctx.fillRect(0,0,width,height);project();
     const selected=state.selected,relevant=id=>selected&&(id===selected.id||state.lineage.has(id)||state.nextIds.has(id));
     for(const edge of state.edges){
-      if(!state.visibleIds.has(edge.from)||!state.visibleIds.has(edge.to))continue;
+      if(!edgeEnabled(edge)||!state.visibleIds.has(edge.from)||!state.visibleIds.has(edge.to))continue;
       const a=projected[state.byId.get(edge.from).index],b=projected[state.byId.get(edge.to).index];if(!a||!b)continue;
       const highlight=selected&&relevant(edge.from)&&relevant(edge.to);
       ctx.setLineDash(edge.relation==="parte-da-habilidade"?[2,3]:[]);
@@ -378,7 +454,7 @@
       const dx=p.x-previous.x,dy=p.y-previous.y;previous.x=p.x;previous.y=p.y;previous.moved=previous.moved||Math.hypot(p.x-previous.startX,p.y-previous.startY)>4;
       if(state.pointers.size>=2){
         const next=gestureSnapshot(),old=state.gesture;
-        if(old&&next){state.camera.pan[0]+=next.x-old.x;state.camera.pan[1]+=next.y-old.y;if(next.distance>5&&old.distance>5)state.camera.distance=zoomDistance(state.camera.distance,old.distance/next.distance);let roll=next.angle-old.angle;if(roll>Math.PI)roll-=Math.PI*2;if(roll<-Math.PI)roll+=Math.PI*2;rotate(0,0,roll);}
+        if(old&&next){if(next.distance>5&&old.distance>5)setZoom(old.distance/next.distance,old);state.camera.pan[0]+=next.x-old.x;state.camera.pan[1]+=next.y-old.y;let roll=next.angle-old.angle;if(roll>Math.PI)roll-=Math.PI*2;if(roll<-Math.PI)roll+=Math.PI*2;rotate(0,0,roll);}
         state.gesture=next;
       }else if(previous.pan||e.shiftKey){state.camera.pan[0]+=dx;state.camera.pan[1]+=dy;}
       else if(previous.roll||e.altKey)rotate(0,0,dx*.006);
@@ -396,7 +472,8 @@
   }
   canvas.addEventListener("pointerup",pointerEnd);canvas.addEventListener("pointercancel",pointerEnd);canvas.addEventListener("lostpointercapture",e=>{state.pointers.delete(e.pointerId);state.gesture=gestureSnapshot();});
   canvas.addEventListener("pointerleave",()=>{if(!state.pointers.size){state.hover=null;$("tooltip").hidden=true;scheduleFrame();}});
-  canvas.addEventListener("wheel",e=>{e.preventDefault();const unit=e.deltaMode===1?16:e.deltaMode===2?height:1;setZoom(Math.exp(clamp(e.deltaY*unit,-500,500)*.0015));},{passive:false});
+  canvas.addEventListener("wheel",e=>{e.preventDefault();const p=pointerPosition(e),point=pick(p.x,p.y),depth=point?projected[point.index]?.depth||0:0;const unit=e.deltaMode===1?16:e.deltaMode===2?height:1;setZoom(Math.exp(clamp(e.deltaY*unit,-500,500)*.0015),p,depth);},{passive:false});
+  canvas.addEventListener("dblclick",e=>{e.preventDefault();const p=pointerPosition(e),topic=pick(p.x,p.y);if(topic){selectTopic(topic.id);focusTopic();}else setZoom(.5,p);});
   canvas.addEventListener("keydown",e=>{
     const keys=["ArrowLeft","ArrowRight","ArrowUp","ArrowDown","+","=","-","_","Home","q","Q","e","E"];
     if(!keys.includes(e.key))return;e.preventDefault();
@@ -406,20 +483,21 @@
     const dx=e.key==="ArrowLeft"?-.12:e.key==="ArrowRight"?.12:0,dy=e.key==="ArrowUp"?-.12:e.key==="ArrowDown"?.12:0;
     if(e.shiftKey){state.camera.pan[0]+=dx*200;state.camera.pan[1]+=dy*200;}else rotate(dx,dy);updateCameraUI();scheduleFrame();
   });
-  $("zoom-in").addEventListener("click",()=>setZoom(.8,true));$("zoom-out").addEventListener("click",()=>setZoom(1.25));
+  $("zoom-in").addEventListener("click",()=>setZoom(.8));$("zoom-out").addEventListener("click",()=>setZoom(1.25));
   $("roll-left").addEventListener("click",()=>rotate(0,0,-.16));$("roll-right").addEventListener("click",()=>rotate(0,0,.16));
   $("focus-topic").addEventListener("click",focusTopic);$("detail-focus").addEventListener("click",focusTopic);
   $("show-details").addEventListener("click",()=>{if(state.selected){renderDetail();$("detail").hidden=false;}});
-  $("fit-all").addEventListener("click",()=>fitGraph());$("reset-camera").addEventListener("click",resetCamera);
+  $("fit-all").addEventListener("click",()=>fitGraph());$("fit-selection").addEventListener("click",()=>fitGraph(true,true));$("reset-camera").addEventListener("click",resetCamera);
   $("rotate").addEventListener("click",()=>{state.paused=!state.paused;updateRotate();scheduleFrame();});
   $("subjects").addEventListener("click",e=>{const button=e.target.closest("[data-subject]");if(!button)return;const id=button.dataset.subject;state.active.has(id)?state.active.delete(id):state.active.add(id);button.setAttribute("aria-pressed",String(state.active.has(id)));applyFilters(true);});
   $("subjects-reset").addEventListener("click",()=>{state.active=new Set(state.subjects);buildSubjects();applyFilters(true);});
   $("subjects-none").addEventListener("click",()=>{clearSelection(false);state.active.clear();buildSubjects();applyFilters();announce(t("subjectsCleared"));});
+  $("layers").addEventListener("change",e=>{if(e.target.id==="inferred-relations"){state.inferredEdgesEnabled=e.target.checked;if(state.selected){state.lineage=getAncestors(state.selected);state.nextIds=new Set((state.next.get(state.selected.id)||[]).filter(edgeEnabled).map(row=>row.topic.id));renderDetail();}updateTotals();applyFilters();return;}const layer=e.target.dataset.layer;if(!layer||baseLayer(layer))return;e.target.checked?state.enabledLayers.add(layer):state.enabledLayers.delete(layer);buildLayers();buildSubjects();updateTotals();updatePlacementNote();applyFilters(true);});
   $("clear-filters").addEventListener("click",clearFilters);$("empty-reset").addEventListener("click",clearFilters);
   $("search").addEventListener("input",e=>{state.query=normalize(e.target.value.trim());applyFilters();});
   $("search").addEventListener("keydown",e=>{if(e.key==="ArrowDown"){const first=$("search-results").querySelector("button");if(first){e.preventDefault();first.focus();}}if(e.key==="Enter"&&state.filtered.length)selectTopic(state.filtered[0].id);});
   $("school-system").addEventListener("change",e=>{state.system=e.target.value;state.grade="all";updateGradeOptions();applyFilters(true);});
-  $("grade").addEventListener("change",e=>{state.grade=e.target.value;applyFilters(true);});
+  $("grade").addEventListener("change",e=>{state.grade=e.target.value;updatePlacementNote();applyFilters(true);});
   $("origin").addEventListener("change",e=>{state.origin=e.target.value;applyFilters(true);});
   $("language").addEventListener("change",e=>{state.lang=e.target.value;applyLanguage();try{const u=new URL(location.href);u.searchParams.set("lang",state.lang);history.replaceState(null,"",u.href);}catch{}});
   $("list-view").addEventListener("click",()=>setView("list"));$("graph-view").addEventListener("click",()=>setView("graph"));
@@ -435,8 +513,9 @@
   document.addEventListener("click",e=>{if(!e.target.closest(".explore-controls"))$("search-results").hidden=true;});
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("about").open){if(!$("detail").hidden)clearSelection();else $("search-results").hidden=true;}if(e.key==="/"&&!/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)){e.preventDefault();$("search").focus();}});
   document.addEventListener("visibilitychange",()=>{state.lastFrame=0;if(!document.hidden)scheduleFrame();});
+  document.querySelector(".layer-controls").addEventListener("toggle",()=>{resize();scheduleFrame();});
   window.addEventListener("resize",()=>{resize();if(state.loaded)fitGraph(false);});
-  window.addEventListener("hashchange",()=>{const id=decodeURIComponent(location.hash.slice(1));if(state.byId.has(id))selectTopic(id);});
+  window.addEventListener("hashchange",()=>{const id=resolveTopic(decodeURIComponent(location.hash.slice(1)));if(id)selectTopic(id);});
   async function translatorFor(source,target,status){
     source=languageCode(source);target=languageCode(target);if(source===target)return {translate:async text=>text};
     if(!("Translator" in root))throw new Error("unavailable");
@@ -456,7 +535,7 @@
     button.disabled=true;status.textContent=t("translationWorking");
     try{
       const jobs=[],main={_automatic:true};
-      for(const field of ["name","description","domain"])if(topic[field])jobs.push({source:topic.language||"en",text:topic[field],save:value=>main[field]=value});
+      for(const field of ["name","description","domain","assessmentPrompt"])if(topic[field])jobs.push({source:topic.language||"en",text:topic[field],save:value=>main[field]=value});
       const incoming=topic.prerequisites.filter(p=>state.byId.has(p.id)).slice(0,10),outgoing=(state.next.get(topic.id)||[]).slice(0,10);
       for(const related of [...incoming.map(p=>({topic:state.byId.get(p.id),reason:p.reason})),...outgoing]){
         if(jobs.length>=30)break;
@@ -468,9 +547,9 @@
       if(state.lang===lang){if(state.selected?.id===topic.id)renderDetail();updateSearch();if(state.view==="list")renderList();}
     }catch(error){console.info("Local translation unavailable:",error);if(status.isConnected)status.textContent=t("translationUnavailable");if(button.isConnected)button.disabled=false;}
   }
-  function cleanExportTopic(topic){const {searchText,color,index,x,y,z,radius,...data}=topic;return {...data,localized:{language:state.lang,name:topicText(topic,"name"),description:topicText(topic,"description"),domain:topicText(topic,"domain")}};}
+  function cleanExportTopic(topic){const {searchText,color,index,x,y,z,radius,...data}=topic;return {...data,localized:{language:state.lang,name:topicText(topic,"name"),description:topicText(topic,"description"),domain:topicText(topic,"domain"),assessmentPrompt:topicText(topic,"assessmentPrompt")}};}
   function download(content,type,name){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),link=document.createElement("a");link.href=url;link.download=name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(t("exportPrepared",{n:number(state.filtered.length)}));}
-  $("export-json").addEventListener("click",()=>download(JSON.stringify({metadata:{lang:state.lang,author:"Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",keywords:"Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",manager:"Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",title:t("listTitle"),subject:t("listEyebrow"),databaseLicense:"ODbL-1.0",contentLicense:"CC-BY-SA-4.0",attribution:"Marble Skill Taxonomy (v1) · Generative Spark, Inc. (Marble) · https://withmarble.com",filters:{search:$("search").value,system:state.system,grade:state.grade,origin:state.origin,subjects:[...state.active]},relationNote:"relation:parte-da-habilidade represents composition, not a prerequisite.",exportedAt:new Date().toISOString()},topics:state.filtered.map(cleanExportTopic)},null,2),"application/json;charset=utf-8","Saber_Brasil_Conceitos.json"));
+  $("export-json").addEventListener("click",()=>download(JSON.stringify({metadata:{lang:state.lang,author:"Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",keywords:"Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",manager:"Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",title:t("listTitle"),subject:t("listEyebrow"),databaseLicense:"ODbL-1.0",contentLicense:"CC-BY-SA-4.0",attribution:"Marble Skill Taxonomy (v1) · Generative Spark, Inc. (Marble) · https://withmarble.com",filters:{search:$("search").value,system:state.system,grade:state.grade,origin:state.origin,subjects:[...state.active],layers:[...state.enabledLayers],inferredRelations:state.inferredEdgesEnabled},relationNote:"relation:parte-da-habilidade represents composition, not a prerequisite.",exportedAt:new Date().toISOString()},topics:state.filtered.map(cleanExportTopic)},null,2),"application/json;charset=utf-8","Saber_Brasil_Conceitos.json"));
   $("export-csv").addEventListener("click",()=>{
     const cell=value=>{let text=String(value??"");if(/^\s*[=+@-]/.test(text))text="'"+text;return '"'+text.replaceAll('"','""')+'"';};
     const rows=[["id","name","description","subject","school_placements","origin","codes","connections","connection_types","database_license","content_license","attribution","language"]];

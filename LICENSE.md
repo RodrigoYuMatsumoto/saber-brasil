@@ -14,6 +14,7 @@ subject: Código, base de dados, conteúdo derivado e fontes curriculares
 | Código novo da aplicação e dos scripts | MIT, conforme [o texto da licença](licenses/Licenca_do_Codigo.md). |
 | Base de dados derivada da Marble | ODbL 1.0, conforme [a licença da base](licenses/marble/LICENSE). |
 | Conteúdo textual derivado e curadoria distribuída sob compartilhamento | CC BY-SA 4.0, conforme [a licença do conteúdo](licenses/marble/LICENSE-CONTENT). |
+| Compilação de referência bncc-dados | Dados sob CC BY 4.0, com atribuição à Profy Tecnologias Educacionais Ltda; código MIT, conforme cópias e proveniência em data/reference_bncc. As fontes normativas são MEC/CNE. |
 | Referências e padrões de terceiros | Condições próprias de cada fonte, preservadas nos manifestos e na [proveniência original](licenses/marble/PROVENANCE.md). |
 
 Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · [withmarble.com](https://withmarble.com) · ODbL 1.0 para a base e CC BY-SA 4.0 para o conteúdo autoral derivado.

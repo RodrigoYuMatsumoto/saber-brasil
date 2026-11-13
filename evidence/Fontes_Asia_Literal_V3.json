@@ -1,0 +1,3277 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Conferência literal das unidades asiáticas",
+    "subject": "Códigos MEXT, texto exato das tabelas, séries por código e amostra chinesa conferida visualmente"
+  },
+  "generatedAt": "2026-11-13T00:17:24.451600+00:00",
+  "status": "pass-with-declared-coverage-limits",
+  "sourceUnits": {
+    "JP": 1695,
+    "CN": 48
+  },
+  "chinaSourceUnitsBySubject": {
+    "matematica": 24,
+    "educacao-moral": 2,
+    "chines": 2,
+    "historia": 1,
+    "ingles": 2,
+    "geografia": 2,
+    "ciencias": 8,
+    "computacao": 2,
+    "educacao-fisica": 2,
+    "arte": 1,
+    "trabalho-pratico": 2
+  },
+  "editorialTopics": {
+    "JP": 307,
+    "CN": 303
+  },
+  "japanCandidateCorrections": [
+    {
+      "id": "JP-82G0233711100000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0233711200000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0233711300000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0233712000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0243721100000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0243721200000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0243721300000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0243722000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253711100000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253711200000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253711300000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253712000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253721100000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253721200000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0253722000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0263731100000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0263731200000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0263731300000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0263731400000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0263731500000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82G0263732000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-82K04A0111000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0112000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0113000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0121000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0122000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0123000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0131000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0132000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0133000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0141000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0142000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0143000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0151000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0152000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0153000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0163000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0211000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0212000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0213000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0221000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0222000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0223000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0231000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0232000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0233000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0241000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0242000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0243000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0252000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0253000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0311000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0312000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0313000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0321000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0322000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0323000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0331000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0332000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0333000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0341000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0342000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0343000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0351000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0352000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0353000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0361000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0362000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0363000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0371000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0372000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0373000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0411000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0412000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0413000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0421000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0422000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0423000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04A0431000000",
+      "yearsCandidate": [
+        1,
+        2
+      ],
+      "yearsOfficialCode": [
+        1,
+        2
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04C0432000000",
+      "yearsCandidate": [
+        3,
+        4
+      ],
+      "yearsOfficialCode": [
+        3,
+        4
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0433000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-82K04D0443000000",
+      "yearsCandidate": [
+        5,
+        6
+      ],
+      "yearsOfficialCode": [
+        5,
+        6
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": false
+    },
+    {
+      "id": "JP-83212A3110100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3110200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3111100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3111200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3112100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3112200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3211100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3211200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3212100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3220100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3220200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3220300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3220400000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3220500000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3220600000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3221100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3221200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3222100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3311100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3311200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3312100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3321000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3322000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3323000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3324000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3325100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3325200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3325300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3325400000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3325500000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3325600000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3326100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3326200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3331000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3332000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3333000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3334000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3335000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3336100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3336200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3337100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3341100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3341200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83212A3342100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233111100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233111200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233112100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233112200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233121100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233121200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233122100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233211100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233211200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233211300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233211400000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233212100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233212200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233221100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233221200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233222100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233222200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233311100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233311200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233311300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233311400000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233312100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233321100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233321200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233321300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233321400000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233322100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233411100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233411200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233412100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8323233421000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213111100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213111200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213111300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213112100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213120000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213211100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213211200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213212100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213213100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213213200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361213220000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223311100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223311200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223311300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223311400000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223312100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223312200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223312300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223320000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223411100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223411200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223412100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223412200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223412300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223413100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223413200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361223420000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233511100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233511200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233512100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233512200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233513100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233513200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233520000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233611100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233611200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233611300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233612100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233612200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233620000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233711100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233711200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233711300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233712100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8361233720000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213111100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213111200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213112100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213112200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213120000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213211100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213212100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213213100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213213200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213214100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362213220000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223311100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223312100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223313100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223313200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223320000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223411100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223411200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223412100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223412200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223413100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223413200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223414100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362223420000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233511100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233511200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233512100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233513100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233520000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233611100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233611200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233612100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233612200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233612300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233620000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233711100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233711200000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233711300000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233712100000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-8362233720000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1213811100000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1213811200000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1213811300000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1213812000000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1213813000000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1223821100000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1223821200000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1223821300000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1223822000000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G1223823000000",
+      "yearsCandidate": [
+        7,
+        8
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2203110000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8,
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213111000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213112000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223113000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223114000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2203120000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7,
+        8,
+        9
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213211000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213212000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213213000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213214000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2213220000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223311000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223312000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223313000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223314000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83G2223320000000",
+      "yearsCandidate": [
+        9
+      ],
+      "yearsOfficialCode": [
+        8
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    },
+    {
+      "id": "JP-83C2213111000000",
+      "yearsCandidate": [
+        7,
+        8,
+        9
+      ],
+      "yearsOfficialCode": [
+        7
+      ],
+      "candidateTextMatchesAfterWhitespaceNormalization": true
+    }
+  ],
+  "japanGradeCorrections": 208,
+  "japanTextCorrections": 61,
+  "chinaOcrCandidatesNotPromoted": 1340,
+  "sourceFiles": [
+    {
+      "path": "data/source_tables/jp_primary_codes.csv",
+      "sha256": "6d9a6dadf1593e15bad7c4e480eeea8dd91866600be2a94965582c8c774d3d7f"
+    },
+    {
+      "path": "data/source_tables/jp_secondary_codes.csv",
+      "sha256": "b8b5ad6cb52e5cfe5e390312b732b1325fffc5044b20a25e666075c74a569311"
+    },
+    {
+      "path": "data/source_tables/jp_code_assignment.xlsx",
+      "sha256": "f76768237145a44f4f74e0d9de29089a79b43fae66434a2e2c3e5778c42574c3"
+    }
+  ],
+  "pending": [
+    "Cobertura literal chinesa das demais matérias e objetivos",
+    "Revisão humana independente das transcrições e traduções chinesas",
+    "Revisão pedagógica dos recortes editoriais e dos candidatos OCR",
+    "Revisões curriculares posteriores às edições identificadas"
+  ],
+  "confidence": {
+    "japanLiteralAndCodes": "alta, igualdade mecânica com o CSV oficial",
+    "japanGrade": "alta, sexto dígito conforme tabela oficial",
+    "chinaLiteralSample": "média, conferência visual por IA sem revisão profissional",
+    "chinaOcrCandidates": "baixa, não promovidos"
+  }
+}

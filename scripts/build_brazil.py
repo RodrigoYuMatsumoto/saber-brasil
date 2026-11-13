@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 
 import fitz
 from brazil_curated import CURATED
+from consensus_layers import apply_brazil_layers
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 AUTHOR = "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B"
@@ -481,6 +482,7 @@ def main() -> None:
         },
         "topics": topics,
     }
+    result = apply_brazil_layers(result)
     write_generated("data/brazil_topics.json", result)
     evidence = {
         "metadata": result["metadata"], "sources": SOURCES,

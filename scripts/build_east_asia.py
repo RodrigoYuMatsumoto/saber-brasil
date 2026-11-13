@@ -1,4 +1,4 @@
-"""Compila recortes editoriais do Japão e da China, preservando as fontes."""
+"""Compila curadoria e unidades literais do Japão e da China em camadas próprias."""
 from __future__ import annotations
 from collections import Counter, defaultdict
 import csv
@@ -391,12 +391,17 @@ def main():
                             "nativeTextsLicense": "Fontes oficiais de terceiros conservam suas condições; atribuição e identidade registradas no manifesto."},
                 "subjects": [{"id": subject, "name": SUBJECTS.get(subject, "Computação")} for subject in sorted({t["subject"] for t in topics})],
                 "topics": topics, "coverage": coverage}
+    from build_east_asia_sources import extend_document
+    document, literal_evidence = extend_document(document, sources)
     write_json(ROOT / "data/east_asia.json", document)
+    write_json(ROOT / "evidence/Fontes_Asia_Literal_V3.json", literal_evidence)
     write_json(ROOT / "evidence/sources_east_asia.json", {"metadata": metadata("Fontes dos currículos japonês e chinês", "Documentos oficiais e identidades verificadas dos arquivos locais"),
               "sources": list(sources.values()), "indexes": {"Japan": "https://www.mext.go.jp/a_menu/other/data_00002.htm", "China": INDEX_CN},
               "ocr": {"tool": "Tesseract existente no computador", "language": "chi_sim", "modelSha256": "a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730", "status": "parcial", "pages": sum(len(v) for v in texts.values())},
               "coverage": coverage})
-    print(json.dumps({"topics": len(topics), "countries": dict(counts), "confirmed": coverage["sourceAnchorsConfirmed"], "pending": coverage["sourceAnchorsPending"], "omitted": len(omitted)}, ensure_ascii=False))
+    print(json.dumps({"topics": document["coverage"]["topics"], "countries": document["coverage"]["byCountry"],
+                      "layers": document["coverage"]["byLayer"], "confirmed": coverage["sourceAnchorsConfirmed"],
+                      "pending": coverage["sourceAnchorsPending"], "omitted": len(omitted)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

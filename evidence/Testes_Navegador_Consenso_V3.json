@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Testes headless do consenso v3",
+    "subject": "Resultado PASS ou FAIL por item em computador e celular emulado"
+  },
+  "checkedAt": "2026-11-13T00:43:17.752Z",
+  "status": "PASS",
+  "browser": {
+    "channel": "chrome",
+    "version": "157.0.8103.51",
+    "headless": true,
+    "serverPort": 61440,
+    "isolation": "fresh-loopback-server"
+  },
+  "total": 17,
+  "passed": 17,
+  "failed": 0,
+  "items": [
+    {
+      "item": "A01 Base de consenso, IDs únicos e camadas adicionais desligadas",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2524,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Desktop.png"
+      ]
+    },
+    {
+      "item": "A02 Camada editorial opcional, ID próprio e selo de revisão",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2929,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Editorial.png"
+      ]
+    },
+    {
+      "item": "A03 Links por código oficial e aliases anteriores resolvem o mesmo nó",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2290,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A04 Séries dos cinco sistemas e atalhos por blocos publicados",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 4249,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Filtros.png"
+      ]
+    },
+    {
+      "item": "A05 Selecionar tudo, desmarcar tudo e limpar restaura o padrão",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2817,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A06 Zoom real, limites 0,25x a 24x e restauração da vista",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 6824,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A07 Roda ancorada no cursor conserva a projeção do ponto",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3262,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A08 Órbita ultrapassa os polos, roll e deslocamento real por arraste",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 6847,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A09 Foco individual usa o nó como pivô ao girar",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3176,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Foco.png"
+      ]
+    },
+    {
+      "item": "A10 Duplo clique no mapa e enquadramento da seleção filtrada",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2782,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A11 Quatro idiomas, pergunta traduzida e original inglês visível",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3111,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Traducao.png"
+      ]
+    },
+    {
+      "item": "A12 Exportações reais preservam camadas, IDs e tipos de conexão",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3168,
+      "errors": [],
+      "screenshots": []
+    },
+    {
+      "item": "A13 Layout móvel, filtros e idiomas sem transbordamento",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3234,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Mobile.png"
+      ]
+    },
+    {
+      "item": "A14 Pinça e movimento de dois dedos em celular emulado",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2714,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Toque_Emulado.png"
+      ]
+    },
+    {
+      "item": "A15 HTML portátil conserva a base e usa uma solicitação de documento",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3267,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Portatil.png"
+      ]
+    },
+    {
+      "item": "A16 Unidades asiáticas literais têm camada própria e identificador de origem",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 3448,
+      "errors": [],
+      "screenshots": [
+        "evidence/Consenso_V3_Japao_Literal.png",
+        "evidence/Consenso_V3_China_Literal.png"
+      ]
+    },
+    {
+      "item": "A17 Relações propostas e composição têm controles e contagens separados",
+      "status": "PASS",
+      "playwrightStatus": "passed",
+      "durationMs": 2656,
+      "errors": [],
+      "screenshots": []
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "app.js",
+      "sha256": "0e890b6d5a2517f0bd3e57f5f4fcbadb0181a49fcaad9b113d8fd8d42d70c54e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "4dd8c38b54a7480a49f50b83303de61a443380c61ec1b0859d52d4e4d46ce0ea"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "507e6455ed54b4129af6d2abef92e1d6372df136cc9826911f11345a2085f8cf"
+    },
+    {
+      "path": "assets/locales.json",
+      "sha256": "48d3939134d4da19f71cc50206de6fa4f8f6f39ef62ecf156ecdec0965f5298e"
+    },
+    {
+      "path": "data/brazil_topics.json",
+      "sha256": "50bcc4aeaebfe388c0bb7828ac1b3320b15b95825be434168e5d4cbcdda48710"
+    },
+    {
+      "path": "data/international.json",
+      "sha256": "c74c0fc48758f1b832cd95b63c0ce33c54f237f99dea84ed350f82145141a8d5"
+    },
+    {
+      "path": "data/east_asia.json",
+      "sha256": "bac0892cfe7879de8487667b1916ed89b73f9fb6d03598e61d2663430c3bbb62"
+    },
+    {
+      "path": "data/translations.json",
+      "sha256": "daadceed090ea495e1ca898448671d330fcac9e231914665b6acadafe8d36809"
+    }
+  ],
+  "notVerified": [
+    "Gestos em aparelho físico.",
+    "Revisão docente ou linguística.",
+    "Validação B.9 por família arquitetural distinta.",
+    "Abertura do HTML pelo protocolo de arquivo."
+  ],
+  "screenshots": [
+    {
+      "path": "evidence/Consenso_V3_China_Literal.png",
+      "sha256": "a0490610c0063a3e6345318f0eee9b11a446241fe1395de58e1b64ab4a3a4f31"
+    },
+    {
+      "path": "evidence/Consenso_V3_Desktop.png",
+      "sha256": "9baf6b8aa49336eca15784fee8bcaea38c5ec06d4d95d37ab569f61fbaaee1c8"
+    },
+    {
+      "path": "evidence/Consenso_V3_Editorial.png",
+      "sha256": "af55beaa594f5fa94be13edba68d35021e534c19250db6bae0150dd08b4b8d34"
+    },
+    {
+      "path": "evidence/Consenso_V3_Filtros.png",
+      "sha256": "c7a699290d29273d4a64df6b2a80254f36784ebfff35f1c02ee7740769490d20"
+    },
+    {
+      "path": "evidence/Consenso_V3_Foco.png",
+      "sha256": "cc60fb89710d43a2c819c918d4600ca22be08465a2a03005cbbaae3fa97d60bb"
+    },
+    {
+      "path": "evidence/Consenso_V3_Japao_Literal.png",
+      "sha256": "50bf8cd5a5e04069744dced0601e1e476c840d0034d4f321ffff5f2493e4fd74"
+    },
+    {
+      "path": "evidence/Consenso_V3_Mobile.png",
+      "sha256": "85b5d9202d56fdf5b3a68ea240f24e0f2a04778229e3fdc9275816fb83a1143f"
+    },
+    {
+      "path": "evidence/Consenso_V3_Portatil.png",
+      "sha256": "c7a699290d29273d4a64df6b2a80254f36784ebfff35f1c02ee7740769490d20"
+    },
+    {
+      "path": "evidence/Consenso_V3_Toque_Emulado.png",
+      "sha256": "bec66ea5793924061b6ad4f735e5beed51dea2910e0b2b5c2aa4f020f988e405"
+    },
+    {
+      "path": "evidence/Consenso_V3_Traducao.png",
+      "sha256": "a1767aaa36171db70506bb401e228afa2d8065990ad4828357516ca4d3295cdf"
+    }
+  ]
+}

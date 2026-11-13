@@ -1,0 +1,4699 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Identidade das pastas de referência antes da consolidação v3",
+    "subject": "Conferência somente leitura de dados, documentação e código das versões anteriores"
+  },
+  "phase": "before",
+  "createdAt": "2026-11-13T00:02:39.493367+00:00",
+  "exclusions": [
+    ".claude",
+    ".codex",
+    ".git",
+    ".research",
+    ".venv",
+    "__pycache__",
+    "backups",
+    "node_modules"
+  ],
+  "files": [
+    {
+      "path": "Code/dados/alinhamentos-bncc.json",
+      "bytes": 452024,
+      "sha256": "cdb4552c420adeab69f9c397020326da27602076d3a6c154bc10a80d24f518fa"
+    },
+    {
+      "path": "Code/dados/bncc-habilidades.json",
+      "bytes": 958442,
+      "sha256": "2f81d3d282594fbdc20b42be97c6865ae8fdd3e6d42d955674f90071eea71a1a"
+    },
+    {
+      "path": "Code/dados/dependencias.json",
+      "bytes": 2311247,
+      "sha256": "ed3cb6349f81ce848ec7facfd4cd3f43d7358b5c2a4d8d3de1f5573cf7f93e19"
+    },
+    {
+      "path": "Code/dados/fonte/bncc_computacao_extracao.json",
+      "bytes": 143883,
+      "sha256": "c6769526dbffac0346aa1e1d6e22a72b7cea572d7f592cf1ee1cdcb7daa44e31"
+    },
+    {
+      "path": "Code/dados/fonte/bncc_extracao.json",
+      "bytes": 730888,
+      "sha256": "540aeb85c6f9cf6963b5558b5af218098270d084d4087e2c0943f59efa1d7b46"
+    },
+    {
+      "path": "Code/dados/fonte/china_parte1_fontes.json",
+      "bytes": 2454,
+      "sha256": "d72021944aa71834e4f7b79438e6dfa7e511920142a3379f11ca020f2335047e"
+    },
+    {
+      "path": "Code/dados/fonte/china_parte1_unidades.json",
+      "bytes": 239720,
+      "sha256": "64b77d99399e54dc90fe89865d811c0025b3934e6d95aa931ae9efc3df842117"
+    },
+    {
+      "path": "Code/dados/fonte/china_parte2_fontes.json",
+      "bytes": 3111,
+      "sha256": "19358d3d2609590e339ee375c0933b9baf918622a50d79e73019a89b14f478bc"
+    },
+    {
+      "path": "Code/dados/fonte/china_parte2_unidades.json",
+      "bytes": 151341,
+      "sha256": "089f9913d724d971e01c35da71e6ffddfbf05c9fed302a8518dc10c980bac545"
+    },
+    {
+      "path": "Code/dados/fonte/japao_ginasio_fontes.json",
+      "bytes": 521,
+      "sha256": "8c03c87824cbfc4d076db55db8b1032308b743e2ac84627c1bd7686ccb7323e4"
+    },
+    {
+      "path": "Code/dados/fonte/japao_ginasio_unidades.json",
+      "bytes": 237682,
+      "sha256": "4293b7c273c793a62b067e1e7a5303db1335611bdf279e2b73a939e00d261ba2"
+    },
+    {
+      "path": "Code/dados/fonte/japao_primario_fontes.json",
+      "bytes": 482,
+      "sha256": "79972da851bb7a1c63ac31da5438200424a914c9e2b296115363ab511d4ff66f"
+    },
+    {
+      "path": "Code/dados/fonte/japao_primario_unidades.json",
+      "bytes": 302193,
+      "sha256": "ff93425b45e73677e88449b37cb414f88ef937499c7c38222fd214fd01efa4d6"
+    },
+    {
+      "path": "Code/dados/grafo.json",
+      "bytes": 4331227,
+      "sha256": "4c024c9e7dfcac31af0201c5b13b234055d90a637c6d7bf51ca9f3e0d009a02e"
+    },
+    {
+      "path": "Code/dados/index.html",
+      "bytes": 3983,
+      "sha256": "225c17325e3debbd98ea08efa9f528d7ca49ef70408330d65fc08de941329665"
+    },
+    {
+      "path": "Code/dados/manifest.json",
+      "bytes": 2326,
+      "sha256": "5a28aa192f08c7e6706e91eb06bea53798ac9462f6b46c4e5b5fe416f615ee9c"
+    },
+    {
+      "path": "Code/dados/topicos.json",
+      "bytes": 6326688,
+      "sha256": "0dd7fcaf428e13832543372323cb013b2b33ddae4bcb57a667074a389df4ebec"
+    },
+    {
+      "path": "Code/index.html",
+      "bytes": 4400555,
+      "sha256": "478dff9a4e7d9cc2f5f6c1f8c28911605d6c31d429f99795b69ca40d5f704368"
+    },
+    {
+      "path": "Code/lang/en.js",
+      "bytes": 2265834,
+      "sha256": "4979691480cc4e1f30b92a1917da95bb245355fce28a173d36b82c3c04c58eb1"
+    },
+    {
+      "path": "Code/lang/ja.js",
+      "bytes": 2685693,
+      "sha256": "3041de7bf23b938e9f20ab6661a3d2fa724f25d1c5875f1cfc8047b504292080"
+    },
+    {
+      "path": "Code/lang/zh-Hant.js",
+      "bytes": 2060497,
+      "sha256": "791cf7f338287a6ef9ffffd3d8893de2ebe13a31ff3413491e34be3608bbba67"
+    },
+    {
+      "path": "Code/licencas/ATRIBUICAO.md",
+      "bytes": 5659,
+      "sha256": "65e2122ccc85f1760041852bc3aac4b7ea77b6e9ddd36f740afb5cac38037eec"
+    },
+    {
+      "path": "Code/README.md",
+      "bytes": 7987,
+      "sha256": "d05fac372b1d54049e13b4e4550cc0f5445f7c3fc3a40fe96266ba12729fefa9"
+    },
+    {
+      "path": "Code/relatorios/2026-11-12_consenso_tres_versoes.md",
+      "bytes": 8276,
+      "sha256": "9f93eb30e6925b06c7d31fc10e908868f0547566096c975b33e71aa7ab5507ae"
+    },
+    {
+      "path": "Code/relatorios/2026-11-12_engenharia_reversa_marble.md",
+      "bytes": 6223,
+      "sha256": "63c75e2987a32d08fd5bf1ec697dd77072941cf25f2c2cc1310875ccca641341"
+    },
+    {
+      "path": "Code/relatorios/2026-11-12_verificacao.md",
+      "bytes": 6098,
+      "sha256": "00d7e9a357f3217ff19e26fb7054d0dd313958f263b175f9d7567c80d6665b2e"
+    },
+    {
+      "path": "Code/relatorios/auditoria_saber_brasil/auditoria_dados.json",
+      "bytes": 13641,
+      "sha256": "4dfefbb3b9c61f2da6e3ada603b2bf645a58956fa55d015185ce1c0b28d20403"
+    },
+    {
+      "path": "Code/relatorios/capturas/resultado_testes.json",
+      "bytes": 3054,
+      "sha256": "5caa7210ffb804bfec32ec28c8f7ff7670e936eba965c266ec09fb5d946d5667"
+    },
+    {
+      "path": "Code/scripts/asia.py",
+      "bytes": 4747,
+      "sha256": "f309988567b6c39dcf0805b3aa352257782351530099903bb8fc108e9ad314c0"
+    },
+    {
+      "path": "Code/scripts/audit_saber_brasil.py",
+      "bytes": 7785,
+      "sha256": "fdc4d9ea860121d0391ba3d887af8bcfdbb18d5fb89b24fcdd4e5acfe0d30331"
+    },
+    {
+      "path": "Code/scripts/build_graph.py",
+      "bytes": 44735,
+      "sha256": "fcef532ddace002efb37aafecb9d88b3ad782d0768ab4c5f926707e9fbb5ccee"
+    },
+    {
+      "path": "Code/scripts/check_typography.py",
+      "bytes": 2138,
+      "sha256": "5b045ed5efa7d0a5ef354e590a096c64866d5908a8d7aa0477d7dea9b5aa2a72"
+    },
+    {
+      "path": "Code/scripts/extract_bncc.py",
+      "bytes": 8511,
+      "sha256": "0b7bd74e90b280f5f3bd3243913d2844da9b1ae454e4ab8545ba756fe737f44d"
+    },
+    {
+      "path": "Code/scripts/extract_bncc_computacao.py",
+      "bytes": 8793,
+      "sha256": "28d042ef07aab1d747e4a4a4c82659c81d0cff510e520eadb2f75bbfffa6fcef"
+    },
+    {
+      "path": "Code/scripts/grades.py",
+      "bytes": 3521,
+      "sha256": "e6460c1c75d6f7c13328edb8c91ebc79e38c9aa81e9f1be979068a11cdf2c240"
+    },
+    {
+      "path": "Code/scripts/make_asia_batches.py",
+      "bytes": 2365,
+      "sha256": "61efefabbc819df7a75aa35691f60157110f32fa1d9a6dc4bf73a929ca366a7c"
+    },
+    {
+      "path": "Code/scripts/make_batches.py",
+      "bytes": 3798,
+      "sha256": "d42f72fbc02d3990345c66748562186f4c436bb98ea75ac47373180b1a71db01"
+    },
+    {
+      "path": "Code/scripts/render_page.py",
+      "bytes": 668,
+      "sha256": "179d9d79dbb70a8085a7054b7b5969638c7f1904bbae239929f3401e34128117"
+    },
+    {
+      "path": "Code/scripts/test_site.py",
+      "bytes": 6043,
+      "sha256": "5084a29a4fcf90e0171266a407098094538dad98a7340ca79024b12fdca5d4ca"
+    },
+    {
+      "path": "Code/src/template.html",
+      "bytes": 69346,
+      "sha256": "4e75e62de3e159153dde35ad1643dc7f49bbc956d508ce7c7d10a034c3bea6cc"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ci_part1.json",
+      "bytes": 33002,
+      "sha256": "72fa206485aea172a3f04f9aae0f99eeab534b790d4abd07292abab9b70bdf56"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ci_part2.json",
+      "bytes": 31436,
+      "sha256": "3b7fdb374dfd6197194f526080e716d0001fcb3da7806781eed173dd5e397eb7"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ci_part3.json",
+      "bytes": 32261,
+      "sha256": "f576f2fdb8246d6268e6134845a806618b8a76cfaa2aaf21c323dd7a2b274421"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ci_part4.json",
+      "bytes": 59674,
+      "sha256": "4acc413b41bb71b10bc2ed92293dc77c5af6edeccf063b88b8dc4775194b2083"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ci_part5.json",
+      "bytes": 29985,
+      "sha256": "f0a2d5450bfc89945e3fc20627c419fb6dc48facfbf86911fd4bf2894de3ec89"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_gh_part1.json",
+      "bytes": 19520,
+      "sha256": "3d5d38830ac2ee6b08614cb9063620c07035204156d279452da8ece63cd8dd81"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ln_part1.json",
+      "bytes": 69404,
+      "sha256": "5f494cd69cf18583cf386693d66ec65278db861c99241263ad4322cdb451ea19"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ln_part2.json",
+      "bytes": 58706,
+      "sha256": "07cae337cb63d1d1c6f654a7b635ce0ef88f5d1695e92cdde1d57cf1ec613523"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ln_part3.json",
+      "bytes": 48222,
+      "sha256": "2dfe10f0e5afd323523821f890f8d45a1885c83c83b54dc645cbc450c9da7058"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ln_part4.json",
+      "bytes": 55078,
+      "sha256": "48a700d9547df0c6dd7a2030a8a69a3a000d2fe99c8631630d36c4e4eacf2da1"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ma_part1.json",
+      "bytes": 48578,
+      "sha256": "97da3a8b469db6335377741bd9523f8571587677b9528643ff64686ddae05cc8"
+    },
+    {
+      "path": "Code/traducoes/asia/cna_ma_part2.json",
+      "bytes": 37734,
+      "sha256": "66e8b30abe782345c7d586935f692f9dc8553f6b7bb65f5f30d9386f3412fabb"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_ci_part1.json",
+      "bytes": 54319,
+      "sha256": "f13111f8fed0a45e679750d9e4768def2cc4b15bc8f8c8d5051a1ab6be4ccd85"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_ci_part2.json",
+      "bytes": 42633,
+      "sha256": "67b6ee5f0db4d5190ea7ed98c6bcb93bc7d8e21ab8abc6e15c11e607d67f85cc"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_ci_part3.json",
+      "bytes": 48854,
+      "sha256": "4d90da5ab4d85cb4ce73c3694669b12a2d2219148fe1c95727892ef0917c8e75"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_ec_part1.json",
+      "bytes": 60900,
+      "sha256": "4509cf3c0268ad4185c8e759ad481743253df6a88d7469e5a1971e37d6288616"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_ec_part2.json",
+      "bytes": 37819,
+      "sha256": "08b2b13c274f1f0475d11a901aaf7834f97b711029a2eac009f022066e797c50"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_gh_part1.json",
+      "bytes": 55238,
+      "sha256": "d3f93baf052d88ce0d107a3cf77b6b22cf6eb60b886462b630cfd445c44cea83"
+    },
+    {
+      "path": "Code/traducoes/asia/cnb_gh_part2.json",
+      "bytes": 29187,
+      "sha256": "6e99fa218f5799481276060500bd90a97aa69fd195c226b74ab76c4578e78a7c"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ar_part1.json",
+      "bytes": 35368,
+      "sha256": "759a61c4d158a8c3361804044f2923a7cf5fb3f70dadf72254c01f7a65f0d785"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ar_part2.json",
+      "bytes": 18927,
+      "sha256": "10f9aac21aa5bfbc12b1c8056e87953a8c5529cfe03435bab45e5e49e02a3b16"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ci_part1.json",
+      "bytes": 33399,
+      "sha256": "7719ef98b5614de6945ffc7330c45671ce86aec6541e84a79bc17acf7e48705f"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ci_part2.json",
+      "bytes": 35091,
+      "sha256": "1dbf5cfce8f1f8583a9cb91afe4a293107b71785bd7e102d8473e46c0cb8a953"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ec_part1.json",
+      "bytes": 25887,
+      "sha256": "c03c960c92b28f5d274b221b25b186d020e3ff86a292714f9b43d93157ce5ecc"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ec_part2.json",
+      "bytes": 16456,
+      "sha256": "029208fcdbdd124b3964cabd157ff403b1e68fa19c1b5f4a772a93e088a5530a"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ec_part3.json",
+      "bytes": 18819,
+      "sha256": "38f9637e657d5e604b1886277647d6e70743ec253f7643235d0763a7a38e8071"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ec_part4.json",
+      "bytes": 32509,
+      "sha256": "71488eec0e8f6275344f3c5eebb8c134d5f28ed4a0c1b0f3a07e6d3b2632eb7e"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ec_part5.json",
+      "bytes": 23162,
+      "sha256": "3c56c2d0c950b54ec98b87b2a5627182ca775da130ba24611014c870d550f29d"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ef_part1.json",
+      "bytes": 20404,
+      "sha256": "6c1c73290f2937f53b6d28f9de12d8a7e9f9cf17736b3f20a85db5d44ee43f68"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ef_part2.json",
+      "bytes": 23350,
+      "sha256": "623ba2d3fb7e5b33a5dee5ce9f6bc82780d6c5a097752513c4a3ddebc8ed5adf"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ef_part3.json",
+      "bytes": 26142,
+      "sha256": "2d76455a03857d7c582b90fd3238dca364d3d3877334aee70a6178d877c0e88a"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ef_part4.json",
+      "bytes": 18447,
+      "sha256": "dbb1a53de29c8032d90c61bf01d6ab0d25907e6552defeaec1e3b617fade03f7"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_gh_part1.json",
+      "bytes": 35174,
+      "sha256": "f62b00d67e6c1f0d8c1db4182015c27a9ac45133b00f83546127e3c9b575a680"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ln_part1.json",
+      "bytes": 24412,
+      "sha256": "04f6df78ca3635096b933e98a2e966bdbd83b23ff73b7bbfc1a8a0e9cbc8779e"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ln_part2.json",
+      "bytes": 26026,
+      "sha256": "eea0f5553ee2c455003d157020d62e53b6c2d03c067d38174766e6e4cde30f6c"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ln_part3.json",
+      "bytes": 22339,
+      "sha256": "4079322daa6f56d0a41185347f7d959bd8ab2155b26fda8bca4ee8bd3c593a75"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ma_part1.json",
+      "bytes": 38745,
+      "sha256": "d14d758424062a8267a7d40a857cd37930e7b3576702fab9fa6b68a004b2284e"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ma_part2.json",
+      "bytes": 36577,
+      "sha256": "5a2bb5d8d7b56bd572a0ca13ffed3d8e22945ab6bbaa471837cf20afe43981b5"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ma_part3.json",
+      "bytes": 38853,
+      "sha256": "7d25057c2ec9eae42acb9cfec6a1ef8b95ee3484bde70c4d1d6f302e9090c8fc"
+    },
+    {
+      "path": "Code/traducoes/asia/jp_ma_part4.json",
+      "bytes": 10152,
+      "sha256": "583bb9b07de22d4839a05e0deaee457f8c82f00cab4650b067bbcd026f23b8ff"
+    },
+    {
+      "path": "Code/traducoes/ESPECIFICACAO_EXTRACAO_JAPAO_CHINA.md",
+      "bytes": 4817,
+      "sha256": "830b348b8fb472f89d46532f5d8db71d1dcc745d374f5ecc9803add392a48106"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part1.json",
+      "bytes": 15940,
+      "sha256": "175f10bd861a6785b9edb59b9ad249629b0373ef5f2ef106d0468bb03509ecba"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part2.json",
+      "bytes": 17848,
+      "sha256": "7c09efb2b284ceb705fc01aa1241186c34e48955ef93149f2e2267588cd6a67d"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part3.json",
+      "bytes": 17893,
+      "sha256": "607a958acbbe50b6d61012bfadfdb378494606af145c1d73aea1f30323c6fbbc"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part4.json",
+      "bytes": 25341,
+      "sha256": "c2d567d7eb138ed7c3ae574f5e80491e52694629bde18a836e530ffbcdd8b4bf"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part5.json",
+      "bytes": 32160,
+      "sha256": "96541b57a825e6c0eb2c6a941386f73fe4e461444e5b01108d2ad03931a451ab"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part6.json",
+      "bytes": 22268,
+      "sha256": "1b482bd4ed6717e366e5184bee2148e9edf55bda59ddcdda1d4d0bd7d47c719f"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part7.json",
+      "bytes": 18498,
+      "sha256": "25485fa2fdabde0bfcf12a3bd92e53f6e0c36d7ebbf502c444919e3f6e91dd9f"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_en_part8.json",
+      "bytes": 14174,
+      "sha256": "bdfab63acccfb9cccc54e3845058de85e01872c84247c4e510df27ec2b7aeeb8"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part1.json",
+      "bytes": 16443,
+      "sha256": "20d75957d7a65727c7e5dc415e1f5c905624a05c2c322ef05aa8beab2c6b982c"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part2.json",
+      "bytes": 18810,
+      "sha256": "6c3dba104ea63cf7b6e3072a015fd1a24444af058d2b8c5d21a5da10244231e4"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part3.json",
+      "bytes": 19123,
+      "sha256": "f38358868602b918698fec92787abf12acf3bde90ec52f699ba30306f7021269"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part4.json",
+      "bytes": 25222,
+      "sha256": "24779277aa5626960df3189b5e98f28b7c023135dd7bfea910e10935d6dd7e91"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part5.json",
+      "bytes": 31508,
+      "sha256": "fb53f89adb71cb3b37c4c50bc08ae7d56f3e4a90ce291e700bd51b66a78b00d7"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part6.json",
+      "bytes": 22200,
+      "sha256": "7fd33630b0a0ff494963ccb5426ba54d135bc97bc2903ff45bd8b69b61d774e0"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part7.json",
+      "bytes": 18443,
+      "sha256": "5cbed8f1aac25c7fc3b4eeeed4be09b3dadf6ba793682d06d57c6e94214e811e"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_ja_part8.json",
+      "bytes": 14149,
+      "sha256": "49a915f04a6e851770d592dd3d4fa6358c9d51988e49b2c20a56cc608ac4bcdb"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part1.json",
+      "bytes": 12023,
+      "sha256": "94aacab219bffb201dc9fea77d0dfb627977538a292161b7410eb7d991225210"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part2.json",
+      "bytes": 13520,
+      "sha256": "f56150cb1d192e5f70d5d987b472d90a332835c4466cec52a45a704d2b44cced"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part3.json",
+      "bytes": 13531,
+      "sha256": "1c8f93016f24c91db039df126586252692af7e001fc5f4dfbbbbeaa8aa1eb72f"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part4.json",
+      "bytes": 19737,
+      "sha256": "83549972ffafe4368191b2b99138910c43bb4fc5cdb4ff200678d01796b44fac"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part5.json",
+      "bytes": 24323,
+      "sha256": "dd508a017c0aaf12a67d2182dfe5007ecb757adfa18bd72a6a0ca083a6aa1275"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part6.json",
+      "bytes": 17049,
+      "sha256": "577fcea86e284785631c35d9197cee8d027f9318c127bb33976bfca70a8d446f"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part7.json",
+      "bytes": 14023,
+      "sha256": "464f99267252c919c38afd41b554dc087ce19985654375973116564c0ed9bd5d"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_1_zh-Hant_part8.json",
+      "bytes": 10884,
+      "sha256": "88e1adff114888f18fedf9e4e02c4cc134794ad0fc8e0998ebb9fe648fe6d82c"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part1.json",
+      "bytes": 15334,
+      "sha256": "a6fa410c75b4f7fecafb85b9e5b940e9ba3e1d4076089b0b7fc737318a90ab4e"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part2.json",
+      "bytes": 11926,
+      "sha256": "a7f060edbd47a0c5a4cc5039b7aab903826e88632c2ae246f6fbfa1c65dc9b2a"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part3.json",
+      "bytes": 14460,
+      "sha256": "d9ab06ec1a350450e1024a401191233d829cc077c1cc11d617b473528b49a590"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part4.json",
+      "bytes": 15479,
+      "sha256": "2fd3fc6055c3ff026521121a941258d9933863ca98b7b5cab91d71b70cd197f5"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part5.json",
+      "bytes": 16191,
+      "sha256": "5602f01bf85261512d66ad0ee89098d882e1e1dd84a4ddffc2d7574669366282"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part6.json",
+      "bytes": 14685,
+      "sha256": "5a69c29ad11d36d8d5339164b360bed1a269507f63060a6c1819bf2e9da867c6"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part7.json",
+      "bytes": 15091,
+      "sha256": "5bd80abda9a0ed067ac20e2af4183cf3773e2f19f1cf28bd87ce84bbe497dda0"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_en_part8.json",
+      "bytes": 13181,
+      "sha256": "89085b76f26c3c269d8eb46f5ab1ed75167168e41d5ef57c301754f1d407f93e"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part1.json",
+      "bytes": 15511,
+      "sha256": "a41dc47199b5f5528cb2b91d4eae1f72c908b371e68c640bb93c77ff4d422e52"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part2.json",
+      "bytes": 11889,
+      "sha256": "bd30e8425b0adc3fba2ccf22567f3ca7f06508c02e03caf574b33360bbed0ec3"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part3.json",
+      "bytes": 14161,
+      "sha256": "0bc95940998bf390f8cda00eed5045b50c76b6856fef30f7c716f367f36ef356"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part4.json",
+      "bytes": 14869,
+      "sha256": "b08b9d25674b3048e855b3a2200eae4e10e5411e4760605cc9d583ca4ccebacf"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part5.json",
+      "bytes": 15268,
+      "sha256": "7b580739c84d5ecc44dcadfe5607d95a90468fa188e2997b78c582b31891e517"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part6.json",
+      "bytes": 13567,
+      "sha256": "f99aef292ba16b3062d9ac86ce49fb05bad300279830c1f8bc70c19dc2907f90"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part7.json",
+      "bytes": 14300,
+      "sha256": "fae020b6f6fdfaa7315114ffdfc60ba01b67b7c834b431250ef7db006b018db7"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_ja_part8.json",
+      "bytes": 12914,
+      "sha256": "5df99f4d19293b2aa18160e88929e862904c132557083a668802c9f229940528"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part1.json",
+      "bytes": 12354,
+      "sha256": "2f42f27e701e9be0d183637509d5650306713ececa184f1d1a55f45f23c46927"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part2.json",
+      "bytes": 9558,
+      "sha256": "ff0942b66cb2e0bb6645d6a1ef2155583534de6fb122ee33eb4a17014b39c916"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part3.json",
+      "bytes": 11359,
+      "sha256": "b821ff5ac6585cb58e4625ddfa7764fa64f0f1551f22e28e08d79e352405f00b"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part4.json",
+      "bytes": 12030,
+      "sha256": "757dafd3b5dcb81ba4e8e98b4dd0a7cec1df0006e1d0533fa32358942cdcabfe"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part5.json",
+      "bytes": 12392,
+      "sha256": "5b18d982c51e9f0bb93d5a991f751dabdaef16993bc6f81ed22b7654936b3bea"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part6.json",
+      "bytes": 10729,
+      "sha256": "f920915a2d24ea6b938bb7930681c715f8dc45c72c9bc2b10d64a9a210a012d6"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part7.json",
+      "bytes": 11677,
+      "sha256": "d02bacae9f980db245e86a061076246d10503250ac3711eaef237a71eb35698e"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_2_zh-Hant_part8.json",
+      "bytes": 10245,
+      "sha256": "b20af25b9b812d9df784d198fb9605d2c857e2e020bb6233c7b3c0e9a0531a00"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part1.json",
+      "bytes": 14512,
+      "sha256": "bb5877f3c74afbe69dc0ab5b14a0387d6d4da2073818bcdf0a75f2879e338da3"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part2.json",
+      "bytes": 14734,
+      "sha256": "b2da2dc11c2a809f844de8ea2a8388ec737b44a11020ff7778284fef5741e441"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part3.json",
+      "bytes": 14864,
+      "sha256": "d5de85b8a0bd29122ea8ed3e7aad393b4a7ad63d2348deeffa015463473a7f43"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part4.json",
+      "bytes": 13326,
+      "sha256": "0a8919744c6660a2c707f945bc685336b5ad2ccd1b85bde4d6a4288752b4d95c"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part5.json",
+      "bytes": 13800,
+      "sha256": "c273258dcec0f1fabc857e46bf9ac6262361cec104f65a7883e184d0b3bafb9b"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part6.json",
+      "bytes": 11259,
+      "sha256": "311dda82931318c4a5c2e8ee933800dd0dc8b306da0128f40d267ef5397f92eb"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part7.json",
+      "bytes": 12425,
+      "sha256": "5ee1fd0c7611e1602ee22a5945c2ff435c50ecf4f5fdf9be860dd571bfbefb86"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_en_part8.json",
+      "bytes": 10033,
+      "sha256": "fece2007a4444bf0b60735ff986e6142a0a11f6fdae7583a4a5eb1349ab0d36e"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part1.json",
+      "bytes": 15471,
+      "sha256": "8cf52b35e122aa2de834969676fcde624966b1a4054adb4353dac5a19348896f"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part2.json",
+      "bytes": 15355,
+      "sha256": "84d391cbceb3dd787f5e4532ada1d03dcc31f48b8a1186ae9bb32b18a3a959f5"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part3.json",
+      "bytes": 15758,
+      "sha256": "cda56f999fa9a1719da6e261a85eebd568a9ed1aed6275cbf626956612f8f93b"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part4.json",
+      "bytes": 14575,
+      "sha256": "6fccba0732a7e4e1651f8b7440b78dd4b32662e9797b366a6b88526f04fc6da2"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part5.json",
+      "bytes": 14787,
+      "sha256": "908d353cfc293c583efa93e2f60c896da5d66b94b012dccf602a2fa1840fb18d"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part6.json",
+      "bytes": 12718,
+      "sha256": "c1ef395dfbc6a27e89292fa48015ab5ad867f44e4c2020b642247a9c09905ed5"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part7.json",
+      "bytes": 15094,
+      "sha256": "96f76b09290b725645e18cb49ee7936beb11dfd63ba045263fa7e7b9ae7db0dd"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_ja_part8.json",
+      "bytes": 11680,
+      "sha256": "df6c0c8039382ac62d9f699759e9eee884b0cc75fad09ad66aa8b0ab2030227f"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part1.json",
+      "bytes": 11984,
+      "sha256": "893cc8560e72b08c1f788371f11605aa18c65030d266813efddf98958523e31d"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part2.json",
+      "bytes": 11977,
+      "sha256": "7428fe8637456f6e9b5708f38e34a2296a0df9387fa640b3ac5ab4e4b650fe56"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part3.json",
+      "bytes": 12551,
+      "sha256": "4ebeb204170269232c97a8b33f582b2bd4905717428715d4bd70ceb49884121a"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part4.json",
+      "bytes": 11001,
+      "sha256": "94135d886d26f76aa18802e7306cae583e7a31954ebbb0799cf9f24bd4353a36"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part5.json",
+      "bytes": 11409,
+      "sha256": "568b78d0789fdbd2e0ad9dc50ecdbfe6c15d3b111cbf1f238a7165cb35655aa2"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part6.json",
+      "bytes": 9615,
+      "sha256": "005ef02529a5bf80d465da02174820dd0af57aa83e973a5bca5072467bfe2aa5"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part7.json",
+      "bytes": 10939,
+      "sha256": "a8c1cff7efdbb80b7c3a99b10130d60a661b21a260febd72b650deb1e42e69af"
+    },
+    {
+      "path": "Code/traducoes/i18n/bncc_3_zh-Hant_part8.json",
+      "bytes": 8632,
+      "sha256": "cd7895f59dfa5fd352318a3e254c9faef007a1a5bb89caceba4535ff4c04a455"
+    },
+    {
+      "path": "Code/traducoes/i18n/labels_i18n.json",
+      "bytes": 30622,
+      "sha256": "cb8f0565da553ad0f27bbe9a6b5a7fb2c2552614495fba4d023e1a855f10d1ed"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_ja_part1.json",
+      "bytes": 32735,
+      "sha256": "b7e079231d84158e803024dd653be598a814054bf92aafe94ee3f88c328f7fc2"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_ja_part2.json",
+      "bytes": 25651,
+      "sha256": "ca061af3a857bbf668d944a3ac90cc0aa6e4a9ec1b96371577bde1edb5771765"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_ja_part3.json",
+      "bytes": 28206,
+      "sha256": "94cfb2b59d519dec45f46062890a00eaf80df94891015fe875ead542e2d30a42"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_ja_part4.json",
+      "bytes": 27770,
+      "sha256": "0ffe5b63f5325855ecf6e64eb71d9510816456d7f6a3a0102d6a2ee946c6a00d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_ja_part5.json",
+      "bytes": 30172,
+      "sha256": "58b983a09d041c7ea2aba956c143070605f539d01e1292e9bbbd28b14e58ef2d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_ja_part6.json",
+      "bytes": 21125,
+      "sha256": "69e9b2a94440da6612a6c295ebf849cb3986d7fa0682716c8ca8ad0a0b866362"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_zh-Hant_part1.json",
+      "bytes": 23798,
+      "sha256": "2201728d916ae77b147f5c8b6a3a0b143f6d6b86a513830c028dcda6b3a3ca22"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_zh-Hant_part2.json",
+      "bytes": 19938,
+      "sha256": "878495d95bd001cf5052139f51d44e6b23ef7f435e3504584a1353960649a8a8"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_zh-Hant_part3.json",
+      "bytes": 22014,
+      "sha256": "e600fb47c4d7ba1f5cb39eca9af26028ab8b1f0ea30719d12c8c8db08d545750"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_zh-Hant_part4.json",
+      "bytes": 20123,
+      "sha256": "725ca195b24f27b7d8bf5949ecf6b64f848666e7d4359c062db10d93135e48ab"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_zh-Hant_part5.json",
+      "bytes": 21242,
+      "sha256": "a77429712861ce893c706331b4709f873f17cae90cfc3d065ff176547c5d906f"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_1_zh-Hant_part6.json",
+      "bytes": 20505,
+      "sha256": "05cdd05cc776d48295cd53541f10300c73bee0d51e722e3e2fb7379c06c88be6"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part1.json",
+      "bytes": 28928,
+      "sha256": "d75ed667ddbb11136a69179de6c64dd60c6986bd8dbe6c4fbe0825580a04d1b3"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part2.json",
+      "bytes": 36068,
+      "sha256": "a68adbb9ea418f4ed8df13bec912b75d351deef3d8905d30cd083b77fd48c85f"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part3.json",
+      "bytes": 20569,
+      "sha256": "572b4ddc9db822a710295903981e5d406b008bba764ccde31975a839382f3395"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part4.json",
+      "bytes": 28707,
+      "sha256": "a589a14c7628ec71ce1f0f6e3452c9e436fade1fb800a5ab897b02528565099c"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part5.json",
+      "bytes": 21298,
+      "sha256": "a05e98db0adf7d580b7b8cb519d0b876a5c24329253e06a90dc1f79380f4a1d1"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part6.json",
+      "bytes": 25642,
+      "sha256": "e960e91ed12d428decfb9d2fad159f5580b76e00ec7d9a7f6ac1e571d10392ee"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_ja_part7.json",
+      "bytes": 29447,
+      "sha256": "d68577bdc1a0fee73a3e645c4418089a74a092dc462ee38a0377f0a5949956fd"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_zh-Hant_part1.json",
+      "bytes": 21358,
+      "sha256": "886e3e5f96cfc97c38958ab616e96ba5cf4eacfed8e0ccb90b193cd76996e2ab"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_zh-Hant_part2.json",
+      "bytes": 25063,
+      "sha256": "828fdc7e0ed6a3351db48eff00c2b83cb39aa7b6cc07af7db847baf01e72e95f"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_zh-Hant_part3.json",
+      "bytes": 27697,
+      "sha256": "8898a7c469591623f497f71d7c9afbafdf0b6cd92cd3d49d2f5ad228f49f82fd"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_zh-Hant_part4.json",
+      "bytes": 23699,
+      "sha256": "c7254baec5a56acef173fd25f89159b2f58c31fdf00a03861430afbd4bf94dca"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_zh-Hant_part5.json",
+      "bytes": 22362,
+      "sha256": "64f81074db6f3c8225f159d7f22e3589d5c61a7eec5edc936e6e6c169447d649"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_2_zh-Hant_part6.json",
+      "bytes": 20517,
+      "sha256": "2271806cb8642f73579b20ad079ef005c37e9d5a1e0921ec7223898ba14c7be3"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_ja_part1.json",
+      "bytes": 23435,
+      "sha256": "487697954c4023b47ba0c8969d07a77f17aaa96c6fd4806f4a4b4624089b1978"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_ja_part2.json",
+      "bytes": 31215,
+      "sha256": "256edd87629172cc0ba352f8195b0d532a90cee2e0a624eb2276c9ca4c773b4d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_ja_part3.json",
+      "bytes": 34881,
+      "sha256": "6b8a76843e549b57194e06f2fb12d264125db8e059973208b0df9dd21467c62d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_ja_part4.json",
+      "bytes": 25435,
+      "sha256": "7d6334104017bd39f4377a6afc06e4ff1c1e69b46c809bc4ca282f1f43320d5a"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_ja_part5.json",
+      "bytes": 32606,
+      "sha256": "96baca83f9d2faadd3106a8f9d5b216e531393a9c72d45bd8788d181a2f286e7"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_ja_part6.json",
+      "bytes": 11336,
+      "sha256": "00297374f194b59d41b11d630ce82562a88199fff1714567e7601072ecfb7e58"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_zh-Hant_part1.json",
+      "bytes": 18241,
+      "sha256": "8b70dd23579a1760ca4d01afb96aea8186873683c60aae48bffa48763753623d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_zh-Hant_part2.json",
+      "bytes": 20468,
+      "sha256": "97287e61f24f9c831638a0509169cc6ae623988348d04d81aa79eeade263af5d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_zh-Hant_part3.json",
+      "bytes": 28088,
+      "sha256": "d7de7291be4c918542967289996928f39941d6045f7d4f0042ac30eddaf1231b"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_zh-Hant_part4.json",
+      "bytes": 17665,
+      "sha256": "546c83d2d8b84fa70de66945e5db11c8701ff405f7617f700f56df3a358aa263"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_zh-Hant_part5.json",
+      "bytes": 20748,
+      "sha256": "c082fcb7577151730305e3a5aa63e4a73e8e499496ace10221529c1128814186"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_3_zh-Hant_part6.json",
+      "bytes": 24052,
+      "sha256": "5c66b15a49142f7d6df51d0d0d7ee1e51998dae5bd33db6a99801911a9c0e033"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_ja_part1.json",
+      "bytes": 26220,
+      "sha256": "7aa45e4468b6fa224feaef1c0d9397cdc0c276cf085bdc83824fbc8ec33e4dc8"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_ja_part2.json",
+      "bytes": 27874,
+      "sha256": "609d1ba4e77f766a08db28322f612bfc1a50fa3aa41d270c42dc487917d20f53"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_ja_part3.json",
+      "bytes": 21951,
+      "sha256": "64846210991f9843c14125f0b94ea6a2261fd9e1de84e7eac18b73f957a973b4"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_ja_part4.json",
+      "bytes": 22676,
+      "sha256": "f13876a6d0996ca779b6b64933bbeb58eaf9c95814537282e5321cd0d6816925"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_ja_part5.json",
+      "bytes": 32664,
+      "sha256": "9a685aa28e67fafefbaf6c3dfef1b79dd19af237e56fd9abfb535cb49e7753c2"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_ja_part6.json",
+      "bytes": 35375,
+      "sha256": "52b840d8a4c6682a23dad79e77bd8ae699aa525dea3753818e728f6479067af9"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_zh-Hant_part1.json",
+      "bytes": 21383,
+      "sha256": "9955d7b67c95574bd950b2d511529896c00c297beea77b877e8f5479db3a4f86"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_zh-Hant_part2.json",
+      "bytes": 22827,
+      "sha256": "d6326d62e1d4ba72118c8684b81112c5954ca80ecdfd8e8fea4b1bc2889728b7"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_zh-Hant_part3.json",
+      "bytes": 18707,
+      "sha256": "be6345efd2afb1843c3a6158704d66817994d44ce84a7c7675b60f3670c3b2bf"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_zh-Hant_part4.json",
+      "bytes": 18695,
+      "sha256": "7e4738bd7a84e6a77376ec6547b65ee607438591d7ea8c4e39e0ad9f2cee143c"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_zh-Hant_part5.json",
+      "bytes": 26637,
+      "sha256": "110ab1becf3da449087ec2a8ac9067e56fa1fd10a0ec3460849477c8322494f6"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_4_zh-Hant_part6.json",
+      "bytes": 25264,
+      "sha256": "839b808dbcf0fb51a301f1436ef01500287302961978486ca8e6756cafc98cf5"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_ja_part1.json",
+      "bytes": 36153,
+      "sha256": "a24f925fd1d4a91e5c43d4fb1eb7b355c5005eab6eca278f71b93b3c6de28ac5"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_ja_part2.json",
+      "bytes": 35330,
+      "sha256": "5715c38b586df86ab0b898399ade3c16ca61ddca2a8fe46ddc22f3449c5f275f"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_ja_part3.json",
+      "bytes": 25395,
+      "sha256": "ae642ace6759f9bcc086034d4a97373c4a1118a137d9a7f4d8474b71eebd1008"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_ja_part4.json",
+      "bytes": 25882,
+      "sha256": "d4682b665b1d605597e18187d201883145a071a56f197afeb83550dfa983c760"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_ja_part5.json",
+      "bytes": 30132,
+      "sha256": "974f9aca568146aad0cb9271ac77676346b3d8a0e9c14b429a4bf36ba2051287"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_ja_part6.json",
+      "bytes": 27450,
+      "sha256": "b3785304cd0c30300db5e4477da60f23bb09b0f7325f8be74e07e5d84219e21d"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_zh-Hant_part1.json",
+      "bytes": 32181,
+      "sha256": "ccd329849320dc2c20f49beebcff66f0f95fbcebce8f572aa60a4ac4e778d3ce"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_zh-Hant_part2.json",
+      "bytes": 30077,
+      "sha256": "7bad7d8b3fb8d553f063caab227353b4d9b126198852bf4fad3c7e9f43cf2518"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_zh-Hant_part3.json",
+      "bytes": 23436,
+      "sha256": "9c31c11d92a2d47eb3175f42cfb32a2e99cd99df2d3fbcb456b0dbe7e5f01deb"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_zh-Hant_part4.json",
+      "bytes": 25236,
+      "sha256": "46fb4c2bc80a446749527158a463a81708598fb6dc21956f571999f534c9e2ac"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_zh-Hant_part5.json",
+      "bytes": 26440,
+      "sha256": "273ebf735096407a2c20b93e76bf02f0b782ac63f82be23144ef22b037c523b8"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_5_zh-Hant_part6.json",
+      "bytes": 8619,
+      "sha256": "fa02937f03a5de7d855ea0ad870c2b891ee338292ba42d5e6a8c470792174e38"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_ja_part1.json",
+      "bytes": 26692,
+      "sha256": "f73d20e520f318f303a80ae77d31e3d1bb49f6b1ebe2a4ee05bd169e85d4f495"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_ja_part2.json",
+      "bytes": 36329,
+      "sha256": "293fc5d40cad2b9ca54abb4b22fb8fa3af976408129a7e83e6cb3f452981b731"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_ja_part3.json",
+      "bytes": 29646,
+      "sha256": "456cdcdf3740c27076ab5b41bc083d5bf1611425ba33258cdb5ba917934dcacf"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_ja_part4.json",
+      "bytes": 29824,
+      "sha256": "ed94d24319019cb056946b21fe7479d0fb310b42949d989ba5ded4459fbf6478"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_ja_part5.json",
+      "bytes": 27409,
+      "sha256": "7d112bcffb9cbcd6af7f0a8e42be115b536ad1edc8c57fa5fdf0440ad167b780"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_ja_part6.json",
+      "bytes": 25981,
+      "sha256": "bf2780bbdaf8739c9bd8d214ba30fd95b2f4aa4141b20dbd5c4631aa0e6faca6"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_zh-Hant_part1.json",
+      "bytes": 19810,
+      "sha256": "ef814d4104d238a24b5a75bfee7e2bb328643b10397cd82927109d3696c99744"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_zh-Hant_part2.json",
+      "bytes": 26108,
+      "sha256": "e4b44a4a47a075f6f1859d4c05dca52c283ea706c662db47642baf0c0badd366"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_zh-Hant_part3.json",
+      "bytes": 22232,
+      "sha256": "8df21e830b18619d185f3b0bedad988aa0f8230b613c983b0d1ef065daecb9ab"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_zh-Hant_part4.json",
+      "bytes": 22641,
+      "sha256": "637980e734fa30953b641281438f0e90fbb0c37fac79be316dc037fbb761bfe4"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_zh-Hant_part5.json",
+      "bytes": 22611,
+      "sha256": "ed27ef5d9d8e2ab9d2361f95733331d6754906aabbdaf868c66c2f1be141d1f9"
+    },
+    {
+      "path": "Code/traducoes/i18n/marble_6_zh-Hant_part6.json",
+      "bytes": 21892,
+      "sha256": "bb537a9a69d819cd027595aff80b9dad7f416699bf68e697d9317e6c0432ed97"
+    },
+    {
+      "path": "Code/traducoes/INSTRUCOES_DOS_LOTES.md",
+      "bytes": 6785,
+      "sha256": "072598697f0cddb45c3ea31aff6a0e0beb411ec10565782f8a5858c510be8461"
+    },
+    {
+      "path": "Code/traducoes/INSTRUCOES_LOTE_COMPUTACAO.md",
+      "bytes": 3472,
+      "sha256": "640ee20203f561933ab16e731bb3c2fc094274c95d690a3ddfc601a20c4da3a2"
+    },
+    {
+      "path": "Code/traducoes/INSTRUCOES_LOTES_ASIA.md",
+      "bytes": 2962,
+      "sha256": "5e5ac9197ff1f6cb020d13d25a5840e830f84052511bf33b8e7159b011107675"
+    },
+    {
+      "path": "Code/traducoes/INSTRUCOES_ROTULOS.md",
+      "bytes": 1351,
+      "sha256": "6771d942c8672f972738e9ed3a193cf11dd1e9136360be10f7460a5476c75bd1"
+    },
+    {
+      "path": "Code/traducoes/INSTRUCOES_TRADUCAO_IDIOMAS.md",
+      "bytes": 2922,
+      "sha256": "97a28b866db07cb55c6d0aeabdea5f099988107e2f2443ac8c880a3a3fab99b9"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci1_part1.json",
+      "bytes": 30315,
+      "sha256": "7ebfeb9f7d7a9f6e02fa87a27835793fea1a3b8e7ab8f82fd18d356c88b4342e"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci1_part2.json",
+      "bytes": 26158,
+      "sha256": "f381e4c6aa526860fbb28079a8029e4bbae489042a1419bc55795b67c7794a08"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci1_part3.json",
+      "bytes": 26317,
+      "sha256": "657f2f44fe99516b351dd7e84485896205044fe62b3be98a62023a22cdd806bf"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci2_part1.json",
+      "bytes": 28470,
+      "sha256": "840fb1479762b26898fcc54a3f014c491135f5949eba05e802ac248b2e179c27"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci2_part2.json",
+      "bytes": 28229,
+      "sha256": "4b98a3f6a0655bf9313d6a3c96e3293832439370de70c92753c84d568e084465"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci2_part3.json",
+      "bytes": 24961,
+      "sha256": "d3b69d4c4f157ad41855316c31775f9e468a8eed6386aadbe6cb4b811b96c5f9"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci3_part1.json",
+      "bytes": 26513,
+      "sha256": "a76e288e0025698590fb202403a08c6e8a9b3ae7c09751d3f800070672055f98"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci3_part2.json",
+      "bytes": 34177,
+      "sha256": "a2e6eb00f8e5470a06852d634be49922f7f27548ec435f3fa9a755cb9fc305a7"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci3_part3.json",
+      "bytes": 25738,
+      "sha256": "52b227dab4fe8b237dd2349cc94dbf4473738c2107651a107cf237bd4633b7d6"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci4_part1.json",
+      "bytes": 28207,
+      "sha256": "f7d148c8a9925e5cd519c3dcf0677eed01eb61cd9f548471c9e181188edf9c95"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci4_part2.json",
+      "bytes": 28416,
+      "sha256": "6dad922891ff891d4050c5945cbbf4e1969b240dfed5978d5879ad0b8f1168b9"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ci4_part3.json",
+      "bytes": 29176,
+      "sha256": "47a14687c1a9e7bb823ad9b227764081a92531b36fd8c7ee451c601abd1d4bc2"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_hg1_part1.json",
+      "bytes": 22292,
+      "sha256": "2d4fdd876dc75bcd8c6af1d8cac848b89ec9991f76c9930d39ade274146307ac"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_hg1_part2.json",
+      "bytes": 21298,
+      "sha256": "ff6178018e80e14940f62ebacb3bf60d682e820fbc0e519170c4fcaa1756438d"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_hg1_part3.json",
+      "bytes": 20904,
+      "sha256": "4e0e45b6b6a4fa2f96372620952508c97dce77e5d17323464a2604cb3f7241dc"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_hg1_part4.json",
+      "bytes": 19861,
+      "sha256": "83785d11940eed54c1e6639eba8583d45cb1c40a42e88338686ffb5b7f276d57"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp1_part1.json",
+      "bytes": 26653,
+      "sha256": "4b490b01fbb09759339dc5d063510d3fb7552f0f2e0b32ea764a428fe25d73c1"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp1_part2.json",
+      "bytes": 27559,
+      "sha256": "bb400d5d6628bc99703fd8a605f12dac1b4be1bd3a2a7f49284457da20766829"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp1_part3.json",
+      "bytes": 6553,
+      "sha256": "e24fc19e0a57875113548d591ef451794000b6f83e01339f289eb92ca088157a"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp2_part1.json",
+      "bytes": 12148,
+      "sha256": "91bd907a4c46e791d15afc43eee4ebd431e852a8e2df4e3b9335a3f5b611f0f2"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp2_part2.json",
+      "bytes": 29665,
+      "sha256": "1c8fd234e3f01292c28724e8516565874140b2d637fbc20ac28528686c10f5ed"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp2_part3.json",
+      "bytes": 24711,
+      "sha256": "f5c0b8c8367631b6896c575555cf483f58f7b0d73a52756a1c76cf77b76fec4d"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp3_part1.json",
+      "bytes": 28799,
+      "sha256": "90af50982b941295f7d5f045766a092330d6ae40348a4cb2511a21fe31b663ea"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp3_part2.json",
+      "bytes": 29103,
+      "sha256": "4feddd9caf4585a0a0c630c291d004c555d4f9921112bcb76b5ab804dc8c1e5a"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_lp3_part3.json",
+      "bytes": 8371,
+      "sha256": "c2f54eac922a26538b9dac9ed88aeec803ffd8ff71be37e7289f05bf1852ff7a"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma1_part1.json",
+      "bytes": 21677,
+      "sha256": "bb2e03d7d3df4da0f6070fcb2156492e1cba142dc18eb504dbf659cd5423fe1a"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma1_part2.json",
+      "bytes": 24292,
+      "sha256": "50b4775dbcf20b3366787a9d388a85957340d541e02efcb9aa17637e4223b22f"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma1_part3.json",
+      "bytes": 31264,
+      "sha256": "468bf9cdbeba26cb84a027f4e3415425bd9fda62760b76acf6998391f19d683d"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma1_part4.json",
+      "bytes": 3728,
+      "sha256": "f3af1fe6b8bc87b309a5c0fa7be8d2c2aff7d8e08af0cfa21d0065fdcd588b0e"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma2_part1.json",
+      "bytes": 27017,
+      "sha256": "51a563acb15992b111b7b86aadcf42d16fec7c19def9b98feb972ea627c7d06c"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma2_part2.json",
+      "bytes": 26532,
+      "sha256": "c7a0cacdd718826783341b8dc044e849892230bc96ca0bd2aa624fb94a02fd76"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma2_part3.json",
+      "bytes": 28232,
+      "sha256": "990389d6db669ebfd9545d8f7ddca6e665b1e267c973dcde04bb54effc84b211"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma3_part1.json",
+      "bytes": 29914,
+      "sha256": "86c3da42a6cfe1978fe2434c0c0105e90998a68d21cc9d635157c674d5d7d707"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma3_part2.json",
+      "bytes": 26444,
+      "sha256": "a879ca378030d6340d2b46ff15bc2208541cc4cc8670e1d11b1ff645eaf04dde"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma3_part3.json",
+      "bytes": 25377,
+      "sha256": "85e9a6f9c3e4180881f3c6339227de1de6dc3e449a469877132f51157f3df01e"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma4_part1.json",
+      "bytes": 24189,
+      "sha256": "27f6e806c0f9f8abb6c3b2f59089f054aaf0d45eae58a4c1860efecae7d3c956"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma4_part2.json",
+      "bytes": 21204,
+      "sha256": "8b4824385037399583b767f8003d6f46f5d85805e932f7f4c432d9f6192fdd0b"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma4_part3.json",
+      "bytes": 27900,
+      "sha256": "20d2606fe0c8fc4ff434ec36bc2dcb01e2a49b59cfd3917d5b8574fd09ad3946"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ma4_part4.json",
+      "bytes": 1825,
+      "sha256": "0d3c39d3a45b21909fd7c70eea506cd0bedb89939644b47d43bc60d7ab57c0fc"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ot1_part1.json",
+      "bytes": 30465,
+      "sha256": "e8f1a83628155fb7a02080b96ad125f73d9ed6fb7abd79f726b7fd997365c964"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ot1_part2.json",
+      "bytes": 11307,
+      "sha256": "99d305df31f762e86d3f69843472b0af8bfc2256e5c6ccec55c098f2a3d0725b"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ps1_part1.json",
+      "bytes": 27217,
+      "sha256": "c50401df6775c08ebb9be7665fe5677e206395eabd35304007c744ffd86ceba9"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ps1_part2.json",
+      "bytes": 30237,
+      "sha256": "66dfea4d701e60ab0a85de11008ca1ce3695dcb765b1884461ddccd841d6d349"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ps1_part3.json",
+      "bytes": 33811,
+      "sha256": "ddd9f5759bfb0a771ddbcad9e47b6044415a22a6ad45ba785252c3a628a0e3fe"
+    },
+    {
+      "path": "Code/traducoes/lotes/batch_ps1_part4.json",
+      "bytes": 33678,
+      "sha256": "5c24736ac54c0c251e61f0ce52de4c87e69fe52e3013d8a29972406cd019b6d3"
+    },
+    {
+      "path": "Code/traducoes/lotes_computacao/batch_co1_part1.json",
+      "bytes": 8131,
+      "sha256": "01c00e83aa460a70688cb6f71ed97a793529e0ef1a8081e5d10322d71318e7ce"
+    },
+    {
+      "path": "Code/traducoes/lotes_computacao/batch_co1_part2.json",
+      "bytes": 5897,
+      "sha256": "3ee95cf087cfacf9eae9ef592219f55c328989ffeb21dd9a58d291ee4b306952"
+    },
+    {
+      "path": "Code/traducoes/lotes_computacao/batch_co1_part3.json",
+      "bytes": 2330,
+      "sha256": "6ff5ed5b1f4acabce4be1b83be0ecf8ae4e6c8e84e3d97e330cd2d02ec8c4364"
+    },
+    {
+      "path": "Grok/CONSENSO_TAXONOMIA.md",
+      "bytes": 6538,
+      "sha256": "48eb79717798909dc06bf4e8d959e9274d551fa69477a387d4d48e30f1bfbfb0"
+    },
+    {
+      "path": "Grok/data/cache/traducoes-i18n.json",
+      "bytes": 6083588,
+      "sha256": "2cc8c0829ff45d5e5d56b4454b1bc6482e13837b8b0e310770f8af7bbb204b56"
+    },
+    {
+      "path": "Grok/data/cache/traducoes-jp-cn.json",
+      "bytes": 1542319,
+      "sha256": "52f385de8a2c40d0f42c1a989b17d620169875b1963548656f666d2965acceb1"
+    },
+    {
+      "path": "Grok/data/cache/traducoes-marble-pt.json",
+      "bytes": 1699385,
+      "sha256": "bde4bc976082330295dfd75cb28e9e6568266e31605c1c830b53ab712829c5bd"
+    },
+    {
+      "path": "Grok/data/componentes.json",
+      "bytes": 2313,
+      "sha256": "2280ec1187578fe6859cfcde392aada0e4fbbe71bf71feb2c83771a9048dfa5c"
+    },
+    {
+      "path": "Grok/data/equivalencias.json",
+      "bytes": 160557,
+      "sha256": "16bc95bcfa42104b4b3c9840c84b04d6e202c6a57496beaa25b6c8eb7f862b9c"
+    },
+    {
+      "path": "Grok/data/fontes/china-moe-itens.json",
+      "bytes": 364935,
+      "sha256": "8e0167a89c691817d0c0c50ccda08cf23a6a2f5619318fa17f228dbb3f3c1be4"
+    },
+    {
+      "path": "Grok/data/fontes/japao-mext-itens.json",
+      "bytes": 948162,
+      "sha256": "61d40fec52a66aab40d2ed21a1022ec08aa294c0816d8498f6cfb9c3d05f3d19"
+    },
+    {
+      "path": "Grok/data/i18n-status.json",
+      "bytes": 366,
+      "sha256": "7c2f0ee4859d2131042a71a53a68025279c4217c5326c6a07a620d5cde1c4726"
+    },
+    {
+      "path": "Grok/data/manifest.json",
+      "bytes": 2218,
+      "sha256": "790133b6673b3b6eb9750744379f37c3409bb0e9f4fc93e334c99f5b2e7b5824"
+    },
+    {
+      "path": "Grok/data/microtopicos.json",
+      "bytes": 10032982,
+      "sha256": "00fee6b9981ab9ae10a6a56e7dbc23d54fd7473f61ba394231c0db926a911736"
+    },
+    {
+      "path": "Grok/data/prerequisitos.json",
+      "bytes": 2605755,
+      "sha256": "1b90ca6981d53ede50308a10d0aec33a6e99f561b36b745131800ab5abd38772"
+    },
+    {
+      "path": "Grok/data/validacao-pdf-oficial.json",
+      "bytes": 632,
+      "sha256": "2e1ff07f42c1b7dfefa69bc2669a9bbffb73bd1250fe84aedee454c30d626c51"
+    },
+    {
+      "path": "Grok/data/validacao.json",
+      "bytes": 5486,
+      "sha256": "387f639b1d0683185003b910b06f00ed99d6a93390f9028590309cdb4463a2f8"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/00-LEIA-ME.md",
+      "bytes": 1649,
+      "sha256": "eba19aad120d31b2b3c853bae1b8ef3f6cdccfdd757a8c21fe2ab1725eb8b107"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/01-escopo-e-checklist.md",
+      "bytes": 1611,
+      "sha256": "4d00f8b7b3f083b13d0a56c5c68bdc2c1ab87f0c38d7fd317fa1a94c54054de4"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/02-livro-de-achados.md",
+      "bytes": 4659,
+      "sha256": "069d90383f302f3f008bf88ef740b8001a5dffd2eaf3322670112897a49aeb01"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/03-arquitetura-reconstruida.md",
+      "bytes": 2528,
+      "sha256": "532102790a5d0c68fe029dcfdfb44696e45c591a4a58bdb2015347158a72eb15"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/04-licencas-e-conformidade.md",
+      "bytes": 1980,
+      "sha256": "d3ba3d439fa00547d777c9bb87a2dbbe3deaf04f62d94d81ee00b8bdb64bde88"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/05-status-final.md",
+      "bytes": 803,
+      "sha256": "331f9cd75eeb74961cea5b4259b6924ac7c0b5e3c1d397b3dffac87d7d4af651"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/06-v2-consenso-japao-china-idiomas.md",
+      "bytes": 3667,
+      "sha256": "e93efcdb47c0586b0323344b6885c735df2709a53e3a756a124de17703b86615"
+    },
+    {
+      "path": "Grok/dossie-engenharia-reversa/evidencia-rea-resumo.json",
+      "bytes": 2979,
+      "sha256": "7696cc4d2963f7077fa27b2cc130e84141871bb3b067516ccda340bc61fa3899"
+    },
+    {
+      "path": "Grok/PROMPT_PARA_CODE.md",
+      "bytes": 3280,
+      "sha256": "78a0871799c0e22393407fe0af7f811d58988b3e5572722c89225c64687ee35f"
+    },
+    {
+      "path": "Grok/PROMPT_PARA_CODEX.md",
+      "bytes": 3521,
+      "sha256": "9f9fe516e5f893deed8485a45953e6db17756eca36b52b628c49a2d089b3268e"
+    },
+    {
+      "path": "Grok/README.md",
+      "bytes": 12208,
+      "sha256": "9e41f4a1ffa0eea4632de5e00cd7da8da068876be783cbea0988cba3ed7f6cca"
+    },
+    {
+      "path": "Grok/repo/.github/workflows/pages.yml",
+      "bytes": 904,
+      "sha256": "f4e49da3f45cec3f73fb3dab0c44fe55b997686d2c086cca196f6180e8d04472"
+    },
+    {
+      "path": "Grok/repo/ATTRIBUTIONS.md",
+      "bytes": 1827,
+      "sha256": "8ecaef0412febe11b9ed7a5536ccbff0b3b11eb5f16951743537ce7d78636726"
+    },
+    {
+      "path": "Grok/repo/CONSENSO_TAXONOMIA.md",
+      "bytes": 6538,
+      "sha256": "48eb79717798909dc06bf4e8d959e9274d551fa69477a387d4d48e30f1bfbfb0"
+    },
+    {
+      "path": "Grok/repo/data/cache/traducoes-i18n.json",
+      "bytes": 6083588,
+      "sha256": "2cc8c0829ff45d5e5d56b4454b1bc6482e13837b8b0e310770f8af7bbb204b56"
+    },
+    {
+      "path": "Grok/repo/data/cache/traducoes-jp-cn.json",
+      "bytes": 1542319,
+      "sha256": "52f385de8a2c40d0f42c1a989b17d620169875b1963548656f666d2965acceb1"
+    },
+    {
+      "path": "Grok/repo/data/cache/traducoes-marble-pt.json",
+      "bytes": 1699385,
+      "sha256": "bde4bc976082330295dfd75cb28e9e6568266e31605c1c830b53ab712829c5bd"
+    },
+    {
+      "path": "Grok/repo/data/componentes.json",
+      "bytes": 2313,
+      "sha256": "2280ec1187578fe6859cfcde392aada0e4fbbe71bf71feb2c83771a9048dfa5c"
+    },
+    {
+      "path": "Grok/repo/data/equivalencias.json",
+      "bytes": 160557,
+      "sha256": "16bc95bcfa42104b4b3c9840c84b04d6e202c6a57496beaa25b6c8eb7f862b9c"
+    },
+    {
+      "path": "Grok/repo/data/fontes/china-moe-itens.json",
+      "bytes": 364935,
+      "sha256": "8e0167a89c691817d0c0c50ccda08cf23a6a2f5619318fa17f228dbb3f3c1be4"
+    },
+    {
+      "path": "Grok/repo/data/fontes/japao-mext-itens.json",
+      "bytes": 948162,
+      "sha256": "61d40fec52a66aab40d2ed21a1022ec08aa294c0816d8498f6cfb9c3d05f3d19"
+    },
+    {
+      "path": "Grok/repo/data/i18n-status.json",
+      "bytes": 366,
+      "sha256": "7c2f0ee4859d2131042a71a53a68025279c4217c5326c6a07a620d5cde1c4726"
+    },
+    {
+      "path": "Grok/repo/data/manifest.json",
+      "bytes": 2218,
+      "sha256": "790133b6673b3b6eb9750744379f37c3409bb0e9f4fc93e334c99f5b2e7b5824"
+    },
+    {
+      "path": "Grok/repo/data/microtopicos.json",
+      "bytes": 10032982,
+      "sha256": "00fee6b9981ab9ae10a6a56e7dbc23d54fd7473f61ba394231c0db926a911736"
+    },
+    {
+      "path": "Grok/repo/data/prerequisitos.json",
+      "bytes": 2605755,
+      "sha256": "1b90ca6981d53ede50308a10d0aec33a6e99f561b36b745131800ab5abd38772"
+    },
+    {
+      "path": "Grok/repo/data/validacao-pdf-oficial.json",
+      "bytes": 632,
+      "sha256": "2e1ff07f42c1b7dfefa69bc2669a9bbffb73bd1250fe84aedee454c30d626c51"
+    },
+    {
+      "path": "Grok/repo/data/validacao.json",
+      "bytes": 5486,
+      "sha256": "387f639b1d0683185003b910b06f00ed99d6a93390f9028590309cdb4463a2f8"
+    },
+    {
+      "path": "Grok/repo/docs/app.js",
+      "bytes": 31130,
+      "sha256": "7fb8ed5d1d7e91e5092e024dcd619b26c5ad74ade3c645e4f2e182886ab930e7"
+    },
+    {
+      "path": "Grok/repo/docs/graph-data.js",
+      "bytes": 3818683,
+      "sha256": "cfc95540d1eadec868cdfdd9f4c23b030d81f451d81f5c4e45cb40d0601bfe80"
+    },
+    {
+      "path": "Grok/repo/docs/i18n/nodes-en.js",
+      "bytes": 2004013,
+      "sha256": "007d4ef87931ed96b9d3c5a4b8b2923ace21e9b0173731d1d4d84f48259de546"
+    },
+    {
+      "path": "Grok/repo/docs/i18n/nodes-ja.js",
+      "bytes": 1606225,
+      "sha256": "479e0eb954cfb4e14093cfeada0e44328353e54b09d86db3d7b76b46932d4af4"
+    },
+    {
+      "path": "Grok/repo/docs/i18n/nodes-zh-Hant.js",
+      "bytes": 930458,
+      "sha256": "7fde044e86c1a88dbe9b3bf232a1ac25635ec0e2790e5586b17f58e7eb808f31"
+    },
+    {
+      "path": "Grok/repo/docs/i18n/ui.js",
+      "bytes": 18712,
+      "sha256": "cf75ae79fe4c8c67c684a11aeeedffc537572a2709ed4fee19274c014f166534"
+    },
+    {
+      "path": "Grok/repo/docs/index.html",
+      "bytes": 5458,
+      "sha256": "012110c606c1dbb77194a6bf69b8e858fa784d9d56971116588497d241b94d6f"
+    },
+    {
+      "path": "Grok/repo/docs/style.css",
+      "bytes": 13689,
+      "sha256": "43e073e1aa0b49c0bd2adf8010ac5611d7e3d5eeb1d2db5da9c90d7a1ee9f3b1"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/00-LEIA-ME.md",
+      "bytes": 1649,
+      "sha256": "eba19aad120d31b2b3c853bae1b8ef3f6cdccfdd757a8c21fe2ab1725eb8b107"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/01-escopo-e-checklist.md",
+      "bytes": 1611,
+      "sha256": "4d00f8b7b3f083b13d0a56c5c68bdc2c1ab87f0c38d7fd317fa1a94c54054de4"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/02-livro-de-achados.md",
+      "bytes": 4659,
+      "sha256": "069d90383f302f3f008bf88ef740b8001a5dffd2eaf3322670112897a49aeb01"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/03-arquitetura-reconstruida.md",
+      "bytes": 2528,
+      "sha256": "532102790a5d0c68fe029dcfdfb44696e45c591a4a58bdb2015347158a72eb15"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/04-licencas-e-conformidade.md",
+      "bytes": 1980,
+      "sha256": "d3ba3d439fa00547d777c9bb87a2dbbe3deaf04f62d94d81ee00b8bdb64bde88"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/05-status-final.md",
+      "bytes": 803,
+      "sha256": "331f9cd75eeb74961cea5b4259b6924ac7c0b5e3c1d397b3dffac87d7d4af651"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/06-v2-consenso-japao-china-idiomas.md",
+      "bytes": 3667,
+      "sha256": "e93efcdb47c0586b0323344b6885c735df2709a53e3a756a124de17703b86615"
+    },
+    {
+      "path": "Grok/repo/docs-projeto/evidencia-rea-resumo.json",
+      "bytes": 2979,
+      "sha256": "7696cc4d2963f7077fa27b2cc130e84141871bb3b067516ccda340bc61fa3899"
+    },
+    {
+      "path": "Grok/repo/README.md",
+      "bytes": 12431,
+      "sha256": "7d4458ff7ebb1a182d6eeb7ec690aaf335b1d9cee7eb6394daaf6b9890bb724f"
+    },
+    {
+      "path": "Grok/repo/schema/equivalencias.schema.json",
+      "bytes": 698,
+      "sha256": "c7e930a0d6edc83efa2929d651af39189b2f6e5c86f2d76d091ceb1f03e65770"
+    },
+    {
+      "path": "Grok/repo/schema/microtopicos.schema.json",
+      "bytes": 3792,
+      "sha256": "604d4abfd4c7c021b341faf9f1f155779a570e9b6fbf8764b2981ba8a4282a72"
+    },
+    {
+      "path": "Grok/repo/schema/prerequisitos.schema.json",
+      "bytes": 1398,
+      "sha256": "e5cec15d401a1da9f59d5b3746d478bcdf9dc755bddfb37858cdc5daf0905a05"
+    },
+    {
+      "path": "Grok/repo/schema/README-v2.md",
+      "bytes": 402,
+      "sha256": "3430ae3b809a49941c7de87b3988bf8d0bc7126456eb4efa74885f69781a066f"
+    },
+    {
+      "path": "Grok/repo/scripts/01_traduzir_marble.py",
+      "bytes": 2431,
+      "sha256": "1b31acc1e7943616f78eaf1b525c5e6dd5c0be812b669da5c6ae9b0d6ca57dff"
+    },
+    {
+      "path": "Grok/repo/scripts/01b_traduzir_jp_cn.py",
+      "bytes": 1031,
+      "sha256": "deae884cb0be6eb94f2087fd7b70af18912c7299fb612c84231275e11e7580a7"
+    },
+    {
+      "path": "Grok/repo/scripts/02_construir_taxonomia.py",
+      "bytes": 30362,
+      "sha256": "630e3bf56a4d8f52abe54bcf3f1fef8b33af66b151ebbf2390e5dc7d8a9ede12"
+    },
+    {
+      "path": "Grok/repo/scripts/02a_extrair_japao.py",
+      "bytes": 5556,
+      "sha256": "e438335db2fcc9543354d0b22fb02e2fcc87b24d39138f90046eba8fce2da829"
+    },
+    {
+      "path": "Grok/repo/scripts/02b_extrair_china.py",
+      "bytes": 12586,
+      "sha256": "3b555b268c04520df614aa10127e28f0685baeb222b9cd46e59d8f04df09cf0e"
+    },
+    {
+      "path": "Grok/repo/scripts/03_testar_site.py",
+      "bytes": 9783,
+      "sha256": "41bf68495844f080e3aeca382730cc3df864de2d12fa2e673001fbc9f86b1a64"
+    },
+    {
+      "path": "Grok/repo/scripts/06_gerar_i18n.py",
+      "bytes": 4974,
+      "sha256": "680eeb399810e8d22cf8b0ffd44974e92db89369194077e334abbca2885df0c9"
+    },
+    {
+      "path": "Grok/repo/scripts/mt.py",
+      "bytes": 2975,
+      "sha256": "7a03a95ebb582e2c69b04e43ba2b8ef72ec60cd6887ae0bd72dfc59d27f685ca"
+    },
+    {
+      "path": "Grok/schema/equivalencias.schema.json",
+      "bytes": 698,
+      "sha256": "c7e930a0d6edc83efa2929d651af39189b2f6e5c86f2d76d091ceb1f03e65770"
+    },
+    {
+      "path": "Grok/schema/microtopicos.schema.json",
+      "bytes": 3792,
+      "sha256": "604d4abfd4c7c021b341faf9f1f155779a570e9b6fbf8764b2981ba8a4282a72"
+    },
+    {
+      "path": "Grok/schema/prerequisitos.schema.json",
+      "bytes": 1398,
+      "sha256": "e5cec15d401a1da9f59d5b3746d478bcdf9dc755bddfb37858cdc5daf0905a05"
+    },
+    {
+      "path": "Grok/schema/README-v2.md",
+      "bytes": 402,
+      "sha256": "3430ae3b809a49941c7de87b3988bf8d0bc7126456eb4efa74885f69781a066f"
+    },
+    {
+      "path": "Grok/screenshots/relatorio-teste.json",
+      "bytes": 5009,
+      "sha256": "bb2a59a8ac818c40840e3b581df3dd4b2a1256c7b0373c8caf1a51400f711258"
+    },
+    {
+      "path": "Grok/scripts/01_traduzir_marble.py",
+      "bytes": 2431,
+      "sha256": "1b31acc1e7943616f78eaf1b525c5e6dd5c0be812b669da5c6ae9b0d6ca57dff"
+    },
+    {
+      "path": "Grok/scripts/01b_traduzir_jp_cn.py",
+      "bytes": 1031,
+      "sha256": "deae884cb0be6eb94f2087fd7b70af18912c7299fb612c84231275e11e7580a7"
+    },
+    {
+      "path": "Grok/scripts/02_construir_taxonomia.py",
+      "bytes": 30362,
+      "sha256": "630e3bf56a4d8f52abe54bcf3f1fef8b33af66b151ebbf2390e5dc7d8a9ede12"
+    },
+    {
+      "path": "Grok/scripts/02a_extrair_japao.py",
+      "bytes": 5556,
+      "sha256": "e438335db2fcc9543354d0b22fb02e2fcc87b24d39138f90046eba8fce2da829"
+    },
+    {
+      "path": "Grok/scripts/02b_extrair_china.py",
+      "bytes": 12586,
+      "sha256": "3b555b268c04520df614aa10127e28f0685baeb222b9cd46e59d8f04df09cf0e"
+    },
+    {
+      "path": "Grok/scripts/03_testar_site.py",
+      "bytes": 9783,
+      "sha256": "41bf68495844f080e3aeca382730cc3df864de2d12fa2e673001fbc9f86b1a64"
+    },
+    {
+      "path": "Grok/scripts/06_gerar_i18n.py",
+      "bytes": 4974,
+      "sha256": "680eeb399810e8d22cf8b0ffd44974e92db89369194077e334abbca2885df0c9"
+    },
+    {
+      "path": "Grok/scripts/mt.py",
+      "bytes": 2975,
+      "sha256": "7a03a95ebb582e2c69b04e43ba2b8ef72ec60cd6887ae0bd72dfc59d27f685ca"
+    },
+    {
+      "path": "Grok/site/app.js",
+      "bytes": 31130,
+      "sha256": "7fb8ed5d1d7e91e5092e024dcd619b26c5ad74ade3c645e4f2e182886ab930e7"
+    },
+    {
+      "path": "Grok/site/graph-data.js",
+      "bytes": 3818683,
+      "sha256": "cfc95540d1eadec868cdfdd9f4c23b030d81f451d81f5c4e45cb40d0601bfe80"
+    },
+    {
+      "path": "Grok/site/i18n/nodes-en.js",
+      "bytes": 2004013,
+      "sha256": "007d4ef87931ed96b9d3c5a4b8b2923ace21e9b0173731d1d4d84f48259de546"
+    },
+    {
+      "path": "Grok/site/i18n/nodes-ja.js",
+      "bytes": 1606225,
+      "sha256": "479e0eb954cfb4e14093cfeada0e44328353e54b09d86db3d7b76b46932d4af4"
+    },
+    {
+      "path": "Grok/site/i18n/nodes-zh-Hant.js",
+      "bytes": 930458,
+      "sha256": "7fde044e86c1a88dbe9b3bf232a1ac25635ec0e2790e5586b17f58e7eb808f31"
+    },
+    {
+      "path": "Grok/site/i18n/ui.js",
+      "bytes": 18712,
+      "sha256": "cf75ae79fe4c8c67c684a11aeeedffc537572a2709ed4fee19274c014f166534"
+    },
+    {
+      "path": "Grok/site/index.html",
+      "bytes": 5458,
+      "sha256": "012110c606c1dbb77194a6bf69b8e858fa784d9d56971116588497d241b94d6f"
+    },
+    {
+      "path": "Grok/site/style.css",
+      "bytes": 13689,
+      "sha256": "43e073e1aa0b49c0bd2adf8010ac5611d7e3d5eeb1d2db5da9c90d7a1ee9f3b1"
+    },
+    {
+      "path": "Codex/app.js",
+      "bytes": 34578,
+      "sha256": "64d3690bbf959e2bd0b55b91f52cee487a984a98fa3f70fec96d40a25f5c043e"
+    },
+    {
+      "path": "Codex/data/brazil_topics.json",
+      "bytes": 3823968,
+      "sha256": "ae76b91fc94712378aa6348878e9e63a7e7886f7821951f3af1e07c887df5475"
+    },
+    {
+      "path": "Codex/data/international.json",
+      "bytes": 13301796,
+      "sha256": "e27b0f3f1f94a2d1fe4d95ac87f02e14c2e67a16337f261622533991d439d0df"
+    },
+    {
+      "path": "Codex/data/upstream/archived-teaching-research.json",
+      "bytes": 121411,
+      "sha256": "28cc37220a78bdbfb37bd5693e8b729571e87c5d0ba471692707a07a7ef6c73f"
+    },
+    {
+      "path": "Codex/data/upstream/clusters.json",
+      "bytes": 59129,
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3"
+    },
+    {
+      "path": "Codex/data/upstream/curriculum-alignments.json",
+      "bytes": 1733994,
+      "sha256": "2b18f8f2e100dd2b7faf89f1477426b3873ac6f3a7d3ca455c03c401bc91b399"
+    },
+    {
+      "path": "Codex/data/upstream/curriculum-standards.json",
+      "bytes": 2795125,
+      "sha256": "d8365e19b4233234dbf03151950dae693b8e7e10f60f82f12f985deb5c7bfcdd"
+    },
+    {
+      "path": "Codex/data/upstream/dependencies.json",
+      "bytes": 880722,
+      "sha256": "64f6946d1422098e4d68493bf4c0926af843e4d7cf0625905f35ff0a6e732132"
+    },
+    {
+      "path": "Codex/data/upstream/manifest.json",
+      "bytes": 24669,
+      "sha256": "3c95375dda8283aa302f3387525842c3faf676c67742e8103080510a58cc7d8d"
+    },
+    {
+      "path": "Codex/data/upstream/teaching-research.json",
+      "bytes": 23985503,
+      "sha256": "a14d9c3c7487033ae65f1eaf7ccc81321195e64194a7cc43e170739cfa10b361"
+    },
+    {
+      "path": "Codex/data/upstream/topics.json",
+      "bytes": 2807806,
+      "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff"
+    },
+    {
+      "path": "Codex/docs/Curriculo_Brasileiro.md",
+      "bytes": 7297,
+      "sha256": "9654cae66d92267c9e9481865bc2ede5614ca67d8bb78e1315b681e2eddea8bf"
+    },
+    {
+      "path": "Codex/docs/Engenharia_Reversa.md",
+      "bytes": 4861,
+      "sha256": "dc3fe9dec1ed3a31e570b48b6851c6bb49fa34e113dbda5b46b3022e63e9fa1d"
+    },
+    {
+      "path": "Codex/docs/Entrega_Verificada.md",
+      "bytes": 7096,
+      "sha256": "748ef6ee9bd547ec16f7a7ed4361ef1757343a092095504f98567e33b7b52dfd"
+    },
+    {
+      "path": "Codex/docs/Fontes_Internacionais.md",
+      "bytes": 5906,
+      "sha256": "3befb8288cfea2a9ade696661ae533939b319eeb926f8388dbb930150870a7ea"
+    },
+    {
+      "path": "Codex/evidence/Browser_Desktop.json",
+      "bytes": 1465302,
+      "sha256": "eaca1ef63e4c6eaeb57ebb555e77e1c9eb8fc5321112d78594eee8b818e86985"
+    },
+    {
+      "path": "Codex/evidence/Browser_Mobile.json",
+      "bytes": 516159,
+      "sha256": "38c8a6c6ae1cb62d5bf3b88b7ae38e7b26707d09fa8383f42eeaae54f125b521"
+    },
+    {
+      "path": "Codex/evidence/Browser_Portatil.json",
+      "bytes": 100607533,
+      "sha256": "d32610d8cd879b9443857e8b174f6c7ad382daf4623be9c96391b5d6626454cb"
+    },
+    {
+      "path": "Codex/evidence/Build_Portatil.json",
+      "bytes": 526,
+      "sha256": "e9cc8473b92785b01d35ee31a8a5ea07b45a81bc22c8a723509b969f2e60fd9b"
+    },
+    {
+      "path": "Codex/evidence/Escopo_Governanca.json",
+      "bytes": 903,
+      "sha256": "d4a6d2f7fde24e68c4c886e649f2e7b905817f07b919a9f09cfa2ae0ebeccb0e"
+    },
+    {
+      "path": "Codex/evidence/exports/Saber_Brasil_Final.csv",
+      "bytes": 1570,
+      "sha256": "0ea2871106b9ec918107938509870579aa2253b9c09b13e4381465941289194d"
+    },
+    {
+      "path": "Codex/evidence/exports/Saber_Brasil_Final.json",
+      "bytes": 6644,
+      "sha256": "2aac3306633cfd5f64124aed73bd1711c82f771d49a4e5d6bda0f8bdd665b090"
+    },
+    {
+      "path": "Codex/evidence/exports/Saber_Brasil_Microtopicos.csv",
+      "bytes": 642,
+      "sha256": "9465c5c3a257b26721f22f3580d06fd432ddaf8e401d04abe96d373ea74a7e3e"
+    },
+    {
+      "path": "Codex/evidence/exports/Saber_Brasil_Microtopicos.json",
+      "bytes": 2813,
+      "sha256": "4b4e85c29eeae5e21ac77d605cfe24171fb64cc0168e13d75745ae980f6c0a9c"
+    },
+    {
+      "path": "Codex/evidence/Final_Browser_Mobile.json",
+      "bytes": 518704,
+      "sha256": "70644f8e3bf0d6e0114a833a849da4dfedc80d8d9cfdb2952b632a8d3bbeb743"
+    },
+    {
+      "path": "Codex/evidence/Final_Browser_Portatil.json",
+      "bytes": 271559456,
+      "sha256": "977cb324d0ea4d56d21c4e1437abbf2cfd757b56c0c365e1427d3a2a11276ee4"
+    },
+    {
+      "path": "Codex/evidence/Importacao_Internacional.json",
+      "bytes": 3018,
+      "sha256": "7aae4ccdf8a3839436ea2bbda8887795599c09a80f525a8372525432b352d40f"
+    },
+    {
+      "path": "Codex/evidence/original/curriculum.html",
+      "bytes": 686333,
+      "sha256": "269a6bb458e8e1ba739bc323fd3ea467d583db51774a35d30710bbaa835cf752"
+    },
+    {
+      "path": "Codex/evidence/original/homepage.html",
+      "bytes": 364312,
+      "sha256": "4dc4e0d70ac4077e7e35277816858203978468ff1cb3d65ee7f16baf54a91745"
+    },
+    {
+      "path": "Codex/evidence/original/scripts/curriculum_0.js",
+      "bytes": 1810,
+      "sha256": "2445ffc7ffa61d2669791b7736a34f93830a8d589065add8032d5f0be4d74713"
+    },
+    {
+      "path": "Codex/evidence/original/scripts/curriculum_2.js",
+      "bytes": 13651,
+      "sha256": "6fa6d97d9f349b255d72a48d7a41a22c2b323e76cc534301b0f0a1399c270047"
+    },
+    {
+      "path": "Codex/evidence/original_manifest.json",
+      "bytes": 581,
+      "sha256": "a0e69d985a977e283c0092fedb7bc2113dadab9a29b7739b8a9ee6386eb1824c"
+    },
+    {
+      "path": "Codex/evidence/rea_browser.json",
+      "bytes": 3028646,
+      "sha256": "e4a238169977192727dd30439c6ac98efd9935f581cc564d9b8b954371308182"
+    },
+    {
+      "path": "Codex/evidence/rea_filter.json",
+      "bytes": 3028650,
+      "sha256": "ec053ae9ea838a8acb6fbf57376158f99dd2601c9ed967cf9e883c7be73da0a2"
+    },
+    {
+      "path": "Codex/evidence/rea_filter_valid.json",
+      "bytes": 2987965,
+      "sha256": "6a0245eb47d23ecbc8190ddd9ce6b89977e06384d61dcba5dead8e4d42cbf86d"
+    },
+    {
+      "path": "Codex/evidence/rea_scenario_filter.json",
+      "bytes": 794,
+      "sha256": "1cc50b710ed06dc63ef147477712896ac4442e08e444253ce7c563c9a1fcd6d1"
+    },
+    {
+      "path": "Codex/evidence/rea_scenario_filter_valid.json",
+      "bytes": 784,
+      "sha256": "b65ac7ec9894cb93cb86232c4f50187d1162f47743d2e73c72005dd79fad60e6"
+    },
+    {
+      "path": "Codex/evidence/rea_scenario_input.json",
+      "bytes": 792,
+      "sha256": "073c1711a19f002f783107557036d63ef1030baba3d911841abe3e6cd25b422f"
+    },
+    {
+      "path": "Codex/evidence/rea_static.json",
+      "bytes": 4056998,
+      "sha256": "2e34bb6c1033140934287c1b83235604503e64b253c5ce0f731267424fcf4f69"
+    },
+    {
+      "path": "Codex/evidence/scenario_desktop.json",
+      "bytes": 4744,
+      "sha256": "0dbcb8b820348eebf8b5690fda5803b0482de002dd49c46833d09963975f56f0"
+    },
+    {
+      "path": "Codex/evidence/scenario_final_portable.json",
+      "bytes": 4769,
+      "sha256": "41f63b6ac75c49fcdfdb2b9d3e8b7ba882ceec3374facfd16cdb6a256b039180"
+    },
+    {
+      "path": "Codex/evidence/scenario_mobile.json",
+      "bytes": 2019,
+      "sha256": "3956c6af9416a98feb8947b4c6cc217e071a313827d09ea4e533c5b67c125c0a"
+    },
+    {
+      "path": "Codex/evidence/scenario_portable.json",
+      "bytes": 2028,
+      "sha256": "f5eca6adcbf9c5bb9c9911f621732234fcdd5a691607a65f407c34e9f7c36522"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_010045/brazil_topics.json",
+      "bytes": 2593996,
+      "sha256": "daa46387afc186912ec689477e4a16dc139bcace44d0aaf925695e79dad4d03d"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_010045/sources_brazil.json",
+      "bytes": 7371,
+      "sha256": "90be0218c2649c8a5a29dd8c0573966089084fd527671664c934484a4a99393c"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_040628_315674/brazil_topics.json",
+      "bytes": 2605350,
+      "sha256": "e1e9da13be6d735134f49e29fe46ea6014434c0f7a2fa56afcd17f0a7be634fd"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_040628_414456/sources_brazil.json",
+      "bytes": 7371,
+      "sha256": "bd2bdb5a2f9f868d58d3f500400219ad35a280d672bcfba56739dd4a00672ebc"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_040849_867227/brazil_topics.json",
+      "bytes": 3827306,
+      "sha256": "14e105d86d53949914460452955a8720d0950e9e9f10c6117a4681918c2a3a04"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_040849_988392/sources_brazil.json",
+      "bytes": 7476,
+      "sha256": "da6ee9683493d5fb9aead26b1c12acfd53bdc5c4866eff6562b9d7944585a995"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_041048_836667/brazil_topics.json",
+      "bytes": 3827316,
+      "sha256": "4c0bdbdd45ec9262e57c3e5108f2fa2f78085376ce50b9232944c579442f65ff"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil/build_backups/20261112_041048_990729/sources_brazil.json",
+      "bytes": 7476,
+      "sha256": "590e8b203c57758fcb35f88902a216402bca63427db9022adf40790fcd35d34d"
+    },
+    {
+      "path": "Codex/evidence/sources_brazil.json",
+      "bytes": 7476,
+      "sha256": "f69245445e33736309dc3d72128164a6c2c730032ef7a374c822777a7d13148a"
+    },
+    {
+      "path": "Codex/evidence/Validacao_Dados.json",
+      "bytes": 28315,
+      "sha256": "8d831d9f1af0f309783bca44b6c4d76f032caaf62921b1832e715fda422defd1"
+    },
+    {
+      "path": "Codex/evidence/Validacao_Navegador.json",
+      "bytes": 6117,
+      "sha256": "2d4c9299856a30d78d834f93ef89fcaca1cdcdd32daee08d46a116c9c239b0d6"
+    },
+    {
+      "path": "Codex/index.html",
+      "bytes": 10458,
+      "sha256": "0c7eeefc481e16b88d2e8dc92bd414a14180e739db3ba8fcead68389b494d0d4"
+    },
+    {
+      "path": "Codex/LEIA_ME.md",
+      "bytes": 4590,
+      "sha256": "a352276c60f25849ff45c0b96a926c8ca2f8caea72f220b81ea7ae5936620427"
+    },
+    {
+      "path": "Codex/licenses/Licenca_do_Codigo.md",
+      "bytes": 1686,
+      "sha256": "66b543b410d90ba774a04f28a8d4aed25d7ee916f3e647314302a9156c6c5b03"
+    },
+    {
+      "path": "Codex/licenses/marble/PROVENANCE.md",
+      "bytes": 25496,
+      "sha256": "582cfc341ae2d057f28f0e3a8bf33b9d7f899f8ce80bc2f670aa72cc16955080"
+    },
+    {
+      "path": "Codex/licenses/marble/README.md",
+      "bytes": 24372,
+      "sha256": "8097468ca141f7563dca519338497fed1b5a61bd8afbbeb779d04bf8bc17018d"
+    },
+    {
+      "path": "Codex/package.json",
+      "bytes": 443,
+      "sha256": "28fff1202998b4a0a4c0319cc6d546889cec222406e9a0c7428420bf8425cd48"
+    },
+    {
+      "path": "Codex/Release_Manifest.json",
+      "bytes": 14050,
+      "sha256": "a897f90be9b8f0a786f78bd97f014dcba8dd6037167f20800578776563edb436"
+    },
+    {
+      "path": "Codex/Saber_Brasil_Offline.html",
+      "bytes": 13191511,
+      "sha256": "b6ef99d35ed790adee375f16e9280b0064aa2316eaa0af0bbc49638f54a51a0b"
+    },
+    {
+      "path": "Codex/scripts/brazil_curated.py",
+      "bytes": 23453,
+      "sha256": "044e174677b076456eb54211a3f5ed72095b42031f9b020ebb5b14954d3a65f4"
+    },
+    {
+      "path": "Codex/scripts/browser_scenarios.py",
+      "bytes": 3963,
+      "sha256": "98078a9e6d257c5c29963c24a730504995e0aa5c2721319fd40ee4497e40c2ef"
+    },
+    {
+      "path": "Codex/scripts/build_brazil.py",
+      "bytes": 34637,
+      "sha256": "a0d6f6f1390806e6f991fafd311dfd86921620274e64ab7ea9777c7928e88e85"
+    },
+    {
+      "path": "Codex/scripts/build_portable.py",
+      "bytes": 2939,
+      "sha256": "ce064516b3829e8bd14f69e54617498e9d4a284acb333d74da978618e9fa4b4f"
+    },
+    {
+      "path": "Codex/scripts/create_manifest.py",
+      "bytes": 2334,
+      "sha256": "933f45be67ea52bcea21912c095c49e57e22677d4d316c0a4182755d2cba8292"
+    },
+    {
+      "path": "Codex/scripts/import_marble.py",
+      "bytes": 9969,
+      "sha256": "317ddde6b9b3cf2efc9cbed8ae26ed34746994e11d5c0b437f62900a233afa6b"
+    },
+    {
+      "path": "Codex/scripts/serve.py",
+      "bytes": 1755,
+      "sha256": "80234f5645426e9b2e38010c94382402c5c71429567a99447c27f21c54491cda"
+    },
+    {
+      "path": "Codex/scripts/validate_project.py",
+      "bytes": 32384,
+      "sha256": "8b9dc5e32eb1dae8c564c04873a60b0889cf613f7fad1f87b51a7982ab581ee5"
+    },
+    {
+      "path": "Codex/scripts/verify_browser_evidence.py",
+      "bytes": 7479,
+      "sha256": "fa171bf37e5be3cd4aaa699a062ec3620a7451cd50e47092d922c5ebaef76fc1"
+    },
+    {
+      "path": "Codex/styles.css",
+      "bytes": 18527,
+      "sha256": "7ce581c56b3479bdc35de896ded3379cb569bbedf4a3b84571dc2152fd0d6094"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/agents/openai.yaml",
+      "bytes": 238,
+      "sha256": "3e043a3bf81671355dc60b2fbe599e0360d8a2d89ad366d7a44236099b945a7c"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/assets/fonts/SOURCE.md",
+      "bytes": 606,
+      "sha256": "1dbc372fe32cf8696d64061da2a28250d893ec288e39162633af08e272623d3e"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/assets/marble-ui.css",
+      "bytes": 7528,
+      "sha256": "edcd89823ea21b51c71445398cb7a06543725ed52c6170968cab562f814f2030"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/bee-builder/design.md",
+      "bytes": 5427,
+      "sha256": "e574d52e2682fb596901933686cb6c2fc9feff9071e6e4585d690d7546b76a97"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/bee-builder/experience.html",
+      "bytes": 1021113,
+      "sha256": "a1d6a0b5d9b7bfaa49b593be90ba992794a64fa5c6f0854d98709519a95d789e"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/bee-builder/screenshots/notes.md",
+      "bytes": 5433,
+      "sha256": "dd1f79118ed38b357bece78b8ef8c893a56fc8fad61e8cb6cddff56f0f75f971"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/bee-builder/source/app.js",
+      "bytes": 71684,
+      "sha256": "04b3b8982e0b1a2cf62da3d0be3fd8afdb2a7b06aa15a2118caf5a3672a11d19"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/bee-builder/source/shell.html",
+      "bytes": 7361,
+      "sha256": "c88ff30b21f80adff745005315cec3b16ab28eba69a1d484c8ad3be0eef16133"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/hidden-cubes/design.md",
+      "bytes": 4659,
+      "sha256": "cb436ec5a614a49b173e39f0d6b9fd13e25893a7f866cd41d8ff1de3f89fd922"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/hidden-cubes/experience.html",
+      "bytes": 1458748,
+      "sha256": "b51ed9376c420388ca25411c5fbaa082d54f9e7a3096d7ee75cc4fdc5058056a"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/hidden-cubes/screenshots/notes.md",
+      "bytes": 4520,
+      "sha256": "0e54d0c84a952b8b032de56ea7033fdb62dca75b72debcc8207b5edb95f87bf6"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/hidden-cubes/source/app.js",
+      "bytes": 20197,
+      "sha256": "4621b9c9ab0ed09be25f672afa623e05633805cfdb57d68f0c6bf265def07bcd"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/hidden-cubes/source/shell.html",
+      "bytes": 3696,
+      "sha256": "cd2013abd59462819cb390c26b3cf589c55983249763567dd512661d71fa3b98"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/hidden-cubes/source/tasks.js",
+      "bytes": 1387,
+      "sha256": "34750db75ec7a49736845b5954f0932078786329d118a45ef7fdcf64123304e5"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/moon-visit/design.md",
+      "bytes": 5689,
+      "sha256": "8e72ee9e3dc773550b1dd0328f1e24cdaf91319afed96d7db59394e1c6b16093"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/moon-visit/experience.html",
+      "bytes": 1511868,
+      "sha256": "233012924d474f5385479b4686e86fbe9c8756fcfa7c4c496c1341af4064e244"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/moon-visit/screenshots/notes.md",
+      "bytes": 5645,
+      "sha256": "5ebf994275c0b85d57d23f0c1998d1d8abbf311b014fd0f0c3f2edffa45ace28"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/moon-visit/source/app.js",
+      "bytes": 25856,
+      "sha256": "4e1c642ebac9e77349bb02dc0c813bc6a211139d8a9b581ac3a09eb6a33c9be7"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/moon-visit/source/shell.html",
+      "bytes": 8527,
+      "sha256": "21a07ad8438c8b1d755e7c315e596c2bd444686c1eb151a47fb1e96404274211"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/design.md",
+      "bytes": 6955,
+      "sha256": "554312e5aea0c4494cc9c041862cd51fc407e1ffbc9be998a25669795e3b649f"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/experience.html",
+      "bytes": 1544656,
+      "sha256": "6a90643061ebc7c53983fe2fa82d0cd117b890d302f1b7b16e1f1c274d7b7132"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/screenshots/notes.md",
+      "bytes": 6810,
+      "sha256": "bffd8a5be91120eb9b56a1003489f1db53b181162ff70f43ae23b74e40ccbd9c"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/source/app.js",
+      "bytes": 27475,
+      "sha256": "c8b3a36cff6ba30e28f4e946fad3cc68eb2535da7718c03cc76cee73d798602b"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/source/shell.html",
+      "bytes": 18024,
+      "sha256": "f88da02a8bd92cd5214db71dd50dd20cf60956a241f25705364b9abf03084558"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/source/visuals.js",
+      "bytes": 23823,
+      "sha256": "b1009319bcbf86f9f3bf224636b9298aefea106f5733800fa1a73242fd03b293"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/otter-forest/source/vocabulary.js",
+      "bytes": 14529,
+      "sha256": "b54d73d5fda48f99a584b0e3bd6ca3c94ab98f79f3891d1dfe2c1b8a4adfe599"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/package-lock.json",
+      "bytes": 15759,
+      "sha256": "edeb9b0912fb86b72584b9999734564621c6395f17ba3170424918fae87b0d9d"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/package.json",
+      "bytes": 355,
+      "sha256": "781de177ea16d81bfc60cae857635e2acd447b24f9b818b6e64b51d1ae359cba"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/sky-colour-explorer/design.md",
+      "bytes": 4775,
+      "sha256": "2fb18c6c8352bff533ac8167817d337e1db6ca63f1171ce46d8d743fd5067fa9"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/sky-colour-explorer/experience.html",
+      "bytes": 1514317,
+      "sha256": "6191b57ede42f23ab91e8f0981cd3cb87534b02ef5e334fb42da3a5ac55374b3"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/sky-colour-explorer/screenshots/notes.md",
+      "bytes": 4484,
+      "sha256": "1b316b64f2a6ce46b0784575d4cab90fe28fe8eb0ebeed104de1fb8bf5817e94"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/sky-colour-explorer/source/app.js",
+      "bytes": 38351,
+      "sha256": "3c7a1f03be1fb437aede1637c2312489e5bd86e6a2f75690135593d399e94d3e"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/sky-colour-explorer/source/shell.html",
+      "bytes": 7068,
+      "sha256": "926917a0279d1c3af278a1d2908388b5a5d4cfab5f6c074b12acda9c4554a27b"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/snapshot.json",
+      "bytes": 9231,
+      "sha256": "436b84316636eaa22b022656f3c9c1a664f4ec1debdd1bbea1f58795a25e103b"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/examples/vocabulary.js",
+      "bytes": 14037,
+      "sha256": "c9079545c51d334d2ab6540c9cabdc0e4a63dcbdcbd8de2014217b1cb48adf4a"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/component-styling.md",
+      "bytes": 7721,
+      "sha256": "19c59ea9b836dd2ea8dc7195a0759e3a2b23d7a1ce8324abf59230a0e800d8d0"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/data-and-research.md",
+      "bytes": 6264,
+      "sha256": "7ecb8418d5b075273845baa8327a13c7e905ebe11c73e430364e58e58c869fd2"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/examples.md",
+      "bytes": 7446,
+      "sha256": "90f817ab031582bf2e905afe0c38c73a5551441881733ef5103260c7503a9505"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/interaction-design.md",
+      "bytes": 12232,
+      "sha256": "64331c88d048b4a8df0b004a100136f9fcc22f77111d0246a1d0e5453ce28848"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/llm-connected-experiences.md",
+      "bytes": 6318,
+      "sha256": "cbd61078242605b098a70c166cfa8024ef2a3e7ea1199f34b954bee6bfe8415c"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/simulation-design.md",
+      "bytes": 3771,
+      "sha256": "c484cc54ebc88e880bbfdc8c31d72b69254840e0d07091251ded0e0cc1bbd123"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/validation.md",
+      "bytes": 10844,
+      "sha256": "aa968423541bda12fe0237ef08247f18049d9fce92457b1f2f99be8f76968de7"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/references/visual-design.md",
+      "bytes": 14803,
+      "sha256": "6393bc11d2c670453d733ee3da4261699d9d000c933c8dbe58537258b3121a93"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/marble-builder/SKILL.md",
+      "bytes": 18087,
+      "sha256": "c6b8ebd5a5ec61a49d8abe6d8f1ad242c14363f24efdcf23cec445f825b5fd3f"
+    },
+    {
+      "path": "os-taxonomy-main/.agents/skills/taxonomy-curation/SKILL.md",
+      "bytes": 5645,
+      "sha256": "f321886589f341fa21115052d99b27610eaf3b7432d426cba97f7b228d5adfce"
+    },
+    {
+      "path": "os-taxonomy-main/.github/workflows/validate.yml",
+      "bytes": 373,
+      "sha256": "3c78895182e0c58faa5fc557a92dad0eee63ba7d169eddcb6564d89029602890"
+    },
+    {
+      "path": "os-taxonomy-main/AGENTS.md",
+      "bytes": 2107,
+      "sha256": "fa40f36bcf6f097f37439014f6ba8f227027170a6537a80e99b9c50966d072f5"
+    },
+    {
+      "path": "os-taxonomy-main/CHANGELOG.md",
+      "bytes": 17067,
+      "sha256": "f1a36b69635a75ebfbda4c647c170a9deac5346a461b1504f3b6990737ee1a37"
+    },
+    {
+      "path": "os-taxonomy-main/data/archived-teaching-research.json",
+      "bytes": 121411,
+      "sha256": "28cc37220a78bdbfb37bd5693e8b729571e87c5d0ba471692707a07a7ef6c73f"
+    },
+    {
+      "path": "os-taxonomy-main/data/clusters.json",
+      "bytes": 59129,
+      "sha256": "4e112dd2fc3373666d9f33e7a0314798f282b67b650063ec5afeb69b7af5dbc3"
+    },
+    {
+      "path": "os-taxonomy-main/data/curriculum-alignments.json",
+      "bytes": 1733994,
+      "sha256": "2b18f8f2e100dd2b7faf89f1477426b3873ac6f3a7d3ca455c03c401bc91b399"
+    },
+    {
+      "path": "os-taxonomy-main/data/curriculum-standards.json",
+      "bytes": 2795125,
+      "sha256": "d8365e19b4233234dbf03151950dae693b8e7e10f60f82f12f985deb5c7bfcdd"
+    },
+    {
+      "path": "os-taxonomy-main/data/dependencies.json",
+      "bytes": 880722,
+      "sha256": "64f6946d1422098e4d68493bf4c0926af843e4d7cf0625905f35ff0a6e732132"
+    },
+    {
+      "path": "os-taxonomy-main/data/manifest.json",
+      "bytes": 24669,
+      "sha256": "3c95375dda8283aa302f3387525842c3faf676c67742e8103080510a58cc7d8d"
+    },
+    {
+      "path": "os-taxonomy-main/data/teaching-research.json",
+      "bytes": 23985503,
+      "sha256": "a14d9c3c7487033ae65f1eaf7ccc81321195e64194a7cc43e170739cfa10b361"
+    },
+    {
+      "path": "os-taxonomy-main/data/topics.json",
+      "bytes": 2807806,
+      "sha256": "80a2f487226227989575bc76fe466297b44c05b00724ffdc7fd764de884707ff"
+    },
+    {
+      "path": "os-taxonomy-main/docs/curation/alignment-guidelines.md",
+      "bytes": 5930,
+      "sha256": "5da080546e7d29f29f713c50e1e48daac38907b43af5a8a18370c66baa179c8d"
+    },
+    {
+      "path": "os-taxonomy-main/docs/curation/contextual-curriculum-requirements.md",
+      "bytes": 3880,
+      "sha256": "1f00e44df7a18a438c25ee8bf473eda136da83a04f4341890451c3c043ec2ca1"
+    },
+    {
+      "path": "os-taxonomy-main/docs/curation/principles.md",
+      "bytes": 3799,
+      "sha256": "e275966ab049b201c0b0f4c35a98b1ebd057949153ce89d45dfc5d32acc97e60"
+    },
+    {
+      "path": "os-taxonomy-main/docs/curation/reviewed-examples.md",
+      "bytes": 2662,
+      "sha256": "efb4cf10b3734683e88ed52606f6025066918bb8a647d1a40b7ce91b4ef410b5"
+    },
+    {
+      "path": "os-taxonomy-main/docs/curriculum-alignment-contexts-v2.md",
+      "bytes": 8050,
+      "sha256": "066b1f7428de8451594686f09bf06d1e0da561e428747ee1c9ea4f451598ba69"
+    },
+    {
+      "path": "os-taxonomy-main/docs/curriculum-alignment-contract.md",
+      "bytes": 9929,
+      "sha256": "2a0c48b190b068ebd961377b7da8531096e4d34e78ceb5d5d415c3b5f61ac793"
+    },
+    {
+      "path": "os-taxonomy-main/docs/taxonomy-authoring-and-publication.md",
+      "bytes": 12999,
+      "sha256": "34e588e35319b3fe55a99e36ba9f3c5d1d8e3f6e554c2bf63198f24dd31f5915"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments/curriculum-standards.json",
+      "bytes": 1370,
+      "sha256": "257c86c02aafe2bdb1b9d736e8cb67225b72b0623052adb81927c968404f91da"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments/input.json",
+      "bytes": 674,
+      "sha256": "a8fc72e824c7c895855d256131b7c754245a7e6f78bef32de4351a171b35d386"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments/normalized.json",
+      "bytes": 650,
+      "sha256": "31017183d5a906a90babc291f205c8847514e6e425b94149a8d779e2e79a7d2d"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments/projection.json",
+      "bytes": 481,
+      "sha256": "ccaf7080c06e004c46e3021881ca9c88183a577cc7f59952c31c46a97f5cde82"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments/README.md",
+      "bytes": 854,
+      "sha256": "ff3d19ac08571ed53c2e7f95bf5a8098dd0fd9173b799648f433beb6b256b7da"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments/topics.json",
+      "bytes": 1525,
+      "sha256": "312c7d224202ed28b16948db93e396196bb4c0f11db48bf2ccbf5fbfd4d73a2d"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments-v2/curriculum-standards.json",
+      "bytes": 1445,
+      "sha256": "64cdc237f46eea3b010aae328ea4eef1636bfc6ff384b04ce6f5b3653fc812d8"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments-v2/input.json",
+      "bytes": 1285,
+      "sha256": "53c323e9ff14fd8fac876d8f36ad249c3674d0e0aa89c05f6589d3d29ba4cabf"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments-v2/normalized.json",
+      "bytes": 1261,
+      "sha256": "c611a65a942ae934ff77715a1aed1bce9e53bc6fe7b9bfe5659bfd23f7ea390c"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments-v2/projection.json",
+      "bytes": 503,
+      "sha256": "30f45e7ac813abb14171f59cafeb4b8715887ba3825f9d577b357278c22e5d99"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments-v2/README.md",
+      "bytes": 838,
+      "sha256": "e795358c8cc03fdd59f7d5dd806cabd17b99ab265812f441a838819d8f1a303b"
+    },
+    {
+      "path": "os-taxonomy-main/fixtures/curriculum-alignments-v2/topics.json",
+      "bytes": 1547,
+      "sha256": "621a0c719e6c3790b19c6a739225274b8f2f832ea7dc8e5cb789b116c6609fea"
+    },
+    {
+      "path": "os-taxonomy-main/package.json",
+      "bytes": 769,
+      "sha256": "2f99a6c31cffa9cc2f9a5173ee62a719d8c94116374624d05d386cd33774295e"
+    },
+    {
+      "path": "os-taxonomy-main/PROVENANCE.md",
+      "bytes": 25496,
+      "sha256": "582cfc341ae2d057f28f0e3a8bf33b9d7f899f8ce80bc2f670aa72cc16955080"
+    },
+    {
+      "path": "os-taxonomy-main/README.md",
+      "bytes": 24372,
+      "sha256": "8097468ca141f7563dca519338497fed1b5a61bd8afbbeb779d04bf8bc17018d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-cleanup-2026-10-23.md",
+      "bytes": 6065,
+      "sha256": "e699dad13ace2e31e2073e082542198ee1551dccd685d538253b81bd55ccf687"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-design-technologies-authoring-review.md",
+      "bytes": 3824,
+      "sha256": "d6bbc7be8a5631cf3710514280ffab0a381a5736e0ae530848007c1fe08531cc"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-design-technologies-coverage.md",
+      "bytes": 7827,
+      "sha256": "6866adf3cb5f44be85aa26deef15e1e76d87e2d69278952f9591d28faf060b45"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-digital-technologies-authoring-review.md",
+      "bytes": 3032,
+      "sha256": "ff9513b80d4b0b3c2400a6bc38aa7964053436097706720aca9f5cc3a8fad9c6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-digital-technologies-coverage.md",
+      "bytes": 7296,
+      "sha256": "1c82553d06e842ab4408d949a3ac22b18f728745a8ac87df1201dced18a101ff"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-english-coverage.md",
+      "bytes": 39828,
+      "sha256": "f8f5e8a2c07606e98278e7560204ccc90acf5ea4ab1a51a889cdaaf8a7042933"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-execution-ledger-2026-10-23.json",
+      "bytes": 127365,
+      "sha256": "d0085a5113be38df61c91bcd6d45d6f70601808a3c787fff8485ed5e34c071cb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-existing-edit-ledger-2026-10-23.json",
+      "bytes": 6800,
+      "sha256": "30beacd7ccfe360457ae72c8977af2257e2cc0b647e97b24eb9e3e9c37c194a6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-hass-authoring-review.md",
+      "bytes": 3474,
+      "sha256": "a6bac08ba28d4cd808e893b5dddfbca8831f7bf8b1a7ede7c2731da6889c9462"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-hass-coverage.md",
+      "bytes": 15329,
+      "sha256": "b8fb2f9f2ccaecb87a809f722aaa94ddccb9b1b8bad5691078c43152d7869039"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-health-authoring-review.md",
+      "bytes": 3124,
+      "sha256": "3f339c41a767bbd4f04cca317c41c740f5acadd73e74cfc3d156002ee9431827"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-health-coverage.md",
+      "bytes": 7898,
+      "sha256": "9ed7abf388dc261d15dd0582a0f52d5954dc39fb15cc8fbe06f4c6404f9aadc7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-maths-coverage.md",
+      "bytes": 28119,
+      "sha256": "331f140dec091d50f202496deb23f2f450eb3757acdba1dd985da18c94406f1d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-retired-topic-mappings-2026-10-23.json",
+      "bytes": 78558,
+      "sha256": "d39cdbabfa14e83fbcd8436a1db258bcabaf41ee4f5f946b9b72801d2c4b9326"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-science-coverage.md",
+      "bytes": 16092,
+      "sha256": "ad89bd5851fc311c3308f2b1ce27672bca44ab632fe2606791e8168a3c174777"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-scope-coverage.md",
+      "bytes": 1435,
+      "sha256": "d88bd467955622a5c9f0dfc8c7636d7a9306b03e300091bc5932d6d29c5d1f95"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-source-issue-closures-2026-10-23.json",
+      "bytes": 6912,
+      "sha256": "45e43e1951a5add2351f91c2f7f6d063bd367a7da9553ce89135e379efae0046"
+    },
+    {
+      "path": "os-taxonomy-main/reports/acara-v9-source-status-2026-10-23.json",
+      "bytes": 411308,
+      "sha256": "a5dbd063e02298bdc08ecb4a37663fb5bc32764597ea1f8eb6a8535b93329d71"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ai-example-specificity-review-2026-11-11.json",
+      "bytes": 2397,
+      "sha256": "c1bc21148ecdc247dc0e320d75eddcaa179e5f99d110aed54ef149c099c4a125"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-arts-programme/original-performance-stimuli.md",
+      "bytes": 3321,
+      "sha256": "697811eb091986849635579ec17487e24c760162c24073d1ab7ffb85338b108f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-arts-programme/repertoire.json",
+      "bytes": 14946,
+      "sha256": "4c08ecdb77ff66e627c6021ccd96e321cce9965b6403049d96454451729144ab"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-arts-staff/scores.json",
+      "bytes": 6315,
+      "sha256": "1efe1da8d6a0acd448cd31401a7b4362fcb362d7055fe22b650b11b5979415a0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-hpe-programme/label-comparison.json",
+      "bytes": 3298,
+      "sha256": "00304627a4fe14b77b907d13d618f20b35746dd7f4dd0eed96a1222c0bf64bc9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-coding/community-contributions-and-design.md",
+      "bytes": 15126,
+      "sha256": "53142d12718df7f17e2d20189f697725c3550ad90df1d6d6c8344222232aa65c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-coding/everyday-impact-cases.md",
+      "bytes": 9986,
+      "sha256": "c9e4df81b0383283b4f1b559625417de5103239a6a87303803ddffdbc3bfa996"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-coding/shadow-observation-recipes.md",
+      "bytes": 12241,
+      "sha256": "7f120b9a1cf898d56afc2fb77e1f035447c1689770cc65a6ba564ab5ef3bb91b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/grade1-investigations.md",
+      "bytes": 15595,
+      "sha256": "9a3a030c7f19063e14c405bf3101f526d6a79fe9359e8e6f58e3a1a9c4b69ce1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/grade2-investigations.md",
+      "bytes": 5347,
+      "sha256": "47facc4bdf9d90651e3e4bbb44877b9eaa9b0fc2fb2388e49ceaeca143df8da2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/grade3-investigations.md",
+      "bytes": 5095,
+      "sha256": "a820f85fb609b5f59c55f60add8cfcce6abb272ad443e1312a375b189267e641"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/grade4-investigations.md",
+      "bytes": 5257,
+      "sha256": "d61ee77b3ffdf14bdcbac5dcd9051ae83bfa8bddc56ff50a88345b7cf0a1fbaa"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/grade5-investigations.md",
+      "bytes": 7899,
+      "sha256": "e08e773c9daa60478b3c302e4c42e9d2c0b91214c8829741447647aafa492950"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/grade6-investigations.md",
+      "bytes": 6392,
+      "sha256": "467cbc8ed9fc97051cab49aaee3b41ffd97286a633a6c1d01b6623b15873c684"
+    },
+    {
+      "path": "os-taxonomy-main/reports/assets/ontario-science-processes/shared-process-records.md",
+      "bytes": 9970,
+      "sha256": "0b04f3ba4f435df264ab1f5be260ec2040f440c7bf13234db63a3e84d7a5f82e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/bullying-definition-context-review-2026-11-11.json",
+      "bytes": 6358,
+      "sha256": "4f18f4fdf0000882f10e594c944e6390d9f5c513f4d956c54c4b42c878860dbb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/bullying-definition-context-review-2026-11-11.md",
+      "bytes": 1989,
+      "sha256": "79a679626b09d8d1f749d50598f7582e2fa26ab34de54c172362f747874f5227"
+    },
+    {
+      "path": "os-taxonomy-main/reports/canadian-consultation-knowledge-review-2026-11-11.json",
+      "bytes": 23144,
+      "sha256": "11efffe4ec20a90685241899b8f320dffd4d24790a4ddc964253682b1895c3dd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/canadian-government-responsibilities-review-2026-11-11.json",
+      "bytes": 31145,
+      "sha256": "109bcee4c7b62ffcfb85c99d054db6102c78ad6ccf1c7a8dc51722005ba50e96"
+    },
+    {
+      "path": "os-taxonomy-main/reports/canadian-rights-knowledge-review-2026-11-11.json",
+      "bytes": 20236,
+      "sha256": "94213303618cdeff54ca6b05b5f8450a1910b025dd96d4413b7e0602d0f7912d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/country-interconnections-prerequisite-review-2026-11-11.json",
+      "bytes": 1356,
+      "sha256": "8fea041b572df586850ebf97920b6487271acad307c7384fd919eb2e9823a558"
+    },
+    {
+      "path": "os-taxonomy-main/reports/early-colonial-relationships-review-2026-11-11.json",
+      "bytes": 14922,
+      "sha256": "c031ae59b2bb35aae7ab5110ad349f30a57328bcd0425bda2468c332b9f53fb6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/egyptian-social-hierarchy-factual-review-2026-11-11.json",
+      "bytes": 5869,
+      "sha256": "b28330223ff9679328befddf8f1df9cf5dfbfeb3d714824fa623c499e9840aae"
+    },
+    {
+      "path": "os-taxonomy-main/reports/expressive-reading-prerequisite-review-2026-11-11.json",
+      "bytes": 20434,
+      "sha256": "55c5e8bd2d724d0c8a3d53777a84cc694c99ed656772734cf7c2e8313021d3e8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/expressive-reading-prerequisite-review-2026-11-11.md",
+      "bytes": 4524,
+      "sha256": "9ea67a329be72b12d941ea52119b04b983ffe585734f290920949fc5a4b34810"
+    },
+    {
+      "path": "os-taxonomy-main/reports/geographic-coordinate-claim-review-2026-11-11.json",
+      "bytes": 6748,
+      "sha256": "ea2a2f87bd0c78b64fc43caa37f8a91f15bbf8536de1c03ad1b4ebbc79962cf5"
+    },
+    {
+      "path": "os-taxonomy-main/reports/invasive-species-definition-review-2026-11-11.json",
+      "bytes": 5236,
+      "sha256": "0260b2091060567103ac7341d9f8522263223420249a93b1aa641711c1ee6d51"
+    },
+    {
+      "path": "os-taxonomy-main/reports/jewish-canadian-history-claim-review-2026-11-11.json",
+      "bytes": 15323,
+      "sha256": "a94136e6aef6e0d7bb5f01141c1a830efdd5be5e5bf5358276eebd247afa4903"
+    },
+    {
+      "path": "os-taxonomy-main/reports/language-intrinsic-prerequisite-corrections-2026-11-10.json",
+      "bytes": 6336,
+      "sha256": "2ef82d4afa5033a5af9a74c89e6ccc0ce5f84f259fd29617d60f767030538cfb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/language-intrinsic-prerequisite-corrections-2026-11-10.md",
+      "bytes": 3671,
+      "sha256": "87b14b4f537f3f75cf3392170e88d3c6d26691131708399f3a524edbdbcd7177"
+    },
+    {
+      "path": "os-taxonomy-main/reports/language-reusable-prerequisite-corrections-2026-11-11.json",
+      "bytes": 5081,
+      "sha256": "b5a63b2ef84bf94437506a6fa5c2a4c048f2b053e668d4bf35ee164c26c779d7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/language-reusable-prerequisite-corrections-2026-11-11.md",
+      "bytes": 2727,
+      "sha256": "f41cd574c50246844af06ad6e1068b54159eab959171f87d3fbcfee226b6a6ce"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-alignment-readiness-2026-11-10.json",
+      "bytes": 689844,
+      "sha256": "3b3628d19693f66c6e6bc4f9bf1dc0c8d3c920b999d1e8dc0d5b2620cbcdc3d6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-arts-alignment-2026-11-10.json",
+      "bytes": 218004,
+      "sha256": "f9737afc2f9e82ce8c2fee61e7771b06dd410c1d059301b1788f7e522365070f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-arts-alignment-2026-11-10.md",
+      "bytes": 7838,
+      "sha256": "e614dbb2328f07e3d9efb481fe0b09be13d40ebf7f9431900d9eeed9743b0a74"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-arts-protocols-2026-11-10.json",
+      "bytes": 122348,
+      "sha256": "b23749b73dbf059710368ecdbc6913704e7f924fbd743d45a9a0c61d5ff841b8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-arts-syllabus-alignment-2026-11-10.json",
+      "bytes": 131449,
+      "sha256": "4d29300fa9420b1409fc8b23169b303405c9e19b77abec8dde5257a94399d4e6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-arts-syllabus-alignment-2026-11-10.md",
+      "bytes": 7737,
+      "sha256": "d8ede09335d3e1c58a49942742998f956d3ca104c453d92efa0b497f7e76e811"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-arts-syllabus-protocols-2026-11-10.json",
+      "bytes": 76066,
+      "sha256": "8f74ef32d3884f71393f4955cde8208d5e28d7c9fa74b15af4457ba6d564ccc7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-cg12-13-7-catalogue-2026-11-09.md",
+      "bytes": 6146,
+      "sha256": "82d9d2f94c5cf40c5a967d01e37372b0e71775d380af1aa19d259cb39d40bda9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-cg4-6-catalogue-2026-11-09.md",
+      "bytes": 5285,
+      "sha256": "774a551306e6a36c93e84553ee7f4306368e8d52a2ce5c3e29fd2fee6e3344f0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-english-l2-catalogue-2026-11-09.md",
+      "bytes": 5268,
+      "sha256": "ba82f096ed159b513533ef7353618fbf66122046cb2ec4adc8918b4c7ff19fa3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-english-l2-suggestive-alignment-2026-11-10.json",
+      "bytes": 45690,
+      "sha256": "cb043362118e72b976e65c50c196f9532d1bce622661f36a2869d430f846532e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-english-l2-suggestive-alignment-2026-11-10.md",
+      "bytes": 7105,
+      "sha256": "2d45ed3c4a145eac914bdc1998f9dc35d5eae2651087a39bcd862d4d19252e38"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-english-l2-suggestive-protocols-2026-11-10.json",
+      "bytes": 25656,
+      "sha256": "093861745c064434a27769de1c4c6b06df78d02bc962f1345a1bb2a5cb18e7c4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-fine-motor-alignment-2026-11-10.json",
+      "bytes": 19021,
+      "sha256": "c0196075491bde529e8deae2dbad4debf8dd2d68a0e960d99c2ef7e1aef32e71"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-fine-motor-alignment-2026-11-10.md",
+      "bytes": 4024,
+      "sha256": "5073568104822a50787e6d4fc99fcb6782c3b43fe0d67e094a4f4782492e4c59"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-fine-motor-protocols-2026-11-10.json",
+      "bytes": 6873,
+      "sha256": "b8f95efe364a4fbf9986393c07b26878ec5920edb3b76eebf80a40e03c320f22"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-affective-protocol-2026-11-10.json",
+      "bytes": 4778,
+      "sha256": "0216c1333047cafddc76d14dd85aaf252df93bb33197f276eefad234a3135b95"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-arts-syllabus-catalogue-2026-11-09.md",
+      "bytes": 5160,
+      "sha256": "40ef1e6cbcf8b2a9eab5fb29222e49b2c6007e8c74c10181bba23eee4ae49102"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-arts-syllabus-index-2026-11-09.json",
+      "bytes": 48283,
+      "sha256": "b9dcf13c4a1035acb73237f70f210e04420a76ecf1c89fc2e0cef060139c1eb1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-language-framework-2026-11-10.json",
+      "bytes": 45188,
+      "sha256": "4f8202fb115c7e8f526df1ddb9762ee5f4702aa090e159533277f130f8a067d7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-language-framework-2026-11-10.md",
+      "bytes": 8794,
+      "sha256": "56dc53f6c8c9e9617a662bbb38a2a2a9e700111c81af47ee2ab041839d6552f4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-language-protocols-2026-11-10.json",
+      "bytes": 23639,
+      "sha256": "9023e5e76d9d93f0625759cd5eca6af1d9535e41255acc0d874fa1808b46b450"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-mathematics-alignment-2026-11-10.json",
+      "bytes": 19231,
+      "sha256": "4c61a218f407ec72fdd5b3c0c5d85f59d1cf2c8a656d9e9e1f0069d4c490beea"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-mathematics-alignment-2026-11-10.md",
+      "bytes": 10891,
+      "sha256": "1b3f8c1928c9ad4ad9bdef19694e022685fd2ceaca791c779db85d97bb297606"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-mathematics-completion-2026-11-10.json",
+      "bytes": 24031,
+      "sha256": "dbe85906120ec76a3d86d860f470305fdad47468080f3faf0d682204b64311b2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-mathematics-completion-2026-11-10.md",
+      "bytes": 10535,
+      "sha256": "39af5283b2ada91525b0f63e8044bcc9eb15a5d7eac8fec59710b69fec1e7d2e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-mathematics-completion-protocols-2026-11-10.json",
+      "bytes": 10503,
+      "sha256": "bef0c9e3b422817bd22746eda5e9869be8f8d99f9b873bad84bafa2ef5d86f4d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-source-kinds-2026-11-09.md",
+      "bytes": 6037,
+      "sha256": "7b9f4c013f1c99fc923577522f29da6aeb707bcf88bd6dfe81b430e5ba8767d3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-foundational-source-kinds-index-2026-11-09.json",
+      "bytes": 7218,
+      "sha256": "65c9b183d41168d89526402f8a5309300894c9e1e3162f00854189688268da29"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-fundamental-movement-alignment-2026-11-10.json",
+      "bytes": 30066,
+      "sha256": "5ce6a3d7984dbf56a57545c9351289e761208a9dda23feab249fbc46a6433672"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-fundamental-movement-alignment-2026-11-10.md",
+      "bytes": 7296,
+      "sha256": "6252791d197a3692285a71d42a4a07823f1ee9b3db96cd3ed40a6f8fbafbdd2f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-fundamental-movement-protocols-2026-11-10.json",
+      "bytes": 6717,
+      "sha256": "b51cf1cbe7688ffc5424d1c8c14c89e046a6a88768e553dfeebfbb04c1c50042"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-health-safety-alignment-2026-11-10.json",
+      "bytes": 54932,
+      "sha256": "75d785ba2642dd10d45b0e59658616ae16e77f2827dc3455e8df9e9027410622"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-health-safety-alignment-2026-11-10.md",
+      "bytes": 6211,
+      "sha256": "aae9580a63fa8594e89e6f23d64c6a51da71cd78f0b413cccb38589340481e7c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-health-safety-protocols-2026-11-10.json",
+      "bytes": 8561,
+      "sha256": "51868df7466f9e967bb8d588d405ff72cba2940d42ebc4f8f582f8c0b7352dbe"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-language-graph-resolutions-2026-11-10.json",
+      "bytes": 3207,
+      "sha256": "edcfde5ae390b32f78dd4da90ed160753284d71a6622d479aa8b4cdffa0a11f5"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-learning-habits-alignment-2026-11-10.json",
+      "bytes": 34482,
+      "sha256": "3e4f9452484f5860f40c5917a7e1ce36ebf8d79eca7e46e08b68f3a36721122b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-learning-habits-alignment-2026-11-10.md",
+      "bytes": 7270,
+      "sha256": "dec2f92408c2daba1af95629318f1018e199df2b3d5be08ea9275a8a81edf49f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-learning-habits-protocols-2026-11-10.json",
+      "bytes": 10678,
+      "sha256": "41ee6b098fbba99a81fcb08490d638c155d318e7b7346cb6956c603a6fdc612b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ncfse-foundational-catalogue-2026-11-09.md",
+      "bytes": 5755,
+      "sha256": "fea81a62cb25b7ce3391a57ee70459916b45f9950a8223ab4f1e947ba3473f1f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ncfse-foundational-index-2026-11-09.json",
+      "bytes": 71355,
+      "sha256": "b3e9114774a890dfe2ae7a7b0a0a259e18fe7643dccc1698740aa73244d17129"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ncfse-preparatory-arts-pe-catalogue-2026-11-09.md",
+      "bytes": 5062,
+      "sha256": "6e2ce3c8786a1d1f5810085f55100b243dc78e054a5d6e7afa0937c291ee52e0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ncfse-preparatory-arts-pe-index-2026-11-09.json",
+      "bytes": 58663,
+      "sha256": "cb73a695bfaa5bbdac67ba173bbc35a97db6b6e7c65e03d1b085a0f6010c0a1b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ncfse-preparatory-core-catalogue-2026-11-09.md",
+      "bytes": 5018,
+      "sha256": "146cea09edb5d426affb46b8475acafb9e1a65cc61f0f25d15734029ff960cfd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ncfse-preparatory-core-index-2026-11-09.json",
+      "bytes": 48014,
+      "sha256": "4c10c93323bf1899d500f150bafa43e78c329de4ee9771cbb6198910dd2c9f2d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-observation-reasoning-alignment-2026-11-10.json",
+      "bytes": 27664,
+      "sha256": "e3815a3e5503324e6114be621025e045a5c2ec1e2f2548f5027606a6dc10b32d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-observation-reasoning-alignment-2026-11-10.md",
+      "bytes": 4748,
+      "sha256": "b214948e6679203e79351e10efe4e42ab48ffb4c6a94b677c0c23879a9d2ac4d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-observation-reasoning-protocols-2026-11-10.json",
+      "bytes": 21376,
+      "sha256": "4007bb8d768e33c460435aadc6c9a01225ba0f8ee9a4d2b28765ab01f92b91a1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-ontario-shared-role-inheritance-2026-11-10.md",
+      "bytes": 2027,
+      "sha256": "bfc1104605b23f6c25cecfcd4a379149f90ba8915b90c95450cb55a8b4b59de0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-physical-education-exclusion-2026-11-11.json",
+      "bytes": 16567,
+      "sha256": "1ae467713d45d8621f924d9cf037f26ed0af17dbdcfc0bcca4eea517518ccf01"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-physical-education-exclusion-2026-11-11.md",
+      "bytes": 2420,
+      "sha256": "7140aa48308f6e0852ee1b0896beddce178dd1f2af0a132604a867317af2d6c7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-physical-motor-catalogue-2026-11-09.md",
+      "bytes": 5001,
+      "sha256": "fd7b20c53a1f05a166e9cf49ff6ac6604867b977216593b5bfd105b13fe943bc"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-language-framework-2026-11-10.json",
+      "bytes": 85723,
+      "sha256": "cf6526c0d48e228758240468c7452f076749506f5d45bedb28ad96faf5a4e7e1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-language-framework-2026-11-10.md",
+      "bytes": 10112,
+      "sha256": "abadc5c2ec3b4f97dab8ca4fa68d2cbd6588200fc1b5d9b65e213bb6164c8007"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-language-protocols-2026-11-10.json",
+      "bytes": 29613,
+      "sha256": "713287f93b4fbb11b9424f659b2ec6f859de5c633bdb3542c8c2723bb19ba0d9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-mathematics-alignment-2026-11-10.json",
+      "bytes": 26519,
+      "sha256": "a82ff7e7be5f203815153b554350c6aab9df1e92f9add3a856e3fb98d2f65d3c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-mathematics-alignment-2026-11-10.md",
+      "bytes": 9748,
+      "sha256": "95acab2d77a8a6f661cc623e7c1680d34411affff1325a35f0d2f47ecec876a6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-mathematics-assessment-protocols-2026-11-10.json",
+      "bytes": 25911,
+      "sha256": "7dde8454ef2ab3aba96883bbfe123425ae8b0eb03ca11c1f4e00fea1adc5b02b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-pe-social-alignment-2026-11-10.json",
+      "bytes": 24837,
+      "sha256": "5c46170cf791acda0d1cfda19f59d1a60f92bd9adda8f8062bdff6ae459513ca"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-pe-social-alignment-2026-11-10.md",
+      "bytes": 4750,
+      "sha256": "b26df3b2e189831a62a14ff9c38fbf4ffc56b8d33de1d7ab9c3a074111020180"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-preparatory-pe-social-protocols-2026-11-10.json",
+      "bytes": 7171,
+      "sha256": "bfc830be406c56de1ddcdb39c78d829203a3a23062ea595386829347a0ca2d18"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-primary-alignment-review-summary-2026-11-10.json",
+      "bytes": 15633,
+      "sha256": "47a068278aed19e81c668ddd1521c3ba0a958251ae72ef8fc7c975b0d1eb5f61"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-primary-catalogue-scope-2026-11-09.md",
+      "bytes": 19956,
+      "sha256": "c502c9fc2fef006cc07a25059ae2145aa69e7275124fca95a609772d07ee8dcd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-primary-completion-readiness-2026-11-11.json",
+      "bytes": 8688,
+      "sha256": "6be5d67b9213d550d0e42ff04e77023bb8b2ff3b6fa375dfbd52454ee7994068"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-primary-completion-readiness-2026-11-11.md",
+      "bytes": 8107,
+      "sha256": "0fc57d9a84b3bc4884e847abe04a5a573c0d19857682328e1d1ec2a33cee0faf"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-primary-language-review-summary-2026-11-10.json",
+      "bytes": 2411,
+      "sha256": "f5b9acdf46350f0ac7489e99c85bd78eb74ec12f916b3a480075c1aecec15b21"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-r1-heard-summary-component-2026-11-11.json",
+      "bytes": 7669,
+      "sha256": "1f02ef1bd74eda83169706bb300b159ae0d4ea2f8be8372de08bf6db3ee52830"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-r1-heard-summary-component-2026-11-11.md",
+      "bytes": 2636,
+      "sha256": "a48c268808b7573add22db0cd0f2d85f04c0f6ebc34ddfb8e215a4695fe929ad"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-r2-functional-writing-component-2026-11-11.json",
+      "bytes": 48412,
+      "sha256": "373b5fc8c1ecb65d4392e66ad3d780a0fc7e76d6ae698aa03c1b92efe00c056c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-r2-functional-writing-component-2026-11-11.md",
+      "bytes": 2087,
+      "sha256": "44905ae838d35aec5b1eb35703d095491ca103004267d5ebfa2c3be0f0e81aab"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-scale-source-meaning-exception-2026-11-11.json",
+      "bytes": 5605,
+      "sha256": "2b3877adaa60ec07458b35f7c59fa278174627f1ecfdf7f43afe678e4508a0f4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-scale-source-meaning-exception-2026-11-11.md",
+      "bytes": 2413,
+      "sha256": "e1adac43a1d14e668b07cc01655f5cf1a1ce49641f549a4d912178a19e95d19b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-sensory-alignment-2026-11-10.json",
+      "bytes": 18922,
+      "sha256": "014c1fd991ed9f00a87179102b11ffa5f2cd532f557efb4538f7bd663163da20"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-sensory-alignment-2026-11-10.md",
+      "bytes": 5607,
+      "sha256": "6cc489cc40e2bebe4855d11a7f0d1e21ae572edd6853655edf6eb686a3b019e9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-sensory-protocols-2026-11-10.json",
+      "bytes": 9695,
+      "sha256": "17e7888d639dc988734dc636ec2d26e29c0dddb6b7e73ba5ef02f2011b586f45"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-socioemotional-alignment-2026-11-10.json",
+      "bytes": 80614,
+      "sha256": "8f52e8b152f434b84c324d6db4bd9a08f8b96ebafd2e051c152cf26a02e59dfa"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-socioemotional-alignment-2026-11-10.md",
+      "bytes": 8061,
+      "sha256": "3b9ae5ca47783d548c2f399b96479b20fa435548b37406862bd79f4635b121c4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-socioemotional-protocols-2026-11-10.json",
+      "bytes": 24940,
+      "sha256": "64f16538fdd9ba8bed1585710aebc7c8d6fc510954f07ea58ab4941bd0e5889e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-suggestive-mathematics-alignment-2026-11-10.json",
+      "bytes": 91921,
+      "sha256": "382d2058c41b28b2e77c4c9f436e27de819ee55d606a79a11d604e3b27cbc469"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-suggestive-mathematics-alignment-2026-11-10.md",
+      "bytes": 8729,
+      "sha256": "9c2e0c7afdbbb9a51cad1996a497dd3fad7da49da7b69a330244a7ab0cd0a800"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-suggestive-mathematics-protocols-2026-11-10.json",
+      "bytes": 18521,
+      "sha256": "1bee048869c6c09138a59687b45b5d30fedf4a3d4ff31874efa4db616b82853b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-twau-alignment-2026-11-10.json",
+      "bytes": 72114,
+      "sha256": "5fb77134be553867c60aaab409befeec4ddd1db44a992eb45f28b52f15ae5f80"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-twau-alignment-2026-11-10.md",
+      "bytes": 9730,
+      "sha256": "24c4011cc5e4297becb47dab8d88cbd4aa16940652ffcf9b63348497f4032322"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ncert-twau-protocols-2026-11-10.json",
+      "bytes": 73631,
+      "sha256": "04684d45c7c0aabd36e73d80e84c7c1a8dc566d8ff9cda687c0afa19c07fac89"
+    },
+    {
+      "path": "os-taxonomy-main/reports/new-france-institutions-review-2026-11-11.json",
+      "bytes": 13250,
+      "sha256": "38a4dbddf6e53afe5ae47a88f6919099ad9aec0ea18f6fd49751f04232adf6a0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-pigment-mixing-2026-11-11.json",
+      "bytes": 3715,
+      "sha256": "03298c6a79945c91f411234f91fd8402abb3cec7d15448ad164d0b964a4a7ebd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-pigment-mixing-2026-11-11.md",
+      "bytes": 2596,
+      "sha256": "c9cbf766d82726375ea4fcc3ae37cd4159d3ff9f9620c45bb69a79bbd533587f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-primary-review-2026-11-11.json",
+      "bytes": 371587,
+      "sha256": "d7e08a651987d41a9678fb8dd3661c7bb24de36ef3c4adc99aabcfdaa1fa44ad"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-primary-review-2026-11-11.md",
+      "bytes": 7332,
+      "sha256": "1b5eacc0da88430ae84aeec14d619573cb6552cdef42a3c321b758177d6c455e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-primary-task-programme-2026-11-11.json",
+      "bytes": 65589,
+      "sha256": "fd584fd3bb1cda5e1a38a00a3ba4455ee2114f68d8102842979690da28b93897"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-staff-literacy-2026-11-11.json",
+      "bytes": 3266,
+      "sha256": "73453c21c45eda791f01d56b9b02ba8d224ab3f9f8af595236eb9a7d5aed4c41"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-arts-staff-literacy-2026-11-11.md",
+      "bytes": 2676,
+      "sha256": "c03b100e196aebe6784164ce42f0e9b87ccdb93f7709269bb3f79a1f153555fb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-canadian-political-geography-claim-2026-11-10.json",
+      "bytes": 19851,
+      "sha256": "a2df8093846fb3449dbe0c83d3d823e2b9ad9df575caee8e454bc23c40941b03"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-canadian-political-geography-claim-2026-11-10.md",
+      "bytes": 1519,
+      "sha256": "c85436a68cedb38e0b7eb77b6b8f1050a62d5e37d96bc14ebfe19b61ca588e7a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-cardinal-direction-claim-2026-11-10.json",
+      "bytes": 13925,
+      "sha256": "5a70af2710c2919b35fe12a0d09489c9c13747d0aa2db47ec374f26d6c8e5005"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-cardinal-direction-claim-2026-11-10.md",
+      "bytes": 1894,
+      "sha256": "1031393c53a21ee2196ddfde73e0874de9239e5e766b0cae03f10e34cf339e8a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-climate-factual-correction-2026-11-10.json",
+      "bytes": 6981,
+      "sha256": "1f687b0190c232f72958baac76fbd9518139cb0181cb406ef35c4d7bd1934f72"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-climate-factual-correction-2026-11-10.md",
+      "bytes": 2015,
+      "sha256": "6d37301f7149e5d95deffed3db58d72be955ca54fea2b6742dd5a9859ede0ea7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-community-governance-claim-2026-11-10.json",
+      "bytes": 19540,
+      "sha256": "2f19997c96c2f2c2cd78d60abbe55fbfbb1ef2ae0f3011ca32555675c3caeaa7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-community-governance-claim-2026-11-10.md",
+      "bytes": 1075,
+      "sha256": "29e3af38d00e58fece696afda534a8526e91c23ada7597273cafa133a0a7805c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-culture-design-2026-11-10.json",
+      "bytes": 29681,
+      "sha256": "d6564ee35d994861b2678b648a65ae395bb70d17d703461bc17578c565bf581f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-culture-design-2026-11-10.md",
+      "bytes": 3374,
+      "sha256": "168cf9b7fb29a0279355de49cdcedd51aa53632a49f737a901d37caf102ec30f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-interaction-design-2026-11-10.json",
+      "bytes": 14067,
+      "sha256": "89a54383e24954d1a78c64d3a1d8a83c1c78042b7ec6fa6a269acf2c33a960ab"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-interaction-design-2026-11-10.md",
+      "bytes": 2336,
+      "sha256": "4876738b285134ec8a18504b7143137dfd6053a3a1fd5489c54b81a8d6738150"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-oral-design-2026-11-10.json",
+      "bytes": 25243,
+      "sha256": "25c73af58210d0767d7663013e4eefa339fafda3056d372ae333ba715e363f45"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-oral-design-2026-11-10.md",
+      "bytes": 2531,
+      "sha256": "3a099e4aebfebe206eb65a4c94ad78ef3c30bacb1f8a93fa6c51b18229bcf443"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-pilot-2026-11-10.json",
+      "bytes": 16464,
+      "sha256": "54ed4e6e8b5d52f2fa176d074c1ec9195a37f24209b036b913d6679fbf2a9eda"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-pilot-2026-11-10.md",
+      "bytes": 6661,
+      "sha256": "25fd846fac2450c14e9b60e43450eb3dea4b939201a4bfe71b6432d3f10563af"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-reading-design-2026-11-10.json",
+      "bytes": 17634,
+      "sha256": "7de5179ff4256ea2342efbff01ea7b69fd00fe8a169593bd55cf201a9944316d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-reading-design-2026-11-10.md",
+      "bytes": 2947,
+      "sha256": "b7f15734472c0c0ef50d0be6a18b63b3fa4509c0cbd68ae220903c5f22b46c7b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-textforms-design-2026-11-10.json",
+      "bytes": 12126,
+      "sha256": "173d0d484ea3b92447a3467331a4818245b006c0bd444ae66ffe21a751b9bf48"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-textforms-design-2026-11-10.md",
+      "bytes": 1968,
+      "sha256": "a9c66c9a9a04802d8600dbdcb52285a6d20f5778ba157325840a3744325e78ed"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-writing-design-2026-11-10.json",
+      "bytes": 21889,
+      "sha256": "b2b3b10a2ef9a3a687c5ec1bcb59e8413988f8ed5ddae675a3bea4c926aa5440"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core4-french-writing-design-2026-11-10.md",
+      "bytes": 2989,
+      "sha256": "11b42b903c3411c2430c03cfa67673053264852496e3cb772befcaf302e5f075"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core56-french-culture-design-2026-11-10.json",
+      "bytes": 60784,
+      "sha256": "3b743287fa3258420ddd2b5cec14135ba0992d93803da4d6f10912a0a654466b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core56-french-culture-design-2026-11-10.md",
+      "bytes": 4834,
+      "sha256": "04072f996666a9d1a15893587f923420caf79e81b79a9a88ec19a52fe80a582e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core56-french-shared-design-2026-11-10.json",
+      "bytes": 77689,
+      "sha256": "484f85a71af5fdd86b8b9647be2b5618461ecaa400235f768709fbf23d59eb14"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-core56-french-shared-design-2026-11-10.md",
+      "bytes": 4957,
+      "sha256": "123b9f8f5c090f2753ca93d3b0d149eca57790da02cd1a763cf33cca711131a4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-cultural-renewal-claim-2026-11-10.json",
+      "bytes": 11216,
+      "sha256": "3beb4e641f5ccbba50afcb8eb0c3880ede77c521049790554aeb1241bf3caaeb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-cultural-renewal-claim-2026-11-10.md",
+      "bytes": 5992,
+      "sha256": "5bb345becb27cb474ac00bda59dd0261889933ab4a48c72adf2e0029ab44299d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-early-community-organisation-2026-11-10.json",
+      "bytes": 18988,
+      "sha256": "46e0ec40809467c20997269e12b3c1017b9750da9557b069fe4751e105fe6fc6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-early-community-organisation-2026-11-10.md",
+      "bytes": 1377,
+      "sha256": "79a28957cd7d289243723fd88ea5aaef1d247a94f9e7296ac5a6465951b69037"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-early-indigenous-community-life-2026-11-10.json",
+      "bytes": 20266,
+      "sha256": "a0eecb11b1ce7e6acf10875a57a1361a27d4c9d98aa7943bc8c8875fb2b432cf"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-early-indigenous-community-life-2026-11-10.md",
+      "bytes": 1722,
+      "sha256": "b7d81fbafc5eef8e99434d33a4e89a29ab2f217e986d489b10408bb1dc803e75"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-economic-sectors-claim-2026-11-10.json",
+      "bytes": 16795,
+      "sha256": "e12079de7e072cd0ba21f8ed1c06fa4bb3cfe70dd7a91002e2bf07bf872b4ee4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-economic-sectors-claim-2026-11-10.md",
+      "bytes": 2189,
+      "sha256": "812c368938d2cae0149cde6a94a9d95e0764ab496219811a9cce59b5aa150159"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-french-programme-culture-design-2026-11-11.json",
+      "bytes": 117984,
+      "sha256": "18bdedaab5978ce54aaed2cfeaa82456e9824094ff2de6cbb8f96a4ff7260203"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-french-programme-culture-design-2026-11-11.md",
+      "bytes": 4640,
+      "sha256": "1c82ece5056cd21a95c4f8180c9f58eeb520ddeeec597fdbe8f473916aac696e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-french-programme-media-design-2026-11-10.json",
+      "bytes": 76380,
+      "sha256": "0ce4204cae769902444108948de005ccd59c308b5236c6c4ae1349617d2893ea"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-french-programme-media-design-2026-11-10.md",
+      "bytes": 5039,
+      "sha256": "66ea0deb88372191cc4246ca5d1e5cf5fdeea781c7dc0886c2951f87f9c0dd66"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-french-programme-shared-design-2026-11-11.json",
+      "bytes": 292438,
+      "sha256": "f6692ff748307a1455ed055b6981cf23124005ae7c8cb74626cd49a9eaeabbec"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-french-programme-shared-design-2026-11-11.md",
+      "bytes": 4540,
+      "sha256": "0227f2ea9e4952a3f334ffe9a86f2e67c92b197d1d02624908c977f054ea3537"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-community-spatial-tasks-2026-11-10.json",
+      "bytes": 9804,
+      "sha256": "9aa84ecdf78abd89cae0ebea5a53208e8400fe97e8922b17bd164de9f0d02788"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-community-spatial-tasks-2026-11-10.md",
+      "bytes": 5566,
+      "sha256": "b93f01525b200966a96b8b7050f045a2d2ec1b1a84b64bb11fc189ba8440c284"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-life-systems-current-ledger-2026-11-11.json",
+      "bytes": 7565,
+      "sha256": "340542bf46fb3103f8fcf6b35280b12f1644981fb4305e1e610114284cdff716"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-life-systems-review-2026-11-11.md",
+      "bytes": 4756,
+      "sha256": "e6f687c7adb52da227d379bf444da175212511bcf3b682fadba11b950ba99ec0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-life-systems-task-design-2026-11-11.json",
+      "bytes": 32818,
+      "sha256": "8a399be03875d7ea627c3b82d012ccf7fcdff9c59c64623704b5bd888d8e1f7a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-locality-correction-2026-11-11.md",
+      "bytes": 2293,
+      "sha256": "f436a569921b9768ee6042a631f83d0db61996ced3e413bcf820427a9d53c520"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-science-2026-11-09.md",
+      "bytes": 11938,
+      "sha256": "7d1a75809fc8dc2f636999e8e414859425bcc9151db7ef777372deb493c45127"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-science-mapping-2026-11-09.json",
+      "bytes": 64265,
+      "sha256": "cc051508d5d4059c8d4a8996412a24c8bf3917c4e4a71af690ef81864e930edf"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-social-inquiry-tasks-2026-11-10.json",
+      "bytes": 14326,
+      "sha256": "70ee6b3a45efccf6f1db12d150490af5b6d2c19ea0ad39cd6fd96b21321fe95e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-social-inquiry-tasks-2026-11-10.md",
+      "bytes": 7863,
+      "sha256": "603256e267124877aac0efcac10602096ae9aa3d8c178483becf65dde4aec75e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-social-source-fit-tasks-2026-11-10.json",
+      "bytes": 10021,
+      "sha256": "d0774b61f15d1c2a413ff10b8235efc77a7bd8b17f5d3ef40857d924d4e230bd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-social-source-fit-tasks-2026-11-10.md",
+      "bytes": 7063,
+      "sha256": "0137f3f5f25819b99d0780a50634f2b9c8fc875f9613f914a597c26d810ed6c4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-social-studies-2026-11-10.md",
+      "bytes": 18093,
+      "sha256": "d41f68f6128c11c38d0df8b5c6b6ec0e4b548ccf4a440948f8cbafc15b28e8a3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade1-social-studies-mapping-2026-11-10.json",
+      "bytes": 98953,
+      "sha256": "acd2157963b36046e6824528d65d2c3bc6f98e4a3b360faec02de1009d3a6e97"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-community-resource-review-2026-11-10.json",
+      "bytes": 26988,
+      "sha256": "4bf533da63c3c5e7b5c65a4bbd94d64a658d47ce1cdfbe3d857e490831f09e7a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-community-resource-review-2026-11-10.md",
+      "bytes": 3609,
+      "sha256": "2b0d019f48d2f1883142d1fdc2f25739e219a65ad92953503e544fd06e71a59a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-cultural-renewal-reuse-2026-11-10.json",
+      "bytes": 3613,
+      "sha256": "86f26e87e47800741235daf00b928d60449adea43401e13013848bb10dda414f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-cultural-renewal-reuse-2026-11-10.md",
+      "bytes": 1696,
+      "sha256": "0b2113192172a2f86ae72127a4c6914e06a62e884dfd5ea4aa38f07f8dfc8a68"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-heritage-resource-review-2026-11-10.json",
+      "bytes": 11262,
+      "sha256": "8380c484a75e7bf5c20c50f21119258aafeaae57cad2d29ba85116f1267b1ee1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-heritage-resource-review-2026-11-10.md",
+      "bytes": 4608,
+      "sha256": "1d725e5f43834e85341b1e58053d5b34d3934fdf0d1f9339f5221cf4211f0124"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-mathematics-2026-10-23.md",
+      "bytes": 6244,
+      "sha256": "6a99f43a7f77c790b32efc773e26c06336e2e6b76d5044dff30f654955116a96"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-mathematics-mapping-2026-10-23.json",
+      "bytes": 20540,
+      "sha256": "b51e4ce961b082eeee9e8b6619f766c2b2c6a424d761968c82870ce542506720"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-science-2026-11-09.md",
+      "bytes": 11246,
+      "sha256": "639ec6becba072e45239ea2f062424aa7349279f3503a2db44e5c34287a90820"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-science-mapping-2026-11-09.json",
+      "bytes": 62455,
+      "sha256": "538e294fe85810aceeffce1caa4c5962e017434d55b7b25b6587c360aff0b1a7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-social-studies-2026-11-10.md",
+      "bytes": 8286,
+      "sha256": "2bf62e6e9c7fc3bba19fd62b7ef1974481ac9e7a283c718efa59cca4645a5233"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-social-studies-mapping-2026-11-10.json",
+      "bytes": 75080,
+      "sha256": "294aaae13b23ef94e33af81e690c36a9c341021eff10b5cd863859b80bd6b745"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-tradition-task-review-2026-11-10.json",
+      "bytes": 16386,
+      "sha256": "d83db8455c355404ab527227e3e96153ea7ceddc831327d3a5b69fcfe7b97dde"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-tradition-task-review-2026-11-10.md",
+      "bytes": 2858,
+      "sha256": "b4db9a5a8e6d018690ff56b1bd8021bacac823a0d241fe22f9c728b5e102b060"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-world-reference-claims-2026-11-10.json",
+      "bytes": 14350,
+      "sha256": "5057a1da83405434feb4e28e36133cca82bbda0376c2524664661a3ea7760956"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade2-world-reference-claims-2026-11-10.md",
+      "bytes": 6083,
+      "sha256": "caaca63c923fb49e5525d73c8c9272607c75c394035043c191d3ef142e0cd79a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-environment-integrated-review-2026-11-10.json",
+      "bytes": 5788,
+      "sha256": "d4d206eba7c4e03c1ca4112b673b0bb55078cc3d3214c8f2d8145c3d7e1b2da4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-environment-integrated-review-2026-11-10.md",
+      "bytes": 1141,
+      "sha256": "925855bad6a5fe3101541a30af7533dc8d6670375f0895cd17d44a360b25027b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-environment-work-resource-review-2026-11-10.json",
+      "bytes": 12271,
+      "sha256": "86b4b804c7e73f1b6f0c0eab6b680746422743a39273f7bdb0aa93fa43fa9536"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-environment-work-resource-review-2026-11-10.md",
+      "bytes": 1696,
+      "sha256": "6527d266cf9bed9c89058d8ce1a8da877cca539c9e35b3014548c1fd9effd831"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-environmental-inquiry-review-2026-11-10.json",
+      "bytes": 20083,
+      "sha256": "936aadb56ba2726943bd9bec1885a74c5b6d41cc57c008d9be4b7b3b6a43f41d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-environmental-inquiry-review-2026-11-10.md",
+      "bytes": 1999,
+      "sha256": "cdccccf567050f1acfab15f9b580545bfcfc627a2ae4698984a76b4c1c17c471"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-historical-inquiry-review-2026-11-10.json",
+      "bytes": 13487,
+      "sha256": "24bc7618801c032ce363443a74e87f76ccce3f0ac6227bed1e3fa30b40090017"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-historical-inquiry-review-2026-11-10.md",
+      "bytes": 1714,
+      "sha256": "b89a5d2eb63983a9a9d8eed31305d23ffe660fd07b87d415758792a84aa5464e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-historical-location-impact-review-2026-11-10.json",
+      "bytes": 11386,
+      "sha256": "dbf495ee5f4e1592f0361e0b1ad028271863d4f2a33e57e8a4964e2d55a301cc"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-historical-location-impact-review-2026-11-10.md",
+      "bytes": 1485,
+      "sha256": "a9e0f07a7ba0026cd6646d19402d9769473eb7fe994b1ea67cb572bcaa1db827"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-history-comparison-review-2026-11-10.json",
+      "bytes": 17166,
+      "sha256": "55514dd1a16c604e7b37e82a441672e330ae2748667a12f7402cfcb6984c119b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-history-comparison-review-2026-11-10.md",
+      "bytes": 1747,
+      "sha256": "6ccf5bb1e4ec680d9ef0aadf00cbb160ebbea4f24cc99ae473834980c13d615e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-history-integrated-review-2026-11-10.json",
+      "bytes": 5717,
+      "sha256": "d6c4a9623a14ebbb7130e93cd85e77fa359ba7fcd036cac2b39b794376510836"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-history-integrated-review-2026-11-10.md",
+      "bytes": 868,
+      "sha256": "5b7d448ca11460ee4e8af6123c440af85704ac8c6a36425ca96aba09e0fbe8ef"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-map-task-review-2026-11-10.json",
+      "bytes": 9058,
+      "sha256": "f449606eaf80fa5c128eb09ef2a34002c6f6abf684a6b820069350524736e204"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-map-task-review-2026-11-10.md",
+      "bytes": 1481,
+      "sha256": "f98960c75b0c72df242a3e9817ca7967db911c6aad0b690305e761ce77d0b3ea"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-mathematics-2026-10-23.md",
+      "bytes": 8027,
+      "sha256": "129cf33adbc61652a50a7233cbdbb4208e05772e6c2055b78c1221067af04329"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-mathematics-mapping-2026-10-23.json",
+      "bytes": 25945,
+      "sha256": "28571cd71f413bd341d9feb5a842f733252d13cbb6e7f698738c3d1abfd3a761"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-policy-identity-review-2026-11-10.json",
+      "bytes": 12581,
+      "sha256": "33d1d80b6398036ef1d5e32e6c42ef0e6a57d1dfe819bd08762144a079239a9d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-policy-identity-review-2026-11-10.md",
+      "bytes": 1556,
+      "sha256": "2cc61fb28608eb059fcf6547a2930dc70789f10a9704e0a6d1d46b63e7b67215"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-population-land-use-review-2026-11-10.json",
+      "bytes": 12664,
+      "sha256": "3de890bd52ff75048d5d97ac0c40ad20a0f6c49f09f0c53fc858697224269cf8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-population-land-use-review-2026-11-10.md",
+      "bytes": 1744,
+      "sha256": "ef6a2e8c65450b5050e7271dcde45704dd944e4f70eac03fc235bebb52c6776f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-science-2026-11-09.md",
+      "bytes": 11741,
+      "sha256": "e9d4c895e87a628a25836619377fe8cf74767f2bb391cc51bb4775bf9b9141ef"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-science-mapping-2026-11-09.json",
+      "bytes": 67435,
+      "sha256": "4c2083de3889bab35eda65e83da7dc1d2cd4eee0e29db5bdf41a8aa2eccb2ad9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-social-completion-2026-11-10.md",
+      "bytes": 2776,
+      "sha256": "ee7b32f168a260c0912428a4b51cc66a1468bc1befc42383a22fd7b908e95c1f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-social-current-ledger-2026-11-10.json",
+      "bytes": 24378,
+      "sha256": "2b94fce1021d3a8365c93c5806787924d79c4d3e692d849f3ff972f275f92d19"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-social-source-review-2026-11-10.json",
+      "bytes": 5382,
+      "sha256": "d8d643f330a5298e553d84058b352858be87022b7d69d073498f4e01ec2be185"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade3-social-source-review-2026-11-10.md",
+      "bytes": 1709,
+      "sha256": "4cd2e602e1022d31bcf879385132764d5987149a15719ce93e3f53a2b5d43f4c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-direction-grid-reuse-2026-11-10.json",
+      "bytes": 8126,
+      "sha256": "f659b6a52ac55655533b73d56224de40a82710143342bf5f305c3bb3fc8cf1d6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-early-inquiry-map-review-2026-11-10.json",
+      "bytes": 19399,
+      "sha256": "5dd0d33c151e5fff0835497c343bbe6015d979d4371928ea7510c124cbe227a7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-early-integrated-review-2026-11-11.json",
+      "bytes": 9289,
+      "sha256": "93704cfb80877fb2e33ae880e3845e1b3bfbba93568ffec1b9b58d52bd65f322"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-early-material-environment-review-2026-11-10.json",
+      "bytes": 9039,
+      "sha256": "e55087484790d8c0f871ec3441f4adcbe09f44ef882e4d83068a508e4020c160"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-early-organisation-comparisons-review-2026-11-11.json",
+      "bytes": 8025,
+      "sha256": "af9598fac2200061027f6f188253c25d6d493b6debe410db6f9586f314aa440a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-early-own-comparisons-review-2026-11-11.json",
+      "bytes": 15176,
+      "sha256": "893eb84243086ce5673f12901a710c96f94e7ccd574da9957f2d112244ac74a1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-early-societies-review-2026-11-11.md",
+      "bytes": 4393,
+      "sha256": "a8c4327a252538c0591df1167116ee113644be0e0c4dfe1b5c8173ffc3b28c10"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-environmental-inquiry-review-2026-11-10.json",
+      "bytes": 22548,
+      "sha256": "11b2cf5f260004de890fd5d444af87a1f77b28cc3fdf4a7f8f0345b1cb9a7933"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-geography-checkpoint-2026-11-10.md",
+      "bytes": 4548,
+      "sha256": "da6095762256c48fe05e85d86cf3051a9ba93f1c86f1f0332c722002bd4618c4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-geological-material-impact-design-2026-11-11.json",
+      "bytes": 13326,
+      "sha256": "019a0e068a2403226b2692dc71490970d0f821d1de83f41a9ba22fb494499a1c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-habitat-community-task-design-2026-11-11.json",
+      "bytes": 19657,
+      "sha256": "50908c3b3d016bff3f654e67c60d5803cfeb73d4461d6622f523dcfa8408a067"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-human-activity-review-2026-11-10.json",
+      "bytes": 11731,
+      "sha256": "0fb2c362c8ecca0b3c98a80e2878aba086a90981a85d4d5305f3d12a685be683"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-industry-environment-review-2026-11-10.json",
+      "bytes": 13032,
+      "sha256": "998694c504fe171ee66c3ad796fd3f5bb5fa3a6f56c144fb914ccf1ea57eca37"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-light-sound-impact-design-2026-11-11.json",
+      "bytes": 13398,
+      "sha256": "37bdfee7e7947315e19564cee20a9473f4cd94feaa7ae3192e071661d56dcf29"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-light-sound-properties-design-2026-11-11.json",
+      "bytes": 30952,
+      "sha256": "90cbab4b3afb4a4ca76b1683d0615725ede82824931df4639dbe431ecdef7641"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-machines-community-environment-design-2026-11-11.json",
+      "bytes": 12216,
+      "sha256": "82807f800816600f9d6d1ad5bbb09d89ce360957ed878e514d9262f37ba89235"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-mathematics-2026-10-24.md",
+      "bytes": 8870,
+      "sha256": "b7d1e56c03d3b045d386c530582d0e2a60d443d97d53d5dde97ff7c43470b783"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-mathematics-mapping-2026-10-24.json",
+      "bytes": 27810,
+      "sha256": "f5d5f43ccff184b39c7a5258bd56af50cf7b87f0dca8f79be22e7ab470a9d393"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-mechanism-functions-design-2026-11-11.json",
+      "bytes": 18735,
+      "sha256": "5831bfccd0bf236aeadd27ea0248c0aa98364cfc7dbc96c491b1f3568af585c7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-mineral-classification-knowledge-design-2026-11-11.json",
+      "bytes": 22273,
+      "sha256": "0a4885155b592bbea4eb3abd1b8f5eb86a7bd230b9c7061bc1148bfd76adfc1c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-peoples-location-review-2026-11-10.json",
+      "bytes": 14700,
+      "sha256": "e3ca94db8c3d2b763b3a3d19341c381ebe46d4c5879f1016002fa19473e8ed40"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-physical-region-reuse-2026-11-10.json",
+      "bytes": 4899,
+      "sha256": "c977deb5f7a3b9f3c6a776798308eb28f3b8f0ad5507745de6e3e5e0a44172ce"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-physical-region-reuse-2026-11-10.md",
+      "bytes": 1122,
+      "sha256": "58f5d1cf15bbfcaac60ae6fb9c8c782d3f605a2a69945b4f1f23a9e4472a8299"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-political-integrated-review-2026-11-10.json",
+      "bytes": 12908,
+      "sha256": "3538fcbcea46e5c6a2e83945a7c7c84773c9d0d98ce6aa8e71764870075591b2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-science-2026-11-09.md",
+      "bytes": 11311,
+      "sha256": "03127e308fd57f42a7c0c006075383e5d2156793b4d489236b4be22c259e015a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-science-content-current-ledger-2026-11-11.json",
+      "bytes": 30978,
+      "sha256": "19af2c5a64514b04982bc71ab6572780ff609eaf3fff69f4cdaa824590d880c7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-science-mapping-2026-11-09.json",
+      "bytes": 69207,
+      "sha256": "fa77005cf047ba9f17220c2bb18910677a477a5adaaa18b929dfe4a8102d8fff"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-social-current-ledger-2026-11-10.json",
+      "bytes": 28214,
+      "sha256": "baefe7840b54869f2a183a3974f6270e9c93a3210522c02002a1c318bc0faea3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade4-social-source-review-2026-11-10.json",
+      "bytes": 2319,
+      "sha256": "1d7d3a1af3fbd1540e5ee1fb7af18a812481130aa400747bf71267f84f9b1a20"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-biological-force-protection-design-2026-11-11.json",
+      "bytes": 9311,
+      "sha256": "1cafad9528bc8f28238b310ddb36005ac02f98c5ab37c2161df4cde885d8ce24"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-cde-current-ledger-2026-11-11.json",
+      "bytes": 16952,
+      "sha256": "5c1cd964c2cd4fd2c95f7814fe4d91d851a45e576946ad894c224966f496aac2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-change-reversibility-correction-2026-11-11.json",
+      "bytes": 7687,
+      "sha256": "df462e118cfa30ed3ddc4e6e4f5db3b8224cf1fcb87b46bae1c033f6c770b8ef"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-citizens-government-integration-2026-11-11.json",
+      "bytes": 7519,
+      "sha256": "65c2333bbbd989dead705017e795695a2560f4f12adc7f6763cd4aa7f0c7873d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-civic-action-review-2026-11-11.json",
+      "bytes": 6623,
+      "sha256": "0b757972b41389ea96cb38111201bf456f176ef30c9eae6ca52db85988ef67b1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-community-conservation-design-2026-11-11.json",
+      "bytes": 12205,
+      "sha256": "9d18ba73132e8684ca8957a13b53fd089cf2ff898882febcd64fad6f4f0497bb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-energy-conservation-design-2026-11-11.json",
+      "bytes": 10807,
+      "sha256": "a60582279fef69594a14e559d4949dc4e6bfe79ff8c7c3a72009584eb45c7cc2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-energy-resource-decisions-design-2026-11-11.json",
+      "bytes": 15104,
+      "sha256": "1c213794a70148955463c1389902e25eaa404402c7dd27437b6b4e8f6bff0521"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-environmental-inquiry-review-2026-11-11.json",
+      "bytes": 20073,
+      "sha256": "a5fdcbfc1db6b2f6e1a566c492300bd1f021acd3a12172085dc6b37938f6edc8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-external-structural-forces-design-2026-11-11.json",
+      "bytes": 6499,
+      "sha256": "7fc263104c84fdfb036f2e640fe9d49fee9e052cea49c44b8c41c21f3ee68a39"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-government-citizens-review-2026-11-11.md",
+      "bytes": 5107,
+      "sha256": "dd10fb7af0dfa8dc8cf51d11c3be1bdd47511da6d8509b4c87ccd1551bbfeffe"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-government-response-review-2026-11-11.json",
+      "bytes": 7219,
+      "sha256": "2d427e3f53b8bfc715dfb579f264077b2a55c7c3fbfd34e909fdcbca4d946614"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-historical-inquiry-design-2026-11-11.json",
+      "bytes": 17326,
+      "sha256": "87e8adb3a1f84d317890a3fb3d9d89d45355db452fb4f51c42936635d9092940"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-historical-relationships-integration-2026-11-11.json",
+      "bytes": 16292,
+      "sha256": "726a282dbd9ecf41e697534b43229a7be21762c67325abf863d11b1ae06d7357"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-integrated-energy-resources-design-2026-11-11.json",
+      "bytes": 4488,
+      "sha256": "bde5c56ac635372f8eb0c639e01754c9834a2b3737bf2c96ffb662e7b104c82d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-integrated-government-responses-2026-11-11.json",
+      "bytes": 10727,
+      "sha256": "33af619428530173a4c3338c115f648eb4a7dae488f8236b5fc5548236285e72"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-integrated-matter-design-2026-11-11.json",
+      "bytes": 9030,
+      "sha256": "c768e63acee394ee245d6ac618ce4b230081dc815ee383a4c3aaebe6fedc2aaa"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-integrated-structures-design-2026-11-11.json",
+      "bytes": 4764,
+      "sha256": "90c8154257054112f18ed264af2789166f4d6274ee65d65b3cada6e827ecefb3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-internal-structural-forces-review-2026-11-11.json",
+      "bytes": 11373,
+      "sha256": "593115b89eb9d0848a9e8db149793d91e74f982dd60a9f18a44f5aea365731f3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-language-2026-11-02.md",
+      "bytes": 5003,
+      "sha256": "b01735e87d408e3b4b622c678b9fa177d9a1fc32e4d986f96d258f015e2a949c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-language-mapping-2026-11-02.json",
+      "bytes": 44815,
+      "sha256": "69f613e5fbced379d4ed93c377857a1021aaa3bb3af91ff1cf88a59bc3c80643"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-manufacturing-impacts-design-2026-11-11.json",
+      "bytes": 18238,
+      "sha256": "687dec9953036ea00c3ba10163e69151831b930ecd2f0939c04b45a96cd7451d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-material-property-applications-design-2026-11-11.json",
+      "bytes": 12693,
+      "sha256": "280dc41afdb4e8d56f12c4d1c688b6b6ac26c969e173e50807f6e90b7b44b7b5"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-mathematics-2026-10-24.md",
+      "bytes": 10160,
+      "sha256": "601fbd1549511fad9bec1df8889edaf842933bf0da5147b5bfc7e43ff35b96b1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-mathematics-mapping-2026-10-24.json",
+      "bytes": 28945,
+      "sha256": "7a4fe9d44fba9d6641c0d458c4ba65af1386c5e82b3b1ac7473e7ea4c1f86e79"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-matter-criterion-design-2026-11-11.json",
+      "bytes": 8402,
+      "sha256": "da9aa4037602c52f2954b82be1421e5426cf7c804e3486c7cbc0c090f6a67fc3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-protective-equipment-design-2026-11-11.json",
+      "bytes": 7468,
+      "sha256": "7939fd5fc42443faff06c3da2f1f5d005ce8b38f9ca86d806702d76b50564fa2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-public-input-processes-2026-11-11.json",
+      "bytes": 8696,
+      "sha256": "e49dc5f8fdebe6f1040272b93a106f0e77130aecf7806cfe27bc34dcb9e228a0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-science-2026-11-09.md",
+      "bytes": 11332,
+      "sha256": "bc0a2e0ffa5fff6c28905b7e033abe954ed074f9e0c69d565cb8e89c3a16bf00"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-science-mapping-2026-11-09.json",
+      "bytes": 72923,
+      "sha256": "bab1ee4987ca6e64f628b5b4a03c956c66362ce08d1093b9bf78a0ae7e129bf0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-social-completion-review-2026-11-11.md",
+      "bytes": 3996,
+      "sha256": "a1fdca1422a51295c03f54db765aa05f3cc7479839f4f80f2d1150e1d5bd70b5"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-social-current-ledger-2026-11-11.json",
+      "bytes": 24228,
+      "sha256": "77a708b30b15fc8a866a841beb1752d37c9f516492a28f3b04427f4092462ce0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-social-environment-action-plans-2026-11-11.json",
+      "bytes": 11982,
+      "sha256": "beee39faac042471f877d786fac1db997b530a69e1d8904db815b30ccf2d64fd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-social-source-review-2026-11-11.json",
+      "bytes": 2879,
+      "sha256": "d995d4c6545c53c4eb98bc33146c24a4eedcc6e6356d4864a905df9e4aeee530"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-structural-hazard-methods-design-2026-11-11.json",
+      "bytes": 17916,
+      "sha256": "be3029600c543ed7650b1336d19fda18658503837f1966a372b1a2541a34e199"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade5-thermal-state-change-design-2026-11-11.json",
+      "bytes": 9297,
+      "sha256": "38d0b1134da454c4685085a173910248c1dd303e31b2d3615ddeef97b1e631ff"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-biodiversity-electricity-space-review-2026-11-11.md",
+      "bytes": 5850,
+      "sha256": "79e530e2a82af08477e1257380dbc9ff4ef851b50a36e8c4d7213a4719ace7e8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-biodiversity-task-design-2026-11-11.json",
+      "bytes": 41462,
+      "sha256": "6d0e54cfcb99bd917c1fdde1f00f2571d37f98e0d5b4e6a04526c3f9229bedb1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-community-identity-completion-design-2026-11-11.json",
+      "bytes": 23963,
+      "sha256": "8bef8439bde1fd62e2290acb0f5ecd9a8065c0b862b1cf47faf6dfd5f9e164a7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-community-perspectives-inquiry-design-2026-11-11.json",
+      "bytes": 15495,
+      "sha256": "7307e49fbd3383d992554dba1ec5af0ef9335def9da4c585bdf49ca9744677c8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-cooperation-evaluation-design-2026-11-11.json",
+      "bytes": 14468,
+      "sha256": "252f211225a68279204adc38fc1aff9166cd744dcc120cf721752fbe122e2b97"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-cooperation-response-design-2026-11-11.json",
+      "bytes": 12990,
+      "sha256": "df9e0d4769100e2f93220be1ad338c945e89322b7bdffeb616a6ce61f2ae0a6d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-country-city-location-design-2026-11-11.json",
+      "bytes": 8689,
+      "sha256": "0e3f58c524f6099b9772fed7f07a106ef27f101e8f94671e252c44625a2c572a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-cultural-contributions-design-2026-11-11.json",
+      "bytes": 10602,
+      "sha256": "6840dd4fbeab977c20f0ae54c4d4bb56ba26d18c7fd7797d6035a3cbcfb6127c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-electrical-flight-review-2026-11-11.md",
+      "bytes": 3558,
+      "sha256": "718ba9b4e3d34565790c59ca7cd1859787f711e096fd5e81c5383925b0aff15f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-electrical-generation-circuit-use-design-2026-11-11.json",
+      "bytes": 12475,
+      "sha256": "88fe3e122a1f80cf2ed2f3175bb80c4084068152c83b08f155886f4d4acfc88f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-electricity-impacts-principles-design-2026-11-11.json",
+      "bytes": 35324,
+      "sha256": "436236f67bcb16251d240bb61bcf647fcc8b5514032d6e55799e74b62946687f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-feature-image-design-2026-11-11.json",
+      "bytes": 12023,
+      "sha256": "505458484bb580b0f0f33b63882f8e2e39d889337c2a8f5c833fc1e45d898ff2"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-flight-impact-task-design-2026-11-11.json",
+      "bytes": 10060,
+      "sha256": "6ca7d73beaa2ca317bbe065112383d0f6c5cc753718e801a1a48a01cb90974f6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-flight-mechanics-task-design-2026-11-11.json",
+      "bytes": 27104,
+      "sha256": "f25cbe0bb1a5487347fb6a4642f745e00c0e2456980fe26a7507194c74df0e83"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-flight-model-claim-review-2026-11-11.json",
+      "bytes": 31476,
+      "sha256": "b598e63b7766dec1a5fba46a87c52091a96461b20161a917154d98d8329b05e8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-global-issue-inquiry-design-2026-11-11.json",
+      "bytes": 14060,
+      "sha256": "473af736e45b12917cad7621f95bab6c00e88f01fcae9e46bf1c4e7a1bb13aad"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-historical-communities-design-2026-11-11.json",
+      "bytes": 15307,
+      "sha256": "c41e20d832c8347efc3b28833e874cdbb773a799ac873998392a5b0aa521a17c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-international-connections-design-2026-11-11.json",
+      "bytes": 10739,
+      "sha256": "cf14b4db0437c715ddc7f92c39886928823fbb88e57756691605b155e332126e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-language-2026-11-02.md",
+      "bytes": 6556,
+      "sha256": "f7b57eaed54b8e1a557203f3c7f74ca4efc44abb2a98282978c6277cc9342499"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-language-mapping-2026-11-02.json",
+      "bytes": 44611,
+      "sha256": "81e7dbab2fac8731bca0316c29502fccbd319ae636d9947f220b535c39d194bf"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-mathematics-2026-10-27.md",
+      "bytes": 11883,
+      "sha256": "e4c85412cb9f8199e57cdd85825ebe17cced1b2b2d75e99921fe7ca10a49ffb0"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-mathematics-mapping-2026-10-27.json",
+      "bytes": 30700,
+      "sha256": "6fbfa3f481b011676a984d19cb6b6ccd5f596d362bc6ca18c93d8a14778a0ce6"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-science-2026-11-09.md",
+      "bytes": 12692,
+      "sha256": "b37aa04d2f93dd978fd6002afcd274f309f3be24facc78b76abf86cd99ae6fc9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-science-content-current-ledger-2026-11-11.json",
+      "bytes": 28978,
+      "sha256": "5b2abf3cede3dd01c43b531750675ab9e3061b0d63973fd3d060982463687246"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-science-mapping-2026-11-09.json",
+      "bytes": 78838,
+      "sha256": "04c4c76e6bbc114fc60c18829eade54affa0647331f50aa24629b7137b4e0a1c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-social-completion-review-2026-11-11.md",
+      "bytes": 5663,
+      "sha256": "9b8067947668a728fd8325298b8e110ad178249d67c02e92d5b1c7fa8871d069"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-social-current-ledger-2026-11-11.json",
+      "bytes": 26617,
+      "sha256": "67b422252b42f86049fa33fb05b328b770c981bc232141bbee62912e727ac0c4"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-social-source-review-2026-11-11.json",
+      "bytes": 2079,
+      "sha256": "317e6288011f264e548f27aed2a570209f9e2f7528eb0d5fd25383c75bd63645"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-space-source-task-design-2026-11-11.json",
+      "bytes": 49098,
+      "sha256": "331ceada5fcf776e9cec16db6f06e6fe2f0eabadd8f7cb43e89baa496b5b6f6a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-territory-source-fit-2026-11-11.json",
+      "bytes": 4964,
+      "sha256": "8d8ad26cb56d7f142eafbdd530e7f910bcd841501ac1df8143bf2121296e9169"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-trade-effects-design-2026-11-11.json",
+      "bytes": 6752,
+      "sha256": "9f392290d10f4259170b3b44157327de3bd63b1a386b574e734fe9993a063f89"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade6-transboundary-environment-design-2026-11-11.json",
+      "bytes": 9424,
+      "sha256": "6f040e6840bcc3c0c362cbd79b0c37caa9e59eaa67f885a6b29eb6cce0b1132e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade7-mathematics-2026-10-27.md",
+      "bytes": 12260,
+      "sha256": "e783accbbeb7809e7f0cefe1f4970e0722c4368b901f422797efc379a694ff7b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-grade7-mathematics-mapping-2026-10-27.json",
+      "bytes": 30840,
+      "sha256": "af3c275381648534edcae3d9f96f3bbde1466649d31ceefc2f002d3815c599f3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-allergy-claim-2026-11-11.json",
+      "bytes": 5205,
+      "sha256": "bb548f6aeed60ca926a019c644b0cf36877d721be1a4a407a1751b31c6d65402"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-allergy-claim-2026-11-11.md",
+      "bytes": 2461,
+      "sha256": "523d02a5ce44057275d98d6068275f449b79da26739848ae273d232370ecc489"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-medicines-claim-2026-11-11.json",
+      "bytes": 7038,
+      "sha256": "9cf0aa869a345e12d67d73df675053b99b6388f7873f5dd5b34c74a3f286afc3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-medicines-claim-2026-11-11.md",
+      "bytes": 2786,
+      "sha256": "5bdfe29a89fcccbc1b65933cafa7a56bea75f15a9016c48c613ef8feac60dd03"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-primary-review-2026-11-11.json",
+      "bytes": 251022,
+      "sha256": "a08c8232b9e7b617bea1b23b2692c46719d15ca9e095f3f4d82f80cc56550fc7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-primary-review-2026-11-11.md",
+      "bytes": 3441,
+      "sha256": "07eeeca6626bb9cf78cb6642a4e92d60a4cc278203ba495180169c2301858d3e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-primary-task-programme-2026-11-11.json",
+      "bytes": 118965,
+      "sha256": "2e2940c86045cbaedff7dd83c9d5cfd552714f9c75a3342eda61c092c1b9588d"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-hpe-reproduction-whole-fit-2026-11-11.json",
+      "bytes": 9291,
+      "sha256": "c6c39c78fb5688179ad2094e85adf7632ba22800744caa07fbf7542b5ec432cd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-arts-local-design-2026-11-11.json",
+      "bytes": 32450,
+      "sha256": "b8bf304a1b60ec8c1ee35686703c53fa759b247edc1cf8d64b032267a1988177"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-coding-inquiry-2026-11-11.md",
+      "bytes": 2161,
+      "sha256": "a75a47a70dc53e6725e63f5ca283b0ae0f80a5a81a707aba14b3a3501910bca1"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-coding-inquiry-design-2026-11-11.json",
+      "bytes": 33736,
+      "sha256": "01302bc79dfeb6714873d1db5f36918ee6c936aceed7ee3530db6bfd565b0e7e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-complete-review-2026-11-11.md",
+      "bytes": 3390,
+      "sha256": "fc3c4140de71884c55b8e86910b5654c67519a467959db9c868a7586d1035f2f"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-health-social-2026-11-11.md",
+      "bytes": 1810,
+      "sha256": "2f27ced4a8696ba5211bc1671b88df83f9c26b34908e0a5c7da72fa6a99c204c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-health-social-design-2026-11-11.json",
+      "bytes": 40945,
+      "sha256": "bbfb37c752f150f21c29462d489abf3fab522c6b19d5902dee146f5fcdb7a4d7"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-identity-fairness-2026-11-11.md",
+      "bytes": 1984,
+      "sha256": "9accab3e38b70f9c4619634467692922349f1bef12567a8f80e2bae348705f28"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-identity-fairness-design-2026-11-11.json",
+      "bytes": 22678,
+      "sha256": "69a2edb0e0de2db51558a81adceb540c5ef5733f4e9317d9f0a5808ba5c69738"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-literacy-2026-11-11.md",
+      "bytes": 1958,
+      "sha256": "df161d0ea9f9e1d6ab0da53660ab677b79e30fe90a794de0443009f13d66bc93"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-literacy-design-2026-11-11.json",
+      "bytes": 52061,
+      "sha256": "ec99c85760a4c5cc36b2f67f8797e4e39e4a8210e1f6f10555431889848935b3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-mathematics-2026-11-11.md",
+      "bytes": 2103,
+      "sha256": "71e378d725811e7a62da22949ffab276ee2e337a29cf14df72555f851583b595"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-mathematics-design-2026-11-11.json",
+      "bytes": 48602,
+      "sha256": "617ec907dc9e231ad66134853b1a2827bb1d426b8e830b5cd93885571de54ec5"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-kindergarten-physical-education-exclusion-2026-11-11.json",
+      "bytes": 2601,
+      "sha256": "90659fbb890b337995c431e0cb4054f837d568e9dfb7236d6eef496f855fb93e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-land-use-claim-2026-11-10.json",
+      "bytes": 26607,
+      "sha256": "b66cbb0f7b1702eda5465a41163fa67a27a178321d168266be696fef4ffd7721"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-land-use-claim-2026-11-10.md",
+      "bytes": 2265,
+      "sha256": "4f39a119dbea069f69af6d0342ce697a291fb6d5a90d784ab11675b261907e99"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-language-cultural-residual-tasks-2026-11-11.json",
+      "bytes": 64236,
+      "sha256": "0ea4d0d740073e4be41687b77da7dd0dd3bbfe23a533924e9728a602e3b7b8ea"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-language-grades1-4-reconciliation-2026-11-10.json",
+      "bytes": 532296,
+      "sha256": "b4645de7e1aa776ad274f581366acc8415e89793ad3e54c8424eacd246e08f14"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-language-grades1-4-reconciliation-2026-11-10.md",
+      "bytes": 9302,
+      "sha256": "7e303f02e6269c3dd31cd22f8463f2e65a7e45bc7e8db475cbfb3da324adf537"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-language-keyboarding-task-2026-11-11.json",
+      "bytes": 9853,
+      "sha256": "aecfe2007fbbf7cb3662efbdca1a4258e6d9744707b2aec4f1506c9f06f5cbf8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-language-residual-completion-2026-11-11.md",
+      "bytes": 3273,
+      "sha256": "6642135a89860f93ad11bb26d462b041c934dff94ce252c6ba4338e19f087af9"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-period-life-claim-2026-11-10.json",
+      "bytes": 24728,
+      "sha256": "fcfbe566a1e95c6eb74a69239cc8bf1b87692be0222afc963619ead3ca22b944"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-period-life-claim-2026-11-10.md",
+      "bytes": 1488,
+      "sha256": "96f7e2f60061585e677ff8c247377dc19403ff667ae5689880e9016ae34af09e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-physical-region-claim-2026-11-10.json",
+      "bytes": 22570,
+      "sha256": "02e73bf150148a3826a68c079abbe4e53b8f7761399adfff99903660b9c2e629"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-physical-region-claim-2026-11-10.md",
+      "bytes": 2116,
+      "sha256": "b7b00139c41c1d9a9d68176dd88244f4532028d074ca487b675ad0b64abf7407"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-primary-completion-2026-11-10.json",
+      "bytes": 9691,
+      "sha256": "5a3a9e00f920bacf13f5f947d3031a9653513d056732e8ce50014df5f41eaebd"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-primary-completion-2026-11-10.md",
+      "bytes": 7079,
+      "sha256": "2826209cb04dcc0418bfa6c7603167079a23bbd62fb40ae8168e0111f0fe9aa8"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-primary-science-residual-review-2026-11-09.json",
+      "bytes": 492485,
+      "sha256": "778dee4e52e7f42244885b60801e83628c6d6f995fc40f8962ca3673df8bcef3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-primary-science-residual-review-2026-11-09.md",
+      "bytes": 16909,
+      "sha256": "436403e1d28daea4fcb8405d8fa6d0061008cb3b63b5f59007c86f60a032e799"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-primary-status-2026-11-09.md",
+      "bytes": 8325,
+      "sha256": "e69948db92a42ed46f8f9b80ff5a22ad11cee1e5bbffd779d03846102adbd25c"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-a1-process-source-review-2026-11-11.json",
+      "bytes": 97239,
+      "sha256": "af1d8ac81d72d9ba52546a83c5be65c369c16e3a75dab7bff3d4204362a7211a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-applications-contributions-review-2026-11-11.md",
+      "bytes": 2836,
+      "sha256": "a3bce17e6849237c6a320023011a039e9e9d0bb5577335b0f8df0a73e3a7503b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-applications-contributions-task-designs-2026-11-11.json",
+      "bytes": 46955,
+      "sha256": "482391b22240c9d2c49a22729b88d624e2afceba728e8fbac5ce0d22e240cd1e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-coding-impact-review-2026-11-11.md",
+      "bytes": 2411,
+      "sha256": "193d142b5936b983810f3fb61f107e20790ca17c58d6586897d5b568994ec4b3"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-coding-impact-task-designs-2026-11-11.json",
+      "bytes": 29832,
+      "sha256": "4ed364f959a1a19f472ea478bc9fb708e8babbe79ce363844e7efe26871d5dad"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-coding-task-designs-2026-11-11.json",
+      "bytes": 15416,
+      "sha256": "f298c4201700449018c737bd008fd8089d450b03ede79c8917829d7d2d82a483"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-coding-task-review-2026-11-11.md",
+      "bytes": 3217,
+      "sha256": "6072c885dd6f23937fd04acd3f2c4db93a58a33620398aa2fa77bfb47ce80d44"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-grade2-matter-residual-completion-2026-11-11.json",
+      "bytes": 9046,
+      "sha256": "8e8a834ebe538f8e2a148d061d86a289654cebc17fc761e4aef7712cf106cdcb"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-grade2-matter-residual-completion-2026-11-11.md",
+      "bytes": 3845,
+      "sha256": "b7b8389cd37b1cb2b1a7250355d594a91ec55389f81901d1a1bbaba33626eaee"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-grade2-matter-task-programme-2026-11-11.json",
+      "bytes": 23690,
+      "sha256": "718a26938fcdc594c11741c097747e1e05a9ed3e6a0883d361334455ba8b2b30"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-grade5-health-residual-completion-2026-11-11.json",
+      "bytes": 10261,
+      "sha256": "4dd4ce23956a0a038bbf598a9cdbf1417ccadc304c8d35a283da042bf70bce74"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-grade5-health-residual-completion-2026-11-11.md",
+      "bytes": 3990,
+      "sha256": "00a011b953bd9ad3f0f300218749126cf7bd8245fe57817bf3735e98de6aeb15"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-science-grade5-health-task-programme-2026-11-11.json",
+      "bytes": 28617,
+      "sha256": "b1c477f7da8e6a72c2f3634fcd2f9d1a9385bba95278c6ab46f733016f0f7830"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-territory-knowledge-claim-2026-11-10.json",
+      "bytes": 11874,
+      "sha256": "062de481be7ccf5abfc4610f7fe8bc2ba09b1edbc7cee75355aca5286676a452"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-territory-knowledge-claim-2026-11-10.md",
+      "bytes": 6872,
+      "sha256": "aeb3722b03ef54eeab1fc927e04661eeb2ba8cfa25892569ffafed25eb353fca"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-treaty-knowledge-claim-2026-11-10.json",
+      "bytes": 15939,
+      "sha256": "b9cb1c253c04cd19200cca854a64728bf9cac50777ada505e0316825586a257a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/ontario-treaty-knowledge-claim-2026-11-10.md",
+      "bytes": 1292,
+      "sha256": "b5de56d84480da84d897744e0ec0816940a6f8f34202ddf69dd3a837117e5c8e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/phase-energy-and-prerequisite-correction-2026-11-11.json",
+      "bytes": 26054,
+      "sha256": "94cde4eb1243cf093a182515a9da5fda9700cd0d575772b3c6a378f3b7ca1c60"
+    },
+    {
+      "path": "os-taxonomy-main/reports/phase-energy-and-prerequisite-correction-2026-11-11.md",
+      "bytes": 2927,
+      "sha256": "70fb5f0737c137b97353fa9e6f0f20ccc3b7f10bb9c8606e421576dcd24ae28a"
+    },
+    {
+      "path": "os-taxonomy-main/reports/primary-curriculum-integration-2026-11-11.json",
+      "bytes": 31362,
+      "sha256": "70c6126feb95794d98b210bfbeb42b4e9afe2b6c40be0f354e02107ad9160e21"
+    },
+    {
+      "path": "os-taxonomy-main/reports/primary-curriculum-integration-2026-11-11.md",
+      "bytes": 18908,
+      "sha256": "358629517a638e196d8b0b26645710fa5d2705e39133cd27b3f6f0672c2453fc"
+    },
+    {
+      "path": "os-taxonomy-main/reports/quantity-estimation-review-2026-11-11.json",
+      "bytes": 4699,
+      "sha256": "964b778cc0ffb092cd0a01edb939504317a943bb0975643b1297b44d3dac197e"
+    },
+    {
+      "path": "os-taxonomy-main/reports/research-citation-locators-2026-11-11.md",
+      "bytes": 1299,
+      "sha256": "f020710c637a18e6ee6a27edd1d9c7899d38d6f4202f9f3b440f9220fb158d88"
+    },
+    {
+      "path": "os-taxonomy-main/reports/research-projection-metadata-2026-11-11.md",
+      "bytes": 1876,
+      "sha256": "40e8e9c113dad987a0102f71200c3f6febaa6cfebc4dc798d00c7cebb6aa8d26"
+    },
+    {
+      "path": "os-taxonomy-main/reports/scoped-alignment-baseline-2026-11-04.md",
+      "bytes": 8058,
+      "sha256": "d63203f80c09fe2cdf5aa41675631c9a3f700c3768234bfdc2703eed68125030"
+    },
+    {
+      "path": "os-taxonomy-main/reports/shade-feedback-safety-correction-2026-11-11.json",
+      "bytes": 1701,
+      "sha256": "855f9adf53c21bba3010e22e471c0d380cc8e6a9e3142ab269ee70e90a13000b"
+    },
+    {
+      "path": "os-taxonomy-main/reports/time-conversion-claim-audit-2026-11-10.md",
+      "bytes": 7478,
+      "sha256": "94ebbe95050c6810184cfc138f528dda218ca1257eeb49d1fc402591a3573749"
+    },
+    {
+      "path": "os-taxonomy-main/reports/time-conversion-retired-topic-mappings-2026-11-10.json",
+      "bytes": 22044,
+      "sha256": "6f1d269210fecd2d1027ce0abcdf6e12464f86dcb05e36fcf687dcc5c1e10229"
+    },
+    {
+      "path": "os-taxonomy-main/reports/time-duration-clock-claim-review-2026-11-10.json",
+      "bytes": 28639,
+      "sha256": "e24fe5d6dc1c8adb4636d56b1a4df7e901dea30e6e42c7e01fb97b3c0b6f3ddf"
+    },
+    {
+      "path": "os-taxonomy-main/reports/time-duration-clock-claim-review-2026-11-10.md",
+      "bytes": 7949,
+      "sha256": "3d4ae1885639fcb3a3d5bbd4ad302dd8792d58ef41bdff9b4c2b62942081cf51"
+    },
+    {
+      "path": "os-taxonomy-main/reports/time-measurement-title-audit-2026-11-10.md",
+      "bytes": 4929,
+      "sha256": "2a1862610c0a3b9e9cc509f5001fa3c3cfda1f607007adeda6469f1fed2ae607"
+    },
+    {
+      "path": "os-taxonomy-main/schema/clusters.schema.json",
+      "bytes": 829,
+      "sha256": "b19098d9de830cfa4becdf959c1274bd440cea777a18b7434dbe7eabae244669"
+    },
+    {
+      "path": "os-taxonomy-main/schema/curriculum-alignments-v2.schema.json",
+      "bytes": 4849,
+      "sha256": "c915c41fad8e74f6224c4d30ec843a418e984620e5f2a18ec7fbf4e9a3a668da"
+    },
+    {
+      "path": "os-taxonomy-main/schema/curriculum-alignments.schema.json",
+      "bytes": 1456,
+      "sha256": "5b5f985f181938727cc009cb7fa955ce24f43dcac96452c14a0070f9330ae46e"
+    },
+    {
+      "path": "os-taxonomy-main/schema/curriculum-standards.schema.json",
+      "bytes": 1551,
+      "sha256": "6bff8f71ecf346d9b8ebe06f00beccd42d6ce5f4feb1a21992d5a9c7b1cbf7ff"
+    },
+    {
+      "path": "os-taxonomy-main/schema/dependencies.schema.json",
+      "bytes": 940,
+      "sha256": "81a75a386599f31a32ed27e7b204b57992a344e2dc5a99169349deba7d60a54e"
+    },
+    {
+      "path": "os-taxonomy-main/schema/teaching-research.schema.json",
+      "bytes": 17400,
+      "sha256": "ce1bc28e86fd4966944065b7ae2cafbf6674c2492f35f074a46f4c3246c5c0ef"
+    },
+    {
+      "path": "os-taxonomy-main/schema/topics.schema.json",
+      "bytes": 1449,
+      "sha256": "2c6ea7f7b0f598fafa0950d40006617ae777216466b09a3300a58e38d0f21887"
+    }
+  ]
+}

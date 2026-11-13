@@ -142,7 +142,8 @@ def validate_topics(data, label, all_ids):
                   dataset=label, topicId=identifier, origins=origins)
         if label == "brazil" and "BR" not in origins:
             issue(ERRORS, "BRAZIL_ORIGIN", "Tópico brasileiro sem origem BR.", topicId=identifier)
-        if topic.get("alignmentStatus") not in ALIGNMENT_STATES:
+        literal_source = topic.get("alignmentStatus") == "source-text-verified" and label == "eastAsia" and topic.get("recordType") == "curriculum-source-unit" and topic.get("sourceLiteral", {}).get("text") == topic.get("originalText") and bool(topic.get("sourceLiteral", {}).get("sha256"))
+        if topic.get("alignmentStatus") not in ALIGNMENT_STATES and not literal_source:
             issue(ERRORS, "ALIGNMENT_STATE", "Estado de alinhamento não reconhecido.",
                   dataset=label, topicId=identifier, state=topic.get("alignmentStatus"))
         local_edges = set()
@@ -201,6 +202,12 @@ def validate_topics(data, label, all_ids):
                 issue(ERRORS, "BRAZIL_KIND", "Registro brasileiro sem distinção entre habilidade e microtópico.",
                       topicId=identifier, kind=kind)
             if kind == "microtopico":
+                if topic.get("camada") != "editorial-ia" or topic.get("layer") != "editorial-ia" or not re.fullmatch(r"ED-EF[0-9]{2}[A-Z]{2}[0-9]{2}-[0-9]{2}", identifier):
+                    issue(ERRORS, "EDITORIAL_LAYER_ID", "Microtópico editorial sem camada ou identificador próprio.", topicId=identifier)
+                if topic.get("standards") or topic.get("code"):
+                    issue(ERRORS, "EDITORIAL_OFFICIAL_CODE", "Microtópico editorial não pode possuir código curricular oficial próprio.", topicId=identifier)
+                if not topic.get("parentCode") or not topic.get("parentStandards") or not topic.get("editorialLabel"):
+                    issue(ERRORS, "EDITORIAL_TRACE", "Microtópico editorial sem vínculo rastreável ou aviso de revisão.", topicId=identifier)
                 if not topic.get("parentId") or topic["parentId"] not in all_ids:
                     issue(ERRORS, "DECOMPOSITION_PARENT", "Microtópico sem habilidade de origem existente.",
                           topicId=identifier, parentId=topic.get("parentId"))
@@ -354,7 +361,7 @@ def check_brazil_source_trace(topics):
         elif topic.get("kind") == "microtopico" and topic.get("parentId") in by_topic:
             parent = by_topic[topic["parentId"]]
             parent_codes = {row.get("code") for row in parent.get("standards", [])}
-            if any(row.get("code") not in parent_codes for row in topic.get("standards", [])):
+            if any(row.get("code") not in parent_codes for row in topic.get("parentStandards", [])):
                 issue(ERRORS, "MICROTOPIC_SOURCE_CODE", "Microtópico possui código diferente da habilidade de origem.", topicId=topic["id"])
         for standard in topic.get("standards", []):
             source_id = standard.get("sourceId")
@@ -441,7 +448,7 @@ class VisibleTextParser(HTMLParser):
 
 def check_characters():
     checked = []
-    excludes = {"upstream", "licenses", "backups", "original", "sources_brazil", "node_modules", ".git"}
+    excludes = {"upstream", "licenses", "backups", "original", "sources_brazil", "reference_bncc", "CI_Artefatos", "playwright-report", "test-results", "node_modules", ".git"}
     for path in ROOT.rglob("*"):
         if not path.is_file() or set(path.relative_to(ROOT).parts) & excludes:
             continue

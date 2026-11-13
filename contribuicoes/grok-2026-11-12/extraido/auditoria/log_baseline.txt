@@ -1,0 +1,40 @@
+
+> saber-brasil@2.0.0 test
+> python -m unittest discover -s tests -p test_*.py && node --test tests/camera_math.test.cjs
+
+/home/box/.local/lib/python3.13/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+...................
+----------------------------------------------------------------------
+Ran 19 tests in 3.264s
+
+OK
+✔ A rotação percorre polos e uma volta completa sem limitar a inclinação (1.981918ms)
+✔ Rotações sucessivas preservam a distância e admitem inclinação no plano (0.160295ms)
+✔ O zoom altera a distância real e respeita limites finitos (0.117817ms)
+✔ O enquadramento mantém todos os pontos dentro da área disponível (0.177579ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 56.360683
+
+> saber-brasil@2.0.0 validate
+> python scripts/validate_project.py
+
+/home/box/.local/lib/python3.13/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+{"status": "pass", "errors": 0, "warnings": 0, "pendingFiles": [], "topics": 4668}
+
+> saber-brasil@2.0.0 validate:systems
+> python scripts/validate_multisystem.py
+
+{"status": "pass", "checks": 23, "errors": 0, "warnings": 0, "datasets": {"brazil": 2151, "international": 1907, "eastAsia": 610}}
+
+> saber-brasil@2.0.0 build
+> python scripts/build_portable.py
+
+{"file": "Saber_Brasil_Offline.html", "bytes": 19032604, "sha256": "19162bce9ce268dcdc9f83dacef805e40b4642324a2aa72ef2a3a92ccfae8b4d", "sourceFiles": {"index.html": "3b4d8b39d304127505c5c89662b6fafa793e854119bc2f977930e595bb838ffe", "app.js": "5027da646e2ca239cfc7c2bc90f3650b5d142743f767bd3cd8248f7798c90d8b", "styles.css": "4139447517e09a68ff2ed219fbfa41b9e0b31dcc62f1adb93e33db16ef9f0303", "assets/locales.json": "d0adf51c98e47472fbc23c6e3a314c16c042cdd8cd2b2548175e05fc74b963d7", "data/brazil_topics.json": "75eacc97be21c2a821b385cd3212ff7da3d910fe5e81b8223e6fa383e9e54082", "data/international.json": "8daaaf7efd77f1f29095a8e889e4eb2b11c97be3cdcb69c452f8ede3b9e3961a", "data/east_asia.json": "0d0247ca32204e2d2844946d0bd6892f4a85e01df42c86b65397406feac74c28", "data/translations.json": "564b0876abac92b47f381a7d3fc94d536caff3669f0a3122247970909c5460e6"}, "topics": 4668, "standalone": true, "lang": "pt-BR", "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B", "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B", "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B", "title": "Empacotamento portátil do Saber Brasil", "subject": "Integridade do HTML independente e quantidade de conceitos incorporados"}

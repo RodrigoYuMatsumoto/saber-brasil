@@ -1,0 +1,99 @@
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:10] "GET /api/health HTTP/1.1" 200 -
+
+
+Running 6 tests using 1 worker
+
+[1A[2K(node:128543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K(node:128543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+[1A[2K[1/6] tests/browser/site.spec.cjs:16:1 › IDs únicos, zoom real, giro, deslocamento e foco individual
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET / HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /app.js HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /styles.css HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /data/brazil_topics.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /data/international.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /data/translations.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /data/east_asia.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:13] "GET /assets/locales.json HTTP/1.1" 200 -
+
+[1A[2K[2/6] tests/browser/site.spec.cjs:45:1 › Séries de cinco sistemas, selecionar e desmarcar todas
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET / HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /styles.css HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /app.js HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /data/translations.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /data/international.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /assets/locales.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /data/east_asia.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:17] "GET /data/brazil_topics.json HTTP/1.1" 200 -
+
+[1A[2K[3/6] tests/browser/site.spec.cjs:64:1 › Quatro idiomas da interface e rótulos de acessibilidade
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET / HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /styles.css HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /app.js HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /data/translations.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /assets/locales.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /data/international.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /data/brazil_topics.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:19] "GET /data/east_asia.json HTTP/1.1" 200 -
+
+[1A[2K[4/6] tests/browser/site.spec.cjs:77:1 › Exportações reais preservam habilidade, recortes e tipos de conexão
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET / HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /app.js HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /styles.css HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /data/translations.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /data/east_asia.json HTTP/1.1" 200 -
+[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /data/brazil_topics.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /data/international.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:22] "GET /assets/locales.json HTTP/1.1" 200 -
+
+[1A[2K[5/6] tests/browser/site.spec.cjs:92:1 › Layout móvel sem transbordamento e título com espaços
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET / HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /styles.css HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /app.js HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /data/international.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /data/east_asia.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /data/brazil_topics.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /data/translations.json HTTP/1.1" 200 -
+
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:23] "GET /assets/locales.json HTTP/1.1" 200 -
+
+[1A[2K[6/6] tests/browser/site.spec.cjs:108:1 › HTML portátil usa apenas seu próprio documento
+[1A[2K[WebServer] 127.0.0.1 - - [12/Nov/2026 21:00:24] "GET /Saber_Brasil_Offline.html HTTP/1.1" 200 -
+
+[1A[2K  6 passed (16.5s)

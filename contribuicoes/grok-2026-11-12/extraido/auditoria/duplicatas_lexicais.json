@@ -1,0 +1,998 @@
+{
+"exact": [
+[
+"classificacao objetos",
+[
+[
+"br_ef01co01_m01",
+"BR"
+],
+[
+"cn_ciencias_classificacao_de_objetos",
+"CN"
+]
+]
+],
+[
+"sistema digestorio",
+[
+[
+"br_ef05ci06_m01",
+"BR"
+],
+[
+"mt_Ruk2-lyGPZ",
+"CA"
+]
+]
+],
+[
+"fracoes equivalentes",
+[
+[
+"br_ef05ma04_m01",
+"BR"
+],
+[
+"mt_FbDKeLfBCo",
+"CA"
+],
+[
+"mt_FP-mjXaq3B",
+"AU"
+],
+[
+"mt_ebPelt-qAl",
+"AU"
+]
+]
+],
+[
+"fases lua",
+[
+[
+"br_ef08ci12_m01",
+"BR"
+],
+[
+"mt_ByXgbTld6R",
+"INT"
+],
+[
+"mt_4V-vYhFUcm",
+"CA"
+],
+[
+"jp_ciencias_fases_da_lua",
+"JP"
+]
+]
+],
+[
+"sistemas equacoes",
+[
+[
+"br_ef08ma08_m03",
+"BR"
+],
+[
+"mt_mqgu72aCMz",
+"GB-ENG"
+],
+[
+"jp_matematica_sistemas_de_equacoes",
+"JP"
+],
+[
+"cn_matematica_sistemas_de_equacoes",
+"CN"
+]
+]
+],
+[
+"cuidado vida",
+[
+[
+"br_ef09er01_m01",
+"BR"
+],
+[
+"jp_educacao_moral_cuidado_com_a_vida",
+"JP"
+]
+]
+],
+[
+"homofonos",
+[
+[
+"mt_37QCuGOxFe",
+"AU"
+],
+[
+"mt_u3OuIXqmAo",
+"GB-ENG"
+]
+]
+],
+[
+"revisar editar",
+[
+[
+"mt_I65kFjWwnF",
+"AU"
+],
+[
+"mt_pis4novXWQ",
+"AU"
+],
+[
+"mt_HWYAspz-LK",
+"INT"
+]
+]
+],
+[
+"aprender erros",
+[
+[
+"mt_TDUpy57QVM",
+"INT"
+],
+[
+"mt_UGf6jICEhs",
+"CA"
+]
+]
+],
+[
+"dar troco",
+[
+[
+"mt_aWOK1npO5s",
+"AU"
+],
+[
+"mt_6_O6THdEDK",
+"GB-ENG"
+]
+]
+],
+[
+"numeros positivos negativos",
+[
+[
+"mt_9QzSnn8m80",
+"CA"
+],
+[
+"jp_matematica_numeros_positivos_e_negativos",
+"JP"
+]
+]
+],
+[
+"graficos setores",
+[
+[
+"mt_bESTSBB0wK",
+"CA"
+],
+[
+"cn_matematica_graficos_de_setores",
+"CN"
+]
+]
+],
+[
+"comparacao fracoes",
+[
+[
+"mt_IfEgu0X449",
+"CA"
+],
+[
+"mt_SsLWS_APM7",
+"GB-ENG"
+],
+[
+"mt_HnKbuCliNS",
+"CA"
+],
+[
+"mt_SXbZ3bC9z7",
+"AU"
+],
+[
+"mt_PL9VkDwXfh",
+"AU"
+]
+]
+],
+[
+"fracoes quantidades",
+[
+[
+"mt_cFltwUQi-d",
+"CA"
+],
+[
+"mt_3y7xKP9MjU",
+"AU"
+]
+]
+],
+[
+"fracoes reta numerica",
+[
+[
+"mt_Kr3IyA6m-O",
+"CA"
+],
+[
+"mt_NoB20kVa4w",
+"AU"
+]
+]
+],
+[
+"fracoes unitarias",
+[
+[
+"mt_k2WE0-22-4",
+"AU"
+],
+[
+"jp_matematica_fracoes_unitarias",
+"JP"
+]
+]
+],
+[
+"decimais fracoes",
+[
+[
+"mt_wB-GBDkoNr",
+"GB-ENG"
+],
+[
+"mt_4K1dr204Hi",
+"CA"
+],
+[
+"mt_SBkTGjiZjZ",
+"GB-ENG"
+]
+]
+],
+[
+"multiplicacao fracoes",
+[
+[
+"mt_TgHxujL81r",
+"CA"
+],
+[
+"mt_AabJisinfi",
+"AU"
+],
+[
+"mt_J339bO7qLe",
+"GB-ENG"
+],
+[
+"jp_matematica_multiplicacao_de_fracoes",
+"JP"
+]
+]
+],
+[
+"divisao fracoes",
+[
+[
+"mt_1PAWhRhpdg",
+"CA"
+],
+[
+"mt_ifPDOYvUqm",
+"CA"
+],
+[
+"mt_9Y96vxG_LH",
+"CA"
+],
+[
+"jp_matematica_divisao_de_fracoes",
+"JP"
+]
+]
+],
+[
+"figuras planas",
+[
+[
+"mt_KJeEeTutJI",
+"AU"
+],
+[
+"mt_sBcRdUfAzV",
+"AU"
+],
+[
+"mt_vJUa62bxeR",
+"AU"
+],
+[
+"mt_hRZyKvz1KN",
+"AU"
+],
+[
+"mt_hdrMoiTgqu",
+"CA"
+]
+]
+],
+[
+"figuras espaciais",
+[
+[
+"mt_Qcp2d_kuta",
+"AU"
+],
+[
+"mt_yGv8doDAmp",
+"AU"
+],
+[
+"mt_wUSbRt3-qw",
+"CA"
+],
+[
+"mt_REwgr0d_ss",
+"AU"
+],
+[
+"mt_nRksLqt-iR",
+"AU"
+]
+]
+],
+[
+"entendendo angulos",
+[
+[
+"mt_8OAGVdeTJ_",
+"AU"
+],
+[
+"mt_KFKUR_gBg_",
+"GB-ENG"
+],
+[
+"mt_QDTO3GAgcq",
+"AU"
+],
+[
+"mt_tedML_iu4Y",
+"GB-ENG"
+]
+]
+],
+[
+"tipos angulos",
+[
+[
+"mt_h0CVtqI2xo",
+"AU"
+],
+[
+"mt_e4V6hvcuEJ",
+"GB-ENG"
+]
+]
+],
+[
+"medir angulos",
+[
+[
+"mt_4MFUAsbx_6",
+"AU"
+],
+[
+"mt_89riIKwGYp",
+"CA"
+]
+]
+],
+[
+"triangulos congruentes",
+[
+[
+"mt_167X6Ax8P7",
+"GB-ENG"
+],
+[
+"cn_matematica_triangulos_congruentes",
+"CN"
+]
+]
+],
+[
+"area triangulos paralelogramos",
+[
+[
+"mt_ML5t7n2-U8",
+"CA"
+],
+[
+"cn_matematica_area_de_triangulos_e_paralelogramos",
+"CN"
+]
+]
+],
+[
+"calculo mental multiplicacao divisao",
+[
+[
+"mt_pjfmCMMPjO",
+"AU"
+],
+[
+"mt_8A3pZNOp7Z",
+"CA"
+]
+]
+],
+[
+"propriedades operacoes",
+[
+[
+"mt_Lb2ZnMdkYR",
+"CA"
+],
+[
+"cn_matematica_propriedades_das_operacoes",
+"CN"
+]
+]
+],
+[
+"probabilidade experimental",
+[
+[
+"mt_sHJqh6UUya",
+"CA"
+],
+[
+"jp_matematica_probabilidade_experimental",
+"JP"
+]
+]
+],
+[
+"como fosseis se formam",
+[
+[
+"mt_iycQEai3dK",
+"INT"
+],
+[
+"mt_mwirOvigWD",
+"CA"
+]
+]
+],
+[
+"mudancas estacoes",
+[
+[
+"mt_go5i87u2b9",
+"AU"
+],
+[
+"mt_NYsz6QgaaE",
+"IN"
+],
+[
+"jp_vida_cotidiana_mudancas_das_estacoes",
+"JP"
+]
+]
+],
+[
+"evaporacao condensacao",
+[
+[
+"mt_zCGwH1OQZa",
+"AU"
+],
+[
+"jp_ciencias_evaporacao_e_condensacao",
+"JP"
+]
+]
+],
+[
+"rochas solo",
+[
+[
+"mt_yhhprm7dZK",
+"AU"
+],
+[
+"cn_ciencias_rochas_e_solo",
+"CN"
+]
+]
+],
+[
+"tempo clima",
+[
+[
+"mt_Gm12BzcCfX",
+"US"
+],
+[
+"mt_AB-TEMXSGJ",
+"INT"
+],
+[
+"cn_geografia_tempo_e_clima",
+"CN"
+]
+]
+],
+[
+"reproducao plantas animais",
+[
+[
+"mt_yNWt3GQBNp",
+"GB-ENG"
+],
+[
+"cn_ciencias_reproducao_de_plantas_e_animais",
+"CN"
+]
+]
+],
+[
+"ciclo agua",
+[
+[
+"mt_V2lNzEex_a",
+"GB-ENG"
+],
+[
+"mt_fhqVdj4BYr",
+"CA"
+],
+[
+"cn_ciencias_ciclo_da_agua",
+"CN"
+]
+]
+],
+[
+"eletroimas",
+[
+[
+"mt_2qkn8Lhc8e",
+"US"
+],
+[
+"jp_ciencias_eletroimas",
+"JP"
+]
+]
+],
+[
+"conservacao massa",
+[
+[
+"mt_ehC1wsdmUz",
+"US"
+],
+[
+"cn_ciencias_conservacao_da_massa",
+"CN"
+]
+]
+],
+[
+"ciclo rochas",
+[
+[
+"mt_NckKLZ3uCE",
+"GB-ENG"
+],
+[
+"mt_z7AJZapsJj",
+"CA"
+]
+]
+],
+[
+"tipos dentes",
+[
+[
+"mt_DbXWivdJFB",
+"GB-ENG"
+],
+[
+"mt_I047mKeeaq",
+"INT"
+]
+]
+],
+[
+"tirar conclusoes base evidencias",
+[
+[
+"mt_7VrR1GzhrN",
+"AU"
+],
+[
+"mt_nyPMkeHlVJ",
+"AU"
+],
+[
+"mt_3jmBpEepYX",
+"GB-ENG"
+]
+]
+],
+[
+"controlar variaveis",
+[
+[
+"mt_ArVBEpMAPk",
+"AU"
+],
+[
+"mt_Ae56umVlTT",
+"CA"
+]
+]
+],
+[
+"sol lua estrelas",
+[
+[
+"mt_PiWZA8Z0ZJ",
+"CA"
+],
+[
+"mt_fk33IEGP-T",
+"AU"
+]
+]
+],
+[
+"sistema solar",
+[
+[
+"mt_5l7iGkf1Tp",
+"AU"
+],
+[
+"mt_33RrpbceZE",
+"CA"
+]
+]
+],
+[
+"ossos musculos",
+[
+[
+"mt_SdIWVjzopp",
+"CA"
+],
+[
+"jp_ciencias_ossos_e_musculos",
+"JP"
+]
+]
+],
+[
+"reflexao luz",
+[
+[
+"mt_gLy3ZgZWiN",
+"CA"
+],
+[
+"jp_ciencias_reflexao_da_luz",
+"JP"
+]
+]
+],
+[
+"multiplicacao como agrupamento",
+[
+[
+"jp_matematica_multiplicacao_como_agrupamento",
+"JP"
+],
+[
+"cn_matematica_multiplicacao_como_agrupamento",
+"CN"
+]
+]
+],
+[
+"graficos barras",
+[
+[
+"jp_matematica_graficos_de_barras",
+"JP"
+],
+[
+"cn_matematica_graficos_de_barras",
+"CN"
+]
+]
+],
+[
+"media aritmetica",
+[
+[
+"jp_matematica_media_aritmetica",
+"JP"
+],
+[
+"cn_matematica_media_aritmetica",
+"CN"
+]
+]
+],
+[
+"volume prismas cilindros",
+[
+[
+"jp_matematica_volume_de_prismas_e_cilindros",
+"JP"
+],
+[
+"cn_matematica_volume_de_prismas_e_cilindros",
+"CN"
+]
+]
+],
+[
+"equacoes quadraticas",
+[
+[
+"jp_matematica_equacoes_quadraticas",
+"JP"
+],
+[
+"cn_matematica_equacoes_quadraticas",
+"CN"
+]
+]
+],
+[
+"teorema pitagoras",
+[
+[
+"jp_matematica_teorema_de_pitagoras",
+"JP"
+],
+[
+"cn_matematica_teorema_de_pitagoras",
+"CN"
+]
+]
+],
+[
+"atomos moleculas",
+[
+[
+"jp_ciencias_atomos_e_moleculas",
+"JP"
+],
+[
+"cn_ciencias_atomos_e_moleculas",
+"CN"
+]
+]
+],
+[
+"reacoes quimicas",
+[
+[
+"jp_ciencias_reacoes_quimicas",
+"JP"
+],
+[
+"cn_ciencias_reacoes_quimicas",
+"CN"
+]
+]
+],
+[
+"continentes oceanos",
+[
+[
+"jp_geografia_continentes_e_oceanos",
+"JP"
+],
+[
+"cn_geografia_continentes_e_oceanos",
+"CN"
+]
+]
+],
+[
+"instrumentos timbres",
+[
+[
+"jp_arte_instrumentos_e_timbres",
+"JP"
+],
+[
+"cn_arte_instrumentos_e_timbres",
+"CN"
+]
+]
+]
+],
+"eaMarble": [
+[
+"jp_matematica_numeros_de_dois_algarismos",
+"Números de dois algarismos",
+"mt_FvEq4heNBx",
+"Divisão por números de dois algarismos"
+],
+[
+"jp_matematica_resto_na_divisao",
+"Resto na divisão",
+"mt_p-nbe0w_lf",
+"Divisão com resto"
+],
+[
+"jp_matematica_fracoes_unitarias",
+"Frações unitárias",
+"mt_k2WE0-22-4",
+"Frações unitárias"
+],
+[
+"jp_matematica_multiplicacao_de_fracoes",
+"Multiplicação de frações",
+"mt_TgHxujL81r",
+"Multiplicação de frações"
+],
+[
+"jp_matematica_divisao_de_fracoes",
+"Divisão de frações",
+"mt_1PAWhRhpdg",
+"Divisão por frações"
+],
+[
+"jp_matematica_numeros_positivos_e_negativos",
+"Números positivos e negativos",
+"mt_9QzSnn8m80",
+"Números positivos e negativos"
+],
+[
+"jp_matematica_probabilidade_experimental",
+"Probabilidade experimental",
+"mt_sHJqh6UUya",
+"Probabilidade experimental"
+],
+[
+"jp_matematica_sistemas_de_equacoes",
+"Sistemas de equações",
+"mt_mqgu72aCMz",
+"Sistemas de equações"
+],
+[
+"jp_ciencias_reflexao_da_luz",
+"Reflexão da luz",
+"mt_gLy3ZgZWiN",
+"Reflexão da luz"
+],
+[
+"jp_ciencias_ossos_e_musculos",
+"Ossos e músculos",
+"mt_SdIWVjzopp",
+"Ossos e músculos"
+],
+[
+"jp_ciencias_evaporacao_e_condensacao",
+"Evaporação e condensação",
+"mt_zCGwH1OQZa",
+"Evaporação e condensação"
+],
+[
+"jp_ciencias_acidos_e_alcalis",
+"Ácidos e álcalis",
+"mt_AN2kJE6I0s",
+"Ácidos, álcalis e pH"
+],
+[
+"jp_ciencias_fases_da_lua",
+"Fases da Lua",
+"mt_ByXgbTld6R",
+"Fases da Lua"
+],
+[
+"jp_japones_leitura_em_voz_alta",
+"Leitura em voz alta",
+"mt_ZhvwM6LMBL",
+"Leitura fluente em voz alta"
+],
+[
+"cn_matematica_propriedades_das_operacoes",
+"Propriedades das operações",
+"mt_Lb2ZnMdkYR",
+"Propriedades das operações"
+],
+[
+"cn_matematica_adicao_e_subtracao_de_fracoes",
+"Adição e subtração de frações",
+"mt_ZLqYE7la4Z",
+"Problemas de adição e subtração de frações"
+],
+[
+"cn_matematica_area_de_triangulos_e_paralelogramos",
+"Área de triângulos e paralelogramos",
+"mt_ML5t7n2-U8",
+"Área de triângulos e paralelogramos"
+],
+[
+"cn_matematica_graficos_de_setores",
+"Gráficos de setores",
+"mt_bESTSBB0wK",
+"Gráficos de setores"
+],
+[
+"cn_matematica_sistemas_de_equacoes",
+"Sistemas de equações",
+"mt_mqgu72aCMz",
+"Sistemas de equações"
+],
+[
+"cn_matematica_triangulos_congruentes",
+"Triângulos congruentes",
+"mt_167X6Ax8P7",
+"Triângulos congruentes"
+],
+[
+"cn_ciencias_rochas_e_solo",
+"Rochas e solo",
+"mt_yhhprm7dZK",
+"Rochas e solo"
+],
+[
+"cn_ciencias_ciclo_da_agua",
+"Ciclo da água",
+"mt_V2lNzEex_a",
+"O ciclo da água"
+],
+[
+"cn_geografia_tempo_e_clima",
+"Tempo e clima",
+"mt_Gm12BzcCfX",
+"Tempo e clima"
+],
+[
+"cn_ciencias_conservacao_da_massa",
+"Conservação da massa",
+"mt_ehC1wsdmUz",
+"Conservação da massa"
+],
+[
+"cn_ciencias_reproducao_de_plantas_e_animais",
+"Reprodução de plantas e animais",
+"mt_yNWt3GQBNp",
+"Reprodução de plantas e animais"
+],
+[
+"jp_vida_cotidiana_mudancas_das_estacoes",
+"Mudanças das estações",
+"mt_go5i87u2b9",
+"Mudanças das estações"
+]
+]
+}

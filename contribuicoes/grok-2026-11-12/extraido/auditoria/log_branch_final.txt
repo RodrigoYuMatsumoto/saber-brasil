@@ -1,0 +1,39 @@
+++ npm run check
+
+> saber-brasil@2.0.0 check
+> node --check app.js
+
+++ npm test
+
+> saber-brasil@2.0.0 test
+> python -m unittest discover -s tests -p test_*.py && node --test tests/camera_math.test.cjs
+
+/home/box/.local/lib/python3.13/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+.........................
+----------------------------------------------------------------------
+Ran 25 tests in 3.293s
+
+OK
+✔ A rotação percorre polos e uma volta completa sem limitar a inclinação (2.154647ms)
+✔ Rotações sucessivas preservam a distância e admitem inclinação no plano (0.214003ms)
+✔ O zoom altera a distância real e respeita limites finitos (0.172966ms)
+✔ O enquadramento mantém todos os pontos dentro da área disponível (0.258443ms)
+✔ Zoom relativo ao enquadramento fica entre 0,25x e 24x (auditoria Grok 2026-11-12) (0.150454ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 62.998216
+++ npm run validate
+
+> saber-brasil@2.0.0 validate
+> python scripts/validate_project.py
+
+/home/box/.local/lib/python3.13/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+{"status": "fail", "errors": 1, "warnings": 2, "pendingFiles": [], "topics": 4668}
+{"code": "FORBIDDEN_PUNCTUATION", "detail": "Pontuação incompatível com a regra do operador.", "file": "playwright-report/index.html", "count": 1}

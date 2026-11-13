@@ -178,6 +178,16 @@
       "bytes": 29395030,
       "sha256": "7c5c688f5e1b9d8e5c2a0ef908055322df67bb36d5b85ca1c540f1c35807230d",
       "retrievedAt": "2026-11-12"
+    },
+    {
+      "id": "jp_code_assignment",
+      "url": "https://www.mext.go.jp/content/000146149.xlsx",
+      "path": "data/source_tables/jp_code_assignment.xlsx",
+      "bytes": 75099,
+      "sha256": "f76768237145a44f4f74e0d9de29089a79b43fae66434a2e2c3e5778c42574c3",
+      "retrievedAt": "2026-11-12",
+      "status": "acquired",
+      "locator": "folha10, sexto dígito: 学年・段階"
     }
   ]
 }

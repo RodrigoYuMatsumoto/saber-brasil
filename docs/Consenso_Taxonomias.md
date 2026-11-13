@@ -7,6 +7,10 @@ title: Consenso das taxonomias de aprendizagem
 subject: Comparação das entregas Grok, Codex e Code e contagem canônica rastreável
 ---
 
+
+> Registro histórico da versão anterior. Para a pasta oficial e as contagens atuais, consulte [Consenso adotado v3](Consenso_Adotado_V3.md) e [Protocolo compartilhado](Protocolo_Compartilhado_IA.md).
+
+
 # Consenso das taxonomias
 
 O número comum é a identidade do conjunto, não a média das contagens. As três entregas usam os mesmos **1.907 identificadores Marble**. Traduções não criam novos conceitos. A contagem ingênua de 5.721 itens internacionais foi, portanto, rejeitada.

@@ -187,10 +187,14 @@ def validate(root=ROOT, require_asia=True):
     if asia:
         asia_origins = {origin for topic in asia["topics"] for origin in topic.get("origin", [])}
         check("EAST_ASIA_BOTH_ORIGINS", {"JP", "CN"} <= asia_origins, sorted(asia_origins))
-        bad_asia = [{"topicId": topic["id"], "reason": "curadoria sem referência ou estado explícito"} for topic in asia["topics"] if not topic.get("standards") or topic.get("alignmentStatus") not in {"proposed", "verified", "upstream"}]
+        bad_asia = [{"topicId": topic["id"], "reason": "curadoria sem referência ou estado explícito"} for topic in asia["topics"] if not topic.get("standards") or topic.get("alignmentStatus") not in {"proposed", "verified", "upstream", "source-text-verified"}]
         check("EAST_ASIA_TRACE_AND_REVIEW_STATE", not bad_asia, {"topics": len(asia["topics"]), "invalid": bad_asia[:20]})
-        missing_languages = [{"topicId": topic["id"], "locale": lang} for topic in asia["topics"] for lang in EXPECTED_LOCALES if not localized_field(topic, translations, lang, "name") or not localized_field(topic, translations, lang, "description")]
-        check("EAST_ASIA_FOUR_LANGUAGE_RECORDS", not missing_languages, {"topics": len(asia["topics"]), "missing": missing_languages[:20]})
+        asia_editorial = [topic for topic in asia["topics"] if topic.get("recordType") != "curriculum-source-unit"]
+        asia_literal = [topic for topic in asia["topics"] if topic.get("recordType") == "curriculum-source-unit"]
+        missing_languages = [{"topicId": topic["id"], "locale": lang} for topic in asia_editorial for lang in EXPECTED_LOCALES if not localized_field(topic, translations, lang, "name") or not localized_field(topic, translations, lang, "description")]
+        check("EAST_ASIA_FOUR_LANGUAGE_RECORDS", not missing_languages, {"editorialTopics": len(asia_editorial), "sourceUnitsExcludedFromEditorialTranslationClaim": len(asia_literal), "missing": missing_languages[:20]})
+        invalid_literal = [{"topicId": topic["id"], "reason": "texto literal, localizador ou distinção de código ausente"} for topic in asia_literal if not topic.get("sourceLiteral", {}).get("text") or topic["sourceLiteral"]["text"] != topic.get("originalText") or not topic["sourceLiteral"].get("sha256") or not topic["sourceLiteral"].get("url") or not topic.get("standards") or topic["standards"][0].get("description") != topic["sourceLiteral"]["text"] or topic["sourceLiteral"].get("codeKind") not in {"official", "local"}]
+        check("EAST_ASIA_SOURCE_LITERAL_PROVENANCE", not invalid_literal, {"sourceUnits": len(asia_literal), "invalid": invalid_literal[:20], "scope": "Texto literal e rastreabilidade não significam aprovação pedagógica nem tradução oficial."})
     app_path = root / "app.js"
     if app_path.exists():
         app = app_path.read_text(encoding="utf-8")

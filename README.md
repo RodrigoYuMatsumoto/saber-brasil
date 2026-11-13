@@ -3,19 +3,45 @@ lang: pt-BR
 author: Rodrigo Yú Matsumoto OAB/PE nº 1.338-B
 keywords: Rodrigo Yú Matsumoto OAB/PE nº 1.338-B
 manager: Rodrigo Yú Matsumoto OAB/PE nº 1.338-B
-title: Saber Brasil, mapa aberto e multilíngue da aprendizagem
-subject: Taxonomia curricular independente, séries de origem e exploração tridimensional dos conhecimentos
+title: Saber Brasil, mapa aberto da aprendizagem com base de consenso
+subject: Camadas curriculares distintas, fontes literais, séries escolares e exploração tridimensional
 ---
 
 # Saber Brasil
 
 [![Validação automática](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/workflows/validate.yml/badge.svg)](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/workflows/validate.yml)
 
-![Mapa consolidado do Saber Brasil](evidence/Saber_Brasil_V2_Portatil.png)
+Um mapa aberto da aprendizagem com identidade brasileira, inspirado na experiência [Marble Curriculum](https://withmarble.com/curriculum/), com código próprio e atribuição aos dados de origem. Este repositório é independente. O uso e o build não consultam repositórios externos ou as pastas históricas.
 
-Um mapa aberto da aprendizagem que reúne habilidades brasileiras, microtópicos editoriais e referências internacionais. A experiência visual foi inspirada no [currículo Marble](https://withmarble.com/curriculum/), com código próprio, identidade brasileira e atribuição aos dados de origem.
+A pasta oficial compartilhada por Claude Code, ChatGPT Codex e Grok Bot é Saber_Brasil. As pastas Code, Grok, Codex e os-taxonomy-main são referências somente para leitura. Consulte o [protocolo compartilhado](docs/Protocolo_Compartilhado_IA.md) antes de editar simultaneamente.
 
-Este é um repositório independente: a aplicação usa arquivos versionados aqui, sem depender de consultas ao repositório Marble em tempo de execução. A consolidação preserva a proveniência das três versões anteriores e distingue habilidades, microtópicos, traduções, alinhamentos e relações.
+## Base de consenso e camadas opcionais
+
+| Camada | Nós | Padrão |
+|---|---:|---|
+| Habilidades BR: BNCC 2018, 1.304; Computação 2022, 104 | 1.408 | Ativa |
+| Tópicos originais Marble, com IDs preservados | 1.907 | Ativa |
+| **Base de consenso** | **3.315** | **Ativa** |
+| Decomposição editorial BR por IA | 743 | Desativada |
+| Unidades japonesas com texto literal da célula MEXT | 1.695 | Desativada |
+| Unidades chinesas com texto literal conferido no MOE | 48 | Desativada |
+| Recortes editoriais japoneses | 307 | Desativada |
+| Recortes editoriais chineses | 303 | Desativada |
+| **Total com todas as camadas** | **6.411** | Ativação explícita |
+
+Traduções não acrescentam nós. As unidades curriculares e os recortes editoriais podem representar conteúdos relacionados; o total não comprova unicidade semântica global ou cobertura curricular integral.
+
+| Relações disponíveis | Quantidade | Condição |
+|---|---:|---|
+| Dependências Marble | 4.003 | Base preservada |
+| Partes de habilidades BR | 743 | Com a camada editorial |
+| Pré-requisitos brasileiros propostos | 97 | Controle de relações propostas |
+| Relações asiáticas propostas | 43 | Controle de relações propostas |
+| **Total** | **4.886** | Tipos separados |
+
+Toda relação inferida tem motivo, força e explicação da força. Peso editorial não representa probabilidade calibrada nem validação oficial. O relatório [Consenso_Camadas_V3.json](evidence/Consenso_Camadas_V3.json) inclui conferência dos 1.408 códigos, textos, referências e prova topológica do grafo acíclico.
+
+Os editoriais usam IDs `ED-<codigo>-nn`, `camada: editorial-ia`, `parentCode` e `parentStandards`, com aviso visível de revisão. Eles não têm código BNCC próprio. Links como `#EF01MA01` abrem a habilidade integral; aliases preservam identificadores anteriores.
 
 ## Abrir e explorar
 
@@ -23,69 +49,68 @@ Este é um repositório independente: a aplicação usa arquivos versionados aqu
 python scripts/serve.py
 ```
 
-Abra [o site local](http://127.0.0.1:8788). Para criar um arquivo que incorpora a aplicação e os dados:
+Abra [o site local](http://127.0.0.1:8788). Para empacotar tudo em um arquivo:
 
 ```powershell
-python scripts/build_portable.py
-```
-
-Abra `Saber_Brasil_Offline.html`. Os links de documentação e fontes externas permanecem identificados; acessar documentos externos exige internet. A interface e os dados incorporados podem ser explorados localmente.
-
-- Arraste o mapa para girar. Use a roda do mouse ou os botões para aproximar e afastar.
-- Use Shift e arraste, ou o botão direito, para mover a câmera lateralmente. Em telas sensíveis ao toque, dois dedos permitem mover e aproximar.
-- Selecione um conceito e use Focar conceito para aproximar o seu entorno. Enquadrar conjunto restaura o enquadramento global.
-- O teclado também oferece rotação pelas setas, movimento por Shift e setas, zoom por `+` e `-`, giro no plano por `Q` e `E`, e enquadramento por `Home`.
-- Escolha o sistema escolar antes de selecionar a série. Séries vêm do referencial do país escolhido, sem conversão automática entre países.
-- Selecionar todas e Desmarcar todas controlam as matérias. Limpar filtros restaura os filtros e a pesquisa.
-
-## Idiomas e currículos
-
-A interface oferece português brasileiro, inglês, japonês e chinês tradicional. As traduções editoriais em português dos 1.907 tópicos Marble foram aproveitadas da versão Code, com os originais ingleses preservados. Os novos conteúdos do Japão e da China mantêm suas fontes e os idiomas disponíveis por registro.
-
-Quando falta uma tradução de conteúdo, a interface informa o idioma original. Um recurso adicional pode traduzir o conceito selecionado usando a Translator API do próprio navegador, quando disponível. Esse recurso depende de suporte e pacotes de idioma do navegador e não representa revisão linguística ou texto oficial. A interface não apresenta uma tradução ausente como se estivesse concluída.
-
-Os sistemas são Brasil, Estados Unidos, Inglaterra (Reino Unido), Japão e China. Estados Unidos reúne referenciais associados aos tópicos; não existe neste projeto uma equivalência nacional única entre seus padrões. O currículo britânico importado é o da Inglaterra. Blocos de anos oficiais permanecem blocos, sem distribuição arbitrária por série.
-
-## Conciliação e qualidade
-
-Consulte [o consenso de contagens](docs/Consenso_Taxonomias.md), [os prompts para revisão por Code e Grok](docs/Prompts_Convergencia.md), [as fontes do Japão e da China](docs/Curriculos_Japao_China.md) e [o relatório de entrega](docs/Entrega_Verificada.md).
-
-Os [prompts finais de revisão](docs/Prompts_Revisao_Final.md) abrangem a base completa consolidada, os cinco sistemas e a cobertura real de idiomas. A [validação em cópia limpa](https://github.com/RodrigoYuMatsumoto/saber-brasil/actions/runs/43228501439) aprovou 19 testes Python, quatro testes matemáticos da câmera e seis testes de navegador.
-
-A base brasileira corrigida contém 1.408 habilidades oficiais e 743 microtópicos editoriais. O literal `EF05CO011`, impresso no documento de Computação, é preservado junto ao identificador normalizado `EF05CO11`. Traduções não criam novos nós. Os 1.907 tópicos Marble têm os mesmos IDs nas três versões anteriores.
-
-O conjunto consolidado contém 4.668 registros (nós) e 4.886 relações: os registros anteriores e 610 recortes curriculares editoriais da Ásia, sendo 307 japoneses e 303 chineses. Essa quantidade não afirma unicidade semântica global. Há 21 candidatos de nomes coincidentes para revisão, sem fusão automática.
-
-Relações de partes de habilidades são diferentes de pré-requisitos. Alinhamentos e relações heurísticas adicionais ficam em um ledger de candidatos, sem promoção automática a relações oficiais ou pedagogicamente necessárias. Os dados editoriais e suas traduções continuam sujeitos à revisão docente e linguística.
-
-## Desenvolvimento
-
-```powershell
-python -m pip install -r requirements_build.txt
-npm run check
-npm test
-npm run validate
 npm run build
 ```
 
-Não há bibliotecas JavaScript remotas necessárias para o mapa. PyMuPDF é usado nas verificações e reconstruções de fontes PDF. A integração contínua valida dados e empacota o HTML; não publica automaticamente um site em produção.
+O resultado é `Saber_Brasil_Offline.html`, também acessível pelo comando `Abrir_Saber_Brasil.cmd`. A validação do HTML portátil usa HTTP local; abertura direta por protocolo de arquivo permanece uma condição de teste separada. Acessar fontes externas exige internet.
 
-Os testes de navegador usam uma dependência apenas de desenvolvimento:
+- Arraste para girar sem limite de inclinação. Selecionar um nó muda o pivô da órbita; Focar conceito aproxima e centraliza seu entorno.
+- A roda aproxima no ponto sob o cursor. Há pinça, duplo clique, botões, zoom de 0,25x a 24x, giro no plano, enquadramento da seleção e do conjunto, e restauração da vista.
+- Use Shift e arraste, botão direito ou dois dedos para deslocar a câmera. Setas giram; Shift e setas deslocam; `+` e `-` ajustam zoom; `Q` e `E` fazem roll; `Home` enquadra.
+- Escolha sistema e série: Brasil, EUA, Inglaterra, Japão ou China. Há atalhos Key Stage e 学段. Séries usam blocos da fonte, nunca conversão automática de idade.
+- Selecionar todas e Desmarcar todas controlam as matérias. Limpar filtros restaura a base padrão, a pesquisa e os seletores.
+
+O seletor BR inclui EI, sinalizado como sem dados nesta base de Ensino Fundamental. O escopo americano do seletor é K-8 e o inglês Years 1-9, preservando registros mais avançados na base importada. Consulte [séries e comparação orientativa por idade](docs/Series_e_Idades.md).
+
+## Idiomas, originais e fontes
+
+A interface tem português brasileiro, inglês, japonês e chinês tradicional. Japonês usa a escrita padrão contemporânea; não existe aqui uma variante de idioma chamada japonês tradicional.
+
+Os 1.907 tópicos Marble possuem nome, descrição e pergunta em português, japonês e chinês tradicional, importados de traduções por IA do Code com hash por arquivo e revisão linguística pendente. Os originais ingleses continuam visíveis no cartão e os arquivos upstream permanecem preservados. A cópia de exibição normaliza apenas sinais tipográficos conforme a apresentação do projeto.
+
+As traduções por IA são identificadas. A cobertura dos demais registros varia; o site informa quando mantém o original e oferece tradução nativa adicional se o navegador tiver suporte. Não confunda seleção de idioma com revisão de todo o conteúdo.
+
+Os 1.408 códigos brasileiros e seus textos foram cotejados com os PDFs e a revisão fixa de [bncc-dados](https://github.com/bncc-dev/bncc-dados/tree/9c268978efa2aa250834c6a9edb6074432752838). EF67LP33 e EF05CO11 estão presentes, mantendo o literal EF05CO011. O símbolo π em EF07MA33 foi restaurado com conferência visual.
+
+As 1.695 unidades japonesas usam código e célula literal dos CSV oficiais MEXT de 2017. Foram corrigidos 61 textos reconstruídos e 208 atribuições de série da versão Grok. As 48 unidades chinesas cobrem uma amostra de 14 matérias, com código local explicitamente identificado e páginas conferidas dos padrões MOE 2022. A cobertura chinesa literal é parcial. Os 1.340 candidatos de OCR do Grok permanecem fora do grafo, em ledger, sem selo oficial. Veja [fontes asiáticas e limites](docs/Curriculos_Japao_China.md).
+
+## Verificar e contribuir
 
 ```powershell
+python -m pip install -r requirements_build.txt
 npm ci
+npm run check
+npm test
+npm run validate
+npm run validate:systems
+npm run validate:consensus
+npm run build
 npx playwright install chromium
 npm run test:browser
 ```
 
-As condições de tradução são separadas: interface em quatro idiomas; nomes e descrições de todos os registros em português; 2.517 registros com conteúdo editorial em inglês e 610 com conteúdo em japonês e chinês tradicional. A opção adicional de tradução nativa depende do navegador. Nas referências chinesas, 173 registros ainda aguardam uma âncora curricular específica.
+Para testar o Google Chrome já instalado no Windows:
 
-## Licenças e atribuição
+```powershell
+$env:SABER_BROWSER_CHANNEL = 'chrome'
+npm run test:browser
+```
 
-Código novo: MIT. Base derivada: ODbL 1.0. Textos derivados: CC BY-SA 4.0. Padrões curriculares de terceiros mantêm suas condições próprias, com proveniência identificada. Consulte `licenses/`.
+O relatório por item é `evidence/Testes_Navegador_Consenso_V3.json`; as capturas são `evidence/Consenso_V3_*.png`. O navegador usa perfil temporário e não consulta o perfil pessoal. A integração contínua valida e empacota; não faz implantação pública automática.
 
-Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · [withmarble.com](https://withmarble.com) · ODbL 1.0 (base) e CC BY-SA 4.0 (conteúdo). Adaptação e organização: Rodrigo Yú Matsumoto OAB/PE nº 1.338-B.
+O comando de teste escolhe uma porta local livre e inicia seu próprio servidor, sem reutilizar servidores das outras IAs. A porta de uso normal continua 8788.
 
-Confiança: alta na rastreabilidade mecânica; a confiança pedagógica e linguística depende das revisões declaradas.
+Passaram 38 testes Python, seis testes matemáticos e 17 cenários no Google Chrome headless, além das 24 verificações multissistema. Consulte [a entrega verificada](docs/Entrega_Verificada_V3.md), [o consenso adotado](docs/Consenso_Adotado_V3.md) e [o protocolo para as três IAs](docs/Protocolo_Compartilhado_IA.md). Relatórios anteriores preservam o estado histórico; as contagens atuais são as do manifesto de release e da conferência v3.
 
-Pendências: revisão docente e linguística integral, decomposição adicional de habilidades, avaliação dos candidatos de alinhamento e verificação cruzada por família arquitetural distinta. Os limites específicos de cobertura e testes estão no relatório de entrega.
+## Licenças e responsabilidade
+
+Código novo: MIT. Base derivada: ODbL 1.0. Conteúdo derivado: CC BY-SA 4.0. A compilação bncc-dados usa CC BY 4.0, com atribuição à Profy Tecnologias Educacionais Ltda. As fontes curriculares mantêm condições próprias. Consulte [a matriz de licenças](LICENSE.md).
+
+Marble Skill Taxonomy (v1) · © Generative Spark, Inc. (Marble) · [withmarble.com](https://withmarble.com) · ODbL 1.0 e CC BY-SA 4.0. Organização: Rodrigo Yú Matsumoto OAB/PE nº 1.338-B.
+
+Confiança: alta na identidade dos dados e nas verificações mecânicas; média na curadoria e nas traduções; limitada nos recortes sem âncora específica.
+
+Pendências: cobertura literal chinesa integral, objetivos da Educação Infantil, decomposição de 1.067 habilidades BR ainda integrais, revisão pedagógica e linguística, revisão semântica entre países, gestos em aparelho físico, abertura direta do HTML e B.9 por família distinta.

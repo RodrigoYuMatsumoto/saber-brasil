@@ -7,6 +7,10 @@ title: Consolidação e entrega verificada do Saber Brasil
 subject: Contagens conciliadas, controles de câmera, séries de origem, idiomas e limites curriculares
 ---
 
+
+> Registro histórico da versão anterior. Para a pasta oficial e as contagens atuais, consulte [Consenso adotado v3](Consenso_Adotado_V3.md) e [Protocolo compartilhado](Protocolo_Compartilhado_IA.md).
+
+
 # Consolidação do Saber Brasil
 
 As três versões anteriores foram examinadas como fontes históricas, preservadas nas pastas Code, Codex e Grok. A versão consolidada fica em Saber_Brasil e no [repositório público próprio](https://github.com/RodrigoYuMatsumoto/saber-brasil), criado separadamente do repositório Marble.

@@ -7,6 +7,10 @@ title: Prompts de revisão independente do Saber Brasil
 subject: Revisão por Code e Grok sobre a mesma versão e os mesmos tipos de registro
 ---
 
+
+> Registro histórico da versão anterior. Para a pasta oficial e as contagens atuais, consulte [Consenso adotado v3](Consenso_Adotado_V3.md) e [Protocolo compartilhado](Protocolo_Compartilhado_IA.md).
+
+
 # Revisão da mesma base por Code e Grok
 
 Copie cada prompt para a janela correspondente. As pastas anteriores são referências históricas; o repositório canônico é [RodrigoYuMatsumoto/saber-brasil](https://github.com/RodrigoYuMatsumoto/saber-brasil). As contagens apresentadas são hipóteses a conferir, não resultados que o revisor deva ratificar.

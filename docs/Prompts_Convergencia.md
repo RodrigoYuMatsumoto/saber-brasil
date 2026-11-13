@@ -7,6 +7,10 @@ title: Comandos para revisão independente do Saber Brasil
 subject: Conciliação das três entregas sem sobrescrever a base canônica
 ---
 
+
+> Registro histórico da versão anterior. Para a pasta oficial e as contagens atuais, consulte [Consenso adotado v3](Consenso_Adotado_V3.md) e [Protocolo compartilhado](Protocolo_Compartilhado_IA.md).
+
+
 # Comandos para revisão independente
 
 Copie o bloco correspondente para a janela da outra IA. A revisão ainda não foi executada por esses sistemas. O relatório de uma IA não equivale automaticamente à revisão pedagógica ou à confirmação de outra família arquitetural.

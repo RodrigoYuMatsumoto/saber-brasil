@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "lang": "pt-BR",
+    "author": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "keywords": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "manager": "Rodrigo Yú Matsumoto OAB/PE nº 1.338-B",
+    "title": "Conferência das pastas históricas na consolidação v3",
+    "subject": "Comparação SHA-256 dos arquivos de referência antes e depois do trabalho"
+  },
+  "status": "PASS",
+  "checkedFiles": 935,
+  "changed": [],
+  "missing": [],
+  "scope": "Arquivos de dados, código e documentação incluídos no inventário inicial; sem alegar inventário de binários ou pastas excluídas."
+}

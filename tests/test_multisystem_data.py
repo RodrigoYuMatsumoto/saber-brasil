@@ -48,7 +48,8 @@ class MultiSystemTests(unittest.TestCase):
 
     def test_east_asia_has_traceable_review_states(self):
         self.require("EAST_ASIA_BOTH_ORIGINS", "EAST_ASIA_TRACE_AND_REVIEW_STATE", "EAST_ASIA_FOUR_LANGUAGE_RECORDS")
-        asia_count = self.report["datasets"]["eastAsia"]
+        asia_count = self.checks["EAST_ASIA_FOUR_LANGUAGE_RECORDS"]["detail"]["editorialTopics"]
+        self.require("EAST_ASIA_SOURCE_LITERAL_PROVENANCE")
         for locale in MODULE.EXPECTED_LOCALES:
             self.assertGreaterEqual(self.report["contentDescriptionCoverage"][locale], asia_count)
             self.assertGreaterEqual(self.report["contentNameCoverage"][locale], asia_count)

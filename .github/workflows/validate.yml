@@ -28,6 +28,8 @@ jobs:
         run: npm run validate
       - name: Conferir os cinco sistemas e os quatro idiomas
         run: npm run validate:systems
+      - name: Conferir o consenso e os textos brasileiros nos PDFs
+        run: npm run validate:consensus
       - name: Construir o HTML portátil
         run: npm run build
       - name: Preparar o navegador de teste
@@ -42,3 +44,5 @@ jobs:
             Saber_Brasil_Offline.html
             test-results/
             playwright-report/
+            evidence/Testes_Navegador_Consenso_V3.json
+            evidence/Consenso_V3_*.png

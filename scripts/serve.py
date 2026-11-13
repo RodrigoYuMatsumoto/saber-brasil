@@ -11,9 +11,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class Handler(SimpleHTTPRequestHandler):
+    quiet = False
+
+    def log_message(self, format, *args):
+        if not self.quiet:
+            super().log_message(format, *args)
+
     def do_GET(self):
         if self.path == "/api/health":
-            body = json.dumps({"app": "saber-brasil", "version": "2.0.0", "offline": True}).encode()
+            body = json.dumps({"app": "saber-brasil", "version": "3.0.0", "offline": True}).encode()
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
@@ -39,7 +45,9 @@ class Handler(SimpleHTTPRequestHandler):
 def main():
     parser = argparse.ArgumentParser(description="Abra o Saber Brasil neste computador.")
     parser.add_argument("--port", type=int, default=8788)
+    parser.add_argument("--quiet", action="store_true", help="Suprimir o log de cada solicitação durante os testes.")
     args = parser.parse_args()
+    Handler.quiet = args.quiet
     server = ThreadingHTTPServer(("127.0.0.1", args.port), partial(Handler, directory=str(ROOT)))
     print(f"Saber Brasil: http://127.0.0.1:{args.port}", flush=True)
     try:
